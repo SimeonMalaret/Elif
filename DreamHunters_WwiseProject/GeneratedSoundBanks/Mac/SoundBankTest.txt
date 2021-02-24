@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3675381839	EventTest			\Default Work Unit\EventTest	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	445726610	SoundTest	C:\Users\Camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SoundTest_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundTest		40712636
+
