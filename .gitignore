@@ -82,3 +82,4 @@ DerivedDataCache/*
 *.validationcache
 [Aa]ssets/WwiseSettings.xml
 [Aa]ssets/WwiseSettings.xml.meta
+Plugins/
