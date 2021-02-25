@@ -7,7 +7,7 @@
 
 ALevelDesign_GameMode::ALevelDesign_GameMode()
 {
-	static ConstructorHelpers::FClassFinder<APawn>LevelDesignPawnBP(TEXT("/Game/ThirdPersonCPP/Blueprints/LevelDesignTest_TpsCharacter"));
+	static ConstructorHelpers::FClassFinder<APawn>LevelDesignPawnBP(TEXT("/Game/ThirdPersonCPP/Blueprints/SecondGameplayCharacter"));
 	if (LevelDesignPawnBP.Class != NULL)
 	{
 		DefaultPawnClass = LevelDesignPawnBP.Class;
