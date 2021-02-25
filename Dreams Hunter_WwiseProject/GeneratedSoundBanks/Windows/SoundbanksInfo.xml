@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Camille\Documents\Unreal Projects\DreamHunters\Dreams Hunter_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Camille\Documents\Unreal Projects\DreamHunters\Dreams Hunter_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Camille\Documents\Unreal Projects\DreamHunters\Dreams Hunter_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Camille\Documents\Unreal Projects\DreamHunters\Dreams Hunter_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="4204904655">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3423786627" Language="SFX" Hash="2321138748">
+			<ObjectPath>\SoundBanks\Default Work Unit\soundbankstest2</ObjectPath>
+			<ShortName>soundbankstest2</ShortName>
+			<Path>soundbankstest2.bnk</Path>
+			<IncludedEvents>
+				<Event Id="819520416" Name="soundEvent2" ObjectPath="\Events\Default Work Unit\soundEvent2">
+					<IncludedMemoryFiles>
+						<File Id="147557663" Language="SFX">
+							<ShortName>SoundTest.wav</ShortName>
+							<Path>SFX\SoundTest_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

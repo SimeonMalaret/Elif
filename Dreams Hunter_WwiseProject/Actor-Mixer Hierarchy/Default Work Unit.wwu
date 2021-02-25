@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F0F7A91F-1204-4A0C-B820-001879267BF5}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{F0F7A91F-1204-4A0C-B820-001879267BF5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F0F7A91F-1204-4A0C-B820-001879267BF5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SoundTest" ID="{23565061-1B9A-45AC-9ECD-DD17A4C57047}" ShortID="252511279">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F3DC0AA7-8F9E-4357-9666-56A95E1F7465}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6F0A0E50-6A53-4F20-94F7-00E786BBBB59}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SoundTest" ID="{63248010-FDA5-4FBF-9146-C3025FEA23BD}">
+							<Language>SFX</Language>
+							<AudioFile>SoundTest.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="147557663"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SoundTest" ID="{63248010-FDA5-4FBF-9146-C3025FEA23BD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
