@@ -1,40 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Camille\Documents\Unreal Projects\DreamHunters\Dreams Hunter_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Camille\Documents\Unreal Projects\DreamHunters\Dreams Hunter_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<ProjectRoot>C:\Users\Camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\</SourceFilesRoot>
 		<SoundBanksRoot>C:\Users\Camille\Documents\Unreal Projects\DreamHunters\Content\WwiseAudio\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Camille\Documents\Unreal Projects\DreamHunters\Dreams Hunter_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2953616821">
-			<ObjectPath>Init</ObjectPath>
-			<ShortName>Init</ShortName>
-			<Path>Init.bnk</Path>
-		</SoundBank>
-		<SoundBank Id="1946707388" Language="SFX" Hash="3344491114">
-			<ObjectPath>\SoundBanks\Default Work Unit\SoundBankTest</ObjectPath>
-			<ShortName>SoundBankTest</ShortName>
-			<Path>SoundBankTest.bnk</Path>
-		</SoundBank>
-		<SoundBank Id="3423786627" Language="English(US)" Hash="910055486">
-			<ObjectPath>\SoundBanks\Default Work Unit\soundbankstest2</ObjectPath>
-			<ShortName>soundbankstest2</ShortName>
-			<Path>English(US)\soundbankstest2.bnk</Path>
+		<SoundBank Id="322807500" Language="SFX" Hash="2033983518">
+			<ObjectPath>\SoundBanks\Default Work Unit\Stigma_SoundBank</ObjectPath>
+			<ShortName>Stigma_SoundBank</ShortName>
+			<Path>Stigma_SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="819520416" Name="soundEvent2" ObjectPath="\Events\Default Work Unit\soundEvent2">
+				<Event Id="922651627" Name="flowerBell" ObjectPath="\Events\Default Work Unit\flowerBell">
 					<IncludedMemoryFiles>
-						<File Id="247484476" Language="English(US)">
-							<ShortName>SoundTest.wav</ShortName>
-							<Path>Voices\English(US)\SoundTest_10C4C929.wem</Path>
+						<File Id="89910837" Language="SFX">
+							<ShortName>SnowInn-002.wav</ShortName>
+							<Path>SFX\SnowInn-002_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2953616821">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

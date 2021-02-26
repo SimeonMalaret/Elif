@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="199499834" Language="SFX" Hash="635343223">
-			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank_test</ObjectPath>
-			<ShortName>New_SoundBank_test</ShortName>
-			<Path>New_SoundBank_test.bnk</Path>
+		<SoundBank Id="322807500" Language="SFX" Hash="2033983518">
+			<ObjectPath>\SoundBanks\Default Work Unit\Stigma_SoundBank</ObjectPath>
+			<ShortName>Stigma_SoundBank</ShortName>
+			<Path>Stigma_SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1240512178" Name="bell" ObjectPath="\Events\Default Work Unit\bell"/>
+				<Event Id="922651627" Name="flowerBell" ObjectPath="\Events\Default Work Unit\flowerBell">
+					<IncludedMemoryFiles>
+						<File Id="89910837" Language="SFX">
+							<ShortName>SnowInn-002.wav</ShortName>
+							<Path>SFX\SnowInn-002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="89910837" Language="SFX">
-					<ShortName>SnowInn-002.wav</ShortName>
-					<Path>SFX\SnowInn-002_10C4C929.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="4204904655">
 			<ObjectPath>Init</ObjectPath>
