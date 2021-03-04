@@ -83,3 +83,5 @@ DerivedDataCache/*
 [Aa]ssets/WwiseSettings.xml
 [Aa]ssets/WwiseSettings.xml.meta
 Plugins/
+*.wem
+.backup
