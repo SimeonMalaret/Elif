@@ -174,6 +174,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_Amb_Stealth_lp" ID="{98D4CCEA-6C5A-4825-9CAC-F0A75D3FB34C}">
+							<ChildrenList>
+								<Action Name="" ID="{C40B9566-4A8A-404C-993B-D45D53DD1BC3}" ShortID="418503869">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_AMB_LOOP_STEALTH_LP" ID="{2D6DDAC2-B484-4F84-BDF2-08F74B0B4F76}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Wind_lp" ID="{8912BA44-7AE1-447B-91BD-03A80BCCD8C9}">
+							<ChildrenList>
+								<Action Name="" ID="{EB8FB200-CB32-4D8E-8BB7-1DD6A5DF34E5}" ShortID="379823182">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Winds_Blnd" ID="{82AF1700-3D72-4875-A439-E7FA1470C8E3}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="MUSIC" ID="{ADF3079B-4E83-47E1-86BD-3F0EF9B2C083}" ShortID="714731444">
@@ -321,6 +349,34 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Stop_Rocket_Forward_lp" ID="{CF31723C-CAF0-4650-96FE-B7866EEE151E}">
+											<ChildrenList>
+												<Action Name="" ID="{F1333798-0A44-4E2F-9420-19E679178D53}" ShortID="27142329">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Rocket Forward_Rnd" ID="{19C4499C-F745-4AC2-A2FD-3391A87240BD}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Stop_Rocket_Overheat_lp" ID="{CEBD3D4A-1EA2-4BA5-96C7-59897D6A344C}">
+											<ChildrenList>
+												<Action Name="" ID="{6209725E-8A5B-4F57-A8EC-FB9893D3B4CE}" ShortID="492492150">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Roket Overheat_Rnd" ID="{AE25EA0D-161A-4A3C-981E-501C2AB094B7}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Pinata" ID="{1136983D-02AE-423F-BBB4-1D6FBBA381EE}" ShortID="318229129">
@@ -359,6 +415,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="CommonDoor Open_Rnd" ID="{263BC514-74BF-489D-B088-76395BBCB121}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_BookDoor_01" ID="{A4E9FA68-20B2-45C3-942B-9AEB6B7A101C}">
+									<ChildrenList>
+										<Action Name="" ID="{D954FF44-C59D-4153-A132-9A038C5D9826}" ShortID="442483988">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BookDoor 01_Rnd" ID="{768455BA-FC30-4670-9576-AF501D00CC64}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
