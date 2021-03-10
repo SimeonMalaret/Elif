@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A13D3AEA-9B5F-4A42-AD3E-A2D3FF96D5A6}" SchemaVersion="97">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{A13D3AEA-9B5F-4A42-AD3E-A2D3FF96D5A6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A13D3AEA-9B5F-4A42-AD3E-A2D3FF96D5A6}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Wind_Strength" ID="{3A546F9C-77FC-4DB6-B63D-9F57D76B44CF}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
