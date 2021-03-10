@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}" SchemaVersion="97">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="GroundType" ID="{C3299DE2-F19B-465E-A1EE-E4767903CCBA}">
+					<ChildrenList>
+						<Switch Name="Grass" ID="{56CA2DE1-B733-48FE-B3EA-5A1AE126F2FE}"/>
+						<Switch Name="Carpet" ID="{BCD53425-3E2F-4F10-AD81-8DEE29C350FE}"/>
+						<Switch Name="Wood" ID="{594854C9-E4C6-49C7-B80D-B060D12C7BE8}"/>
+						<Switch Name="Concrete" ID="{AF36820A-3EAA-4A55-8710-431A0FDDC733}"/>
+						<Switch Name="Leather" ID="{7DD3B37E-574F-4009-8438-5C6ABC3CAF0D}"/>
+						<Switch Name="Sand" ID="{F266EB19-16F1-479D-A42C-780ABDA1835D}"/>
+						<Switch Name="Metal" ID="{D1E7B854-996E-4014-9CF1-803CCD29AB83}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="MC_Locomotion" ID="{9614C565-5270-4D26-8C66-B126B1C2DDF8}">
+					<ChildrenList>
+						<Switch Name="Walk" ID="{CC3A3775-0B1E-427B-8F88-A6C3C2390DF8}"/>
+						<Switch Name="Run" ID="{9B1A6ADB-E4F3-4270-A68D-5C57DFC1E3AA}"/>
+						<Switch Name="Sneak" ID="{8BD77874-A1A9-4CB6-96D8-746D09D5C98E}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
