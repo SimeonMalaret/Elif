@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{3F099745-4932-4375-9C6F-DE8E07A72072}" WorkUnitID="{C877C918-755D-4370-A6A8-C11D3B7B2EBB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}"/>
+						<Bus Name="AMB" ID="{CFD425C4-FD21-420E-BE35-A5ACAF6EDDCC}"/>
+						<Bus Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}">
+							<ChildrenList>
+								<AuxBus Name="Big_Reverb_Delay" ID="{4FF824BF-9987-46B5-9538-B04B7F76F2D2}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+											<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

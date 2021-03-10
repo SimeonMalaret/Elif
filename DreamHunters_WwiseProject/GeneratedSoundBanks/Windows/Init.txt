@@ -1,0 +1,17 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1117531639	AMB			\Default Work Unit\Master Audio Bus\AMB	
+	1685527061	MC			\Default Work Unit\Master Audio Bus\MC	
+	2782712965	LEVEL			\Default Work Unit\Master Audio Bus\LEVEL	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3074912548	Big_Reverb_Delay			\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	1588715066	Echoes_Linear	Wwise Delay			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	922651627	flowerBell			\Default Work Unit\flowerBell	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	89910837	SnowInn-002	C:\Users\Camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SnowInn-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SnowInn-002		115826
+

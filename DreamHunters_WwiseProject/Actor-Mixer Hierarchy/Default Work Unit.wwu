@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2E9003C5-BBDE-4799-BFE6-B216510B1FDB}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{2E9003C5-BBDE-4799-BFE6-B216510B1FDB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SnowInn-002" ID="{C45E3D1E-3838-47D4-8550-51B52BE3BF6B}" ShortID="299564321">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SnowInn-002" ID="{7FEA6251-4C33-4722-8CF4-00FAF39F72BF}">
+							<Language>SFX</Language>
+							<AudioFile>SnowInn-002.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="89910837"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SnowInn-002" ID="{7FEA6251-4C33-4722-8CF4-00FAF39F72BF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
