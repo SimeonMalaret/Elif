@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -24,11 +24,19 @@
 				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="3162343742">
+		<SoundBank Id="2228651116" Language="SFX" Hash="1854208747">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="922651627" Name="flowerBell" ObjectPath="\Events\Default Work Unit\Test\flowerBell">
+					<IncludedMemoryFiles>
+						<File Id="89910837" Language="SFX">
+							<ShortName>SnowInn-002.wav</ShortName>
+							<Path>SFX\SnowInn-002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3870228825" Name="Play_Amb_Stealth_lp" ObjectPath="\Events\Default Work Unit\AMB\Play_Amb_Stealth_lp">
 					<ReferencedStreamedFiles>
 						<File Id="725754079" Language="SFX">
@@ -518,6 +526,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="918911588" Name="Play_WideWalk" ObjectPath="\Events\Default Work Unit\Test\Play_WideWalk">
+					<IncludedMemoryFiles>
+						<File Id="753856514" Language="SFX">
+							<ShortName>Wide Walking.wav</ShortName>
+							<Path>SFX\Wide Walking_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="315354863" Name="Play_Wind_lp" ObjectPath="\Events\Default Work Unit\AMB\Play_Wind_lp">
 					<IncludedMemoryFiles>
 						<File Id="163778240" Language="SFX">
@@ -560,6 +576,7 @@
 				<Event Id="3125004017" Name="Stop_Music_Stealth" ObjectPath="\Events\Default Work Unit\MUSIC\Stop_Music_Stealth"/>
 				<Event Id="888709001" Name="Stop_Rocket_Forward_lp" ObjectPath="\Events\Default Work Unit\LEVEL\PROPS\Rocket\Stop_Rocket_Forward_lp"/>
 				<Event Id="2069621894" Name="Stop_Rocket_Overheat_lp" ObjectPath="\Events\Default Work Unit\LEVEL\PROPS\Rocket\Stop_Rocket_Overheat_lp"/>
+				<Event Id="2039742582" Name="Stop_WideWalk" ObjectPath="\Events\Default Work Unit\Test\Stop_WideWalk"/>
 				<Event Id="2772842757" Name="Stop_Wind_lp" ObjectPath="\Events\Default Work Unit\AMB\Stop_Wind_lp"/>
 			</IncludedEvents>
 			<IncludedAuxBusses>

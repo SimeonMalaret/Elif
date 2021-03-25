@@ -6,6 +6,7 @@
 				<SoundBank Name="Main_SoundBank" ID="{01D42D53-C892-443F-BC9C-ED08D577F6B8}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Big_Reverb_Delay" ID="{4FF824BF-9987-46B5-9538-B04B7F76F2D2}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Test" ID="{623A6C6C-4D38-4762-95AD-EA06978EF909}" WorkUnitID="{82AEC79B-3828-4107-8E49-86AABC9DA012}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LEVEL" ID="{E39AFA45-023B-4793-B9E3-93155C3CC553}" WorkUnitID="{82AEC79B-3828-4107-8E49-86AABC9DA012}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MUSIC" ID="{ADF3079B-4E83-47E1-86BD-3F0EF9B2C083}" WorkUnitID="{82AEC79B-3828-4107-8E49-86AABC9DA012}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AMB" ID="{8632A952-6A2B-48C6-9382-850F03B7DAB9}" WorkUnitID="{82AEC79B-3828-4107-8E49-86AABC9DA012}" Origin="Manual" Filter="7"/>
