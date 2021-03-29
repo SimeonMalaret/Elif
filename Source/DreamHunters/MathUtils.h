@@ -19,4 +19,12 @@ public:
 
     static FVector CubicBezier(FVector A, FVector B, FVector C, FVector D, float t);
 
+    static FMatrix GetTranslationMatrix(FVector position);
+
+    static FMatrix GetRotationMatrix(FQuat anglesDeg);
+
+    static FMatrix GetScaleMatrix(FVector scale);
+
+    static FMatrix TRSMatrix(FVector position, FQuat anglesDeg, FVector scale);
+
 };
