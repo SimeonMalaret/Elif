@@ -24,7 +24,7 @@
 				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="1854208747">
+		<SoundBank Id="2228651116" Language="SFX" Hash="2121167994">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -530,7 +530,7 @@
 					<IncludedMemoryFiles>
 						<File Id="753856514" Language="SFX">
 							<ShortName>Wide Walking.wav</ShortName>
-							<Path>SFX\Wide Walking_10C4C929.wem</Path>
+							<Path>SFX\Wide Walking_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
