@@ -29,8 +29,6 @@ public:
 	UPROPERTY(EditAnywhere, meta = (ClampMin = "0", ClampMax = "1.0", UIMin = "0", UIMax = "1.0"))
 	float weight;
 
-	
-
 	virtual CameraConfig* GetConfiguration();
 
 	virtual void SetActiveView(bool isActive);

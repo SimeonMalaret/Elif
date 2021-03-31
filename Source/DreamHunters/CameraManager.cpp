@@ -10,6 +10,7 @@ UCameraManager::UCameraManager()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
+	
 	// ...
 }
 
@@ -20,7 +21,7 @@ void UCameraManager::BeginPlay()
 	Super::BeginPlay();
 
 	// ...
-	views = new TArray<UAView*>();
+	
 }
 
 

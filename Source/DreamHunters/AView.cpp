@@ -4,6 +4,8 @@
 #include "AView.h"
 #include "CameraManager.h"
 #include "CameraConfig.h"
+#include "LevelDesign_GameMode.h"
+#include <Runtime\Engine\Classes\Kismet\GameplayStatics.h>
 
 // Sets default values for this component's properties
 UAView::UAView()
@@ -36,13 +38,15 @@ void UAView::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponent
 }
 
 void UAView::SetActiveView(bool IsActive) {
+	ALevelDesign_GameMode* levelDesignGM = (ALevelDesign_GameMode*)GetWorld()->GetAuthGameMode();
+
 	if (IsActive)
 	{
-		UCameraManager::views->Add(this);
+		levelDesignGM->CameraManager->views.Add(this);
 	}
 	else
 	{
-		UCameraManager::views->Remove(this);
+		levelDesignGM->CameraManager->views.Remove(this);
 	}
 }
 

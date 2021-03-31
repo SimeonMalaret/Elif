@@ -14,3 +14,9 @@ ALevelDesign_GameMode::ALevelDesign_GameMode()
 	}
 }
 
+//void ALevelDesign_GameMode::InitGame(const FString& MapName, const FString& Options, FString& ErrorMessage) {
+	//Super::InitGame(MapName, Options, ErrorMessage);
+
+	//CameraManager = GetWorld()->SpawnActor<ACameraManagerActor>();
+//}
+

@@ -14,12 +14,12 @@ class DREAMHUNTERS_API UCameraManager : public UActorComponent
 	GENERATED_BODY()
 
 public:	
+	TArray<UAView*> views;
 	// Sets default values for this component's properties
 	UCameraManager();
 
 private:
 	
-
 	UPROPERTY(EditAnywhere)
 	ACameraActor* Camera;
 
@@ -33,5 +33,5 @@ public:
 
 	float cameraMoveSpeed;
 
-	static TArray<UAView*>* views;
+	
 };
