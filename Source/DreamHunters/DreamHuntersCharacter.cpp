@@ -115,7 +115,10 @@ void ADreamHuntersCharacter::MoveForward(float Value)
 	if ((Controller != nullptr) && (Value != 0.0f))
 	{
 		if (isPushing) {
-			AddMovementInput(GetActorForwardVector(), Value);
+			if (!(isNearWall && Value > 0)) 
+			{
+				AddMovementInput(GetActorForwardVector(), Value);
+			}			
 		}
 		else 
 		{

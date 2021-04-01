@@ -33,6 +33,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Push)
 	bool isPushing;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Push)
+	bool isNearWall;
+
 protected:
 
 	/** Resets HMD orientation in VR. */
