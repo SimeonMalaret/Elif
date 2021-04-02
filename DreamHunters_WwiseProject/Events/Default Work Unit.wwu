@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{82AEC79B-3828-4107-8E49-86AABC9DA012}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="flowerBell" ID="{E80FA304-F1FC-4A81-AF0D-A93303FBEE18}">
-					<ChildrenList>
-						<Action Name="" ID="{1DAD40EE-8E1F-4394-89D8-B3E4D8DE5585}" ShortID="70901369">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SnowInn-002" ID="{C45E3D1E-3838-47D4-8550-51B52BE3BF6B}" WorkUnitID="{2E9003C5-BBDE-4799-BFE6-B216510B1FDB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="MC" ID="{5DAE81D5-1A08-4B13-BC90-16FE44D8050C}" ShortID="579113103">
 					<ChildrenList>
 						<Event Name="Play_MC_Locomotion" ID="{F003A863-C8ED-47BC-850C-C197211875D9}">
@@ -433,6 +422,46 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Test" ID="{623A6C6C-4D38-4762-95AD-EA06978EF909}" ShortID="357641223">
+					<ChildrenList>
+						<Event Name="flowerBell" ID="{E80FA304-F1FC-4A81-AF0D-A93303FBEE18}">
+							<ChildrenList>
+								<Action Name="" ID="{1DAD40EE-8E1F-4394-89D8-B3E4D8DE5585}" ShortID="70901369">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SnowInn-002" ID="{C45E3D1E-3838-47D4-8550-51B52BE3BF6B}" WorkUnitID="{2E9003C5-BBDE-4799-BFE6-B216510B1FDB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_WideWalk" ID="{FB7793C7-B742-4511-8ED5-04E49420F975}">
+							<ChildrenList>
+								<Action Name="" ID="{B5078C48-5DC5-4F5A-912B-D74D28CA618E}" ShortID="261735855">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wide Walking" ID="{EEB0461D-B281-4F1E-96B5-075173E680C7}" WorkUnitID="{2E9003C5-BBDE-4799-BFE6-B216510B1FDB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_WideWalk" ID="{CB0419E9-52F5-43D9-BDA6-ECB86BF298D0}">
+							<ChildrenList>
+								<Action Name="" ID="{6E5F6931-1296-4575-A1F2-B8406923A2CB}" ShortID="834195467">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wide Walking" ID="{EEB0461D-B281-4F1E-96B5-075173E680C7}" WorkUnitID="{2E9003C5-BBDE-4799-BFE6-B216510B1FDB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

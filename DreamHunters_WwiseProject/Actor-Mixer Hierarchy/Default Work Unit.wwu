@@ -25,6 +25,36 @@
 						<ActiveSource Name="SnowInn-002" ID="{7FEA6251-4C33-4722-8CF4-00FAF39F72BF}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Wide Walking" ID="{EEB0461D-B281-4F1E-96B5-075173E680C7}" ShortID="851994498">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-26</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wide Walking" ID="{18B04C5E-B154-48A8-BE11-B528C3827A5E}">
+							<Language>SFX</Language>
+							<AudioFile>Wide Walking.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="753856514"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wide Walking" ID="{18B04C5E-B154-48A8-BE11-B528C3827A5E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

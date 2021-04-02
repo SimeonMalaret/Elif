@@ -18,6 +18,7 @@ class ADreamHuntersCharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
 public:
 	ADreamHuntersCharacter();
 
@@ -28,6 +29,12 @@ public:
 	/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Push)
+	bool isPushing;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Push)
+	bool isNearWall;
 
 protected:
 
