@@ -45,6 +45,9 @@ ADreamHuntersCharacter::ADreamHuntersCharacter()
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
+	PullPushBox = CreateDefaultSubobject<UBoxComponent>(TEXT("PushPullBox"));
+	PullPushBox->SetupAttachment(RootComponent);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -115,7 +118,24 @@ void ADreamHuntersCharacter::MoveForward(float Value)
 	if ((Controller != nullptr) && (Value != 0.0f))
 	{
 		if (isPushing) {
-			if (!(isNearWall && Value > 0)) 
+			//calcul direction du direction du hit
+			//compare direction du hit avec la value
+			bool canMove = true;
+			if (isNearWall) {
+				for (size_t index = 0; index < ActorsCollide.Num(); ++index)
+				{
+					FTransform NewTransform = PullPushBox->GetRelativeTransform() * GetActorTransform();
+					FVector directionPlayer = GetActorLocation() - NewTransform.GetLocation();
+					FVector directionHit = NewTransform.GetLocation() - ActorsCollide[index]->GetActorLocation();
+					float direction = FVector::DotProduct(directionPlayer, directionHit);
+					if ( (direction < 0 && Value < 0) || (direction > 0 && Value > 0) )
+					{
+						canMove = false;
+						break;
+					}					
+				}
+			}			
+			if (canMove) 
 			{
 				AddMovementInput(GetActorForwardVector(), Value);
 			}			
