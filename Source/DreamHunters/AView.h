@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "CameraConfig.h"
 #include "AView.generated.h"
 
 
@@ -20,7 +21,7 @@ protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-	class CameraConfig* cameraConfig;
+	CameraConfig* cameraConfig;
 
 public:	
 	// Called every frame
