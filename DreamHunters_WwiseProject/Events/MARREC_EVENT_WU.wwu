@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{59BDD994-4FCE-4676-9F31-0A12C744123D}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="MARREC_EVENT_WU" ID="{59BDD994-4FCE-4676-9F31-0A12C744123D}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="AMB" ID="{BA609658-AECE-4F26-8BCF-2937C97BEDCD}" ShortID="556862437">
+					<ChildrenList>
+						<Event Name="Play_AMB_Playground_lp" ID="{25F11011-7E2C-40CD-90CA-C9A2E9EA6BBE}">
+							<ChildrenList>
+								<Action Name="" ID="{AC065C3C-9630-40AF-99F1-6E1FD9611985}" ShortID="9934833">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_AMB_Playground_lp" ID="{E1F66ECA-2112-4C03-B9ED-0C3E9B4E73CA}" WorkUnitID="{27561484-CD18-4298-A9C3-761E3F097488}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="LEVEL" ID="{75598A62-9CAC-4EBB-A075-C6EE92B7A828}" ShortID="179905533">
+					<ChildrenList>
+						<Folder Name="Clouds" ID="{503B72EE-5750-48C5-809C-4A9D12581A5F}" ShortID="339548216">
+							<ChildrenList>
+								<Event Name="Play_Clouds" ID="{75933170-9051-4C71-B955-E0B9785AAE31}">
+									<ChildrenList>
+										<Action Name="" ID="{B7FEBC82-01A2-446B-96B9-B8C84E8EC45F}" ShortID="169717993">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Rnd_Clouds" ID="{8FE880DE-BB1C-46C8-9BBA-CC6D2ADB138A}" WorkUnitID="{27561484-CD18-4298-A9C3-761E3F097488}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="PROPS" ID="{5B724786-CB69-4AA7-A956-D8A6999973C1}" ShortID="348296677">
+							<ChildrenList>
+								<Folder Name="Bullies" ID="{57FE5BD6-15D7-439A-949E-0011A992400A}" ShortID="936384198">
+									<ChildrenList>
+										<Event Name="Play_Bullies_Laugh" ID="{5F1A5ECA-B690-4F56-8997-35D0976322FF}">
+											<ChildrenList>
+												<Action Name="" ID="{9547A761-31C0-4829-868A-7B927AD3D552}" ShortID="337641273">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Rnd_Bullies_Laugh" ID="{525EFC63-A6DF-408B-9168-B62031D359E0}" WorkUnitID="{27561484-CD18-4298-A9C3-761E3F097488}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Pages" ID="{E07C9217-1F87-4B41-BE84-61D98C475B73}" ShortID="722757367">
+									<ChildrenList>
+										<Event Name="Play_TurnPage" ID="{ED7C8FAC-7C30-4CC3-827A-85EAF48460BF}">
+											<ChildrenList>
+												<Action Name="" ID="{38139D36-32A1-4F03-A5C2-FDB27652D404}" ShortID="686420702">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Rnd_TurnPage" ID="{DB792A19-F088-486C-9CDA-6A57A159D327}" WorkUnitID="{27561484-CD18-4298-A9C3-761E3F097488}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="ThrowBall" ID="{FFDECEE7-2091-47B4-A765-3B3F69DC4B10}" ShortID="1001380851">
+									<ChildrenList>
+										<Event Name="Play_ThrowBall_Throw" ID="{A0CC32A0-7AA7-4057-A781-D99889D1F41D}">
+											<ChildrenList>
+												<Action Name="" ID="{2EDCF7E1-630F-4047-8E94-FB7F44C2A82F}" ShortID="19732093">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Rnd_ThrowingBall_Throw" ID="{F2A97381-D6BC-416C-B50B-6DA09EBD17BF}" WorkUnitID="{27561484-CD18-4298-A9C3-761E3F097488}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_ThrowBall_Bounce" ID="{358C21D5-2082-4787-8E84-D52ADCD677F0}">
+											<ChildrenList>
+												<Action Name="" ID="{503C59D0-AFC6-4A86-BAE0-8BC0369A5D8D}" ShortID="426076035">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Rnd_ThrowingBall_BOUNCE" ID="{F5C802E5-489E-4732-8082-5FACC1336E52}" WorkUnitID="{27561484-CD18-4298-A9C3-761E3F097488}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="DoggyBag" ID="{5FB800B4-DE62-41ED-9E91-EFD68E4C01DD}" ShortID="765016215">
+									<ChildrenList>
+										<Event Name="Play_DoggyBag_Bark" ID="{D0DEE59E-BD93-4D86-916C-10CA030E8B66}">
+											<ChildrenList>
+												<Action Name="" ID="{74B31055-B7D9-4CDA-91CF-6A6D56D5CF37}" ShortID="491021231">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Rnd_DoggyBag_Bark" ID="{9D5065FD-EEA4-465C-B8D2-4C2F5DDD38C2}" WorkUnitID="{27561484-CD18-4298-A9C3-761E3F097488}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Walls" ID="{97234E22-3E6E-4FCE-AF7F-D5F642167B92}" ShortID="797327252">
+							<ChildrenList>
+								<Event Name="Play_Wall_Destruction" ID="{3EB43125-E49C-444F-8E31-98A6022E9340}">
+									<ChildrenList>
+										<Action Name="" ID="{70C64366-CC3E-435B-87D9-8F44ABE309E9}" ShortID="231388050">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Rnd_Wall_Destruction" ID="{9A53BB3F-85AE-43F3-8329-64A1A88C2725}" WorkUnitID="{27561484-CD18-4298-A9C3-761E3F097488}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Squeaks" ID="{715C093D-5D59-4153-98FA-30A92383197A}" ShortID="249418067">
+							<ChildrenList>
+								<Folder Name="Squeaks_Heavy" ID="{D058ED7F-94C0-4645-AE74-49B9A0D246FE}" ShortID="96349920">
+									<ChildrenList>
+										<Event Name="Play_Squeaks_Heavy" ID="{CADAE325-C4FF-4CBA-A0D1-BE43233AECF3}">
+											<ChildrenList>
+												<Action Name="" ID="{35945D65-F88A-4923-82D5-7B1BF69C40A5}" ShortID="237924860">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="rnd_Squeaks_Heavy" ID="{39D4BBCD-D2E0-4BD7-8ACA-578BA90C8CDB}" WorkUnitID="{27561484-CD18-4298-A9C3-761E3F097488}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Squeaks_Small" ID="{E80CEAA9-325D-4E0A-A36C-024D92D9FE19}" ShortID="361236555">
+									<ChildrenList>
+										<Event Name="Play_Squeaks_Small" ID="{FEC66A67-BDBB-4F5C-BAF0-5AD3B9E86BE6}">
+											<ChildrenList>
+												<Action Name="" ID="{D1EF0F7C-74A8-41BA-8D41-A296A2B9E7AE}" ShortID="315274459">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Rnd_Squeaks_Small" ID="{68C58B54-2D60-4825-8E56-F9028BED2CE0}" WorkUnitID="{27561484-CD18-4298-A9C3-761E3F097488}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
