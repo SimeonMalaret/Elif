@@ -20,6 +20,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_AMB_Playground_lp" ID="{0860BA85-95E0-4A72-BDEA-CE47F0F670FE}">
+							<ChildrenList>
+								<Action Name="" ID="{F6E3EB7B-566B-40C0-9796-47FE06503DAD}" ShortID="530557364">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_AMB_Playground_lp" ID="{E1F66ECA-2112-4C03-B9ED-0C3E9B4E73CA}" WorkUnitID="{27561484-CD18-4298-A9C3-761E3F097488}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="LEVEL" ID="{75598A62-9CAC-4EBB-A075-C6EE92B7A828}" ShortID="179905533">
@@ -90,21 +104,6 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Rnd_ThrowingBall_BOUNCE" ID="{F5C802E5-489E-4732-8082-5FACC1336E52}" WorkUnitID="{27561484-CD18-4298-A9C3-761E3F097488}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-									</ChildrenList>
-								</Folder>
-								<Folder Name="DoggyBag" ID="{5FB800B4-DE62-41ED-9E91-EFD68E4C01DD}" ShortID="765016215">
-									<ChildrenList>
-										<Event Name="Play_DoggyBag_Bark" ID="{D0DEE59E-BD93-4D86-916C-10CA030E8B66}">
-											<ChildrenList>
-												<Action Name="" ID="{74B31055-B7D9-4CDA-91CF-6A6D56D5CF37}" ShortID="491021231">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Rnd_DoggyBag_Bark" ID="{9D5065FD-EEA4-465C-B8D2-4C2F5DDD38C2}" WorkUnitID="{27561484-CD18-4298-A9C3-761E3F097488}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

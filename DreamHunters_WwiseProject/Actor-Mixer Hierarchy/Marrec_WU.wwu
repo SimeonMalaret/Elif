@@ -318,7 +318,14 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="PROPS_AM" ID="{B049B77B-6D8F-423B-AE7A-D739BE4ACCB8}" ShortID="688256407">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 								</Reference>
@@ -574,20 +581,6 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-										</RandomSequenceContainer>
-									</ChildrenList>
-								</Folder>
-								<Folder Name="DoggyBag" ID="{9CFB3CB5-6CD9-4F00-AF2F-0705573FC937}" ShortID="640792715">
-									<ChildrenList>
-										<RandomSequenceContainer Name="Rnd_DoggyBag_Bark" ID="{9D5065FD-EEA4-465C-B8D2-4C2F5DDD38C2}" ShortID="802088092">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
