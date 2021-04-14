@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -24,7 +24,7 @@
 				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="2121167994">
+		<SoundBank Id="2228651116" Language="SFX" Hash="2060928042">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -34,6 +34,14 @@
 						<File Id="89910837" Language="SFX">
 							<ShortName>SnowInn-002.wav</ShortName>
 							<Path>SFX\SnowInn-002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1800930393" Name="Play_AMB_Playground_lp" ObjectPath="\Events\MARREC_EVENT_WU\AMB\Play_AMB_Playground_lp">
+					<IncludedMemoryFiles>
+						<File Id="774592491" Language="SFX">
+							<ShortName>SFX_AMB_Playground_lp.wav</ShortName>
+							<Path>SFX\SFX_AMB_Playground_lp_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -94,6 +102,38 @@
 						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="3108166468" Name="Play_Bullies_Laugh" ObjectPath="\Events\MARREC_EVENT_WU\LEVEL\PROPS\Bullies\Play_Bullies_Laugh">
+					<IncludedMemoryFiles>
+						<File Id="205695239" Language="SFX">
+							<ShortName>SFX_LEVEL_PROPS_Bullies_Laugh_2.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_PROPS_Bullies_Laugh_2_10C4C929.wem</Path>
+						</File>
+						<File Id="258441762" Language="SFX">
+							<ShortName>SFX_LEVEL_PROPS_Bullies_Laugh_1.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_PROPS_Bullies_Laugh_1_10C4C929.wem</Path>
+						</File>
+						<File Id="909838463" Language="SFX">
+							<ShortName>SFX_LEVEL_PROPS_Bullies_Laugh_3.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_PROPS_Bullies_Laugh_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1323353296" Name="Play_Clouds" ObjectPath="\Events\MARREC_EVENT_WU\LEVEL\Clouds\Play_Clouds">
+					<IncludedMemoryFiles>
+						<File Id="302068586" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_Cloud01_V2.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_Cloud01_V2_10C4C929.wem</Path>
+						</File>
+						<File Id="717717738" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_Cloud02_V2.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_Cloud02_V2_10C4C929.wem</Path>
+						</File>
+						<File Id="724980667" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_Cloud03_V2.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_Cloud03_V2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1652522752" Name="Play_CommonDoor_Closed" ObjectPath="\Events\Default Work Unit\LEVEL\DOORS\Play_CommonDoor_Closed">
 					<IncludedMemoryFiles>
 						<File Id="354567205" Language="SFX">
@@ -140,6 +180,7 @@
 						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="2911684495" Name="Play_DoggyBag_Bark" ObjectPath="\Events\MARREC_EVENT_WU\LEVEL\PROPS\DoggyBag\Play_DoggyBag_Bark"/>
 				<Event Id="2482399161" Name="Play_FlowerBell_Ring" ObjectPath="\Events\Default Work Unit\LEVEL\PROPS\FlowerBell\Play_FlowerBell_Ring">
 					<IncludedMemoryFiles>
 						<File Id="12611600" Language="SFX">
@@ -523,6 +564,102 @@
 						<File Id="1064926522" Language="SFX">
 							<ShortName>SFX_LEVEL_Rocket_Overheat03.wav</ShortName>
 							<Path>SFX\SFX_LEVEL_Rocket_Overheat03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3130608235" Name="Play_Squeaks_Heavy" ObjectPath="\Events\MARREC_EVENT_WU\LEVEL\Squeaks\Squeaks_Heavy\Play_Squeaks_Heavy">
+					<IncludedMemoryFiles>
+						<File Id="90177036" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_SqueakHeavy03.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_SqueakHeavy03_10C4C929.wem</Path>
+						</File>
+						<File Id="133666467" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_SqueakHeavy02.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_SqueakHeavy02_10C4C929.wem</Path>
+						</File>
+						<File Id="353498070" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_SqueakHeavy01-001.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_SqueakHeavy01-001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636440731" Name="Play_Squeaks_Small" ObjectPath="\Events\MARREC_EVENT_WU\LEVEL\Squeaks\Squeaks_Small\Play_Squeaks_Small">
+					<IncludedMemoryFiles>
+						<File Id="92765169" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_SqueakSmall02.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_SqueakSmall02_10C4C929.wem</Path>
+						</File>
+						<File Id="263727898" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_SqueakSmall03.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_SqueakSmall03_10C4C929.wem</Path>
+						</File>
+						<File Id="416039305" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_SqueakSmall01.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_SqueakSmall01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3218602336" Name="Play_ThrowBall_Bounce" ObjectPath="\Events\MARREC_EVENT_WU\LEVEL\PROPS\ThrowBall\Play_ThrowBall_Bounce">
+					<IncludedMemoryFiles>
+						<File Id="37062183" Language="SFX">
+							<ShortName>SFX_LEVEL_PROPS_ThrowingBall_Bounce_1.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_PROPS_ThrowingBall_Bounce_1_10C4C929.wem</Path>
+						</File>
+						<File Id="306416882" Language="SFX">
+							<ShortName>SFX_LEVEL_PROPS_ThrowingBall_Bounce_3.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_PROPS_ThrowingBall_Bounce_3_10C4C929.wem</Path>
+						</File>
+						<File Id="1002282402" Language="SFX">
+							<ShortName>SFX_LEVEL_PROPS_ThrowingBall_Bounce_2.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_PROPS_ThrowingBall_Bounce_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2914719344" Name="Play_ThrowBall_Throw" ObjectPath="\Events\MARREC_EVENT_WU\LEVEL\PROPS\ThrowBall\Play_ThrowBall_Throw">
+					<IncludedMemoryFiles>
+						<File Id="149380396" Language="SFX">
+							<ShortName>SFX_LEVEL_PROPS_ThrowingBall_Throw_2.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_PROPS_ThrowingBall_Throw_2_10C4C929.wem</Path>
+						</File>
+						<File Id="615641349" Language="SFX">
+							<ShortName>SFX_LEVEL_PROPS_ThrowingBall_Throw_3.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_PROPS_ThrowingBall_Throw_3_10C4C929.wem</Path>
+						</File>
+						<File Id="872484275" Language="SFX">
+							<ShortName>SFX_LEVEL_PROPS_ThrowingBall_Throw_1.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_PROPS_ThrowingBall_Throw_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="495309946" Name="Play_TurnPage" ObjectPath="\Events\MARREC_EVENT_WU\LEVEL\PROPS\Pages\Play_TurnPage">
+					<IncludedMemoryFiles>
+						<File Id="260278808" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_TurnPage01.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_TurnPage01_10C4C929.wem</Path>
+						</File>
+						<File Id="377364220" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_TurnPage03.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_TurnPage03_10C4C929.wem</Path>
+						</File>
+						<File Id="912449880" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_TurnPage02.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_TurnPage02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3410959179" Name="Play_Wall_Destruction" ObjectPath="\Events\MARREC_EVENT_WU\LEVEL\Walls\Play_Wall_Destruction">
+					<IncludedMemoryFiles>
+						<File Id="67059748" Language="SFX">
+							<ShortName>SFX_LEVEL_Wall_Destruction_02.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Wall_Destruction_02_10C4C929.wem</Path>
+						</File>
+						<File Id="148999016" Language="SFX">
+							<ShortName>SFX_LEVEL_Wall_Destruction.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Wall_Destruction_10C4C929.wem</Path>
+						</File>
+						<File Id="1044399122" Language="SFX">
+							<ShortName>SFX_LEVEL_Wall_Destruction_03.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Wall_Destruction_03_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
