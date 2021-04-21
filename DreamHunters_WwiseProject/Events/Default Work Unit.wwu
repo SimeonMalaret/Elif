@@ -383,6 +383,46 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="DoggyToy" ID="{B4FDF724-1A19-4589-A825-A1335525F2D1}" ShortID="1064562326">
+									<ChildrenList>
+										<Event Name="Play_DoggyToy_Bark" ID="{A6A8FF21-6B95-4D8E-A8D1-EEE5C44164A7}">
+											<ChildrenList>
+												<Action Name="" ID="{0455B3FF-F0C0-477B-9BBC-4C48647FED95}" ShortID="362692184">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="DoggyToy Bark_Rnd" ID="{DE8F258F-9F37-4890-B7C1-CE61EC1A5C19}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DoggyToy_Locomotion_lp" ID="{F0678606-BB84-4A07-B361-9C8108F98393}">
+											<ChildrenList>
+												<Action Name="" ID="{39C09165-A177-412D-BCCF-E189E3C78F75}" ShortID="431770118">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="DoggyToy Locomotion_Rnd" ID="{2B9094A2-100C-47B6-849E-B354386CF2D9}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Stop_DoggyToy_Locomotion_lp" ID="{4DBFAE89-1A84-49DA-ACF9-0428B8DF4404}">
+											<ChildrenList>
+												<Action Name="" ID="{B586355E-3C29-4660-BD54-69D9615EF720}" ShortID="892318339">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="DoggyToy Locomotion_Rnd" ID="{2B9094A2-100C-47B6-849E-B354386CF2D9}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="DOORS" ID="{00C5EAE6-B3E5-4B8B-A7DF-37FE47B523DF}" ShortID="481654524">

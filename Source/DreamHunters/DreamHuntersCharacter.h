@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Components/BoxComponent.h"
 #include "DreamHuntersCharacter.generated.h"
 
 UCLASS(config=Game)
@@ -35,6 +36,12 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Push)
 	bool isNearWall;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Push)
+	TArray<AActor*> ActorsCollide;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Push)
+	UBoxComponent* PullPushBox;
 
 protected:
 
