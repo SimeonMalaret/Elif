@@ -2312,7 +2312,7 @@
 				</ActorMixer>
 				<ActorMixer Name="LEVEL_AM" ID="{6972BCFB-4D67-4B82-9454-F4999E3BD437}" ShortID="470857947">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
