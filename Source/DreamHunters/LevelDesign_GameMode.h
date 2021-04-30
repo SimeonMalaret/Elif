@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "CameraManagerActor.h"
 #include "LevelDesign_GameMode.generated.h"
 
 /**
@@ -19,6 +18,4 @@ public:
 	ALevelDesign_GameMode();
 
 	//void InitGame(const FString& MapName, const FString& Options, FString& ErrorMessage) override;
-
-	ACameraManagerActor* CameraManager;
 };
