@@ -688,7 +688,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SFX_LEVEL_Wall_Destruction" ID="{0B4976AB-6E79-49DC-B94F-21D33B38C537}" ShortID="595224962">
+										<Sound Name="SFX_LEVEL_Level_Wall_Destruction_V3_01" ID="{0CD78DE6-B70B-485F-8E9F-E066624F35C3}" ShortID="210422667">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -698,19 +698,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_LEVEL_Wall_Destruction" ID="{13925C6A-E304-4A80-AD0D-EB5FD0520A8A}">
+												<AudioFileSource Name="SFX_LEVEL_Level_Wall_Destruction_V3_01" ID="{4F9BB7F7-540B-4A3D-AE84-1AC20C122300}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_LEVEL_Wall_Destruction.wav</AudioFile>
+													<AudioFile>SFX_LEVEL_Level_Wall_Destruction_V3_01.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="148999016"/>
+														<MediaID ID="335058408"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_LEVEL_Wall_Destruction" ID="{13925C6A-E304-4A80-AD0D-EB5FD0520A8A}" Platform="Linked"/>
+												<ActiveSource Name="SFX_LEVEL_Level_Wall_Destruction_V3_01" ID="{4F9BB7F7-540B-4A3D-AE84-1AC20C122300}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_LEVEL_Wall_Destruction_02" ID="{47B83062-265D-401A-9376-0E73C7B7E19C}" ShortID="395560148">
+										<Sound Name="SFX_LEVEL_Level_Wall_Destruction_V3_02" ID="{FA94BAB4-A76E-425E-82F5-7B3E3D1B09A3}" ShortID="307442026">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -720,19 +720,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_LEVEL_Wall_Destruction_02" ID="{A5E4D3AA-3A36-469C-B47E-D89274A2771F}">
+												<AudioFileSource Name="SFX_LEVEL_Level_Wall_Destruction_V3_02" ID="{C4486F52-9A65-467E-8500-FA052B3DBD53}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_LEVEL_Wall_Destruction_02.wav</AudioFile>
+													<AudioFile>SFX_LEVEL_Level_Wall_Destruction_V3_02.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="67059748"/>
+														<MediaID ID="458554935"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_LEVEL_Wall_Destruction_02" ID="{A5E4D3AA-3A36-469C-B47E-D89274A2771F}" Platform="Linked"/>
+												<ActiveSource Name="SFX_LEVEL_Level_Wall_Destruction_V3_02" ID="{C4486F52-9A65-467E-8500-FA052B3DBD53}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_LEVEL_Wall_Destruction_03" ID="{642376BC-4D7C-4894-AC71-A740485CFADC}" ShortID="853748926">
+										<Sound Name="SFX_LEVEL_Level_Wall_Destruction_V3_03" ID="{2B47AED4-856E-4C03-9A02-4433519CB1D3}" ShortID="875545463">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -742,20 +742,114 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_LEVEL_Wall_Destruction_03" ID="{DD232357-7699-46BF-9A6E-85F62CC8CD4A}">
+												<AudioFileSource Name="SFX_LEVEL_Level_Wall_Destruction_V3_03" ID="{414F21E4-CEC0-477D-8E69-F81D11EAECF9}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_LEVEL_Wall_Destruction_03.wav</AudioFile>
+													<AudioFile>SFX_LEVEL_Level_Wall_Destruction_V3_03.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1044399122"/>
+														<MediaID ID="662329087"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_LEVEL_Wall_Destruction_03" ID="{DD232357-7699-46BF-9A6E-85F62CC8CD4A}" Platform="Linked"/>
+												<ActiveSource Name="SFX_LEVEL_Level_Wall_Destruction_V3_03" ID="{414F21E4-CEC0-477D-8E69-F81D11EAECF9}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="BookDoor_AM" ID="{B12AE786-4041-44B2-B1E7-D5CDCB158528}" ShortID="48964244">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Folder Name="BookDoor" ID="{2C6F5BDB-3A9C-41A0-8362-0CCD5AFCDD51}" ShortID="540476600">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Rnd_BookDoor_Open" ID="{E8413E0C-B00F-4D43-A9EA-1057EC38A8AF}" ShortID="95970758">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_LEVEL_Level_BookDoor_Open_V3_01" ID="{26D08714-33AF-4A62-BA74-976E028AF886}" ShortID="568872996">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LEVEL_Level_BookDoor_Open_V3_01" ID="{7702F209-9991-40B8-A6E3-F4BEB15A1F6B}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_LEVEL_Level_BookDoor_Open_V3_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1018580830"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LEVEL_Level_BookDoor_Open_V3_01" ID="{7702F209-9991-40B8-A6E3-F4BEB15A1F6B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_LEVEL_Level_BookDoor_Open_V3_02" ID="{2FBABFD4-C025-43F4-994A-038D6E246013}" ShortID="61485475">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LEVEL_Level_BookDoor_Open_V3_02" ID="{AF125CE6-A1C0-4F23-B5FE-3DCC15598F6E}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_LEVEL_Level_BookDoor_Open_V3_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="911900299"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LEVEL_Level_BookDoor_Open_V3_02" ID="{AF125CE6-A1C0-4F23-B5FE-3DCC15598F6E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_LEVEL_Level_BookDoor_Open_V3_03" ID="{843A3E55-E35C-4EEF-9DB3-4495B39215FF}" ShortID="56751969">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LEVEL_Level_BookDoor_Open_V3_03" ID="{0E0B4FFF-641F-42EA-A145-1C7976EF5B01}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_LEVEL_Level_BookDoor_Open_V3_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="632192768"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LEVEL_Level_BookDoor_Open_V3_03" ID="{0E0B4FFF-641F-42EA-A145-1C7976EF5B01}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

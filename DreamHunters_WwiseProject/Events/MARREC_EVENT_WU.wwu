@@ -51,6 +51,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_BookDoor_Open" ID="{9B4CB55B-1EC2-4056-803B-187890ADE7C1}">
+									<ChildrenList>
+										<Action Name="" ID="{DF52AC56-E157-4AE2-921F-5F4F1CE8BAA1}" ShortID="301456302">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Rnd_BookDoor_Open" ID="{E8413E0C-B00F-4D43-A9EA-1057EC38A8AF}" WorkUnitID="{27561484-CD18-4298-A9C3-761E3F097488}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="PROPS" ID="{5B724786-CB69-4AA7-A956-D8A6999973C1}" ShortID="348296677">

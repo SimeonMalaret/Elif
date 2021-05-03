@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -24,7 +24,7 @@
 				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="2003335639">
+		<SoundBank Id="2228651116" Language="SFX" Hash="532636593">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -101,6 +101,22 @@
 					<AuxBusSends>
 						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
 					</AuxBusSends>
+				</Event>
+				<Event Id="728152132" Name="Play_BookDoor_Open" ObjectPath="\Events\MARREC_EVENT_WU\LEVEL\Clouds\Play_BookDoor_Open">
+					<IncludedMemoryFiles>
+						<File Id="632192768" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_BookDoor_Open_V3_03.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_BookDoor_Open_V3_03_10C4C929.wem</Path>
+						</File>
+						<File Id="911900299" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_BookDoor_Open_V3_02.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_BookDoor_Open_V3_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1018580830" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_BookDoor_Open_V3_01.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_BookDoor_Open_V3_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3108166468" Name="Play_Bullies_Laugh" ObjectPath="\Events\MARREC_EVENT_WU\LEVEL\PROPS\Bullies\Play_Bullies_Laugh">
 					<IncludedMemoryFiles>
@@ -672,17 +688,17 @@
 				</Event>
 				<Event Id="3410959179" Name="Play_Wall_Destruction" ObjectPath="\Events\MARREC_EVENT_WU\LEVEL\Walls\Play_Wall_Destruction">
 					<IncludedMemoryFiles>
-						<File Id="67059748" Language="SFX">
-							<ShortName>SFX_LEVEL_Wall_Destruction_02.wav</ShortName>
-							<Path>SFX\SFX_LEVEL_Wall_Destruction_02_10C4C929.wem</Path>
+						<File Id="335058408" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_Wall_Destruction_V3_01.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_Wall_Destruction_V3_01_10C4C929.wem</Path>
 						</File>
-						<File Id="148999016" Language="SFX">
-							<ShortName>SFX_LEVEL_Wall_Destruction.wav</ShortName>
-							<Path>SFX\SFX_LEVEL_Wall_Destruction_10C4C929.wem</Path>
+						<File Id="458554935" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_Wall_Destruction_V3_02.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_Wall_Destruction_V3_02_10C4C929.wem</Path>
 						</File>
-						<File Id="1044399122" Language="SFX">
-							<ShortName>SFX_LEVEL_Wall_Destruction_03.wav</ShortName>
-							<Path>SFX\SFX_LEVEL_Wall_Destruction_03_10C4C929.wem</Path>
+						<File Id="662329087" Language="SFX">
+							<ShortName>SFX_LEVEL_Level_Wall_Destruction_V3_03.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Level_Wall_Destruction_V3_03_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
