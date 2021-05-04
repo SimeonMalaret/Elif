@@ -5,20 +5,11 @@
 			<ChildrenList>
 				<SoundBank Name="Main_SoundBank" ID="{01D42D53-C892-443F-BC9C-ED08D577F6B8}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Default Work Unit" ID="{82AEC79B-3828-4107-8E49-86AABC9DA012}" WorkUnitID="{82AEC79B-3828-4107-8E49-86AABC9DA012}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Default Work Unit" ID="{9C95ACE7-87BC-465C-9311-A97E49FCF7E7}" WorkUnitID="{9C95ACE7-87BC-465C-9311-A97E49FCF7E7}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="MARREC_EVENT_WU" ID="{59BDD994-4FCE-4676-9F31-0A12C744123D}" WorkUnitID="{59BDD994-4FCE-4676-9F31-0A12C744123D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MUSIC EVENT_WU" ID="{E2E710F3-6EFF-407B-9FAC-885B7986798A}" WorkUnitID="{E2E710F3-6EFF-407B-9FAC-885B7986798A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AMB EVENT_WU" ID="{E8E0765A-506B-41F0-8794-10DF84A938EC}" WorkUnitID="{E8E0765A-506B-41F0-8794-10DF84A938EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MC EVENT_WU" ID="{6671F2CD-9BC3-4355-A423-121894AF49E0}" WorkUnitID="{6671F2CD-9BC3-4355-A423-121894AF49E0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Big_Reverb_Delay" ID="{4FF824BF-9987-46B5-9538-B04B7F76F2D2}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Test" ID="{623A6C6C-4D38-4762-95AD-EA06978EF909}" WorkUnitID="{82AEC79B-3828-4107-8E49-86AABC9DA012}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="LEVEL" ID="{E39AFA45-023B-4793-B9E3-93155C3CC553}" WorkUnitID="{82AEC79B-3828-4107-8E49-86AABC9DA012}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="MUSIC" ID="{ADF3079B-4E83-47E1-86BD-3F0EF9B2C083}" WorkUnitID="{82AEC79B-3828-4107-8E49-86AABC9DA012}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" WorkUnitID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="AMB" ID="{8632A952-6A2B-48C6-9382-850F03B7DAB9}" WorkUnitID="{82AEC79B-3828-4107-8E49-86AABC9DA012}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="MC" ID="{5DAE81D5-1A08-4B13-BC90-16FE44D8050C}" WorkUnitID="{82AEC79B-3828-4107-8E49-86AABC9DA012}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Clouds" ID="{75933170-9051-4C71-B955-E0B9785AAE31}" WorkUnitID="{59BDD994-4FCE-4676-9F31-0A12C744123D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Dynamic Dialogue" ID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" WorkUnitID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="LEVEL" ID="{75598A62-9CAC-4EBB-A075-C6EE92B7A828}" WorkUnitID="{59BDD994-4FCE-4676-9F31-0A12C744123D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="AMB" ID="{BA609658-AECE-4F26-8BCF-2937C97BEDCD}" WorkUnitID="{59BDD994-4FCE-4676-9F31-0A12C744123D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="LEVEL EVENT_WU" ID="{7C92E6CC-CF5E-4915-803B-1F90BB9F4FE9}" WorkUnitID="{7C92E6CC-CF5E-4915-803B-1F90BB9F4FE9}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
