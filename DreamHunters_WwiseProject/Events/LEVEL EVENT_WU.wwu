@@ -196,7 +196,7 @@
 										<Action Name="" ID="{9C6E5CE4-83E3-4368-93BA-F325F03A6796}" ShortID="20561918">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Rocket Dash_Rnd (Placeholder)" ID="{B59E447D-5F88-426E-9E8C-D36B95935494}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+													<ObjectRef Name="Rocket Dash_Rnd" ID="{B59E447D-5F88-426E-9E8C-D36B95935494}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -324,7 +324,7 @@
 										<Action Name="" ID="{66973314-4A11-44DD-8007-5391EE2941E3}" ShortID="31383367">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Pinball Block (Placeholder)" ID="{AA2A86C1-1D53-44E6-A7E5-76EFDBE415F8}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+													<ObjectRef Name="Pinball Block" ID="{AA2A86C1-1D53-44E6-A7E5-76EFDBE415F8}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -335,7 +335,29 @@
 										<Action Name="" ID="{6C8D1278-6A55-4F76-8D4C-F2E314D9DB6E}" ShortID="737622836">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Pinball BulliesDestruction_Rnd (Placeholder)" ID="{76F25CF4-8354-4CBD-BACF-CD071E1C6FC4}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+													<ObjectRef Name="Pinball BulliesDestruction_Rnd" ID="{76F25CF4-8354-4CBD-BACF-CD071E1C6FC4}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Pinball_Intercation" ID="{6C473F1A-17A5-4940-9B12-5CAAABFC612F}">
+									<ChildrenList>
+										<Action Name="" ID="{BE6BE6C5-884E-4A0F-9AEF-FFC075857534}" ShortID="787628720">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pinball_Intercation" ID="{A3C212F5-4EFA-4D2B-84FB-7A6B1FD8E724}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Pinball_Move" ID="{3EE82E1D-EACB-4978-84D2-CE73C5783899}">
+									<ChildrenList>
+										<Action Name="" ID="{06F1D4B8-A88C-49C3-8679-3C27F4C63414}" ShortID="463307996">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pinball_Move" ID="{12149FC7-E395-41A8-9FC7-5A00A7F24AA2}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -350,7 +372,7 @@
 										<Action Name="" ID="{150CDD83-9E17-485D-8972-5EBBBF0315EE}" ShortID="881763099">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Jumper_Rnd (Placeholder)" ID="{98A444EC-0819-4320-97E4-011BD471C0B2}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+													<ObjectRef Name="Jumper_Rnd" ID="{98A444EC-0819-4320-97E4-011BD471C0B2}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -371,6 +393,28 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_Button_Pressed" ID="{C13F8773-2BA4-4D08-B670-A3A965C30A1E}">
+									<ChildrenList>
+										<Action Name="" ID="{00CAE818-D8DA-454E-A90C-41932BB980F4}" ShortID="57054702">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Button_Rnd_Pressed" ID="{FC733A8E-D771-4108-9C41-13A70C37718B}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Button_Unpressed" ID="{58E73A1C-630F-408D-8E59-4026674D6E97}">
+									<ChildrenList>
+										<Action Name="" ID="{9DD4B795-D2F0-472F-97B2-88AB5F8C9AC0}" ShortID="362456731">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Button_Rnd_Unpressed" ID="{56294DEC-CDBC-4575-9F71-D93597D67A1E}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Bridge" ID="{392CEE7E-13C2-43DD-8E54-7B2BFD21255D}" ShortID="1005988315">
@@ -380,7 +424,7 @@
 										<Action Name="" ID="{6CF73831-4BB7-422E-9941-B53F7C7A5776}" ShortID="624523082">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Bridge Down_Rnd (Placeholder)" ID="{34685025-A5E7-45AF-8231-1A47A943748D}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+													<ObjectRef Name="Bridge Down_Rnd" ID="{34685025-A5E7-45AF-8231-1A47A943748D}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -391,7 +435,37 @@
 										<Action Name="" ID="{DD90A12A-8951-4362-9122-35F24BE2FCB3}" ShortID="912857023">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Bridge Blocked_Rnd (Placeholder)" ID="{246E575E-1561-471F-BD14-B873C761A8D0}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+													<ObjectRef Name="Bridge Blocked_Rnd" ID="{246E575E-1561-471F-BD14-B873C761A8D0}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Canon" ID="{5D02C4FC-B159-4F4D-8F10-06D7ABE3D42A}" ShortID="532130621">
+							<ChildrenList>
+								<Event Name="Play_Canon" ID="{D0E67290-7BAA-4A40-B247-F9CF5E12041A}">
+									<ChildrenList>
+										<Action Name="" ID="{816C91A7-03EB-4C0C-922F-AF890E6B7348}" ShortID="13129207">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Canon_Rnd" ID="{67CEA838-A0C3-4652-8CAC-18E00ADA5BC1}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Sparks" ID="{143C46F1-46CC-4386-9938-344BF11F429A}" ShortID="345477719">
+							<ChildrenList>
+								<Event Name="Play_Sparks" ID="{9BB2DBF9-14D1-4D2C-8921-6CC137B3F09D}">
+									<ChildrenList>
+										<Action Name="" ID="{865BCD3C-02C8-4ECC-8760-5651472583E3}" ShortID="41904512">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Sparks_Rnd" ID="{FA639B34-2DFD-48F5-99FA-5491C33D185B}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

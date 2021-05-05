@@ -120,7 +120,29 @@
 								<Action Name="" ID="{3BE7C6BF-E32E-49C3-85B3-57E1FC1768F0}" ShortID="315368489">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="MC Bounce_Rnd (Placeholder)" ID="{2A5A2F4A-9DE6-4470-9C4C-60CA0A10DB86}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
+											<ObjectRef Name="MC Bounce_Rnd" ID="{2A5A2F4A-9DE6-4470-9C4C-60CA0A10DB86}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MC_PickUpItem" ID="{A6B557D9-0A9C-44ED-A9C9-9B5F8B1E91B8}">
+							<ChildrenList>
+								<Action Name="" ID="{54EDA833-9322-4D0E-938C-8F149B703D6F}" ShortID="1016832709">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pick_Up_Items_Rnd" ID="{45DF4454-FE46-45F6-BF05-3662037DBC91}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MC_DropItem" ID="{EC1746C6-A1BA-4082-B2EA-037AB80F5534}">
+							<ChildrenList>
+								<Action Name="" ID="{13B9A617-C285-4C69-9FC9-82E2D2548408}" ShortID="170992555">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Drop_Item_Rnd" ID="{D174C3B3-25EF-499B-8318-6C241C9E7743}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
