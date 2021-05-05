@@ -16,4 +16,6 @@ class ALevelDesign_GameMode : public AGameModeBase
 	
 public:
 	ALevelDesign_GameMode();
+
+	//void InitGame(const FString& MapName, const FString& Options, FString& ErrorMessage) override;
 };
