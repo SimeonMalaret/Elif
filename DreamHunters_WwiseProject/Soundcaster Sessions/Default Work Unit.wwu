@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{31A7EB99-7A08-40A9-AF00-19A982F9601D}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{31A7EB99-7A08-40A9-AF00-19A982F9601D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{31A7EB99-7A08-40A9-AF00-19A982F9601D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test Stigma" ID="{695AE5F4-00F4-4EC2-9665-47B13F9B7F01}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_DoggyToy_Locomotion_lp" ID="{F0678606-BB84-4A07-B361-9C8108F98393}" WorkUnitID="{7C92E6CC-CF5E-4915-803B-1F90BB9F4FE9}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_DoggyToy_Locomotion_lp" ID="{4DBFAE89-1A84-49DA-ACF9-0428B8DF4404}" WorkUnitID="{7C92E6CC-CF5E-4915-803B-1F90BB9F4FE9}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Music_01" ID="{1E0AFC34-25BF-4069-9D42-5BFC14CEF2FC}" WorkUnitID="{E2E710F3-6EFF-407B-9FAC-885B7986798A}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Music_01" ID="{A88384C0-B1FA-4FA4-B01F-99DC32B1A1CE}" WorkUnitID="{E2E710F3-6EFF-407B-9FAC-885B7986798A}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Wind_Strength" ID="{3A546F9C-77FC-4DB6-B63D-9F57D76B44CF}"/>
+							<Value>82.0427236315087</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Carpet" ID="{BCD53425-3E2F-4F10-AD81-8DEE29C350FE}"/>
+						<CurrentSwitchRef Name="Run" ID="{9B1A6ADB-E4F3-4270-A68D-5C57DFC1E3AA}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
