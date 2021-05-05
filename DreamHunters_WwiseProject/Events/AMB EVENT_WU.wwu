@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E8E0765A-506B-41F0-8794-10DF84A938EC}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="AMB EVENT_WU" ID="{E8E0765A-506B-41F0-8794-10DF84A938EC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="PlayGround" ID="{4004DA94-43FA-4BD2-97A2-9A4986229140}" ShortID="52384162">
+					<ChildrenList>
+						<Event Name="Play_AMB_Playground_lp" ID="{25F11011-7E2C-40CD-90CA-C9A2E9EA6BBE}">
+							<ChildrenList>
+								<Action Name="" ID="{AC065C3C-9630-40AF-99F1-6E1FD9611985}" ShortID="9934833">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_AMB_Playground_lp" ID="{E1F66ECA-2112-4C03-B9ED-0C3E9B4E73CA}" WorkUnitID="{AA0F71AF-3514-41B1-87B9-507EA745E0FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_AMB_Playground_lp" ID="{0860BA85-95E0-4A72-BDEA-CE47F0F670FE}">
+							<ChildrenList>
+								<Action Name="" ID="{F6E3EB7B-566B-40C0-9796-47FE06503DAD}" ShortID="530557364">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_AMB_Playground_lp" ID="{E1F66ECA-2112-4C03-B9ED-0C3E9B4E73CA}" WorkUnitID="{AA0F71AF-3514-41B1-87B9-507EA745E0FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Grass" ID="{26D03E3F-AE11-4DFA-AAE4-56820AD715AD}" ShortID="107365014">
+					<ChildrenList>
+						<Event Name="Play_Grass_Movement" ID="{DD6D4C93-19B4-452E-B86D-04086E01F040}">
+							<ChildrenList>
+								<Action Name="" ID="{C9208ECC-DB43-4C87-A043-8B636BB96275}" ShortID="77138268">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grass Movement_Rnd" ID="{588245F8-8DAA-4B80-83D0-4CC529066C1C}" WorkUnitID="{AA0F71AF-3514-41B1-87B9-507EA745E0FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Stealth" ID="{BAF8D691-0F8A-45E8-960C-726DF596A4EC}" ShortID="28573085">
+					<ChildrenList>
+						<Event Name="Play_Amb_Stealth_lp" ID="{3D7531AC-075A-47E0-A4E5-1FC3FC4CD622}">
+							<ChildrenList>
+								<Action Name="" ID="{88B6F14D-7D07-4BA1-BCAA-C15437821C0C}" ShortID="742933008">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_AMB_LOOP_STEALTH_LP" ID="{2D6DDAC2-B484-4F84-BDF2-08F74B0B4F76}" WorkUnitID="{AA0F71AF-3514-41B1-87B9-507EA745E0FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Amb_Stealth_lp" ID="{98D4CCEA-6C5A-4825-9CAC-F0A75D3FB34C}">
+							<ChildrenList>
+								<Action Name="" ID="{C40B9566-4A8A-404C-993B-D45D53DD1BC3}" ShortID="418503869">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_AMB_LOOP_STEALTH_LP" ID="{2D6DDAC2-B484-4F84-BDF2-08F74B0B4F76}" WorkUnitID="{AA0F71AF-3514-41B1-87B9-507EA745E0FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Wind" ID="{93CF3934-2EFC-4311-B750-6BD1173DF6E8}" ShortID="15469164">
+					<ChildrenList>
+						<Event Name="Play_Wind_lp" ID="{059D1E3C-36AA-4920-94D0-6772567D6876}">
+							<ChildrenList>
+								<Action Name="" ID="{141E3805-FEB9-4CF4-8FCA-8B22CDB801C8}" ShortID="577691353">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Winds_Blnd" ID="{82AF1700-3D72-4875-A439-E7FA1470C8E3}" WorkUnitID="{AA0F71AF-3514-41B1-87B9-507EA745E0FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_WindGust" ID="{44041624-B8B2-4ADD-83E8-60577AAB96DF}">
+							<ChildrenList>
+								<Action Name="" ID="{62C96F57-7C88-4EDD-9FCD-284DE229F857}" ShortID="131093884">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind Gust_Rnd" ID="{088EFD73-52EB-483A-A8ED-3244CC4DF263}" WorkUnitID="{AA0F71AF-3514-41B1-87B9-507EA745E0FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Wind_lp" ID="{8912BA44-7AE1-447B-91BD-03A80BCCD8C9}">
+							<ChildrenList>
+								<Action Name="" ID="{EB8FB200-CB32-4D8E-8BB7-1DD6A5DF34E5}" ShortID="379823182">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Winds_Blnd" ID="{82AF1700-3D72-4875-A439-E7FA1470C8E3}" WorkUnitID="{AA0F71AF-3514-41B1-87B9-507EA745E0FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
