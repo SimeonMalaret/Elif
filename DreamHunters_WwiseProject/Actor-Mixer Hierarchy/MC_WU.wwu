@@ -1960,7 +1960,7 @@
 												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
-										<RandomSequenceContainer Name="MC Bounce_Rnd (Placeholder)" ID="{2A5A2F4A-9DE6-4470-9C4C-60CA0A10DB86}" ShortID="1037620669">
+										<RandomSequenceContainer Name="MC Bounce_Rnd" ID="{2A5A2F4A-9DE6-4470-9C4C-60CA0A10DB86}" ShortID="1037620669">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -1973,6 +1973,11 @@
 												<Sound Name="Bounce_01" ID="{11FD2BB5-95A6-45CD-96B3-B83DFC32527B}" ShortID="415615011">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -1996,6 +2001,72 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="Bounce_01" ID="{D0371011-5C66-4DD7-97CF-A2A068525391}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_LEVEL_Elif_Bounce01" ID="{01576803-47F3-4FFF-A969-DC14584E2D7B}" ShortID="283206298">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LEVEL_Elif_Bounce01" ID="{027F6A93-28F2-4432-925B-558B1E9D6EEA}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_LEVEL_Elif_Bounce01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="480832607"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LEVEL_Elif_Bounce01" ID="{027F6A93-28F2-4432-925B-558B1E9D6EEA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_LEVEL_Elif_Bounce02" ID="{B79A50CB-71EE-4D0F-9449-F00F582C0671}" ShortID="338277858">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LEVEL_Elif_Bounce02" ID="{177BC89A-2408-4407-A32A-74141C0F2FD0}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_LEVEL_Elif_Bounce02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="815434782"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LEVEL_Elif_Bounce02" ID="{177BC89A-2408-4407-A32A-74141C0F2FD0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_LEVEL_Elif_Bounce03" ID="{39CD1C38-2AAD-400B-B7A4-DBA2605179AE}" ShortID="621504092">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LEVEL_Elif_Bounce03" ID="{4F825AF3-9AA0-4FBD-94E5-424884E7DC3D}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_LEVEL_Elif_Bounce03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1030570756"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LEVEL_Elif_Bounce03" ID="{4F825AF3-9AA0-4FBD-94E5-424884E7DC3D}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -2161,6 +2232,98 @@
 												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="ACTIONS" ID="{588500AA-1524-43DB-B0F7-4098D0D7369D}" ShortID="61799443">
+									<ChildrenList>
+										<Folder Name="Pick_Up_Items" ID="{A99EBBBD-EB0C-4D27-A4AF-7BEF18E33788}" ShortID="349194926">
+											<ChildrenList>
+												<RandomSequenceContainer Name="Pick_Up_Items_Rnd" ID="{45DF4454-FE46-45F6-BF05-3662037DBC91}" ShortID="942450247">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_MC_Elif_Pick_Up_Item" ID="{810AB7B1-16AC-44D9-891E-9565D3CDDCA7}" ShortID="1022945103">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_MC_Elif_Pick_Up_Item" ID="{92388ED2-69B9-42A8-9F69-D45D8E3ECFBA}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_MC_Elif_Pick_Up_Item.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="456631007"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_MC_Elif_Pick_Up_Item" ID="{92388ED2-69B9-42A8-9F69-D45D8E3ECFBA}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Drop_Items" ID="{139B4A4B-AF9A-4CFB-805E-AC967F2FA2B3}" ShortID="280999301">
+											<ChildrenList>
+												<RandomSequenceContainer Name="Drop_Item_Rnd" ID="{D174C3B3-25EF-499B-8318-6C241C9E7743}" ShortID="827151611">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_MC_Elif_Drop_Item" ID="{247FD1F9-68DB-4892-9878-085EDC0FCCD9}" ShortID="548942546">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_MC_Elif_Drop_Item" ID="{C7DB08C0-3C67-4D12-80F1-ADFD9E160B95}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_MC_Elif_Drop_Item.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="633045440"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_MC_Elif_Drop_Item" ID="{C7DB08C0-3C67-4D12-80F1-ADFD9E160B95}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
