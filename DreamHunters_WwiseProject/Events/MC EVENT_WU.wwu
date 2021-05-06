@@ -83,20 +83,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Set_MC_Sneak" ID="{6393B650-A9B8-4BDA-8053-147F020A1FB7}">
-							<ChildrenList>
-								<Action Name="" ID="{15656AFB-6A6E-4747-A8CD-EA7E3EBE0C71}" ShortID="561709766">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="23"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Sneak" ID="{8BD77874-A1A9-4CB6-96D8-746D09D5C98E}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_MC_Land" ID="{4E0801EE-A173-4CBA-9C5C-FD7CEA93953C}">
 							<ChildrenList>
 								<Action Name="" ID="{6B9D2CCF-8C59-484E-BB02-9277E1E2FFB2}" ShortID="1037925768">

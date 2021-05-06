@@ -291,6 +291,30 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Stop_trousse_Squeak" ID="{C0D04B3C-385D-42D2-A121-052D5E46F7A7}">
+											<ChildrenList>
+												<Action Name="" ID="{97683A74-55AA-410A-B1EB-06FEE66B98CC}" ShortID="738096126">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Squeak Trousse Heavy_Rnd" ID="{88C922BB-A0E8-446B-8CC5-6793BA3004EF}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{A8BFF1AC-55FC-40E5-971A-ECF7DDB774B0}" ShortID="561341831">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Squeak Trousse Small_Rnd" ID="{6EE9B3D8-120B-4F99-919B-FB2D54A60E90}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Xylophone" ID="{980BAE75-9B66-4F9E-89B0-A0559201F209}" ShortID="239401284">
@@ -309,6 +333,30 @@
 										<Event Name="Play_Xylophone_SqueakSmall" ID="{26666BB5-0191-4D6A-8263-2DD83CEF7490}">
 											<ChildrenList>
 												<Action Name="" ID="{0CC2AF4F-A3FD-4D52-8C7F-17C444E1F885}" ShortID="684659013">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Squeak Xylophone Small_Rnd" ID="{1B2768F8-9A43-4C18-9188-C604E23F2AEB}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Stop_Xylophone_Squeak" ID="{4F4E025A-ED45-4BF8-A463-7EB3DBD38371}">
+											<ChildrenList>
+												<Action Name="" ID="{750F0290-1D70-40AD-B592-20D79AF2C73F}" ShortID="992777055">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Squeak Xylophone Heavy_Rnd" ID="{58A72313-99A1-4012-B041-0E8D634C62A6}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{445CE422-BB06-42A3-A70B-5BD68009EF20}" ShortID="307200953">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Squeak Xylophone Small_Rnd" ID="{1B2768F8-9A43-4C18-9188-C604E23F2AEB}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>

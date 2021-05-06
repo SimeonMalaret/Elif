@@ -1418,7 +1418,6 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Balloon Roll_Rnd" ID="{F7FEACA6-E795-438D-BDD7-D85E8CB19C24}" ShortID="717769646">
 											<PropertyList>
-												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
@@ -1503,7 +1502,6 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Balloon Pop_Rnd" ID="{5817ADE3-640D-4588-9D05-F3AB91830AF7}" ShortID="429314435">
 											<PropertyList>
-												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
