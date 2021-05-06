@@ -28,7 +28,7 @@
 				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="3514637586">
+		<SoundBank Id="2228651116" Language="SFX" Hash="1230608646">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -673,9 +673,9 @@
 				</Event>
 				<Event Id="3058431834" Name="Play_Pinball_Block" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Pinball\Play_Pinball_Block">
 					<IncludedMemoryFiles>
-						<File Id="496973513" Language="SFX">
-							<ShortName>SFX_LEVEL_Pinball_Bounce_Block01.wav</ShortName>
-							<Path>SFX\SFX_LEVEL_Pinball_Bounce_Block01_10C4C929.wem</Path>
+						<File Id="695731275" Language="SFX">
+							<ShortName>SFX_LEVEL_Pinball_Bounce_BlockV2.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Pinball_Bounce_BlockV2_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -705,9 +705,9 @@
 				</Event>
 				<Event Id="1402985800" Name="Play_Pinball_Move" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Pinball\Play_Pinball_Move">
 					<IncludedMemoryFiles>
-						<File Id="243194822" Language="SFX">
-							<ShortName>SFX_LEVEL_Pinball__Move01.wav</ShortName>
-							<Path>SFX\SFX_LEVEL_Pinball__Move01_10C4C929.wem</Path>
+						<File Id="557582523" Language="SFX">
+							<ShortName>SFX_LEVEL_Pinball__Move01_V2.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Pinball__Move01_V2_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -792,6 +792,14 @@
 						<File Id="980850578" Language="SFX">
 							<ShortName>SFX_Level_Sparks03.wav</ShortName>
 							<Path>SFX\SFX_Level_Sparks03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3072073673" Name="Play_Sparks_Loop" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Sparks\Play_Sparks_Loop">
+					<IncludedMemoryFiles>
+						<File Id="144673284" Language="SFX">
+							<ShortName>SFX_Level_Sparks_lp.wav</ShortName>
+							<Path>SFX\SFX_Level_Sparks_lp_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1002,6 +1010,8 @@
 				</Event>
 				<Event Id="891247879" Name="Stop_AMB_Playground_lp" ObjectPath="\Events\AMB EVENT_WU\PlayGround\Stop_AMB_Playground_lp"/>
 				<Event Id="704767527" Name="Stop_Amb_Stealth_lp" ObjectPath="\Events\AMB EVENT_WU\Stealth\Stop_Amb_Stealth_lp"/>
+				<Event Id="3087173238" Name="Stop_Bridge_Blocked" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Bridge\Stop_Bridge_Blocked"/>
+				<Event Id="1079843610" Name="Stop_Bridge_Down" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Bridge\Stop_Bridge_Down"/>
 				<Event Id="1893935693" Name="Stop_DoggyToy_Locomotion_lp" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\DoggyToy\Stop_DoggyToy_Locomotion_lp"/>
 				<Event Id="3808183461" Name="Stop_Music_01" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Stop_Music_01"/>
 				<Event Id="888709001" Name="Stop_Rocket_Forward_lp" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Rocket\Stop_Rocket_Forward_lp"/>

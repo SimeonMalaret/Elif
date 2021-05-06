@@ -178,6 +178,10 @@
 									</ChildrenList>
 								</Event>
 								<Event Name="Stop_Rocket_Overheat_lp" ID="{CEBD3D4A-1EA2-4BA5-96C7-59897D6A344C}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="20"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
 									<ChildrenList>
 										<Action Name="" ID="{6209725E-8A5B-4F57-A8EC-FB9893D3B4CE}" ShortID="492492150">
 											<PropertyList>
@@ -442,6 +446,10 @@
 									</ChildrenList>
 								</Event>
 								<Event Name="Stop_Bridge_Blocked" ID="{FC0CF254-6677-41DD-BA2D-D56CE6C28193}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="21"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
 									<ChildrenList>
 										<Action Name="" ID="{6868DAD1-939B-4A58-952D-088312E97AEC}" ShortID="165796107">
 											<PropertyList>
@@ -457,6 +465,10 @@
 									</ChildrenList>
 								</Event>
 								<Event Name="Stop_Bridge_Down" ID="{5857383A-30BD-4965-8C1E-2B17714CA194}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="21"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
 									<ChildrenList>
 										<Action Name="" ID="{D066FE2D-1B98-491D-A64D-8EFB05E8B802}" ShortID="450713273">
 											<PropertyList>
@@ -502,6 +514,10 @@
 									</ChildrenList>
 								</Event>
 								<Event Name="Play_Sparks_Loop" ID="{D548A31B-1507-4818-AFD6-08E799DF7981}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="21"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
 									<ChildrenList>
 										<Action Name="" ID="{F1C7B603-2350-4FE4-B6AC-6730C15AB129}" ShortID="230647045">
 											<ReferenceList>
