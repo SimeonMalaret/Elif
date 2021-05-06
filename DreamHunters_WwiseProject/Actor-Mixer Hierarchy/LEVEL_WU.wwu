@@ -2485,6 +2485,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_LEVEL_Pinball_Bounce_Block01" ID="{94C4A49E-E97C-4B74-897A-C0F276513BCF}" ShortID="452644852">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -2506,6 +2513,28 @@
 														<ActiveSource Name="SFX_LEVEL_Pinball_Bounce_Block01" ID="{C0FD9C69-3220-45C0-B47C-5A79BCA817B7}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="SFX_LEVEL_Pinball_Bounce_BlockV2" ID="{BD4786ED-FF02-416F-A682-DD61F24FB63A}" ShortID="500823662">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LEVEL_Pinball_Bounce_BlockV2" ID="{83B019FC-E873-4D7A-BC4C-7ADBE139A7DC}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_LEVEL_Pinball_Bounce_BlockV2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="695731275"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LEVEL_Pinball_Bounce_BlockV2" ID="{83B019FC-E873-4D7A-BC4C-7ADBE139A7DC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Pinball_Move" ID="{12149FC7-E395-41A8-9FC7-5A00A7F24AA2}" ShortID="111135920">
@@ -2519,6 +2548,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="SFX_LEVEL_Pinball__Move01" ID="{75005CD6-3BCB-4AB5-AB91-B7AA5689841B}" ShortID="625853906">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -2538,6 +2574,28 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="SFX_LEVEL_Pinball__Move01" ID="{B3DA2919-1170-4343-B23E-D3EBEE7532E8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_LEVEL_Pinball__Move01_V2" ID="{F11D90D6-5180-4199-B82C-DB62FCD864F4}" ShortID="55218912">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LEVEL_Pinball__Move01_V2" ID="{B47FFDBD-9365-475F-8EA5-50E6A8EA71B2}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_LEVEL_Pinball__Move01_V2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="557582523"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LEVEL_Pinball__Move01_V2" ID="{B47FFDBD-9365-475F-8EA5-50E6A8EA71B2}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -3261,6 +3319,28 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<Sound Name="SFX_Level_Sparks_lp" ID="{BF2437C3-F624-46B3-B8F8-2FA794E5B16E}" ShortID="479896505">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Level_Sparks_lp" ID="{2BB3D856-1EC8-4343-9271-4B55FC7EDFA6}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Level_Sparks_lp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="144673284"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Level_Sparks_lp" ID="{2BB3D856-1EC8-4343-9271-4B55FC7EDFA6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
