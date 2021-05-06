@@ -808,6 +808,110 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Bullies Death_Rnd" ID="{F53FF3DD-798B-4E01-AE66-E03341049358}" ShortID="992883086">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_LEVEL_Bullies_Death_01" ID="{DDF10759-D188-4D1B-89D0-8E12B62CB7EE}" ShortID="145726393">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LEVEL_Bullies_Death_01" ID="{26C0F72B-6B1E-42B5-A954-56DBA0FF113A}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_LEVEL_Bullies_Death_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="5403928"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LEVEL_Bullies_Death_01" ID="{26C0F72B-6B1E-42B5-A954-56DBA0FF113A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_LEVEL_Bullies_Death_02" ID="{D4B7DFC7-B9A3-4BD9-99D0-F64306214A17}" ShortID="568065396">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LEVEL_Bullies_Death_02" ID="{D20DB1A1-672C-40F5-A487-71CA07BE2F60}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_LEVEL_Bullies_Death_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="110634778"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LEVEL_Bullies_Death_02" ID="{D20DB1A1-672C-40F5-A487-71CA07BE2F60}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Bullies Taunt_Rnd" ID="{CB113B45-A0D3-4D12-93CE-89FAFD15D686}" ShortID="994079438">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_LEVEL_Bullies_Taunt_01" ID="{AD7FA019-BAED-46A7-9B68-B8907960662A}" ShortID="779882823">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LEVEL_Bullies_Taunt_01" ID="{FA08BD52-150E-4BE5-8F68-55B334C4C26B}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_LEVEL_Bullies_Taunt_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="257596844"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LEVEL_Bullies_Taunt_01" ID="{FA08BD52-150E-4BE5-8F68-55B334C4C26B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="DoggyToy" ID="{05A33174-A1DD-4540-9A43-317F4B0CBB8C}" ShortID="246276022">
@@ -1418,7 +1522,6 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Balloon Roll_Rnd" ID="{F7FEACA6-E795-438D-BDD7-D85E8CB19C24}" ShortID="717769646">
 											<PropertyList>
-												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
@@ -1503,7 +1606,6 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Balloon Pop_Rnd" ID="{5817ADE3-640D-4588-9D05-F3AB91830AF7}" ShortID="429314435">
 											<PropertyList>
-												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
@@ -2485,6 +2587,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_LEVEL_Pinball_Bounce_Block01" ID="{94C4A49E-E97C-4B74-897A-C0F276513BCF}" ShortID="452644852">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -2506,6 +2615,28 @@
 														<ActiveSource Name="SFX_LEVEL_Pinball_Bounce_Block01" ID="{C0FD9C69-3220-45C0-B47C-5A79BCA817B7}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="SFX_LEVEL_Pinball_Bounce_BlockV2" ID="{BD4786ED-FF02-416F-A682-DD61F24FB63A}" ShortID="500823662">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LEVEL_Pinball_Bounce_BlockV2" ID="{83B019FC-E873-4D7A-BC4C-7ADBE139A7DC}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_LEVEL_Pinball_Bounce_BlockV2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="695731275"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LEVEL_Pinball_Bounce_BlockV2" ID="{83B019FC-E873-4D7A-BC4C-7ADBE139A7DC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Pinball_Move" ID="{12149FC7-E395-41A8-9FC7-5A00A7F24AA2}" ShortID="111135920">
@@ -2519,6 +2650,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="SFX_LEVEL_Pinball__Move01" ID="{75005CD6-3BCB-4AB5-AB91-B7AA5689841B}" ShortID="625853906">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -2538,6 +2676,28 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="SFX_LEVEL_Pinball__Move01" ID="{B3DA2919-1170-4343-B23E-D3EBEE7532E8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_LEVEL_Pinball__Move01_V2" ID="{F11D90D6-5180-4199-B82C-DB62FCD864F4}" ShortID="55218912">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LEVEL_Pinball__Move01_V2" ID="{B47FFDBD-9365-475F-8EA5-50E6A8EA71B2}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_LEVEL_Pinball__Move01_V2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="557582523"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LEVEL_Pinball__Move01_V2" ID="{B47FFDBD-9365-475F-8EA5-50E6A8EA71B2}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -2714,13 +2874,6 @@
 								<Folder Name="Button" ID="{9FD8FEB7-8263-4D09-9B54-ED50B5D5056B}" ShortID="31007895">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Butoon_Rnd (Placeholder)" ID="{D7384583-F372-472D-AE11-EFB647A6F692}" ShortID="105449298">
-											<PropertyList>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList>
-														<Value>False</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -2731,13 +2884,6 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Button_01" ID="{D912A51E-724B-4C29-9A36-70DD178E0B5A}" ShortID="678058111">
-													<PropertyList>
-														<Property Name="Inclusion" Type="bool">
-															<ValueList>
-																<Value>False</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -3261,6 +3407,28 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<Sound Name="SFX_Level_Sparks_lp" ID="{BF2437C3-F624-46B3-B8F8-2FA794E5B16E}" ShortID="479896505">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Level_Sparks_lp" ID="{2BB3D856-1EC8-4343-9271-4B55FC7EDFA6}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Level_Sparks_lp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="144673284"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Level_Sparks_lp" ID="{2BB3D856-1EC8-4343-9271-4B55FC7EDFA6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
