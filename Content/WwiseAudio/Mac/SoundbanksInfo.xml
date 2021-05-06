@@ -28,7 +28,7 @@
 				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="931582634">
+		<SoundBank Id="2228651116" Language="SFX" Hash="2957157068">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
