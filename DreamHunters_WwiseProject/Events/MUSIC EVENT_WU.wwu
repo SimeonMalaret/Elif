@@ -10,7 +10,7 @@
 								<Action Name="" ID="{F5E181BA-B30C-4201-910A-EE9993382436}" ShortID="312704472">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Stealth" ID="{D70FCDA5-EFE9-478C-A20B-492CAA0E246E}" WorkUnitID="{F0E70CF2-F4D6-4D89-A4A9-DAD98C803122}"/>
+											<ObjectRef Name="Stealth Music" ID="{4C3B12B6-7DC5-444A-A7E7-158317414613}" WorkUnitID="{F0E70CF2-F4D6-4D89-A4A9-DAD98C803122}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

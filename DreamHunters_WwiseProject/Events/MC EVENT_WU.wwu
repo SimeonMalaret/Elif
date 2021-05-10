@@ -83,20 +83,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Set_MC_Sneak" ID="{6393B650-A9B8-4BDA-8053-147F020A1FB7}">
-							<ChildrenList>
-								<Action Name="" ID="{15656AFB-6A6E-4747-A8CD-EA7E3EBE0C71}" ShortID="561709766">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="23"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Sneak" ID="{8BD77874-A1A9-4CB6-96D8-746D09D5C98E}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_MC_Land" ID="{4E0801EE-A173-4CBA-9C5C-FD7CEA93953C}">
 							<ChildrenList>
 								<Action Name="" ID="{6B9D2CCF-8C59-484E-BB02-9277E1E2FFB2}" ShortID="1037925768">
@@ -143,6 +129,90 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Drop_Item_Rnd" ID="{D174C3B3-25EF-499B-8318-6C241C9E7743}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_GroundType_Wood" ID="{77E43885-D4EB-4972-A8F9-76FF86021FD6}">
+							<ChildrenList>
+								<Action Name="" ID="{8DE726C0-3FEB-4405-AE2B-587106103EF3}" ShortID="182987112">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wood" ID="{594854C9-E4C6-49C7-B80D-B060D12C7BE8}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_GroundType_Concrete" ID="{40AB3CFB-D42F-4578-B1D8-2228CA2A185C}">
+							<ChildrenList>
+								<Action Name="" ID="{AB9FC4B3-5E9C-452F-AFC0-43C4A86552C7}" ShortID="988230558">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Concrete" ID="{AF36820A-3EAA-4A55-8710-431A0FDDC733}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_GroundType_Sand" ID="{6A4AF8F5-AEB6-4EA1-9F24-9DCC5F92E40B}">
+							<ChildrenList>
+								<Action Name="" ID="{37883C58-03E7-46DB-B368-4A098654A509}" ShortID="1034330598">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sand" ID="{F266EB19-16F1-479D-A42C-780ABDA1835D}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_GroundType_Leather" ID="{F44F5C10-D12C-47A1-8B50-8F5869297F31}">
+							<ChildrenList>
+								<Action Name="" ID="{885A31D8-DC06-451F-BE7C-52BCBDF5D819}" ShortID="926376066">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Leather" ID="{7DD3B37E-574F-4009-8438-5C6ABC3CAF0D}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_GroundType_Carpet" ID="{0593353C-4608-48DD-A26C-31140D3C1949}">
+							<ChildrenList>
+								<Action Name="" ID="{6C4B858E-2E73-477D-9F7C-A33F70824D0B}" ShortID="274611145">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Carpet" ID="{BCD53425-3E2F-4F10-AD81-8DEE29C350FE}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_GroundType_Metal" ID="{29514CA6-8CD1-4293-A874-8E9005F33421}">
+							<ChildrenList>
+								<Action Name="" ID="{6F0DBD6F-E435-4B73-B442-24DD4E39E892}" ShortID="563813610">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Metal" ID="{D1E7B854-996E-4014-9CF1-803CCD29AB83}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

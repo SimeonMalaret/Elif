@@ -33,6 +33,28 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_Bullies_Taunt" ID="{1AB23437-D9B0-401D-9933-B77DC091CC45}">
+									<ChildrenList>
+										<Action Name="" ID="{9E029C3E-3B53-4BD0-9813-961D6EF20989}" ShortID="450495905">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Bullies Taunt_Rnd" ID="{CB113B45-A0D3-4D12-93CE-89FAFD15D686}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Bullies_Death" ID="{B115615F-9219-498B-8F84-C8E6F19943F1}">
+									<ChildrenList>
+										<Action Name="" ID="{4D85CDB0-26FD-4689-955D-EB04BF795D38}" ShortID="408936967">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Bullies Death_Rnd" ID="{F53FF3DD-798B-4E01-AE66-E03341049358}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Pages" ID="{E07C9217-1F87-4B41-BE84-61D98C475B73}" ShortID="722757367">
@@ -178,6 +200,10 @@
 									</ChildrenList>
 								</Event>
 								<Event Name="Stop_Rocket_Overheat_lp" ID="{CEBD3D4A-1EA2-4BA5-96C7-59897D6A344C}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="20"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
 									<ChildrenList>
 										<Action Name="" ID="{6209725E-8A5B-4F57-A8EC-FB9893D3B4CE}" ShortID="492492150">
 											<PropertyList>
@@ -287,6 +313,30 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Stop_trousse_Squeak" ID="{C0D04B3C-385D-42D2-A121-052D5E46F7A7}">
+											<ChildrenList>
+												<Action Name="" ID="{97683A74-55AA-410A-B1EB-06FEE66B98CC}" ShortID="738096126">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Squeak Trousse Heavy_Rnd" ID="{88C922BB-A0E8-446B-8CC5-6793BA3004EF}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{A8BFF1AC-55FC-40E5-971A-ECF7DDB774B0}" ShortID="561341831">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Squeak Trousse Small_Rnd" ID="{6EE9B3D8-120B-4F99-919B-FB2D54A60E90}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Xylophone" ID="{980BAE75-9B66-4F9E-89B0-A0559201F209}" ShortID="239401284">
@@ -305,6 +355,30 @@
 										<Event Name="Play_Xylophone_SqueakSmall" ID="{26666BB5-0191-4D6A-8263-2DD83CEF7490}">
 											<ChildrenList>
 												<Action Name="" ID="{0CC2AF4F-A3FD-4D52-8C7F-17C444E1F885}" ShortID="684659013">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Squeak Xylophone Small_Rnd" ID="{1B2768F8-9A43-4C18-9188-C604E23F2AEB}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Stop_Xylophone_Squeak" ID="{4F4E025A-ED45-4BF8-A463-7EB3DBD38371}">
+											<ChildrenList>
+												<Action Name="" ID="{750F0290-1D70-40AD-B592-20D79AF2C73F}" ShortID="992777055">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Squeak Xylophone Heavy_Rnd" ID="{58A72313-99A1-4012-B041-0E8D634C62A6}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{445CE422-BB06-42A3-A70B-5BD68009EF20}" ShortID="307200953">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Squeak Xylophone Small_Rnd" ID="{1B2768F8-9A43-4C18-9188-C604E23F2AEB}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
@@ -441,6 +515,44 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Stop_Bridge_Blocked" ID="{FC0CF254-6677-41DD-BA2D-D56CE6C28193}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="21"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{6868DAD1-939B-4A58-952D-088312E97AEC}" ShortID="165796107">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Bridge Blocked_Rnd" ID="{246E575E-1561-471F-BD14-B873C761A8D0}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Bridge_Down" ID="{5857383A-30BD-4965-8C1E-2B17714CA194}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="21"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{D066FE2D-1B98-491D-A64D-8EFB05E8B802}" ShortID="450713273">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Bridge Down_Rnd" ID="{34685025-A5E7-45AF-8231-1A47A943748D}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Canon" ID="{5D02C4FC-B159-4F4D-8F10-06D7ABE3D42A}" ShortID="532130621">
@@ -466,6 +578,37 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Sparks_Rnd" ID="{FA639B34-2DFD-48F5-99FA-5491C33D185B}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Sparks_Loop" ID="{D548A31B-1507-4818-AFD6-08E799DF7981}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="21"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{F1C7B603-2350-4FE4-B6AC-6730C15AB129}" ShortID="230647045">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_Sparks_lp" ID="{BF2437C3-F624-46B3-B8F8-2FA794E5B16E}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Sparks_Loop" ID="{ABC4503E-B358-45C8-9868-C50D5CB20789}">
+									<ChildrenList>
+										<Action Name="" ID="{06583FBE-64D3-43A7-8925-D21D9DABC3BC}" ShortID="537604814">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_Sparks_lp" ID="{BF2437C3-F624-46B3-B8F8-2FA794E5B16E}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
