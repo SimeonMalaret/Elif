@@ -1032,6 +1032,32 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<Sound Name="SFX_Level_Doggy_Toy_Sad01" ID="{AACC7ED0-2A03-4D3C-8D68-BE5D9EA1A1ED}" ShortID="234232357">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="19"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Level_Doggy_Toy_Sad01" ID="{77319A9B-8D59-4420-BEFE-D6DD6F7781D5}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Level_Doggy_Toy_Sad01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="900568956"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Level_Doggy_Toy_Sad01" ID="{77319A9B-8D59-4420-BEFE-D6DD6F7781D5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Rocket" ID="{66F9C7CF-BD60-482C-A691-81BCC8A1DFAA}" ShortID="874424680">
@@ -3431,6 +3457,172 @@
 										</Sound>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Clock" ID="{D52B9075-EF25-4688-841F-2E81473FD145}" ShortID="351864264">
+									<ChildrenList>
+										<Sound Name="SFX_Level_Props_Clock_Ring_01" ID="{0CA51175-851D-4821-8D9D-1136D3F4D312}" ShortID="715789709">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Level_Props_Clock_Ring_01" ID="{EA4061AE-14A3-4C79-8829-10CA51A014D7}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Level_Props_Clock_Ring_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="352898866"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Level_Props_Clock_Ring_01" ID="{EA4061AE-14A3-4C79-8829-10CA51A014D7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="DrawBridge" ID="{7AE5AF34-3F50-4EE4-983E-DC3201831270}" ShortID="377328978">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Rnd_DrawBridge_NoRing" ID="{9D99441E-2246-4124-B83A-5AC8F6509ACB}" ShortID="925147378">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Level_drawbridge_NoRing01" ID="{EEB2A1E5-5C86-4E33-94EA-553727E99A89}" ShortID="887295946">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_drawbridge_NoRing01" ID="{43E3CEFB-6F8F-4BCB-B1C1-DE334CE19DF8}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_drawbridge_NoRing01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="315778254"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_drawbridge_NoRing01" ID="{43E3CEFB-6F8F-4BCB-B1C1-DE334CE19DF8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_drawbridge_NoRing02" ID="{679AAE29-15AF-4303-8DE1-F7EFF4F22A1D}" ShortID="1053077905">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_drawbridge_NoRing02" ID="{D2F88BF8-84A0-4C78-A415-8009F0E147C3}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_drawbridge_NoRing02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="568435475"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_drawbridge_NoRing02" ID="{D2F88BF8-84A0-4C78-A415-8009F0E147C3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Rnd_DrawBridge_WithRing" ID="{D94753A5-BC0D-42C2-8E7E-72C49A68D632}" ShortID="902772306">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Level_drawbridge_WithRing01" ID="{0D34C050-9EFA-4B65-907F-C24309FA17D5}" ShortID="582424404">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_drawbridge_WithRing01" ID="{2037FF60-944F-4C40-8F16-7AAC8468ACBE}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_drawbridge_WithRing01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="7890990"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_drawbridge_WithRing01" ID="{2037FF60-944F-4C40-8F16-7AAC8468ACBE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_drawbridge_WithRing02" ID="{100D84AE-6F96-443D-B27A-A9F99DFDBF75}" ShortID="887700988">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_drawbridge_WithRing02" ID="{DB098815-7C71-44C5-97E7-406131EFC1C6}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_drawbridge_WithRing02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="508660768"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_drawbridge_WithRing02" ID="{DB098815-7C71-44C5-97E7-406131EFC1C6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Wall_AM" ID="{72613A2F-7B43-467B-8C8F-E80692CBCBB6}" ShortID="284790304">
@@ -3523,6 +3715,32 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
+						<Sound Name="SFX_Level_JingleWarning0" ID="{30CAFA07-A3F0-4249-9A82-CFC35A9A615F}" ShortID="190975608">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Level_JingleWarning0" ID="{CB6229AE-E816-4E47-A59C-E4D5E2336BBA}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Level_JingleWarning0.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="842186003"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Level_JingleWarning0" ID="{CB6229AE-E816-4E47-A59C-E4D5E2336BBA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

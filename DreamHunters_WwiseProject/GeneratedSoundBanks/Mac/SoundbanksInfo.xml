@@ -28,7 +28,7 @@
 				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="1230608646">
+		<SoundBank Id="2228651116" Language="SFX" Hash="2690069283">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -130,6 +130,18 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2192618333" Name="Play_Bullies_Death" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Bullies\Play_Bullies_Death">
+					<IncludedMemoryFiles>
+						<File Id="5403928" Language="SFX">
+							<ShortName>SFX_LEVEL_Bullies_Death_01.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Bullies_Death_01_10C4C929.wem</Path>
+						</File>
+						<File Id="110634778" Language="SFX">
+							<ShortName>SFX_LEVEL_Bullies_Death_02.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Bullies_Death_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3108166468" Name="Play_Bullies_Laugh" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Bullies\Play_Bullies_Laugh">
 					<IncludedMemoryFiles>
 						<File Id="205695239" Language="SFX">
@@ -146,7 +158,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2099555730" Name="Play_Button" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Button\Play_Button"/>
+				<Event Id="3813799547" Name="Play_Bullies_Taunt" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Bullies\Play_Bullies_Taunt">
+					<IncludedMemoryFiles>
+						<File Id="257596844" Language="SFX">
+							<ShortName>SFX_LEVEL_Bullies_Taunt_01.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_Bullies_Taunt_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2099555730" Name="Play_Button" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Button\Play_Button">
+					<IncludedMemoryFiles>
+						<File Id="468137102" Language="SFX">
+							<ShortName>Button_01.wav</ShortName>
+							<Path>SFX\Button_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1724924593" Name="Play_Button_Pressed" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Button\Play_Button_Pressed">
 					<IncludedMemoryFiles>
 						<File Id="15581242" Language="SFX">
@@ -188,6 +215,14 @@
 						<File Id="816149812" Language="SFX">
 							<ShortName>SFX_LEVEL_Level_Canon_Shot_02.wav</ShortName>
 							<Path>SFX\SFX_LEVEL_Level_Canon_Shot_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2476738550" Name="Play_ClockRing" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Clock\Play_ClockRing">
+					<IncludedMemoryFiles>
+						<File Id="352898866" Language="SFX">
+							<ShortName>SFX_Level_Props_Clock_Ring_01.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Clock_Ring_01_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -271,6 +306,38 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="4200010309" Name="Play_DoggyToy_Sad" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Sad">
+					<IncludedMemoryFiles>
+						<File Id="900568956" Language="SFX">
+							<ShortName>SFX_Level_Doggy_Toy_Sad01.wav</ShortName>
+							<Path>SFX\SFX_Level_Doggy_Toy_Sad01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1081286129" Name="Play_DrawBridge_NoRing" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\DrawBridge\Play_DrawBridge_NoRing">
+					<IncludedMemoryFiles>
+						<File Id="315778254" Language="SFX">
+							<ShortName>SFX_Level_drawbridge_NoRing01.wav</ShortName>
+							<Path>SFX\SFX_Level_drawbridge_NoRing01_10C4C929.wem</Path>
+						</File>
+						<File Id="568435475" Language="SFX">
+							<ShortName>SFX_Level_drawbridge_NoRing02.wav</ShortName>
+							<Path>SFX\SFX_Level_drawbridge_NoRing02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1536829888" Name="Play_DrawBridge_WithRing" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\DrawBridge\Play_DrawBridge_WithRing">
+					<IncludedMemoryFiles>
+						<File Id="7890990" Language="SFX">
+							<ShortName>SFX_Level_drawbridge_WithRing01.wav</ShortName>
+							<Path>SFX\SFX_Level_drawbridge_WithRing01_10C4C929.wem</Path>
+						</File>
+						<File Id="508660768" Language="SFX">
+							<ShortName>SFX_Level_drawbridge_WithRing02.wav</ShortName>
+							<Path>SFX\SFX_Level_drawbridge_WithRing02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2482399161" Name="Play_FlowerBell_Ring" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\FlowerBell\Play_FlowerBell_Ring">
 					<IncludedMemoryFiles>
 						<File Id="12611600" Language="SFX">
@@ -308,6 +375,14 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2933255468" Name="Play_Grass_Movement" ObjectPath="\Events\AMB EVENT_WU\Grass\Play_Grass_Movement"/>
+				<Event Id="2212806876" Name="Play_Jingle_Warning" ObjectPath="\Events\LEVEL EVENT_WU\Play_Jingle_Warning">
+					<IncludedMemoryFiles>
+						<File Id="842186003" Language="SFX">
+							<ShortName>SFX_Level_JingleWarning0.wav</ShortName>
+							<Path>SFX\SFX_Level_JingleWarning0_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2001832115" Name="Play_Jumper" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Jumper\Play_Jumper">
 					<IncludedMemoryFiles>
 						<File Id="116166087" Language="SFX">
@@ -927,7 +1002,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="315354863" Name="Play_Wind_lp" ObjectPath="\Events\AMB EVENT_WU\Wind\Play_Wind_lp">
+				<Event Id="1020223172" Name="Play_Wind" ObjectPath="\Events\AMB EVENT_WU\Wind\Play_Wind">
 					<IncludedMemoryFiles>
 						<File Id="163778240" Language="SFX">
 							<ShortName>SFX_AMB_WIND_WindHard.wav</ShortName>
@@ -988,19 +1063,44 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2658957239" Name="Set_GroundType_Carpet" ObjectPath="\Events\MC EVENT_WU\MC\Set_GroundType_Carpet">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2412606308" Name="Carpet" ObjectPath="\Switches\Default Work Unit\GroundType\Carpet"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="1831550571" Name="Set_GroundType_Concrete" ObjectPath="\Events\MC EVENT_WU\MC\Set_GroundType_Concrete">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\GroundType\Concrete"/>
+					</ActionSetSwitch>
+				</Event>
 				<Event Id="2228175120" Name="Set_GroundType_Grass" ObjectPath="\Events\MC EVENT_WU\MC\Set_GroundType_Grass">
 					<ActionSetSwitch>
 						<ActionSetSwitchEntry Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\GroundType\Grass"/>
 					</ActionSetSwitch>
 				</Event>
+				<Event Id="1358180789" Name="Set_GroundType_Leather" ObjectPath="\Events\MC EVENT_WU\MC\Set_GroundType_Leather">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="3624926856" Name="Leather" ObjectPath="\Switches\Default Work Unit\GroundType\Leather"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="3677344451" Name="Set_GroundType_Metal" ObjectPath="\Events\MC EVENT_WU\MC\Set_GroundType_Metal">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\GroundType\Metal"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="3391764828" Name="Set_GroundType_Sand" ObjectPath="\Events\MC EVENT_WU\MC\Set_GroundType_Sand">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\GroundType\Sand"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="2145335481" Name="Set_GroundType_Wood" ObjectPath="\Events\MC EVENT_WU\MC\Set_GroundType_Wood">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\GroundType\Wood"/>
+					</ActionSetSwitch>
+				</Event>
 				<Event Id="3995508460" Name="Set_MC_Run" ObjectPath="\Events\MC EVENT_WU\MC\Set_MC_Run">
 					<ActionSetSwitch>
 						<ActionSetSwitchEntry Id="712161704" Name="Run" ObjectPath="\Switches\Default Work Unit\MC_Locomotion\Run"/>
-					</ActionSetSwitch>
-				</Event>
-				<Event Id="696406831" Name="Set_MC_Sneak" ObjectPath="\Events\MC EVENT_WU\MC\Set_MC_Sneak">
-					<ActionSetSwitch>
-						<ActionSetSwitchEntry Id="2884887403" Name="Sneak" ObjectPath="\Switches\Default Work Unit\MC_Locomotion\Sneak"/>
 					</ActionSetSwitch>
 				</Event>
 				<Event Id="481600506" Name="Set_MC_Walk" ObjectPath="\Events\MC EVENT_WU\MC\Set_MC_Walk">
@@ -1016,7 +1116,10 @@
 				<Event Id="3808183461" Name="Stop_Music_01" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Stop_Music_01"/>
 				<Event Id="888709001" Name="Stop_Rocket_Forward_lp" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Rocket\Stop_Rocket_Forward_lp"/>
 				<Event Id="2069621894" Name="Stop_Rocket_Overheat_lp" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Rocket\Stop_Rocket_Overheat_lp"/>
-				<Event Id="2772842757" Name="Stop_Wind_lp" ObjectPath="\Events\AMB EVENT_WU\Wind\Stop_Wind_lp"/>
+				<Event Id="3249831247" Name="Stop_Sparks_Loop" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Sparks\Stop_Sparks_Loop"/>
+				<Event Id="2264636874" Name="Stop_trousse_Squeak" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Squeaks\Trousse\Stop_trousse_Squeak"/>
+				<Event Id="3173136834" Name="Stop_Wind" ObjectPath="\Events\AMB EVENT_WU\Wind\Stop_Wind"/>
+				<Event Id="1879343191" Name="Stop_Xylophone_Squeak" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Squeaks\Xylophone\Stop_Xylophone_Squeak"/>
 			</IncludedEvents>
 			<IncludedAuxBusses>
 				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
@@ -1028,6 +1131,12 @@
 				<SwitchGroup Id="712161704" Name="Run" ObjectPath="\Switches\Default Work Unit\MC_Locomotion\Run">
 					<Switches/>
 				</SwitchGroup>
+				<SwitchGroup Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\GroundType\Sand">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\GroundType\Concrete">
+					<Switches/>
+				</SwitchGroup>
 				<SwitchGroup Id="1534344659" Name="MC_Locomotion" ObjectPath="\Switches\Default Work Unit\MC_Locomotion">
 					<Switches>
 						<Switch Id="2108779966" Name="Walk" ObjectPath="\Switches\Default Work Unit\MC_Locomotion\Walk"/>
@@ -1035,7 +1144,16 @@
 						<Switch Id="2884887403" Name="Sneak" ObjectPath="\Switches\Default Work Unit\MC_Locomotion\Sneak"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\GroundType\Wood">
+					<Switches/>
+				</SwitchGroup>
 				<SwitchGroup Id="2108779966" Name="Walk" ObjectPath="\Switches\Default Work Unit\MC_Locomotion\Walk">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="2412606308" Name="Carpet" ObjectPath="\Switches\Default Work Unit\GroundType\Carpet">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\GroundType\Metal">
 					<Switches/>
 				</SwitchGroup>
 				<SwitchGroup Id="2835351336" Name="GroundType" ObjectPath="\Switches\Default Work Unit\GroundType">
@@ -1049,7 +1167,7 @@
 						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\GroundType\Metal"/>
 					</Switches>
 				</SwitchGroup>
-				<SwitchGroup Id="2884887403" Name="Sneak" ObjectPath="\Switches\Default Work Unit\MC_Locomotion\Sneak">
+				<SwitchGroup Id="3624926856" Name="Leather" ObjectPath="\Switches\Default Work Unit\GroundType\Leather">
 					<Switches/>
 				</SwitchGroup>
 				<SwitchGroup Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\GroundType\Grass">
