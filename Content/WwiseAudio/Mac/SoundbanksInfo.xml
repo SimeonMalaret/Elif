@@ -28,7 +28,7 @@
 				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="3855279385">
+		<SoundBank Id="2228651116" Language="SFX" Hash="3285598814">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -218,11 +218,19 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2476738550" Name="Play_ClockRing" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Clock\Play_ClockRing">
+				<Event Id="416790072" Name="Play_ClockRing_Old" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Clock\Play_ClockRing_Old">
 					<IncludedMemoryFiles>
-						<File Id="352898866" Language="SFX">
-							<ShortName>SFX_Level_Props_Clock_Ring_01.wav</ShortName>
-							<Path>SFX\SFX_Level_Props_Clock_Ring_01_10C4C929.wem</Path>
+						<File Id="290351472" Language="SFX">
+							<ShortName>SFX_Level_Clock_Ring_V2.wav</ShortName>
+							<Path>SFX\SFX_Level_Clock_Ring_V2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="844969031" Name="Play_ClockRing_Young" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Clock\Play_ClockRing_Young">
+					<IncludedMemoryFiles>
+						<File Id="828762656" Language="SFX">
+							<ShortName>SFX_Level_Clock_Ring_02_V2.wav</ShortName>
+							<Path>SFX\SFX_Level_Clock_Ring_02_V2_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -308,9 +316,17 @@
 				</Event>
 				<Event Id="4200010309" Name="Play_DoggyToy_Sad" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Sad">
 					<IncludedMemoryFiles>
-						<File Id="900568956" Language="SFX">
-							<ShortName>SFX_Level_Doggy_Toy_Sad01.wav</ShortName>
-							<Path>SFX\SFX_Level_Doggy_Toy_Sad01_10C4C929.wem</Path>
+						<File Id="574133516" Language="SFX">
+							<ShortName>SFX_Level_DogSad_01_V2.wav</ShortName>
+							<Path>SFX\SFX_Level_DogSad_01_V2_10C4C929.wem</Path>
+						</File>
+						<File Id="796008460" Language="SFX">
+							<ShortName>SFX_Level_DogSad_02_V2.wav</ShortName>
+							<Path>SFX\SFX_Level_DogSad_02_V2_10C4C929.wem</Path>
+						</File>
+						<File Id="1038945855" Language="SFX">
+							<ShortName>SFX_Level_DogSad_03_V2.wav</ShortName>
+							<Path>SFX\SFX_Level_DogSad_03_V2_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -377,9 +393,9 @@
 				<Event Id="2933255468" Name="Play_Grass_Movement" ObjectPath="\Events\AMB EVENT_WU\Grass\Play_Grass_Movement"/>
 				<Event Id="2212806876" Name="Play_Jingle_Warning" ObjectPath="\Events\LEVEL EVENT_WU\Play_Jingle_Warning">
 					<IncludedMemoryFiles>
-						<File Id="842186003" Language="SFX">
-							<ShortName>SFX_Level_JingleWarning0.wav</ShortName>
-							<Path>SFX\SFX_Level_JingleWarning0_10C4C929.wem</Path>
+						<File Id="536494307" Language="SFX">
+							<ShortName>SFX_LEVEL_JingleWarning.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_JingleWarning_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
