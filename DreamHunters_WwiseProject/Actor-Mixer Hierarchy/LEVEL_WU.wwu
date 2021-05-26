@@ -1032,10 +1032,9 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
-										<Sound Name="SFX_Level_Doggy_Toy_Sad01" ID="{AACC7ED0-2A03-4D3C-8D68-BE5D9EA1A1ED}" ShortID="234232357">
+										<RandomSequenceContainer Name="DoggyToy Sad_Rnd" ID="{4F419440-7E77-4EF5-8A46-D047FEDDBEC9}" ShortID="970635588">
 											<PropertyList>
-												<Property Name="Color" Type="int16" Value="19"/>
-												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1046,18 +1045,74 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Level_Doggy_Toy_Sad01" ID="{77319A9B-8D59-4420-BEFE-D6DD6F7781D5}">
-													<Language>SFX</Language>
-													<AudioFile>SFX_Level_Doggy_Toy_Sad01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="900568956"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="SFX_Level_DogSad_01_V2" ID="{C10C8DF1-6DB2-426C-A072-37FE7A105DCE}" ShortID="451045944">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_DogSad_01_V2" ID="{6386209B-656E-4C2A-819A-56D5D19E7A62}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_DogSad_01_V2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="574133516"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_DogSad_01_V2" ID="{6386209B-656E-4C2A-819A-56D5D19E7A62}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_DogSad_02_V2" ID="{71054BD8-45A5-4456-91AF-FBED2243A952}" ShortID="564074825">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_DogSad_02_V2" ID="{528B9335-8961-42CA-9103-E0EEE735DF0B}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_DogSad_02_V2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="796008460"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_DogSad_02_V2" ID="{528B9335-8961-42CA-9103-E0EEE735DF0B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_DogSad_03_V2" ID="{355AA1E6-683C-4504-B995-1E9025338EE8}" ShortID="616925999">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_DogSad_03_V2" ID="{A4659FEC-F1E8-4132-9E79-43ED26491AE8}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_DogSad_03_V2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1038945855"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_DogSad_03_V2" ID="{A4659FEC-F1E8-4132-9E79-43ED26491AE8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Level_Doggy_Toy_Sad01" ID="{77319A9B-8D59-4420-BEFE-D6DD6F7781D5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Rocket" ID="{66F9C7CF-BD60-482C-A691-81BCC8A1DFAA}" ShortID="874424680">
@@ -3459,7 +3514,7 @@
 								</Folder>
 								<Folder Name="Clock" ID="{D52B9075-EF25-4688-841F-2E81473FD145}" ShortID="351864264">
 									<ChildrenList>
-										<Sound Name="SFX_Level_Props_Clock_Ring_01" ID="{0CA51175-851D-4821-8D9D-1136D3F4D312}" ShortID="715789709">
+										<Sound Name="SFX_Level_Clock_Ring_02_V2" ID="{4C244673-9998-447B-A315-810DAFFF1ABB}" ShortID="887136788">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -3469,16 +3524,38 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Level_Props_Clock_Ring_01" ID="{EA4061AE-14A3-4C79-8829-10CA51A014D7}">
+												<AudioFileSource Name="SFX_Level_Clock_Ring_02_V2" ID="{7AF16631-D50A-44F0-B5BB-60F7E365351E}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_Level_Props_Clock_Ring_01.wav</AudioFile>
+													<AudioFile>SFX_Level_Clock_Ring_02_V2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="352898866"/>
+														<MediaID ID="828762656"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Level_Props_Clock_Ring_01" ID="{EA4061AE-14A3-4C79-8829-10CA51A014D7}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Level_Clock_Ring_02_V2" ID="{7AF16631-D50A-44F0-B5BB-60F7E365351E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Level_Clock_Ring_V2" ID="{7E95B764-7E5C-41F3-92BF-6039BFE45322}" ShortID="1062960086">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Level_Clock_Ring_V2" ID="{601E5412-CDCB-427E-8944-DFD357F28C0C}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Level_Clock_Ring_V2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="290351472"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Level_Clock_Ring_V2" ID="{601E5412-CDCB-427E-8944-DFD357F28C0C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -3715,32 +3792,32 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
-						<Sound Name="SFX_Level_JingleWarning0" ID="{30CAFA07-A3F0-4249-9A82-CFC35A9A615F}" ShortID="190975608">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="19"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-								</Reference>
-							</ReferenceList>
+						<Folder Name="Jingle Warning" ID="{78B0B346-B9CA-4594-AB53-56B1178BB7BB}" ShortID="666067982">
 							<ChildrenList>
-								<AudioFileSource Name="SFX_Level_JingleWarning0" ID="{CB6229AE-E816-4E47-A59C-E4D5E2336BBA}">
-									<Language>SFX</Language>
-									<AudioFile>SFX_Level_JingleWarning0.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="842186003"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="SFX_LEVEL_JingleWarning" ID="{6C71AD59-A428-42E4-9D3B-BAB1F6B577F8}" ShortID="517509279">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_LEVEL_JingleWarning" ID="{B21EE2B0-46CF-4946-9527-C358CED4919F}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_LEVEL_JingleWarning.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="536494307"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_LEVEL_JingleWarning" ID="{B21EE2B0-46CF-4946-9527-C358CED4919F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SFX_Level_JingleWarning0" ID="{CB6229AE-E816-4E47-A59C-E4D5E2336BBA}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</Folder>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

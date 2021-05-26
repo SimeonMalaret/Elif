@@ -290,7 +290,7 @@
 										<Action Name="" ID="{5C142AF7-CCA3-4CC9-8EC3-98F8967DB07F}" ShortID="719932050">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="SFX_Level_Doggy_Toy_Sad01" ID="{AACC7ED0-2A03-4D3C-8D68-BE5D9EA1A1ED}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+													<ObjectRef Name="DoggyToy Sad_Rnd" ID="{4F419440-7E77-4EF5-8A46-D047FEDDBEC9}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -633,12 +633,23 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<Event Name="Play_ClockRing" ID="{30A1436E-4074-4358-B3EB-D7D6E497F6BA}">
+								<Event Name="Play_ClockRing_Old" ID="{30A1436E-4074-4358-B3EB-D7D6E497F6BA}">
 									<ChildrenList>
 										<Action Name="" ID="{9287BAFE-F273-44DE-AE1A-07034CF20262}" ShortID="988495251">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="SFX_Level_Props_Clock_Ring_01" ID="{0CA51175-851D-4821-8D9D-1136D3F4D312}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+													<ObjectRef Name="SFX_Level_Clock_Ring_V2" ID="{7E95B764-7E5C-41F3-92BF-6039BFE45322}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_ClockRing_Young" ID="{6DAB4A56-55BB-413C-A38B-7BBCC9840AC8}">
+									<ChildrenList>
+										<Action Name="" ID="{39333C39-6E63-48E3-B769-353ACDE6ED42}" ShortID="688524201">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_Clock_Ring_02_V2" ID="{4C244673-9998-447B-A315-810DAFFF1ABB}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -758,7 +769,7 @@
 						<Action Name="" ID="{D7218378-2AD6-422C-B395-680C3E6FE8CD}" ShortID="297258002">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Level_JingleWarning0" ID="{30CAFA07-A3F0-4249-9A82-CFC35A9A615F}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+									<ObjectRef Name="SFX_LEVEL_JingleWarning" ID="{6C71AD59-A428-42E4-9D3B-BAB1F6B577F8}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
