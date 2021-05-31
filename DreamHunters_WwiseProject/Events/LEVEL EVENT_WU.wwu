@@ -201,7 +201,6 @@
 								</Event>
 								<Event Name="Stop_Rocket_Overheat_lp" ID="{CEBD3D4A-1EA2-4BA5-96C7-59897D6A344C}">
 									<PropertyList>
-										<Property Name="Color" Type="int16" Value="20"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 									<ChildrenList>
@@ -550,7 +549,6 @@
 								</Event>
 								<Event Name="Stop_Bridge_Blocked" ID="{FC0CF254-6677-41DD-BA2D-D56CE6C28193}">
 									<PropertyList>
-										<Property Name="Color" Type="int16" Value="21"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 									<ChildrenList>
@@ -569,7 +567,6 @@
 								</Event>
 								<Event Name="Stop_Bridge_Down" ID="{5857383A-30BD-4965-8C1E-2B17714CA194}">
 									<PropertyList>
-										<Property Name="Color" Type="int16" Value="21"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 									<ChildrenList>
@@ -618,7 +615,6 @@
 								</Event>
 								<Event Name="Play_Sparks_Loop" ID="{D548A31B-1507-4818-AFD6-08E799DF7981}">
 									<PropertyList>
-										<Property Name="Color" Type="int16" Value="21"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 									<ChildrenList>
@@ -651,7 +647,6 @@
 						</Folder>
 						<Folder Name="Clock" ID="{E6CB5992-7330-4FF6-A272-22613260326C}" ShortID="850847365">
 							<PropertyList>
-								<Property Name="Color" Type="int16" Value="19"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
@@ -681,7 +676,6 @@
 						</Folder>
 						<Folder Name="DrawBridge" ID="{73055364-F87C-459E-8786-2CD1EB24B835}" ShortID="997683994">
 							<PropertyList>
-								<Property Name="Color" Type="int16" Value="19"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
@@ -719,6 +713,21 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Rnd_Wall_Destruction" ID="{9A53BB3F-85AE-43F3-8329-64A1A88C2725}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_WallLego_Destruction" ID="{414D192E-DEB2-42C1-847A-CFC21194410C}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{7F802BEC-28C5-432A-86F1-E770B5E1F8EE}" ShortID="989026294">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rnd_WallLego_Destruction" ID="{00AE3A24-B34A-4857-883E-4F2CD2299ADA}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -784,7 +793,6 @@
 				</Folder>
 				<Event Name="Play_Jingle_Warning" ID="{0AF2416A-03E7-4132-9D4A-0022A75FB505}">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="19"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
