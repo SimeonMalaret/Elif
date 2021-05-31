@@ -74,6 +74,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3709355747	Play_Music_01			\MUSIC EVENT_WU\MUSIC\Play_Music_01	
 	3808183461	Stop_Music_01			\MUSIC EVENT_WU\MUSIC\Stop_Music_01	
 	3813799547	Play_Bullies_Taunt			\LEVEL EVENT_WU\PROPS\Bullies\Play_Bullies_Taunt	
+	3863378588	Play_WallLego_Destruction			\LEVEL EVENT_WU\Walls\Play_WallLego_Destruction	
 	3870228825	Play_Amb_Stealth_lp			\AMB EVENT_WU\Stealth\Play_Amb_Stealth_lp	
 	3922994741	Play_Trousse_SqueakSmall			\LEVEL EVENT_WU\PROPS\Squeaks\Trousse\Play_Trousse_SqueakSmall	
 	3995508460	Set_MC_Run			\MC EVENT_WU\MC\Set_MC_Run	
@@ -167,6 +168,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	306416882	SFX_LEVEL_PROPS_ThrowingBall_Bounce_3	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_PROPS_ThrowingBall_Bounce_3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\ThrowingBall\ThrowingBall_BOUNCE\Rnd_ThrowingBall_BOUNCE\SFX_LEVEL_PROPS_ThrowingBall_Bounce_3		31898
 	307506485	SFX_MC_FT_Grass_Walk05	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_FT_Grass_Walk05_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FT\MC Footsteps_Swt\MC  WalkType_Swt\MC  Walk  Grass_Rnd\SFX_MC_FT_Grass_Walk05		45200
 	315778254	SFX_Level_drawbridge_NoRing01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_drawbridge_NoRing01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\DrawBridge\Rnd_DrawBridge_NoRing\SFX_Level_drawbridge_NoRing01		79444
+	320905199	SFX_Level_LegoWall_Destruction02	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_LegoWall_Destruction02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Wall_AM\Rnd_WallLego_Destruction\SFX_Level_LegoWall_Destruction02		77238
 	321992155	SFX_LEVEL_PROPS_DoggyToy_Bark_3	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_PROPS_DoggyToy_Bark_3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\DoggyToy\DoggyToy Bark_Rnd\SFX_LEVEL_PROPS_DoggyToy_Bark_3		57394
 	324648661	SFX_LEVEL_Level_SqueakHeavy_Trousse_2	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_SqueakHeavy_Trousse_2_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Squeaks\Trousse\Squeak Trousse Heavy_Rnd\SFX_LEVEL_Level_SqueakHeavy_Trousse_2		444004
 	325934927	SFX_LEVEL_Level_SqueakSmall_Trousse_5	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_SqueakSmall_Trousse_5_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Squeaks\Trousse\Squeak Trousse Small_Rnd\SFX_LEVEL_Level_SqueakSmall_Trousse_5		100024
@@ -229,6 +231,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	695731275	SFX_LEVEL_Pinball_Bounce_BlockV2	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Pinball_Bounce_BlockV2_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Pinball\Pinball Block\SFX_LEVEL_Pinball_Bounce_BlockV2		36132
 	700945777	SFX_MC_FT_Grass_Run05	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_FT_Grass_Run05_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FT\MC Footsteps_Swt\MC  RunType_Swt\MC  Run  Grass_Rnd\SFX_MC_FT_Grass_Run05		34278
 	702968632	SFX_LEVEL_Level_SqueakHeavy_Trousse_1	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_SqueakHeavy_Trousse_1_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Squeaks\Trousse\Squeak Trousse Heavy_Rnd\SFX_LEVEL_Level_SqueakHeavy_Trousse_1		423424
+	705833998	SFX_Level_LegoWall_Destruction01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_LegoWall_Destruction01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Wall_AM\Rnd_WallLego_Destruction\SFX_Level_LegoWall_Destruction01		96532
 	708142159	SFX_AMB_WIND_WindMedium	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_AMB_WIND_WindMedium_10C4C929.wem		\Actor-Mixer Hierarchy\AMB_WU\AMB_AM\Wind\Winds_Blnd\SFX_AMB_WIND_WindMedium		970264
 	708483273	SFX_MC_FT_Grass_Run07	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_FT_Grass_Run07_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FT\MC Footsteps_Swt\MC  RunType_Swt\MC  Run  Grass_Rnd\SFX_MC_FT_Grass_Run07		32064
 	717717738	SFX_LEVEL_Level_Cloud02_V2	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_Cloud02_V2_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Clouds_AM\Clouds\Rnd_Clouds\SFX_LEVEL_Level_Cloud02_V2		435552
