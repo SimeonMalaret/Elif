@@ -285,6 +285,39 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_DoggyToy_Sad_Long" ID="{E60B8FA1-9F4C-4CE8-9993-08546F777E7D}">
+									<ChildrenList>
+										<Action Name="" ID="{5C142AF7-CCA3-4CC9-8EC3-98F8967DB07F}" ShortID="719932050">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DoggyToy Sad Long_Rnd" ID="{4F419440-7E77-4EF5-8A46-D047FEDDBEC9}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DoggyToy_Sad_Medium" ID="{FB98D5FE-0F66-4A32-956C-9FE2F9906C44}">
+									<ChildrenList>
+										<Action Name="" ID="{B69B6E74-6AC0-4D34-98B2-55D7DA4D6519}" ShortID="299627255">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_DogSad_Medium_V1" ID="{2D051BD2-E31A-41F7-954A-D415BD5BF7D5}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DoggyToy_Sad_Short" ID="{4F096B5C-BFCC-4E78-93C5-96B4B263556C}">
+									<ChildrenList>
+										<Action Name="" ID="{B2851D66-37B1-4F55-8404-D9E36B3D33F1}" ShortID="678759733">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_DogSad_Short_V1" ID="{0A7C8140-0EB8-404F-B18D-064DCD1F7EE9}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Squeaks" ID="{715C093D-5D59-4153-98FA-30A92383197A}" ShortID="249418067">
@@ -616,6 +649,66 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Clock" ID="{E6CB5992-7330-4FF6-A272-22613260326C}" ShortID="850847365">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Event Name="Play_ClockRing_Old" ID="{30A1436E-4074-4358-B3EB-D7D6E497F6BA}">
+									<ChildrenList>
+										<Action Name="" ID="{9287BAFE-F273-44DE-AE1A-07034CF20262}" ShortID="988495251">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_Clock_Ring_V2" ID="{7E95B764-7E5C-41F3-92BF-6039BFE45322}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_ClockRing_Young" ID="{6DAB4A56-55BB-413C-A38B-7BBCC9840AC8}">
+									<ChildrenList>
+										<Action Name="" ID="{39333C39-6E63-48E3-B769-353ACDE6ED42}" ShortID="688524201">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_Clock_Ring_02_V2" ID="{4C244673-9998-447B-A315-810DAFFF1ABB}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="DrawBridge" ID="{73055364-F87C-459E-8786-2CD1EB24B835}" ShortID="997683994">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Event Name="Play_DrawBridge_WithRing" ID="{937A19F0-57B0-4091-AC89-2450BEDEAEF3}">
+									<ChildrenList>
+										<Action Name="" ID="{71CF9347-736B-4598-BE81-D73F67BF5CFC}" ShortID="858204165">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Rnd_DrawBridge_WithRing" ID="{D94753A5-BC0D-42C2-8E7E-72C49A68D632}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DrawBridge_NoRing" ID="{7361B113-4A62-41AE-BDEE-1038F36E3EB0}">
+									<ChildrenList>
+										<Action Name="" ID="{EB071676-9C7B-4579-BC7C-99EE05E9F63F}" ShortID="172770390">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Rnd_DrawBridge_NoRing" ID="{9D99441E-2246-4124-B83A-5AC8F6509ACB}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Walls" ID="{97234E22-3E6E-4FCE-AF7F-D5F642167B92}" ShortID="797327252">
@@ -689,6 +782,21 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Jingle_Warning" ID="{0AF2416A-03E7-4132-9D4A-0022A75FB505}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{D7218378-2AD6-422C-B395-680C3E6FE8CD}" ShortID="297258002">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_LEVEL_JingleWarning" ID="{6C71AD59-A428-42E4-9D3B-BAB1F6B577F8}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
