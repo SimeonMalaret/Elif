@@ -28,7 +28,7 @@
 				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="2833981445">
+		<SoundBank Id="2228651116" Language="SFX" Hash="1473757896">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -1032,13 +1032,13 @@
 				</Event>
 				<Event Id="3863378588" Name="Play_WallLego_Destruction" ObjectPath="\Events\LEVEL EVENT_WU\Walls\Play_WallLego_Destruction">
 					<IncludedMemoryFiles>
-						<File Id="320905199" Language="SFX">
-							<ShortName>SFX_Level_LegoWall_Destruction02.wav</ShortName>
-							<Path>SFX\SFX_Level_LegoWall_Destruction02_10C4C929.wem</Path>
+						<File Id="11973312" Language="SFX">
+							<ShortName>SFX_Level_LegoWall_Destruction02V2.wav</ShortName>
+							<Path>SFX\SFX_Level_LegoWall_Destruction02V2_10C4C929.wem</Path>
 						</File>
-						<File Id="705833998" Language="SFX">
-							<ShortName>SFX_Level_LegoWall_Destruction01.wav</ShortName>
-							<Path>SFX\SFX_Level_LegoWall_Destruction01_10C4C929.wem</Path>
+						<File Id="93344766" Language="SFX">
+							<ShortName>SFX_Level_LegoWall_Destruction01V2-001.wav</ShortName>
+							<Path>SFX\SFX_Level_LegoWall_Destruction01V2-001_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
