@@ -3146,6 +3146,64 @@
 														<ActiveSource Name="SFX_Level_Button_Pressed02" ID="{D9CC4C18-75B5-440F-9056-06510AFEF324}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="SFX_Level_Button_Pressed03" ID="{489F330D-5D0C-474A-8E5E-680FF066B96C}" ShortID="177865496">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_Button_Pressed03" ID="{7D1BBF0E-6220-4F12-B473-7CF0A9893A0D}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Button_Pressed03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="771413032"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_Button_Pressed03" ID="{7D1BBF0E-6220-4F12-B473-7CF0A9893A0D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_Button_Pressed04" ID="{67E30305-777A-4690-AF52-F45ED7CBD724}" ShortID="507248412">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_Button_Pressed04" ID="{727EA070-98B8-4F4F-8CD8-C4A2992640E7}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Button_Pressed04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="77327606"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="SFX_Level_Button_Unpressed03" ID="{6EA3602C-3989-453D-8B7A-5555C4E9C784}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Button_Unpressed03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="672666186"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="SFX_Level_Button_Unpressed04" ID="{42D65E32-884E-4B99-AF2D-DC3260F16A24}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Button_Unpressed04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="841835730"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_Button_Pressed04" ID="{727EA070-98B8-4F4F-8CD8-C4A2992640E7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>

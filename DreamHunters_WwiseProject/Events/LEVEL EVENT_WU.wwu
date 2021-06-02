@@ -720,7 +720,6 @@
 						</Event>
 						<Event Name="Play_WallLego_Destruction" ID="{414D192E-DEB2-42C1-847A-CFC21194410C}">
 							<PropertyList>
-								<Property Name="Color" Type="int16" Value="10"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
