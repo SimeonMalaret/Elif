@@ -20,15 +20,20 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="335959117">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1273728717">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
-				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
+				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\LEVEL\Big_Reverb_Delay"/>
 			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="3190188375" Name="Volume_Voices" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_Voices"/>
+				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_SFX"/>
+				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_Music"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="2854920938">
+		<SoundBank Id="2228651116" Language="SFX" Hash="2511023475">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -65,7 +70,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
+						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\LEVEL\Big_Reverb_Delay"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1472859671" Name="Play_Balloon_Roll" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Balloon\Play_Balloon_Roll">
@@ -84,7 +89,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
+						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\LEVEL\Big_Reverb_Delay"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="100468805" Name="Play_BookDoor_01" ObjectPath="\Events\LEVEL EVENT_WU\DOORS\BookDoor\Play_BookDoor_01">
@@ -95,7 +100,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
+						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\LEVEL\Big_Reverb_Delay"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="728152132" Name="Play_BookDoor_Open" ObjectPath="\Events\LEVEL EVENT_WU\DOORS\BookDoor\Play_BookDoor_Open">
@@ -166,23 +171,23 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2099555730" Name="Play_Button" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Button\Play_Button">
-					<IncludedMemoryFiles>
-						<File Id="468137102" Language="SFX">
-							<ShortName>Button_01.wav</ShortName>
-							<Path>SFX\Button_01_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="1724924593" Name="Play_Button_Pressed" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Button\Play_Button_Pressed">
 					<IncludedMemoryFiles>
 						<File Id="15581242" Language="SFX">
 							<ShortName>SFX_Level_Button_Pressed01.wav</ShortName>
 							<Path>SFX\SFX_Level_Button_Pressed01_10C4C929.wem</Path>
 						</File>
+						<File Id="77327606" Language="SFX">
+							<ShortName>SFX_Level_Button_Pressed04.wav</ShortName>
+							<Path>SFX\SFX_Level_Button_Pressed04_10C4C929.wem</Path>
+						</File>
 						<File Id="228506019" Language="SFX">
 							<ShortName>SFX_Level_Button_Pressed02.wav</ShortName>
 							<Path>SFX\SFX_Level_Button_Pressed02_10C4C929.wem</Path>
+						</File>
+						<File Id="771413032" Language="SFX">
+							<ShortName>SFX_Level_Button_Pressed03.wav</ShortName>
+							<Path>SFX\SFX_Level_Button_Pressed03_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -316,29 +321,25 @@
 				</Event>
 				<Event Id="2195161450" Name="Play_DoggyToy_Sad_Long" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Sad_Long">
 					<IncludedMemoryFiles>
-						<File Id="735032196" Language="SFX">
-							<ShortName>SFX_Level_DogSad_LONG_V1.wav</ShortName>
-							<Path>SFX\SFX_Level_DogSad_LONG_V1_10C4C929.wem</Path>
-						</File>
-						<File Id="1038945855" Language="SFX">
-							<ShortName>SFX_Level_DogSad_03_V2.wav</ShortName>
-							<Path>SFX\SFX_Level_DogSad_03_V2_10C4C929.wem</Path>
+						<File Id="978903969" Language="SFX">
+							<ShortName>SFX_LEVEL_PROPS_DoggyToy_SadLong.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_PROPS_DoggyToy_SadLong_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2824701733" Name="Play_DoggyToy_Sad_Medium" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Sad_Medium">
 					<IncludedMemoryFiles>
-						<File Id="598350740" Language="SFX">
-							<ShortName>SFX_Level_DogSad_Medium_V1.wav</ShortName>
-							<Path>SFX\SFX_Level_DogSad_Medium_V1_10C4C929.wem</Path>
+						<File Id="162451885" Language="SFX">
+							<ShortName>SFX_LEVEL_PROPS_DoggyToy_SadMedium.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_PROPS_DoggyToy_SadMedium_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="447236198" Name="Play_DoggyToy_Sad_Short" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Sad_Short">
 					<IncludedMemoryFiles>
-						<File Id="268238651" Language="SFX">
-							<ShortName>SFX_Level_DogSad_Short_V1.wav</ShortName>
-							<Path>SFX\SFX_Level_DogSad_Short_V1_10C4C929.wem</Path>
+						<File Id="176819095" Language="SFX">
+							<ShortName>SFX_LEVEL_PROPS_DoggyToy_SadShort.wav</ShortName>
+							<Path>SFX\SFX_LEVEL_PROPS_DoggyToy_SadShort_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -771,7 +772,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
+						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\LEVEL\Big_Reverb_Delay"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3058431834" Name="Play_Pinball_Block" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Pinball\Play_Pinball_Block">
@@ -1030,6 +1031,18 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3863378588" Name="Play_WallLego_Destruction" ObjectPath="\Events\LEVEL EVENT_WU\Walls\Play_WallLego_Destruction">
+					<IncludedMemoryFiles>
+						<File Id="11973312" Language="SFX">
+							<ShortName>SFX_Level_LegoWall_Destruction02V2.wav</ShortName>
+							<Path>SFX\SFX_Level_LegoWall_Destruction02V2_10C4C929.wem</Path>
+						</File>
+						<File Id="93344766" Language="SFX">
+							<ShortName>SFX_Level_LegoWall_Destruction01V2-001.wav</ShortName>
+							<Path>SFX\SFX_Level_LegoWall_Destruction01V2-001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1020223172" Name="Play_Wind" ObjectPath="\Events\AMB EVENT_WU\Wind\Play_Wind">
 					<IncludedMemoryFiles>
 						<File Id="163778240" Language="SFX">
@@ -1150,10 +1163,11 @@
 				<Event Id="1879343191" Name="Stop_Xylophone_Squeak" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Squeaks\Xylophone\Stop_Xylophone_Squeak"/>
 			</IncludedEvents>
 			<IncludedAuxBusses>
-				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
+				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\LEVEL\Big_Reverb_Delay"/>
 			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="1830592977" Name="Wind_Strength" ObjectPath="\Game Parameters\Default Work Unit\Wind_Strength"/>
+				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_SFX"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="712161704" Name="Run" ObjectPath="\Switches\Default Work Unit\MC_Locomotion\Run">
