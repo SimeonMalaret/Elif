@@ -20,15 +20,20 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="335959117">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1273728717">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
-				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
+				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\LEVEL\Big_Reverb_Delay"/>
 			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="3190188375" Name="Volume_Voices" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_Voices"/>
+				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_SFX"/>
+				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_Music"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="584116869">
+		<SoundBank Id="2228651116" Language="SFX" Hash="2511023475">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -65,7 +70,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
+						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\LEVEL\Big_Reverb_Delay"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="1472859671" Name="Play_Balloon_Roll" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Balloon\Play_Balloon_Roll">
@@ -84,7 +89,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
+						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\LEVEL\Big_Reverb_Delay"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="100468805" Name="Play_BookDoor_01" ObjectPath="\Events\LEVEL EVENT_WU\DOORS\BookDoor\Play_BookDoor_01">
@@ -95,7 +100,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
+						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\LEVEL\Big_Reverb_Delay"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="728152132" Name="Play_BookDoor_Open" ObjectPath="\Events\LEVEL EVENT_WU\DOORS\BookDoor\Play_BookDoor_Open">
@@ -767,7 +772,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
-						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
+						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\LEVEL\Big_Reverb_Delay"/>
 					</AuxBusSends>
 				</Event>
 				<Event Id="3058431834" Name="Play_Pinball_Block" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Pinball\Play_Pinball_Block">
@@ -1158,10 +1163,11 @@
 				<Event Id="1879343191" Name="Stop_Xylophone_Squeak" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Squeaks\Xylophone\Stop_Xylophone_Squeak"/>
 			</IncludedEvents>
 			<IncludedAuxBusses>
-				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LEVEL\Big_Reverb_Delay"/>
+				<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\LEVEL\Big_Reverb_Delay"/>
 			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="1830592977" Name="Wind_Strength" ObjectPath="\Game Parameters\Default Work Unit\Wind_Strength"/>
+				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_SFX"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="712161704" Name="Run" ObjectPath="\Switches\Default Work Unit\MC_Locomotion\Run">
