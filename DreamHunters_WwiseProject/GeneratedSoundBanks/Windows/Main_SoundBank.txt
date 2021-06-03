@@ -2,12 +2,15 @@ Event	ID	Name			Wwise Object Path	Notes
 	100468805	Play_BookDoor_01			\LEVEL EVENT_WU\DOORS\BookDoor\Play_BookDoor_01	
 	212649593	Play_DoggyToy_Bark			\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Bark	
 	237835630	Play_Xylophone_SqueakSmall			\LEVEL EVENT_WU\PROPS\Squeaks\Xylophone\Play_Xylophone_SqueakSmall	
+	416790072	Play_ClockRing_Old			\LEVEL EVENT_WU\PROPS\Clock\Play_ClockRing_Old	
+	447236198	Play_DoggyToy_Sad_Short			\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Sad_Short	
 	481600506	Set_MC_Walk			\MC EVENT_WU\MC\Set_MC_Walk	
 	495309946	Play_TurnPage			\LEVEL EVENT_WU\PROPS\Pages\Play_TurnPage	
 	681103470	Play_Rocket_Explosion			\LEVEL EVENT_WU\PROPS\Rocket\Play_Rocket_Explosion	
 	689094756	Play_Bridge_Down			\LEVEL EVENT_WU\PROPS\Bridge\Play_Bridge_Down	
 	704767527	Stop_Amb_Stealth_lp			\AMB EVENT_WU\Stealth\Stop_Amb_Stealth_lp	
 	728152132	Play_BookDoor_Open			\LEVEL EVENT_WU\DOORS\BookDoor\Play_BookDoor_Open	
+	844969031	Play_ClockRing_Young			\LEVEL EVENT_WU\PROPS\Clock\Play_ClockRing_Young	
 	888709001	Stop_Rocket_Forward_lp			\LEVEL EVENT_WU\PROPS\Rocket\Stop_Rocket_Forward_lp	
 	891247879	Stop_AMB_Playground_lp			\AMB EVENT_WU\PlayGround\Stop_AMB_Playground_lp	
 	925263659	Play_Rocket_Forward_lp			\LEVEL EVENT_WU\PROPS\Rocket\Play_Rocket_Forward_lp	
@@ -35,6 +38,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2113649396	Play_Rocket_Overheat_lp			\LEVEL EVENT_WU\PROPS\Rocket\Play_Rocket_Overheat_lp	
 	2145335481	Set_GroundType_Wood			\MC EVENT_WU\MC\Set_GroundType_Wood	
 	2192618333	Play_Bullies_Death			\LEVEL EVENT_WU\PROPS\Bullies\Play_Bullies_Death	
+	2195161450	Play_DoggyToy_Sad_Long			\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Sad_Long	
 	2212806876	Play_Jingle_Warning			\LEVEL EVENT_WU\Play_Jingle_Warning	
 	2228175120	Set_GroundType_Grass			\MC EVENT_WU\MC\Set_GroundType_Grass	
 	2264636874	Stop_trousse_Squeak			\LEVEL EVENT_WU\PROPS\Squeaks\Trousse\Stop_trousse_Squeak	
@@ -42,11 +46,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	2283795465	Play_Pinball_Intercation			\LEVEL EVENT_WU\PROPS\Pinball\Play_Pinball_Intercation	
 	2292692137	Play_Pinata_Explosion			\LEVEL EVENT_WU\PROPS\Pinata\Play_Pinata_Explosion	
 	2293308223	Play_Balloon_Explosion			\LEVEL EVENT_WU\PROPS\Balloon\Play_Balloon_Explosion	
-	2476738550	Play_ClockRing			\LEVEL EVENT_WU\PROPS\Clock\Play_ClockRing	
 	2482399161	Play_FlowerBell_Ring			\LEVEL EVENT_WU\PROPS\FlowerBell\Play_FlowerBell_Ring	
 	2483600035	Play_MC_DropItem			\MC EVENT_WU\MC\Play_MC_DropItem	
 	2658957239	Set_GroundType_Carpet			\MC EVENT_WU\MC\Set_GroundType_Carpet	
 	2779895719	Play_FlowerBell_Shake			\LEVEL EVENT_WU\PROPS\FlowerBell\Play_FlowerBell_Shake	
+	2824701733	Play_DoggyToy_Sad_Medium			\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Sad_Medium	
 	2858841480	Play_Sparks			\LEVEL EVENT_WU\PROPS\Sparks\Play_Sparks	
 	2905017015	Play_Canon			\LEVEL EVENT_WU\PROPS\Canon\Play_Canon	
 	2914719344	Play_ThrowBall_Throw			\LEVEL EVENT_WU\PROPS\ThrowBall\Play_ThrowBall_Throw	
@@ -70,13 +74,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	3709355747	Play_Music_01			\MUSIC EVENT_WU\MUSIC\Play_Music_01	
 	3808183461	Stop_Music_01			\MUSIC EVENT_WU\MUSIC\Stop_Music_01	
 	3813799547	Play_Bullies_Taunt			\LEVEL EVENT_WU\PROPS\Bullies\Play_Bullies_Taunt	
+	3863378588	Play_WallLego_Destruction			\LEVEL EVENT_WU\Walls\Play_WallLego_Destruction	
 	3870228825	Play_Amb_Stealth_lp			\AMB EVENT_WU\Stealth\Play_Amb_Stealth_lp	
 	3922994741	Play_Trousse_SqueakSmall			\LEVEL EVENT_WU\PROPS\Squeaks\Trousse\Play_Trousse_SqueakSmall	
 	3995508460	Set_MC_Run			\MC EVENT_WU\MC\Set_MC_Run	
 	4036722021	Play_Rocket_Dash			\LEVEL EVENT_WU\PROPS\Rocket\Play_Rocket_Dash	
 	4125612414	Play_MC_Locomotion			\MC EVENT_WU\MC\Play_MC_Locomotion	
 	4175620767	Play_DoggyToy_Locomotion_lp			\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Locomotion_lp	
-	4200010309	Play_DoggyToy_Sad			\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Sad	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1534344659	MC_Locomotion			\Default Work Unit\MC_Locomotion	
@@ -112,6 +116,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	5403928	SFX_LEVEL_Bullies_Death_01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Bullies_Death_01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Bullies\Bullies Death_Rnd\SFX_LEVEL_Bullies_Death_01		904112
 	5810329	SFX_LEVEL_Balloons_Explosion	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Balloons_Explosion_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Balloon\Balloon Pop_Rnd\SFX_LEVEL_Balloons_Explosion		88264
 	7890990	SFX_Level_drawbridge_WithRing01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_drawbridge_WithRing01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\DrawBridge\Rnd_DrawBridge_WithRing\SFX_Level_drawbridge_WithRing01		76504
+	11973312	SFX_Level_LegoWall_Destruction02V2	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_LegoWall_Destruction02V2_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Wall_AM\Rnd_WallLego_Destruction\SFX_Level_LegoWall_Destruction02V2		140632
 	12611600	SFX_PROPS_BELLS_Bell02	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_PROPS_BELLS_Bell02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\FlowerBell\FlowerBell Ring_Rnd\SFX_PROPS_BELLS_Bell02		209538
 	15581242	SFX_Level_Button_Pressed01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_Button_Pressed01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Button\Button_Rnd_Pressed\SFX_Level_Button_Pressed01		16602
 	17032612	SFX_LEVEL_Level_SqueakSmall_Xylophone_1	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_SqueakSmall_Xylophone_1_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Squeaks\Xylophone\Squeak Xylophone Small_Rnd\SFX_LEVEL_Level_SqueakSmall_Xylophone_1		29464
@@ -128,6 +133,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	75779287	SFX_MC_Foleys_Stealth_Walk-007	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_Foleys_Stealth_Walk-007_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Locomotion_Swt\MC Foley Sneak_Rnd\SFX_MC_Foleys_Stealth_Walk-007		61088
 	83033649	SFX_MC_Foleys_Jump_Land-002	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_Foleys_Jump_Land-002_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Land_Rnd\SFX_MC_Foleys_Jump_Land-002		44164
 	85204591	SFX_LEVEL_Level_Rocket_OverHeat_02	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_Rocket_OverHeat_02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Rocket\Roket Overheat_Rnd\SFX_LEVEL_Level_Rocket_OverHeat_02		179220
+	93344766	SFX_Level_LegoWall_Destruction01V2-001	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_LegoWall_Destruction01V2-001_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Wall_AM\Rnd_WallLego_Destruction\SFX_Level_LegoWall_Destruction01V2-001		99288
 	95546284	SFX_MC_Foleys_Jump_Jump-001	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_Foleys_Jump_Jump-001_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Jump_Rnd\SFX_MC_Foleys_Jump_Jump-001		33580
 	96271887	SFX_LEVEL_Level_Rocket_Forward_Short_02	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_Rocket_Forward_Short_02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Rocket\Rocket Dash_Rnd\SFX_LEVEL_Level_Rocket_Forward_Short_02		121338
 	96678562	SFX_LEVEL_Balloons_Rolling03	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Balloons_Rolling03_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Balloon\Balloon Roll_Rnd\SFX_LEVEL_Balloons_Rolling03		242616
@@ -155,6 +161,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	257596844	SFX_LEVEL_Bullies_Taunt_01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Bullies_Taunt_01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Bullies\Bullies Taunt_Rnd\SFX_LEVEL_Bullies_Taunt_01		380428
 	258441762	SFX_LEVEL_PROPS_Bullies_Laugh_1	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_PROPS_Bullies_Laugh_1_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Bullies\Rnd_Bullies_Laugh\SFX_LEVEL_PROPS_Bullies_Laugh_1		138598
 	260278808	SFX_LEVEL_Level_TurnPage01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_TurnPage01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Pages\Rnd_TurnPage\SFX_LEVEL_Level_TurnPage01		52432
+	268238651	SFX_Level_DogSad_Short_V1	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_DogSad_Short_V1_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\DoggyToy\DoggyToy Sad\SFX_Level_DogSad_Short_V1		264664
+	290351472	SFX_Level_Clock_Ring_V2	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_Clock_Ring_V2_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Clock\SFX_Level_Clock_Ring_V2		88264
 	302068586	SFX_LEVEL_Level_Cloud01_V2	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_Cloud01_V2_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Clouds_AM\Clouds\Rnd_Clouds\SFX_LEVEL_Level_Cloud01_V2		463112
 	302423571	SFX_MC_Foleys_Normal_Run-001	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_Foleys_Normal_Run-001_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Locomotion_Swt\MC Foley Run_Rnd\SFX_MC_Foleys_Normal_Run-001		20986
 	305668579	SFX_LEVEL_Level_SqueakSmall_Xylophone_6	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_SqueakSmall_Xylophone_6_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Squeaks\Xylophone\Squeak Xylophone Small_Rnd\SFX_LEVEL_Level_SqueakSmall_Xylophone_6		23584
@@ -169,7 +177,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	332762354	SFX_LEVEL_Pinata_Explosion01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Pinata_Explosion01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Pinata\Pinata Explosion_Rnd\SFX_LEVEL_Pinata_Explosion01		143390
 	335058408	SFX_LEVEL_Level_Wall_Destruction_V3_01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_Wall_Destruction_V3_01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Wall_AM\Rnd_Wall_Destruction\SFX_LEVEL_Level_Wall_Destruction_V3_01		110314
 	345999817	SFX_Level_Sparks04	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_Sparks04_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Sparks\Sparks_Rnd\SFX_Level_Sparks04		330814
-	352898866	SFX_Level_Props_Clock_Ring_01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_Props_Clock_Ring_01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Clock\SFX_Level_Props_Clock_Ring_01		229384
 	354567205	SFX_LEVEL_DOORS_CommonDoor_CommonDoorClose02	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_DOORS_CommonDoor_CommonDoorClose02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Doors_AM\CommonDoor\CommonDoor Closed_Rnd\SFX_LEVEL_DOORS_CommonDoor_CommonDoorClose02		88264
 	354868970	SFX_Level_Jumper_Bounce_02	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_Jumper_Bounce_02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Jumper\Jumper_Rnd\SFX_Level_Jumper_Bounce_02		55188
 	360730807	SFX_MC_Foleys_Normal_Walk-005	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_Foleys_Normal_Walk-005_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Locomotion_Swt\MC Foley Walk_Rnd\SFX_MC_Foleys_Normal_Walk-005		37084
@@ -199,6 +206,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	528956667	SFX_MC_Foleys_Normal_Run-002	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_Foleys_Normal_Run-002_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Locomotion_Swt\MC Foley Run_Rnd\SFX_MC_Foleys_Normal_Run-002		21986
 	529464547	SFX_MC_FT_Grass_Walk01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_FT_Grass_Walk01_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FT\MC Footsteps_Swt\MC  WalkType_Swt\MC  Walk  Grass_Rnd\SFX_MC_FT_Grass_Walk01		47374
 	533627888	SFX_MC_Foleys_Jump_Jump-003	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_Foleys_Jump_Jump-003_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Jump_Rnd\SFX_MC_Foleys_Jump_Jump-003		44164
+	536494307	SFX_LEVEL_JingleWarning	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_JingleWarning_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Jingle Warning\SFX_LEVEL_JingleWarning		2411016
 	542050506	SFX_LEVEL_Level_Canon_Shot_01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_Canon_Shot_01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Canon\Canon_Rnd\SFX_LEVEL_Level_Canon_Shot_01		82752
 	557582523	SFX_LEVEL_Pinball__Move01_V2	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Pinball__Move01_V2_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Pinball\Pinball_Move\SFX_LEVEL_Pinball__Move01_V2		132364
 	561464988	SFX_LEVEL_PROPS_FlowerBell_FlowerBellShaking03-001	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_PROPS_FlowerBell_FlowerBellShaking03-001_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\FlowerBell\FlowerBell Shake_Rnd\SFX_LEVEL_PROPS_FlowerBell_FlowerBellShaking03-001		672590
@@ -207,6 +215,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	569373290	SFX_MC_Foleys_Stealth_Walk-001	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_Foleys_Stealth_Walk-001_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Locomotion_Swt\MC Foley Sneak_Rnd\SFX_MC_Foleys_Stealth_Walk-001		49978
 	570535248	SFX_AMB_WIND_WindSoft	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_AMB_WIND_WindSoft_10C4C929.wem		\Actor-Mixer Hierarchy\AMB_WU\AMB_AM\Wind\Winds_Blnd\SFX_AMB_WIND_WindSoft		882064
 	596635916	SFX_LEVEL_Level_SqueakSmall_Trousse_7	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_SqueakSmall_Trousse_7_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Squeaks\Trousse\Squeak Trousse Small_Rnd\SFX_LEVEL_Level_SqueakSmall_Trousse_7		123544
+	598350740	SFX_Level_DogSad_Medium_V1	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_DogSad_Medium_V1_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\DoggyToy\DoggyToy Sad\SFX_Level_DogSad_Medium_V1		441064
 	603737969	SFX_LEVEL_Level_SqueakSmall_Trousse_8	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_SqueakSmall_Trousse_8_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Squeaks\Trousse\Squeak Trousse Small_Rnd\SFX_LEVEL_Level_SqueakSmall_Trousse_8		138244
 	615641349	SFX_LEVEL_PROPS_ThrowingBall_Throw_3	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_PROPS_ThrowingBall_Throw_3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\ThrowingBall\ThrowingBall_THROW\Rnd_ThrowingBall_Throw\SFX_LEVEL_PROPS_ThrowingBall_Throw_3		23584
 	621372982	SFX_Level_Bridge_GoDown_Loop	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_Bridge_GoDown_Loop_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Bridge\Bridge Down_Rnd\SFX_Level_Bridge_GoDown_Loop		1058464
@@ -230,6 +239,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	724206323	SFX_LEVEL_DOORS_CommonDoor_CommonDoorClose04	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_DOORS_CommonDoor_CommonDoorClose04_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Doors_AM\CommonDoor\CommonDoor Closed_Rnd\SFX_LEVEL_DOORS_CommonDoor_CommonDoorClose04		60702
 	724980667	SFX_LEVEL_Level_Cloud03_V2	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_Cloud03_V2_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Clouds_AM\Clouds\Rnd_Clouds\SFX_LEVEL_Level_Cloud03_V2		413500
 	733801012	SFX_LEVEL_Level_SqueakHeavy_Trousse_4	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_SqueakHeavy_Trousse_4_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Squeaks\Trousse\Squeak Trousse Heavy_Rnd\SFX_LEVEL_Level_SqueakHeavy_Trousse_4		444004
+	735032196	SFX_Level_DogSad_LONG_V1	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_DogSad_LONG_V1_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\DoggyToy\DoggyToy Sad\DoggyToy Sad Long_Rnd\SFX_Level_DogSad_LONG_V1		705664
 	740065178	SFX_LEVEL_DOORS_CommonDoor_CommonDoorOpen03	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_DOORS_CommonDoor_CommonDoorOpen03_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Doors_AM\CommonDoor\CommonDoor Open_Rnd\SFX_LEVEL_DOORS_CommonDoor_CommonDoorOpen03		33140
 	742555174	SFX_LEVEL_Level_Rocket_Explosion04	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_Rocket_Explosion04_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Rocket\Rocket Explosion_Rnd\SFX_LEVEL_Level_Rocket_Explosion04		91020
 	748364294	SFX_Level_Button_Unpressed02	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_Button_Unpressed02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Button\Button_Rnd_Unpressed\SFX_Level_Button_Unpressed02		12468
@@ -246,10 +256,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	816149812	SFX_LEVEL_Level_Canon_Shot_02	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_Canon_Shot_02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Canon\Canon_Rnd\SFX_LEVEL_Level_Canon_Shot_02		71726
 	816749526	SFX_MC_Foleys_Normal_Run-005	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_Foleys_Normal_Run-005_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Locomotion_Swt\MC Foley Run_Rnd\SFX_MC_Foleys_Normal_Run-005		26786
 	825998365	SFX_MC_FT_Grass_Run01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_FT_Grass_Run01_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FT\MC Footsteps_Swt\MC  RunType_Swt\MC  Run  Grass_Rnd\SFX_MC_FT_Grass_Run01		32142
+	828762656	SFX_Level_Clock_Ring_02_V2	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_Clock_Ring_02_V2_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Clock\SFX_Level_Clock_Ring_02_V2		146146
 	831594812	SFX_LEVEL_DOORS_CommonDoor_CommonDoorClose01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_DOORS_CommonDoor_CommonDoorClose01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Doors_AM\CommonDoor\CommonDoor Closed_Rnd\SFX_LEVEL_DOORS_CommonDoor_CommonDoorClose01		85508
 	834166218	SFX_LEVEL_Level_SqueakSmall_Trousse_3	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_SqueakSmall_Trousse_3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Squeaks\Trousse\Squeak Trousse Small_Rnd\SFX_LEVEL_Level_SqueakSmall_Trousse_3		114724
 	838024713	SFX_Level_Sparks01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_Sparks01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Sparks\Sparks_Rnd\SFX_Level_Sparks01		419014
-	842186003	SFX_Level_JingleWarning0	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_JingleWarning0_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\SFX_Level_JingleWarning0		205864
 	843237626	SFX_MC_FT_Grass_Run03	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_FT_Grass_Run03_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FT\MC Footsteps_Swt\MC  RunType_Swt\MC  Run  Grass_Rnd\SFX_MC_FT_Grass_Run03		34526
 	860567313	SFX_Level_Button_Unpressed01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_Button_Unpressed01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Button\Button_Rnd_Unpressed\SFX_Level_Button_Unpressed01		12468
 	872484275	SFX_LEVEL_PROPS_ThrowingBall_Throw_1	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_PROPS_ThrowingBall_Throw_1_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\ThrowingBall\ThrowingBall_THROW\Rnd_ThrowingBall_Throw\SFX_LEVEL_PROPS_ThrowingBall_Throw_1		26524
@@ -259,7 +269,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	885612939	SFX_MC_FT_Grass_Jump_Jump-002	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_FT_Grass_Jump_Jump-002_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FT\MC  JumpType_Swt\MC  Jump  Grass_Rnd\SFX_MC_FT_Grass_Jump_Jump-002		38652
 	888625650	SFX_LEVEL_Level_Rocket_Explosion01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_Rocket_Explosion01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Rocket\Rocket Explosion_Rnd\SFX_LEVEL_Level_Rocket_Explosion01		137876
 	899004210	SFX_LEVEL_Pinata_Explosion02	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Pinata_Explosion02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Pinata\Pinata Explosion_Rnd\SFX_LEVEL_Pinata_Explosion02		193002
-	900568956	SFX_Level_Doggy_Toy_Sad01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_Doggy_Toy_Sad01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\DoggyToy\SFX_Level_Doggy_Toy_Sad01		249964
 	905522052	SFX_LEVEL_Level_SqueakSmall_Xylophone_5	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_SqueakSmall_Xylophone_5_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Squeaks\Xylophone\Squeak Xylophone Small_Rnd\SFX_LEVEL_Level_SqueakSmall_Xylophone_5		32404
 	909838463	SFX_LEVEL_PROPS_Bullies_Laugh_3	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_PROPS_Bullies_Laugh_3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Bullies\Rnd_Bullies_Laugh\SFX_LEVEL_PROPS_Bullies_Laugh_3		241144
 	911900299	SFX_LEVEL_Level_BookDoor_Open_V3_02	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_BookDoor_Open_V3_02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Doors_AM\BookDoor\Rnd_BookDoor_Open\SFX_LEVEL_Level_BookDoor_Open_V3_02		77238
@@ -279,6 +288,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1016611819	SFX_MC_Foleys_Stealth_Walk-002	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_Foleys_Stealth_Walk-002_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Locomotion_Swt\MC Foley Sneak_Rnd\SFX_MC_Foleys_Stealth_Walk-002		46920
 	1018580830	SFX_LEVEL_Level_BookDoor_Open_V3_01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_BookDoor_Open_V3_01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Doors_AM\BookDoor\Rnd_BookDoor_Open\SFX_LEVEL_Level_BookDoor_Open_V3_01		88264
 	1030570756	SFX_LEVEL_Elif_Bounce03	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Elif_Bounce03_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Bounce_Rnd\SFX_LEVEL_Elif_Bounce03		15224
+	1038945855	SFX_Level_DogSad_03_V2	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_DogSad_03_V2_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\DoggyToy\DoggyToy Sad\DoggyToy Sad Long_Rnd\SFX_Level_DogSad_03_V2		727714
 	1039796192	SFX_LEVEL_Level_Rocket_Forward_Short_01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_Rocket_Forward_Short_01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Rocket\Rocket Dash_Rnd\SFX_LEVEL_Level_Rocket_Forward_Short_01		187488
 	1043382114	SFX_LEVEL_DOORS_CommonDoor_CommonDoorOpen01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_DOORS_CommonDoor_CommonDoorOpen01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Doors_AM\CommonDoor\CommonDoor Open_Rnd\SFX_LEVEL_DOORS_CommonDoor_CommonDoorOpen01		60702
 	1047626442	SFX_LEVEL_Level_Rocket_OverHeat_03	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_Rocket_OverHeat_03_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Rocket\Roket Overheat_Rnd\SFX_LEVEL_Level_Rocket_OverHeat_03		264664
