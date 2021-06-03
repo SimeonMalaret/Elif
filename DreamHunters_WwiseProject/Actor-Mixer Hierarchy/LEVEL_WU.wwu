@@ -917,6 +917,21 @@
 								<Folder Name="DoggyToy" ID="{05A33174-A1DD-4540-9A43-317F4B0CBB8C}" ShortID="246276022">
 									<ChildrenList>
 										<RandomSequenceContainer Name="DoggyToy Bark_Rnd" ID="{DE8F258F-9F37-4890-B7C1-CE61EC1A5C19}" ShortID="608022198">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C766E218-3E80-48AB-B6C2-72ED9A58D9C2}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="25"/>
+																	<Property Name="Min" Type="Real64" Value="-25"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -996,6 +1011,19 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="DoggyToy Locomotion_Rnd" ID="{2B9094A2-100C-47B6-849E-B354386CF2D9}" ShortID="918936865">
 											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{4E19312F-D649-4C6B-95B2-F38534B3F580}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="25"/>
+																	<Property Name="Min" Type="Real64" Value="-25"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 											</PropertyList>
@@ -1034,77 +1062,23 @@
 										</RandomSequenceContainer>
 										<Folder Name="DoggyToy Sad" ID="{660A281A-D85C-487C-9341-EDD3BA24B82D}" ShortID="558467752">
 											<ChildrenList>
-												<RandomSequenceContainer Name="DoggyToy Sad Long_Rnd" ID="{4F419440-7E77-4EF5-8A46-D047FEDDBEC9}" ShortID="970635588">
+												<Sound Name="SFX_LEVEL_PROPS_DoggyToy_SadLong" ID="{1AAC601C-593F-47B3-A536-64162A17E091}" ShortID="656361395">
 													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{8EFEB0C4-4DD9-44D8-8878-4FBBC0A4178C}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="25"/>
+																			<Property Name="Min" Type="Real64" Value="-25"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="SFX_Level_DogSad_03_V2" ID="{355AA1E6-683C-4504-B995-1E9025338EE8}" ShortID="616925999">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="SFX_Level_DogSad_03_V2" ID="{A4659FEC-F1E8-4132-9E79-43ED26491AE8}">
-																	<Language>SFX</Language>
-																	<AudioFile>SFX_Level_DogSad_03_V2.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="1038945855"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="SFX_Level_DogSad_03_V2" ID="{A4659FEC-F1E8-4132-9E79-43ED26491AE8}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="SFX_Level_DogSad_LONG_V1" ID="{5EB9590A-AD7D-4249-9F49-2A926D06C51D}" ShortID="701316933">
-															<PropertyList>
-																<Property Name="3DSpatialization" Type="int16" Value="2"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Attenuation">
-																	<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-																</Reference>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="SFX_Level_DogSad_LONG_V1" ID="{F2A4DC00-F2E0-43FA-A7D2-D52EDD273AE4}">
-																	<Language>SFX</Language>
-																	<AudioFile>SFX_Level_DogSad_LONG_V1.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="735032196"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="SFX_Level_DogSad_LONG_V1" ID="{F2A4DC00-F2E0-43FA-A7D2-D52EDD273AE4}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<Sound Name="SFX_Level_DogSad_Medium_V1" ID="{2D051BD2-E31A-41F7-954A-D415BD5BF7D5}" ShortID="670542956">
-													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
@@ -1113,19 +1087,34 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Level_DogSad_Medium_V1" ID="{8D86529E-86F7-4071-9D5A-D1405A8B093F}">
+														<AudioFileSource Name="SFX_LEVEL_PROPS_DoggyToy_SadLong" ID="{C6038359-F1FF-4C1C-90CC-B24018B6275B}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_Level_DogSad_Medium_V1.wav</AudioFile>
+															<AudioFile>SFX_LEVEL_PROPS_DoggyToy_SadLong.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="598350740"/>
+																<MediaID ID="978903969"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Level_DogSad_Medium_V1" ID="{8D86529E-86F7-4071-9D5A-D1405A8B093F}" Platform="Linked"/>
+														<ActiveSource Name="SFX_LEVEL_PROPS_DoggyToy_SadLong" ID="{C6038359-F1FF-4C1C-90CC-B24018B6275B}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Level_DogSad_Short_V1" ID="{0A7C8140-0EB8-404F-B18D-064DCD1F7EE9}" ShortID="613231354">
+												<Sound Name="SFX_LEVEL_PROPS_DoggyToy_SadMedium" ID="{2FCFCD91-9592-488C-B011-D6561D86BDC8}" ShortID="884505051">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{3192E6ED-A4CF-446A-8DD5-D609FD449991}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="25"/>
+																			<Property Name="Min" Type="Real64" Value="-25"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -1135,16 +1124,53 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Level_DogSad_Short_V1" ID="{9800C96E-7336-4058-B84D-48963D02AB97}">
+														<AudioFileSource Name="SFX_LEVEL_PROPS_DoggyToy_SadMedium" ID="{44347AAA-3994-447B-9350-A478685515C3}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_Level_DogSad_Short_V1.wav</AudioFile>
+															<AudioFile>SFX_LEVEL_PROPS_DoggyToy_SadMedium.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="268238651"/>
+																<MediaID ID="162451885"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Level_DogSad_Short_V1" ID="{9800C96E-7336-4058-B84D-48963D02AB97}" Platform="Linked"/>
+														<ActiveSource Name="SFX_LEVEL_PROPS_DoggyToy_SadMedium" ID="{44347AAA-3994-447B-9350-A478685515C3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_LEVEL_PROPS_DoggyToy_SadShort" ID="{E137E298-6745-4230-88A3-1DA692796828}" ShortID="45002810">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{1863002D-A2B0-48C2-AA44-7778A3C41495}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="25"/>
+																			<Property Name="Min" Type="Real64" Value="-25"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_LEVEL_PROPS_DoggyToy_SadShort" ID="{3EAEF601-1482-4D49-AB26-AD95EE1B9F2B}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_LEVEL_PROPS_DoggyToy_SadShort.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="176819095"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_LEVEL_PROPS_DoggyToy_SadShort" ID="{3EAEF601-1482-4D49-AB26-AD95EE1B9F2B}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -2990,40 +3016,6 @@
 								</Folder>
 								<Folder Name="Button" ID="{9FD8FEB7-8263-4D09-9B54-ED50B5D5056B}" ShortID="31007895">
 									<ChildrenList>
-										<RandomSequenceContainer Name="Butoon_Rnd (Placeholder)" ID="{D7384583-F372-472D-AE11-EFB647A6F692}" ShortID="105449298">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Button_01" ID="{D912A51E-724B-4C29-9A36-70DD178E0B5A}" ShortID="678058111">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Button_01" ID="{9AB3C86D-13C5-4890-80F6-7BF4A5FD4024}">
-															<Language>SFX</Language>
-															<AudioFile>Button_01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="468137102"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Button_01" ID="{9AB3C86D-13C5-4890-80F6-7BF4A5FD4024}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Button_Rnd_Unpressed" ID="{56294DEC-CDBC-4575-9F71-D93597D67A1E}" ShortID="632543575">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -3093,6 +3085,9 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Button_Rnd_Pressed" ID="{FC733A8E-D771-4108-9C41-13A70C37718B}" ShortID="741467999">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
