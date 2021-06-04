@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{02FC1F13-74EC-4F8A-8D3F-E82F07F768AC}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Voices_WU" ID="{02FC1F13-74EC-4F8A-8D3F-E82F07F768AC}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Voices_AM" ID="{6BECDAB0-590A-498B-B8E8-5346A7F1107D}" ShortID="361077096">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
