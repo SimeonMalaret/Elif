@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E90DF4BC-6FF7-40F8-B5F0-1455A72CD770}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="VOICES_WU" ID="{E90DF4BC-6FF7-40F8-B5F0-1455A72CD770}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="VOICE_WU" ID="{0F74F22B-9089-432F-8B5F-0E2142917B66}" ShortID="221107453">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="16"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Elif" ID="{81363AAD-B8E2-45DC-96B4-40A160FA3628}" ShortID="190440172">
+							<ChildrenList>
+								<Folder Name="Lines" ID="{40372233-F00C-4258-8376-0EB91FC8F2E0}" ShortID="929307348">
+									<ChildrenList>
+										<Event Name="Elif_Line_01" ID="{7903D3EC-7DDD-49B2-B28F-C59AE775CBA6}"/>
+										<Event Name="Elif_Line_03" ID="{09E0A858-00B1-49C4-A35C-5FA36AB31249}"/>
+										<Event Name="Elif_Line_04" ID="{703047C1-C4C4-4AA2-86F4-BC299E06C5A3}"/>
+										<Event Name="Elif_Line_05" ID="{74BCEE7F-3426-4B54-901E-BEA4D2D86E35}"/>
+										<Event Name="Elif_Line_06" ID="{8F43CDDE-B638-4D6F-B1DC-B0FD6FC57F52}"/>
+										<Event Name="Elif_Line_07" ID="{91B6D627-D40E-44F8-8E1C-CC6277E2D9FE}"/>
+										<Event Name="Elif_Line_08" ID="{7F63144D-288B-4E57-8A18-676C1E40782D}"/>
+										<Event Name="Elif_Line_09" ID="{90C15874-8AEA-474C-B745-96DCC1A83B0F}"/>
+										<Event Name="Elif_Line_10" ID="{C7CB841B-1C69-450C-8E8F-2BFBAE0EAF0C}"/>
+										<Event Name="Elif_Line_11" ID="{1ACC8491-362B-438D-98F2-5EA380CB604C}"/>
+										<Event Name="Elif_Line_12" ID="{D6B10A53-8001-47AA-AD70-B50EBE6AB31C}"/>
+										<Event Name="Elif_Line_13" ID="{469BA1B2-5FF0-41EF-AFA7-BCCEC569DE1B}"/>
+										<Event Name="Elif_Line_14" ID="{3419F89E-189E-4C17-B994-5A9823D0F3DC}"/>
+										<Event Name="Elif_Line_15" ID="{A4BE0435-91B2-4C3D-BFFC-F68DA2A2B014}"/>
+										<Event Name="Elif_Line_16" ID="{224B834B-F18C-4112-8B0A-CB70240B74BF}"/>
+										<Event Name="Elif_Line_17" ID="{34687F8F-56CB-4F38-AA2C-4A36212727B6}"/>
+										<Event Name="Elif_Line_18" ID="{6C342AEF-255C-4C56-9226-5C4708BA8332}"/>
+										<Event Name="Elif_Line_19" ID="{4995DB16-EFD5-415D-A164-587E5A35A4D6}"/>
+										<Event Name="Elif_Line_20" ID="{C657250E-AD89-43FF-8A91-BB692262A5BA}"/>
+										<Event Name="Elif_Line_21" ID="{B12070FF-3E01-472E-A543-977952C0B86E}"/>
+										<Event Name="Elif_Line_22" ID="{41A84646-D6D3-4964-B992-F57EBE45D611}"/>
+										<Event Name="Elif_Line_23" ID="{5BD66BD4-2341-4945-847C-19924879A3CD}"/>
+										<Event Name="Elif_Line_24" ID="{FCC0124C-F9C0-4246-A19E-F875F5E08165}"/>
+										<Event Name="Elif_Line_25" ID="{B1D6A625-28C7-45CE-B249-A01007973561}"/>
+										<Event Name="Elif_Line_26" ID="{3C392381-887D-45F6-8786-85AF188202B9}"/>
+										<Event Name="Elif_Line_27" ID="{B976B91D-5C0E-4565-9596-1EDBB556DB4F}"/>
+										<Event Name="Elif_Line_28" ID="{46C5DDD2-8B3E-427F-960D-E04E48AE23BB}"/>
+										<Event Name="Elif_Line_29" ID="{92B78B9B-FE34-44F1-9DF3-0A5C75BBCA92}"/>
+										<Event Name="Elif_Line_30" ID="{E8D63CCA-EAE4-4E60-B434-59C8334A6AC8}"/>
+										<Event Name="Elif_Line_31" ID="{FEE07117-6E68-4B24-84CA-6B80A3016A71}"/>
+										<Event Name="Elif_Line_32" ID="{8A6B810E-45C9-487E-9B72-F264CE2F9F88}"/>
+										<Event Name="Elif_Line_33" ID="{F9B77132-CC74-4722-BB6E-A449126EB072}"/>
+										<Event Name="Elif_Line_34" ID="{1C86F425-8257-40EB-A35D-FB2C17E99C54}"/>
+										<Event Name="Elif_Line_35" ID="{2795B558-A586-4050-9241-33E93C7D1508}"/>
+										<Event Name="Elif_Line_36" ID="{AB0FBCE2-D4DC-4133-A151-DA96E6E7608F}"/>
+										<Event Name="Elif_Line_37" ID="{41FE423C-73DD-4548-B40C-65AD332A2ABF}"/>
+										<Event Name="Elif_Line_38" ID="{41DD9732-1750-4D0B-8FB2-BA0FE8951915}"/>
+										<Event Name="Elif_Line_39" ID="{483CDC20-F094-4C3C-B797-E254CD3130FA}"/>
+										<Event Name="Elif_Line_40" ID="{0DB25DC5-1852-4524-B633-48D3D29D5F4C}"/>
+										<Event Name="Elif_Line_41" ID="{1F66EFC7-614D-4C98-805E-6D4D1F378369}"/>
+										<Event Name="Elif_Line_42" ID="{024DC1EE-76C7-4C7F-8F8F-DE602182DBE3}"/>
+										<Event Name="Elif_Line_43" ID="{CA642D27-38A4-4E1D-B79B-6F46F345BAE1}"/>
+										<Event Name="Elif_Line_44" ID="{C4303026-ECFE-4371-B86E-F2CAC9B257F3}"/>
+										<Event Name="Elif_Line_45" ID="{1A6FB0FD-0A39-49D3-86BD-748365547841}"/>
+										<Event Name="Elif_Line_46" ID="{3811564C-7188-4059-A03A-33F75A2CE0DB}"/>
+										<Event Name="Elif_Line_47" ID="{84116C5C-72E4-43B2-8351-215B274BB2AF}"/>
+										<Event Name="Elif_Line_48" ID="{2BC1307E-6E22-438A-96F5-C71998FC6A2F}"/>
+										<Event Name="Elif_Line_49" ID="{57EC6CB3-CC83-447D-9703-9E9E25733584}"/>
+										<Event Name="Elif_Line_50" ID="{1FE7E662-5376-4C9C-89A2-573B97551B04}"/>
+										<Event Name="Elif_Line_51" ID="{3FB30837-2306-4968-A6F5-C66773F2B75A}"/>
+										<Event Name="Elif_Line_52" ID="{6089210A-D7AD-41B4-BC7A-5D4CD9DE2925}"/>
+										<Event Name="Elif_Line_53" ID="{A1B5A73F-78E7-468A-A927-037F450939C8}"/>
+										<Event Name="Elif_Line_54" ID="{5672B811-AC76-4BD8-A3A3-A745B1C93CCF}"/>
+										<Event Name="Elif_Line_55" ID="{8E091996-8E25-433D-8715-5B5D2B223C29}"/>
+										<Event Name="Elif_Line_56" ID="{401B8620-127D-4FFD-901B-DCB7C030E9A1}"/>
+										<Event Name="Elif_Line_57" ID="{8281214A-F818-407F-B58F-3DE7AD56979C}"/>
+										<Event Name="Elif_Line_58" ID="{7E5F11A0-C353-4F00-A15F-B08FF3CB0ED2}"/>
+										<Event Name="Elif_Line_59" ID="{230B92C1-48A1-41C3-A063-9FD3693CF35E}"/>
+										<Event Name="Elif_Line_60" ID="{F984634F-6E0E-4F6F-AA97-DA9CD5B42EDF}"/>
+										<Event Name="Elif_Line_61" ID="{55441593-72A6-416E-8DAD-9E85D3747204}"/>
+										<Event Name="Elif_Line_62" ID="{7F9A2871-64CC-4E7C-8E25-EF9B90178316}"/>
+										<Event Name="Elif_Line_63" ID="{AFBD0A31-4A55-43B6-9A13-75008E03C331}"/>
+										<Event Name="Elif_Line_64" ID="{732F683F-3C7D-410C-AF64-9CD52502ECE1}"/>
+										<Event Name="Elif_Line_65" ID="{17F6A34A-D182-446E-847D-13A82FEE761C}"/>
+										<Event Name="Elif_Line_66" ID="{890B26DD-F474-4BAD-8357-5E2B4A2D322F}"/>
+										<Event Name="Elif_Line_67" ID="{521400E9-C3FA-43A3-A929-ED89626AFCBB}"/>
+										<Event Name="Elif_Line_68" ID="{67921E96-500E-43E2-930D-6EAEAD189AB3}"/>
+										<Event Name="Elif_Line_69" ID="{BAEE775B-3736-4915-B8DE-AA4B705CBA76}"/>
+										<Event Name="Elif_Line_70" ID="{3E09C073-097B-4273-A598-B8DAFBBAA385}"/>
+										<Event Name="Elif_Line_71" ID="{C341A214-36AB-481D-8B6F-68740B40B336}"/>
+										<Event Name="Elif_Line_72" ID="{73DC7A2C-3412-45E7-AA70-CAB5E51DA5E9}"/>
+										<Event Name="Elif_Line_73" ID="{D12937EE-F454-44CD-9BE2-E8455667C6ED}"/>
+										<Event Name="Elif_Line_74" ID="{1C707CA2-3FEE-4B17-ADBD-E573125E725B}"/>
+										<Event Name="Elif_Line_75" ID="{2723E3BD-8EF2-41F5-94A1-452AB4723FE2}"/>
+										<Event Name="Elif_Line_76" ID="{A595367C-24CC-48CA-9301-FC85721DE9A5}"/>
+										<Event Name="Elif_Line_77" ID="{009C6E60-EF11-4943-B4D8-C50F8E808E82}"/>
+										<Event Name="Elif_Line_78" ID="{4A7220D8-7D28-4598-ABF5-94DC698ED4F8}"/>
+										<Event Name="Elif_Line_79" ID="{EC46ADF5-FAF7-4AC2-829D-4491BDED20C2}"/>
+										<Event Name="Elif_Line_80" ID="{F228B14E-CD76-4B8A-B6DC-4C20D2C15935}"/>
+										<Event Name="Elif_Line_81" ID="{5D8E8D96-15E9-4C7B-BC5B-C9814A3AB6B2}"/>
+										<Event Name="Elif_Line_82" ID="{877B3681-1705-4898-B434-6358C93E67F6}"/>
+										<Event Name="Elif_Line_83" ID="{9C20B998-D836-4112-AD91-47F10A65FE53}"/>
+										<Event Name="Elif_Line_84" ID="{CB484E07-51F1-48CB-83BE-B8B3271B3A98}"/>
+										<Event Name="Elif_Line_85" ID="{560C2E07-044B-42B8-A7EE-03C86A770BC5}"/>
+										<Event Name="Elif_Line_86" ID="{6F871C36-7525-4458-8CC8-619160889C47}"/>
+										<Event Name="Elif_Line_87" ID="{DC878947-8C67-4729-8917-AC9438803D37}"/>
+										<Event Name="Elif_Line_88" ID="{BC1FB491-5036-44BD-8C96-A6B0AF5EFCF2}"/>
+										<Event Name="Elif_Line_89" ID="{26DEEF59-1D5C-42BD-8E5F-9C76D800BD82}"/>
+										<Event Name="Elif_Line_90" ID="{140B85DF-DEF1-4386-BFA0-9126642C2F6B}"/>
+										<Event Name="Elif_Line_91" ID="{675DED54-2215-4513-9ACA-10B7B16D1D52}"/>
+										<Event Name="Elif_Line_92" ID="{607A9ABE-7F49-43CD-9750-CD12868BAADB}"/>
+										<Event Name="Elif_Line_93" ID="{00590825-4056-461A-8915-EA83B6377D2B}"/>
+										<Event Name="Elif_Line_94" ID="{F8C65C96-FD1C-4FA6-A85F-AC7EFDCEB81F}"/>
+										<Event Name="Elif_Line_95" ID="{F4769E62-683F-40F6-B05A-F37EF39DB786}"/>
+										<Event Name="Elif_Line_96" ID="{BFE588C4-436E-4531-B324-34B5A9EA5E38}"/>
+										<Event Name="Elif_Line_97" ID="{624D01A1-7FC5-4B2D-B9C3-651A1DBDBF20}"/>
+										<Event Name="Elif_Line_98" ID="{9A92B081-B1EF-48C1-A57F-BB68A80BD336}"/>
+										<Event Name="Elif_Line_99" ID="{92FCFAB9-295A-4D76-9B38-A72624285B49}"/>
+										<Event Name="Elif_Line_100" ID="{D85F3318-1823-4ECD-8D93-D236A713CA9D}"/>
+										<Event Name="Elif_Line_101" ID="{D61B327C-4456-4003-BDDF-A0627928A8ED}"/>
+										<Event Name="Elif_Line_102" ID="{BC9677DA-3454-4536-8A93-67CAAF463B0A}"/>
+										<Event Name="Elif_Line_103" ID="{D3E8669D-B6CB-4525-8F50-0E2B05CBDDCB}"/>
+										<Event Name="Elif_Line_104" ID="{CE8E4CB1-5542-4830-BFF9-F3B57BBB8DD5}"/>
+										<Event Name="Elif_Line_105" ID="{166EFA71-4270-459F-AE11-0285B15E8E6D}"/>
+										<Event Name="Elif_Line_106" ID="{0E98CE78-025E-4180-95D1-D2635D8E1020}"/>
+										<Event Name="Elif_Line_107" ID="{95B10A9E-9BF7-4DE2-94AE-37D8A68174F0}"/>
+										<Event Name="Elif_Line_108" ID="{D6F1CF96-C733-40BA-9F8B-F03A6C79063A}"/>
+										<Event Name="Elif_Line_109" ID="{6B7FA2F4-C580-4BC9-B97D-95AFD30ADB06}"/>
+										<Event Name="Elif_Line_110" ID="{26EA358E-0D3D-4475-B5BC-13168E4A2EF3}"/>
+										<Event Name="Elif_Line_111" ID="{82F764E0-C20D-458D-A175-FBE299F37D16}"/>
+										<Event Name="Elif_Line_112" ID="{10DAEDB4-7F07-4C46-A8E7-FB1A0B673412}"/>
+										<Event Name="Elif_Line_113" ID="{7371F3F5-440A-4920-8BBA-9551DA978E9C}"/>
+										<Event Name="Elif_Line_114" ID="{32C59A49-289C-44D9-9D5C-9FF25C074B05}"/>
+										<Event Name="Elif_Line_115" ID="{BEC701A2-D135-45AC-83EE-B7A89059BE74}"/>
+										<Event Name="Elif_Line_116" ID="{BDDA5F0E-D925-483D-B0E1-83653410F049}"/>
+										<Event Name="Elif_Line_117" ID="{BB325B91-7B41-4469-ACF3-1D21C5314235}"/>
+										<Event Name="Elif_Line_118" ID="{9362D1E7-975A-4BB1-A6A1-45686DD05F36}"/>
+										<Event Name="Elif_Line_119" ID="{C4C00051-771E-4940-98DE-9B0CCF825374}"/>
+										<Event Name="Elif_Line_120" ID="{ED4D1061-848B-4C74-80DC-9F2A01DE4FE5}"/>
+										<Event Name="Elif_Line_121" ID="{D85B9F91-924D-4F56-B080-B2C2E0769E07}"/>
+										<Event Name="Elif_Line_122" ID="{01803247-4CD5-4F3F-B847-DC627427935E}"/>
+										<Event Name="Elif_Line_123" ID="{E327D1E8-1DF1-4307-B8C4-B6D4CDBDC71D}"/>
+										<Event Name="Elif_Line_124" ID="{FA3BCF68-C692-4C63-8E42-7D3312E7D179}"/>
+										<Event Name="Elif_Line_125" ID="{05A2F636-0C19-4935-BD6F-F503213D3B5F}"/>
+										<Event Name="Elif_Line_126" ID="{9AC758AC-4B82-42DF-935F-F0E9D8CBF6CA}"/>
+										<Event Name="Elif_Line_127" ID="{3993F9FA-ED53-465A-B652-25BDBAE133ED}"/>
+										<Event Name="Elif_Line_128" ID="{0D303B75-E6C9-4C0A-9ACC-70C2B41267C4}"/>
+										<Event Name="Elif_Line_129" ID="{28C2E560-ED95-473C-8B5F-F19B31714F7B}"/>
+										<Event Name="Elif_Line_130" ID="{ECFB0B6C-0232-4175-B406-A7836AD06336}"/>
+										<Event Name="Elif_Line_131" ID="{06F9DD1D-D18C-40BE-B3BB-FE86C1A6519B}"/>
+										<Event Name="Elif_Line_132" ID="{56D07A6A-651C-4AA6-953A-8406D7C3C349}"/>
+										<Event Name="Elif_Line_133" ID="{F0413AF8-A830-44B9-B1A5-3E382CC534A1}"/>
+										<Event Name="Elif_Line_134" ID="{763F9CF6-798D-4221-B1C6-466852597777}"/>
+										<Event Name="Elif_Line_135" ID="{E6D0B37A-4EDB-45C8-8D77-D6DF96489F4B}"/>
+										<Event Name="Elif_Line_136" ID="{BE4F34E9-FD39-429C-B6FE-DC637E33B1BF}"/>
+										<Event Name="Elif_Line_137" ID="{97C7F9D7-EFB5-4641-91B2-D0C76F8FF8A9}"/>
+										<Event Name="Elif_Line_138" ID="{D83A2AD5-7AAF-4DD0-8CF8-67CD1D5E31FA}"/>
+										<Event Name="Elif_Line_139" ID="{72975F5E-96F3-4CC3-92DB-AB3D15E25B8D}"/>
+										<Event Name="Elif_Line_140" ID="{43A3195A-1DC4-438B-8997-6D4CB925927A}"/>
+										<Event Name="Elif_Line_141" ID="{4EB37AFD-9904-4AAF-9133-76BDD2FD5858}"/>
+										<Event Name="Elif_Line_142" ID="{68DF5D96-868A-4F0A-98F0-EB8E78837A9C}"/>
+										<Event Name="Elif_Line_143" ID="{FEA54872-2C87-4EC6-B19B-7460DBB18196}"/>
+										<Event Name="Elif_Line_144" ID="{D2B06ACD-46ED-4EAA-8159-DB471B12A11C}"/>
+										<Event Name="Elif_Line_145" ID="{90D82F15-DFF8-4FB5-AF54-F4755F586184}"/>
+										<Event Name="Elif_Line_146" ID="{2D299D6D-E500-4BDD-9E1C-233C7EF3EA0B}"/>
+										<Event Name="Elif_Line_147" ID="{A5C039FE-34BA-48DA-AFF2-7357C2CA40EF}"/>
+										<Event Name="Elif_Line_148" ID="{28D97215-64B3-442F-84F4-04AA39D2160A}"/>
+										<Event Name="Elif_Line_149" ID="{7771C9ED-38A1-4CE8-8BB1-DE7D01F083FC}"/>
+										<Event Name="Elif_Line_150" ID="{68790707-1150-46CB-A986-E0856C952C97}"/>
+										<Event Name="Elif_Line_151" ID="{AA275F53-4231-4D80-83A1-81B4BF5712E5}"/>
+										<Event Name="Elif_Line_152" ID="{8782B999-9724-4481-A65A-12537129E41E}"/>
+										<Event Name="Elif_Line_153" ID="{FBEAC017-2820-4073-B766-4FF002A88082}"/>
+										<Event Name="Elif_Line_154" ID="{9CF5787F-BE3F-461F-AEEB-A4F6732A7622}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Shoot" ID="{9760E672-7368-4982-A4A9-0F035345C023}" ShortID="398404159">
+									<ChildrenList>
+										<Event Name="Elif_Shoot_02" ID="{191A20F0-AB95-4CE6-86CA-CA7E8B11EEE8}"/>
+										<Event Name="Elif_Shoot_01" ID="{C8DDD337-2C4C-47C3-BD28-3A2EBEB43138}"/>
+										<Event Name="Elif_Shoot_03" ID="{D5B7AAA7-9E66-4764-82BD-AA26A1534EC1}"/>
+										<Event Name="Elif_Shoot_04" ID="{0551AE48-B8E8-474C-A7A6-47D9E85FB5BB}"/>
+										<Event Name="Elif_Shoot_05" ID="{0B041849-D1D4-46C7-A23D-57AE83630D1D}"/>
+										<Event Name="Elif_Shoot_06" ID="{8461E05B-5FB5-4BCE-8D2B-C5392B1CB9C8}"/>
+										<Event Name="Elif_Shoot_07" ID="{92ECC8AC-5DC1-4D90-B5D7-193C1B63DD49}"/>
+										<Event Name="Elif_Shoot_08" ID="{BA1CD92B-CEEF-4C3D-9807-31869804FE70}"/>
+										<Event Name="Elif_Shoot_09" ID="{0D1AD12D-A076-4F9E-9A4D-0664C4FA4CE3}"/>
+										<Event Name="Elif_Shoot_10" ID="{554F5DDA-AE23-4E76-B81C-809720341D08}"/>
+										<Event Name="Elif_Shoot_11" ID="{3C87D95E-89CF-4D40-B25D-AC50B51C98F1}"/>
+										<Event Name="Elif_Shoot_12" ID="{5AB6ADA7-BED3-4876-8F24-6C892CF5E433}"/>
+										<Event Name="Elif_Shoot_13" ID="{BB8B9368-9A40-4F42-96AB-2035EAE964A6}"/>
+										<Event Name="Elif_Shoot_14" ID="{03D32BF0-B124-4743-AC5A-E795C2CE346B}"/>
+										<Event Name="Elif_Shoot_15" ID="{1AADE954-D7A5-4E0C-B1A9-DD93CDB6B1E0}"/>
+										<Event Name="Elif_Shoot_16" ID="{A0C915BC-53ED-421B-AADE-3B2E2392A865}"/>
+										<Event Name="Elif_Shoot_17" ID="{2F67A526-3F10-4EDB-A4D7-4ADA8F110299}"/>
+										<Event Name="Elif_Shoot_19" ID="{667896D0-0EB9-41F0-918B-64694B39C229}"/>
+										<Event Name="Elif_Shoot_18" ID="{5C2B9CE2-53BF-4F59-AB8E-25FE60C67CC3}"/>
+										<Event Name="Elif_Shoot_20" ID="{81613069-99C2-41CC-B565-751B91C49740}"/>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Event Name="New_Event_02" ID="{7889C2F5-7FF8-435C-95C8-E8BB07CB3402}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
