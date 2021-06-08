@@ -68,6 +68,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1158020445	Elif_Line_127			\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_127	
 	1158020446	Elif_Line_124			\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_124	
 	1158020447	Elif_Line_125			\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_125	
+	1185956821	Play_Pillow_Inflate			\LEVEL EVENT_WU\PROPS\Pillow\Play_Pillow_Inflate	
 	1301194605	Play_Trousse_SqueakHeavy			\LEVEL EVENT_WU\PROPS\Squeaks\Trousse\Play_Trousse_SqueakHeavy	
 	1323353296	Play_Clouds			\LEVEL EVENT_WU\Clouds\Play_Clouds	
 	1358180789	Set_GroundType_Leather			\MC EVENT_WU\MC\Set_GroundType_Leather	
@@ -584,6 +585,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	821870587	VOICE_Elif_Line_14	C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\VOICE_Elif_Line_14_10C4C929.wem		\Actor-Mixer Hierarchy\Voices_WU\Voices_AM\Elif_Lines\Level 01\VOICE_Elif_Line_14		535104
 	822875285	VOICE_Elif_Line_59	C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\VOICE_Elif_Line_59_10C4C929.wem		\Actor-Mixer Hierarchy\Voices_WU\Voices_AM\Elif_Lines\Level_02\VOICE_Elif_Line_59		607808
 	825333459	VOICE_Elif_Line_15	C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\VOICE_Elif_Line_15_10C4C929.wem		\Actor-Mixer Hierarchy\Voices_WU\Voices_AM\Elif_Lines\Level 01\VOICE_Elif_Line_15		240192
+	825595119	SFX_Level_Pillow_Inflate01	C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_Pillow_Inflate01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Pillow\SFX_Level_Pillow_Inflate01		241144
 	825998365	SFX_MC_FT_Grass_Run01	C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_FT_Grass_Run01_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FT\MC Footsteps_Swt\MC  RunType_Swt\MC  Run  Grass_Rnd\SFX_MC_FT_Grass_Run01		32142
 	828415261	VOICE_Elif_Line_83	C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\VOICE_Elif_Line_83_10C4C929.wem		\Actor-Mixer Hierarchy\Voices_WU\Voices_AM\Elif_Lines\Level_03\VOICE_Elif_Line_83		491584
 	828762656	SFX_Level_Clock_Ring_02_V2	C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_Clock_Ring_02_V2_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Clock\SFX_Level_Clock_Ring_02_V2		146146
@@ -691,6 +693,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1073433820	VOICE_Elif_Line_42	C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\VOICE_Elif_Line_42_10C4C929.wem		\Actor-Mixer Hierarchy\Voices_WU\Voices_AM\Elif_Lines\Level_02\VOICE_Elif_Line_42		225424
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	720383676	Track 1 V2	C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\Track 1 V2_D79FB2B7.wem	720383676.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Stealth\Stealth Music\Track 1 V2	
 	725754079	SFX_AMB_LOOP_STEALTH_LP	C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_AMB_LOOP_STEALTH_LP_D79FB2B7.wem	725754079.wem	\Actor-Mixer Hierarchy\AMB_WU\AMB_AM\Stealth\SFX_AMB_LOOP_STEALTH_LP	
 

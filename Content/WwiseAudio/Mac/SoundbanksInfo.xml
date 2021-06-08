@@ -9,10 +9,6 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
-		<File Id="720383676" Language="SFX">
-			<ShortName>Track 1 V2.wav</ShortName>
-			<Path>SFX\Track 1 V2_D79FB2B7.wem</Path>
-		</File>
 		<File Id="725754079" Language="SFX">
 			<ShortName>SFX_AMB_LOOP_STEALTH_LP.wav</ShortName>
 			<Path>SFX\SFX_AMB_LOOP_STEALTH_LP_D79FB2B7.wem</Path>
@@ -20,7 +16,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="233434907">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1842685770">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -33,7 +29,7 @@
 				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_Music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="3748866306">
+		<SoundBank Id="2228651116" Language="SFX" Hash="441916356">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -2311,13 +2307,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3709355747" Name="Play_Music_01" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Play_Music_01">
-					<ReferencedStreamedFiles>
-						<File Id="720383676" Language="SFX">
-							<ShortName>Track 1 V2.wav</ShortName>
-							<Path>SFX\Track 1 V2_D79FB2B7.wem</Path>
+				<Event Id="3709355747" Name="Play_Music_01" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Play_Music_01"/>
+				<Event Id="1185956821" Name="Play_Pillow_Inflate" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Pillow\Play_Pillow_Inflate">
+					<IncludedMemoryFiles>
+						<File Id="825595119" Language="SFX">
+							<ShortName>SFX_Level_Pillow_Inflate01.wav</ShortName>
+							<Path>SFX\SFX_Level_Pillow_Inflate01_10C4C929.wem</Path>
 						</File>
-					</ReferencedStreamedFiles>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2292692137" Name="Play_Pinata_Explosion" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Pinata\Play_Pinata_Explosion">
 					<IncludedMemoryFiles>
