@@ -699,6 +699,25 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Pillow" ID="{9806C2AC-3B68-4776-AA2F-9F510B83F4CE}" ShortID="153153217">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Event Name="Play_Pillow_Inflate" ID="{F8340E1D-222C-453E-B13C-03F4861BD2C3}">
+									<ChildrenList>
+										<Action Name="" ID="{55E14E93-90F1-43CD-89FD-ED9E420AC0D8}" ShortID="1123937">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_Pillow_Inflate01" ID="{8D9BB3AC-AD66-4000-8980-8C8A2C909C9F}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Walls" ID="{97234E22-3E6E-4FCE-AF7F-D5F642167B92}" ShortID="797327252">
