@@ -110,7 +110,7 @@ void ADreamHuntersCharacter::TurnAtRate(float Rate)
 void ADreamHuntersCharacter::LookUpAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
-	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+	AddControllerPitchInput(Rate * BaseLookUpRate * -1 * GetWorld()->GetDeltaSeconds());
 }
 
 void ADreamHuntersCharacter::MoveForward(float Value)
