@@ -7,17 +7,20 @@
 					<ChildrenList>
 						<Event Name="Play_MC_Locomotion" ID="{F003A863-C8ED-47BC-850C-C197211875D9}">
 							<ChildrenList>
-								<Action Name="" ID="{B9D87AC0-77CF-4284-BF8A-E56CB96C7FC4}" ShortID="1040513930">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="MC Footsteps_Swt" ID="{7D53D200-557B-48ED-A752-1C0E82F7E5AB}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{CC05A55E-65EC-465E-93A1-0503996F3E47}" ShortID="748482619">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="MC Foley Locomotion_Swt" ID="{2C05CEBB-16E7-43B5-87E8-0CB1E3CAF646}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9ED51F0E-8E6C-4B40-84FD-8EF31D0E608E}" ShortID="76553732">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC  Walk  Wood_Rnd" ID="{EBFB0087-B713-4610-9075-C698F1A72672}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -67,13 +70,6 @@
 						</Event>
 						<Event Name="Play_MC_Jump" ID="{7B9ABD3C-E3CF-47F2-8D09-96A2BF9AC119}">
 							<ChildrenList>
-								<Action Name="" ID="{E74163A0-6052-4FBD-A63E-C3D11904EE15}" ShortID="782122929">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="MC  JumpType_Swt" ID="{DA4826D6-892D-4CA2-8465-02E932D3D78A}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{005BA68F-77F4-41A0-BB21-EF7BFD420134}" ShortID="1024710641">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -81,21 +77,34 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{AF57A0C1-0A26-4273-8581-46663E8FA807}" ShortID="949590900">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Jump_Wood" ID="{472026C4-CF47-44DC-942B-19A3730A53A5}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_MC_Land" ID="{4E0801EE-A173-4CBA-9C5C-FD7CEA93953C}">
 							<ChildrenList>
-								<Action Name="" ID="{6B9D2CCF-8C59-484E-BB02-9277E1E2FFB2}" ShortID="1037925768">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="MC  LandType_Swt" ID="{5A8EB636-603B-4900-A592-15B8F9B1B37B}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{DCAB238A-4C16-47A2-AE59-D7782A1BE9F0}" ShortID="501570699">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="MC Foley Land_Rnd" ID="{4138ACAE-7235-418F-A3C7-107FCC131BAF}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7B9D2F98-2F0C-45ED-9D28-F9A8866541F0}" ShortID="86450336">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_LAND_WOOD" ID="{61E93789-0B92-4F3C-BDCF-47DA1A40E88B}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
