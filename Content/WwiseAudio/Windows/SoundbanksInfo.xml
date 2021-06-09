@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Projet STIGMA\DreamHunters\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -29,7 +29,7 @@
 				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_Music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="441916356">
+		<SoundBank Id="2228651116" Language="SFX" Hash="3336346788">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -2624,6 +2624,70 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3075857625" Name="Play_WindGust" ObjectPath="\Events\AMB EVENT_WU\Wind\Play_WindGust"/>
+				<Event Id="1952193115" Name="Play_Xylophone_Do3" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Do3">
+					<IncludedMemoryFiles>
+						<File Id="1047643292" Language="SFX">
+							<ShortName>SFX_Level_Props_Xylophone_Do3.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Xylophone_Do3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1952193116" Name="Play_Xylophone_Do4" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Do4">
+					<IncludedMemoryFiles>
+						<File Id="553733579" Language="SFX">
+							<ShortName>SFX_Level_Props_Xylophone_Do4.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Xylophone_Do4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2120263527" Name="Play_Xylophone_Fa3" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Fa3">
+					<IncludedMemoryFiles>
+						<File Id="928902495" Language="SFX">
+							<ShortName>SFX_Level_Props_Xylophone_Fa3.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Xylophone_Fa3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2185696649" Name="Play_Xylophone_La3" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_La3">
+					<IncludedMemoryFiles>
+						<File Id="329754675" Language="SFX">
+							<ShortName>SFX_Level_Props_Xylophone_La3.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Xylophone_La3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1447334380" Name="Play_Xylophone_Mi3" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Mi3">
+					<IncludedMemoryFiles>
+						<File Id="521483037" Language="SFX">
+							<ShortName>SFX_Level_Props_Xylophone_Mi3.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Xylophone_Mi3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1249798847" Name="Play_Xylophone_Re3" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Re3">
+					<IncludedMemoryFiles>
+						<File Id="240009389" Language="SFX">
+							<ShortName>SFX_Level_Props_Xylophone_Re3.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Xylophone_Re3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1518093590" Name="Play_Xylophone_Si3" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Si3">
+					<IncludedMemoryFiles>
+						<File Id="948376729" Language="SFX">
+							<ShortName>SFX_Level_Props_Xylophone_Si3.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Xylophone_Si3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3734126654" Name="Play_Xylophone_Sol3" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Sol3">
+					<IncludedMemoryFiles>
+						<File Id="253360079" Language="SFX">
+							<ShortName>SFX_Level_Props_Xylophone_Sol3.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Xylophone_Sol3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2265407426" Name="Play_Xylophone_SqueakHeavy" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Squeaks\Xylophone\Play_Xylophone_SqueakHeavy">
 					<IncludedMemoryFiles>
 						<File Id="438458722" Language="SFX">
@@ -2665,6 +2729,42 @@
 						<File Id="1002061095" Language="SFX">
 							<ShortName>SFX_LEVEL_Level_SqueakSmall_Xylophone_4.wav</ShortName>
 							<Path>SFX\SFX_LEVEL_Level_SqueakSmall_Xylophone_4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="415007345" Name="Play_XylophoneRandom" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Xylophone\Play_XylophoneRandom">
+					<IncludedMemoryFiles>
+						<File Id="240009389" Language="SFX">
+							<ShortName>SFX_Level_Props_Xylophone_Re3.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Xylophone_Re3_10C4C929.wem</Path>
+						</File>
+						<File Id="253360079" Language="SFX">
+							<ShortName>SFX_Level_Props_Xylophone_Sol3.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Xylophone_Sol3_10C4C929.wem</Path>
+						</File>
+						<File Id="329754675" Language="SFX">
+							<ShortName>SFX_Level_Props_Xylophone_La3.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Xylophone_La3_10C4C929.wem</Path>
+						</File>
+						<File Id="521483037" Language="SFX">
+							<ShortName>SFX_Level_Props_Xylophone_Mi3.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Xylophone_Mi3_10C4C929.wem</Path>
+						</File>
+						<File Id="553733579" Language="SFX">
+							<ShortName>SFX_Level_Props_Xylophone_Do4.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Xylophone_Do4_10C4C929.wem</Path>
+						</File>
+						<File Id="928902495" Language="SFX">
+							<ShortName>SFX_Level_Props_Xylophone_Fa3.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Xylophone_Fa3_10C4C929.wem</Path>
+						</File>
+						<File Id="948376729" Language="SFX">
+							<ShortName>SFX_Level_Props_Xylophone_Si3.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Xylophone_Si3_10C4C929.wem</Path>
+						</File>
+						<File Id="1047643292" Language="SFX">
+							<ShortName>SFX_Level_Props_Xylophone_Do3.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Xylophone_Do3_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

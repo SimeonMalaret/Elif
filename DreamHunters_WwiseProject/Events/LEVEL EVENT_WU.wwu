@@ -718,6 +718,109 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Xylophone" ID="{C296F6A4-DBFD-4948-88A6-E55EC8055E93}" ShortID="817709246">
+							<ChildrenList>
+								<Event Name="Play_XylophoneRandom" ID="{7CD64678-0898-40D0-9275-CB1AE39F8679}">
+									<ChildrenList>
+										<Action Name="" ID="{E1785DA3-A92B-477B-964D-0336063B3854}" ShortID="600200689">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Xylophone_Rnd" ID="{FEFA356B-611C-4436-8624-8D564363E063}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Xylophone_Do3" ID="{F590A0A5-6B93-4D03-A2A9-18206C2B8C2E}">
+									<ChildrenList>
+										<Action Name="" ID="{0EBDE7CF-22CE-422F-B36D-1D8469984229}" ShortID="606502227">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_Props_Xylophone_Do3" ID="{2D224B0F-6202-41C5-966E-5383E6A36B75}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Xylophone_Do4" ID="{D5389BD5-B8F4-4AC8-99BE-53B51CA057A9}">
+									<ChildrenList>
+										<Action Name="" ID="{A4DB283F-D18E-4E0B-ADC8-88DE8DF52D04}" ShortID="768105531">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_Props_Xylophone_Do4" ID="{E9DBDF00-FA8C-40FB-9F74-29F3C4200F96}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Xylophone_Re3" ID="{77F6CAF5-DBCC-4BC7-A1DC-0C683E8ACBA4}">
+									<ChildrenList>
+										<Action Name="" ID="{362ED9D0-3566-4C2F-9108-9D2B0A7DB0A3}" ShortID="775661297">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_Props_Xylophone_Re3" ID="{45AD516D-30EC-4B8D-934A-A05D77C63310}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Xylophone_Mi3" ID="{4FBEBAA1-4D58-4ED3-94B3-E6F7A042F09A}">
+									<ChildrenList>
+										<Action Name="" ID="{673A8AC6-0179-4EF4-A5C4-DA72E9763BFA}" ShortID="363051236">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_Props_Xylophone_Mi3" ID="{A7591837-D5D0-4C9C-B10B-AE493615E35B}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Xylophone_Fa3" ID="{D098D4AA-586E-4DA1-98D4-AB17D52DC2E7}">
+									<ChildrenList>
+										<Action Name="" ID="{95EFBE55-FDE6-4750-8A0E-F650CA7B1F79}" ShortID="875967412">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_Props_Xylophone_Fa3" ID="{A0CAB5B2-9AA4-4B4C-980E-722EE2AB231D}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Xylophone_Sol3" ID="{7D56CAC3-D6A8-44E3-8832-28B6EE06E30B}">
+									<ChildrenList>
+										<Action Name="" ID="{7029E39D-E2F1-4F54-92C1-30D962B699A7}" ShortID="953509666">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_Props_Xylophone_Sol3" ID="{EC58ED7F-BE0D-4D4E-A12E-05333F035C6D}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Xylophone_La3" ID="{680CA26B-4AF4-4DDB-95E5-6001E7EE638A}">
+									<ChildrenList>
+										<Action Name="" ID="{067EEE9C-5142-4810-8866-9C6FD0CC99C6}" ShortID="581425654">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_Props_Xylophone_La3" ID="{27A6C7A9-EA08-41A7-8F93-03D4E0007E53}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Xylophone_Si3" ID="{808B782C-756E-421B-88EB-77AFAAF8B17B}">
+									<ChildrenList>
+										<Action Name="" ID="{28475A0D-527E-4A3B-B872-D05D7B7B8FB3}" ShortID="194541248">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_Props_Xylophone_Si3" ID="{D2774EF3-DC9E-4FB3-ACCF-17D242CF7A73}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Walls" ID="{97234E22-3E6E-4FCE-AF7F-D5F642167B92}" ShortID="797327252">
