@@ -3815,6 +3815,377 @@
 										</Sound>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Xylophone" ID="{55755298-C498-4F33-A6F1-F9FBA9FD086E}" ShortID="65631539">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Xylophone_Rnd" ID="{FEFA356B-611C-4436-8624-8D564363E063}" ShortID="407271282">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Level_Props_Xylophone_Do3" ID="{064C7E90-CF6E-490D-8160-72E93AE4EFD9}" ShortID="194873997">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_Props_Xylophone_Do3" ID="{3FD344EE-CDAA-4D41-990E-0709300FB683}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Props_Xylophone_Do3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1047643292"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_Props_Xylophone_Do3" ID="{3FD344EE-CDAA-4D41-990E-0709300FB683}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_Props_Xylophone_Do4" ID="{FC7A82F7-6070-4369-B329-E3F885D55049}" ShortID="624283869">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_Props_Xylophone_Do4" ID="{E348D173-53A9-4A89-A579-466D102B4D90}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Props_Xylophone_Do4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="553733579"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_Props_Xylophone_Do4" ID="{E348D173-53A9-4A89-A579-466D102B4D90}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_Props_Xylophone_Fa3" ID="{FDD21FE0-ADBC-4C60-9A44-A0A4900DA6DE}" ShortID="526777415">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_Props_Xylophone_Fa3" ID="{C1AFBBB8-359C-4092-8D4C-171C18478305}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Props_Xylophone_Fa3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="928902495"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_Props_Xylophone_Fa3" ID="{C1AFBBB8-359C-4092-8D4C-171C18478305}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_Props_Xylophone_La3" ID="{ACC198EA-2B3D-4AA4-821E-00E0B79BA47E}" ShortID="848500065">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_Props_Xylophone_La3" ID="{BEF352E5-0C41-4D0E-B1F8-3C87D9BF88AD}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Props_Xylophone_La3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="329754675"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_Props_Xylophone_La3" ID="{BEF352E5-0C41-4D0E-B1F8-3C87D9BF88AD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_Props_Xylophone_Mi3" ID="{EF4AF9F2-FBA4-4FA3-917D-865DB9D942F2}" ShortID="235486777">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_Props_Xylophone_Mi3" ID="{443DF0F0-1653-4CAD-A0D6-227E1977A671}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Props_Xylophone_Mi3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="521483037"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_Props_Xylophone_Mi3" ID="{443DF0F0-1653-4CAD-A0D6-227E1977A671}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_Props_Xylophone_Re3" ID="{D939C870-345B-495E-8978-7C39FED3A498}" ShortID="968308962">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_Props_Xylophone_Re3" ID="{99FFDC6D-214E-4950-8A9F-CEC5BE8287F4}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Props_Xylophone_Re3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="240009389"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_Props_Xylophone_Re3" ID="{99FFDC6D-214E-4950-8A9F-CEC5BE8287F4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_Props_Xylophone_Si3" ID="{E68BA2FA-B13D-42E8-84B7-7C478DE1C254}" ShortID="765915618">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_Props_Xylophone_Si3" ID="{F86985FF-EF09-4151-B7C8-93217D10E137}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Props_Xylophone_Si3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="948376729"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_Props_Xylophone_Si3" ID="{F86985FF-EF09-4151-B7C8-93217D10E137}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_Props_Xylophone_Sol3" ID="{98FAD8D4-4225-4E7D-A4ED-EA39ED3B643D}" ShortID="966702829">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_Props_Xylophone_Sol3" ID="{FBF6AD79-7D06-48FA-BE92-B8E0B8882B23}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Props_Xylophone_Sol3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="253360079"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_Props_Xylophone_Sol3" ID="{FBF6AD79-7D06-48FA-BE92-B8E0B8882B23}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="SFX_Level_Props_Xylophone_Do3" ID="{2D224B0F-6202-41C5-966E-5383E6A36B75}" ShortID="750049784">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Level_Props_Xylophone_Do3" ID="{EB592EE5-CDB1-4B07-AD43-C1736EB5506D}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Level_Props_Xylophone_Do3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1047643292"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Level_Props_Xylophone_Do3" ID="{EB592EE5-CDB1-4B07-AD43-C1736EB5506D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Level_Props_Xylophone_Do4" ID="{E9DBDF00-FA8C-40FB-9F74-29F3C4200F96}" ShortID="177950326">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Level_Props_Xylophone_Do4" ID="{17371F21-6A09-4909-BBEE-4B746537CF3B}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Level_Props_Xylophone_Do4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="553733579"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Level_Props_Xylophone_Do4" ID="{17371F21-6A09-4909-BBEE-4B746537CF3B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Level_Props_Xylophone_Fa3" ID="{A0CAB5B2-9AA4-4B4C-980E-722EE2AB231D}" ShortID="989427062">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Level_Props_Xylophone_Fa3" ID="{0D42471F-2982-4671-95F2-6796D295C5DA}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Level_Props_Xylophone_Fa3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="928902495"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Level_Props_Xylophone_Fa3" ID="{0D42471F-2982-4671-95F2-6796D295C5DA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Level_Props_Xylophone_La3" ID="{27A6C7A9-EA08-41A7-8F93-03D4E0007E53}" ShortID="425465924">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Level_Props_Xylophone_La3" ID="{87A17658-E341-4DAA-8F80-7A8B7FC0F7F4}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Level_Props_Xylophone_La3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="329754675"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Level_Props_Xylophone_La3" ID="{87A17658-E341-4DAA-8F80-7A8B7FC0F7F4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Level_Props_Xylophone_Mi3" ID="{A7591837-D5D0-4C9C-B10B-AE493615E35B}" ShortID="217349349">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Level_Props_Xylophone_Mi3" ID="{4E183676-D597-416F-A8AA-DC8CE9B62122}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Level_Props_Xylophone_Mi3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="521483037"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Level_Props_Xylophone_Mi3" ID="{4E183676-D597-416F-A8AA-DC8CE9B62122}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Level_Props_Xylophone_Re3" ID="{45AD516D-30EC-4B8D-934A-A05D77C63310}" ShortID="696543515">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Level_Props_Xylophone_Re3" ID="{EAE64501-2050-44C4-8D07-2C7256402BE3}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Level_Props_Xylophone_Re3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="240009389"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Level_Props_Xylophone_Re3" ID="{EAE64501-2050-44C4-8D07-2C7256402BE3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Level_Props_Xylophone_Si3" ID="{D2774EF3-DC9E-4FB3-ACCF-17D242CF7A73}" ShortID="229172651">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Level_Props_Xylophone_Si3" ID="{F17B73D7-6134-4630-A1FC-39F7DB0B7F5B}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Level_Props_Xylophone_Si3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="948376729"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Level_Props_Xylophone_Si3" ID="{F17B73D7-6134-4630-A1FC-39F7DB0B7F5B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Level_Props_Xylophone_Sol3" ID="{EC58ED7F-BE0D-4D4E-A12E-05333F035C6D}" ShortID="823860548">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Level_Props_Xylophone_Sol3" ID="{1E1B2512-F666-4DA2-B1EC-DB65B764FE05}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Level_Props_Xylophone_Sol3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="253360079"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Level_Props_Xylophone_Sol3" ID="{1E1B2512-F666-4DA2-B1EC-DB65B764FE05}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Wall_AM" ID="{72613A2F-7B43-467B-8C8F-E80692CBCBB6}" ShortID="284790304">
