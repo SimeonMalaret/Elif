@@ -4490,6 +4490,57 @@
 										<ActiveSource Name="SFX_LEVEL_JingleWarning" ID="{B21EE2B0-46CF-4946-9527-C358CED4919F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="SFX_Level_Jingle_Lose" ID="{E863C324-3A05-4853-BBE7-E2A48E37813C}" ShortID="738265179">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Level_Jingle_Lose" ID="{4E293880-716C-455A-BCBC-DB6548F5341F}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Level_Jingle_Lose.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="414015866"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Level_Jingle_Lose" ID="{4E293880-716C-455A-BCBC-DB6548F5341F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Level_Jingle_Win" ID="{DAC19A57-1696-44D7-A9D2-62B7CB7D8A2D}" ShortID="1059131720">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>33</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Level_Jingle_Win" ID="{FDB7E432-A238-4A69-B9A2-91A3D43F333D}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Level_Jingle_Win.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="858774806"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Level_Jingle_Win" ID="{FDB7E432-A238-4A69-B9A2-91A3D43F333D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

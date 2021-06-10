@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\Content\WwiseAudio\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Projet STIGMA\DreamHunters\Content\WwiseAudio\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -161,7 +161,7 @@
 				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_Music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="3699106441">
+		<SoundBank Id="2228651116" Language="SFX" Hash="3689680104">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -2375,7 +2375,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Play_Music">
+				<Event Id="3709355747" Name="Play_Music_01" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Temporary\Play_Music_01">
+					<ReferencedStreamedFiles>
+						<File Id="746771830" Language="SFX">
+							<ShortName>Track 1 V2.wav</ShortName>
+							<Path>SFX\Track 1 V2_D79FB2B7.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="746771830" Language="SFX">
+							<ShortName>Track 1 V2.wav</ShortName>
+							<Path>SFX\Track 1 V2_D79FB2B7.wem</Path>
+							<PrefetchSize>19264</PrefetchSize>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1699343283" Name="Play_Music_Menu" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Play_Music_Menu">
 					<ReferencedStreamedFiles>
 						<File Id="4360802" Language="SFX">
 							<ShortName>ViolonPluck_102.wav</ShortName>
@@ -2588,20 +2603,219 @@
 						<ActionSetStateEntry Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Music\Menu_InGame\Menu"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3709355747" Name="Play_Music_01" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Temporary\Play_Music_01">
+				<Event Id="2398385329" Name="Play_Music_Part_01" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Play_Music_Part_01">
 					<ReferencedStreamedFiles>
-						<File Id="746771830" Language="SFX">
-							<ShortName>Track 1 V2.wav</ShortName>
-							<Path>SFX\Track 1 V2_D79FB2B7.wem</Path>
+						<File Id="4360802" Language="SFX">
+							<ShortName>ViolonPluck_102.wav</ShortName>
+							<Path>SFX\ViolonPluck_102_D79FB2B7.wem</Path>
+						</File>
+						<File Id="277673798" Language="SFX">
+							<ShortName>Clarinette_101.wav</ShortName>
+							<Path>SFX\Clarinette_101_D79FB2B7.wem</Path>
+						</File>
+						<File Id="436259749" Language="SFX">
+							<ShortName>ViolonPluck_201.wav</ShortName>
+							<Path>SFX\ViolonPluck_201_D79FB2B7.wem</Path>
+						</File>
+						<File Id="470992547" Language="SFX">
+							<ShortName>ViolonPluck_101.wav</ShortName>
+							<Path>SFX\ViolonPluck_101_D79FB2B7.wem</Path>
+						</File>
+						<File Id="500891357" Language="SFX">
+							<ShortName>Clarinette_202.wav</ShortName>
+							<Path>SFX\Clarinette_202_D79FB2B7.wem</Path>
+						</File>
+						<File Id="512176570" Language="SFX">
+							<ShortName>ViolonPluck_203.wav</ShortName>
+							<Path>SFX\ViolonPluck_203_D79FB2B7.wem</Path>
+						</File>
+						<File Id="558530962" Language="SFX">
+							<ShortName>Violon_101.wav</ShortName>
+							<Path>SFX\Violon_101_D79FB2B7.wem</Path>
+						</File>
+						<File Id="671372812" Language="SFX">
+							<ShortName>ViolonPluck_202.wav</ShortName>
+							<Path>SFX\ViolonPluck_202_D79FB2B7.wem</Path>
+						</File>
+						<File Id="812118643" Language="SFX">
+							<ShortName>Clarinette_102.wav</ShortName>
+							<Path>SFX\Clarinette_102_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1023326255" Language="SFX">
+							<ShortName>Violon_102.wav</ShortName>
+							<Path>SFX\Violon_102_D79FB2B7.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="2398385330" Name="Play_Music_Part_02" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Play_Music_Part_02">
+					<ReferencedStreamedFiles>
+						<File Id="215972072" Language="SFX">
+							<ShortName>Clarinette_302.wav</ShortName>
+							<Path>SFX\Clarinette_302_D79FB2B7.wem</Path>
+						</File>
+						<File Id="291890720" Language="SFX">
+							<ShortName>ViolonPluck_103.wav</ShortName>
+							<Path>SFX\ViolonPluck_103_D79FB2B7.wem</Path>
+						</File>
+						<File Id="297869723" Language="SFX">
+							<ShortName>ViolonPluck_104.wav</ShortName>
+							<Path>SFX\ViolonPluck_104_D79FB2B7.wem</Path>
+						</File>
+						<File Id="411192415" Language="SFX">
+							<ShortName>Clarinette_301.wav</ShortName>
+							<Path>SFX\Clarinette_301_D79FB2B7.wem</Path>
+						</File>
+						<File Id="812118643" Language="SFX">
+							<ShortName>Clarinette_102.wav</ShortName>
+							<Path>SFX\Clarinette_102_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1023326255" Language="SFX">
+							<ShortName>Violon_102.wav</ShortName>
+							<Path>SFX\Violon_102_D79FB2B7.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="2398385331" Name="Play_Music_Part_03" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Play_Music_Part_03">
+					<ReferencedStreamedFiles>
+						<File Id="4360802" Language="SFX">
+							<ShortName>ViolonPluck_102.wav</ShortName>
+							<Path>SFX\ViolonPluck_102_D79FB2B7.wem</Path>
+						</File>
+						<File Id="18700665" Language="SFX">
+							<ShortName>Piano_203.wav</ShortName>
+							<Path>SFX\Piano_203_D79FB2B7.wem</Path>
+						</File>
+						<File Id="105897018" Language="SFX">
+							<ShortName>Violon_End.wav</ShortName>
+							<Path>SFX\Violon_End_D79FB2B7.wem</Path>
+						</File>
+						<File Id="126677074" Language="SFX">
+							<ShortName>Piano_102.wav</ShortName>
+							<Path>SFX\Piano_102_D79FB2B7.wem</Path>
+						</File>
+						<File Id="140712066" Language="SFX">
+							<ShortName>ClarinetteENS_201.wav</ShortName>
+							<Path>SFX\ClarinetteENS_201_D79FB2B7.wem</Path>
+						</File>
+						<File Id="215972072" Language="SFX">
+							<ShortName>Clarinette_302.wav</ShortName>
+							<Path>SFX\Clarinette_302_D79FB2B7.wem</Path>
+						</File>
+						<File Id="266764523" Language="SFX">
+							<ShortName>ClarinetteENS_103.wav</ShortName>
+							<Path>SFX\ClarinetteENS_103_D79FB2B7.wem</Path>
+						</File>
+						<File Id="277673798" Language="SFX">
+							<ShortName>Clarinette_101.wav</ShortName>
+							<Path>SFX\Clarinette_101_D79FB2B7.wem</Path>
+						</File>
+						<File Id="291890720" Language="SFX">
+							<ShortName>ViolonPluck_103.wav</ShortName>
+							<Path>SFX\ViolonPluck_103_D79FB2B7.wem</Path>
+						</File>
+						<File Id="297869723" Language="SFX">
+							<ShortName>ViolonPluck_104.wav</ShortName>
+							<Path>SFX\ViolonPluck_104_D79FB2B7.wem</Path>
+						</File>
+						<File Id="301166253" Language="SFX">
+							<ShortName>ClarinetteENS_101.wav</ShortName>
+							<Path>SFX\ClarinetteENS_101_D79FB2B7.wem</Path>
+						</File>
+						<File Id="336664167" Language="SFX">
+							<ShortName>ClarinetteENS_102.wav</ShortName>
+							<Path>SFX\ClarinetteENS_102_D79FB2B7.wem</Path>
+						</File>
+						<File Id="411192415" Language="SFX">
+							<ShortName>Clarinette_301.wav</ShortName>
+							<Path>SFX\Clarinette_301_D79FB2B7.wem</Path>
+						</File>
+						<File Id="436259749" Language="SFX">
+							<ShortName>ViolonPluck_201.wav</ShortName>
+							<Path>SFX\ViolonPluck_201_D79FB2B7.wem</Path>
+						</File>
+						<File Id="454998162" Language="SFX">
+							<ShortName>MusicBox_101.wav</ShortName>
+							<Path>SFX\MusicBox_101_D79FB2B7.wem</Path>
+						</File>
+						<File Id="470992547" Language="SFX">
+							<ShortName>ViolonPluck_101.wav</ShortName>
+							<Path>SFX\ViolonPluck_101_D79FB2B7.wem</Path>
+						</File>
+						<File Id="500891357" Language="SFX">
+							<ShortName>Clarinette_202.wav</ShortName>
+							<Path>SFX\Clarinette_202_D79FB2B7.wem</Path>
+						</File>
+						<File Id="510746917" Language="SFX">
+							<ShortName>ViolonPluck_301.wav</ShortName>
+							<Path>SFX\ViolonPluck_301_D79FB2B7.wem</Path>
+						</File>
+						<File Id="512176570" Language="SFX">
+							<ShortName>ViolonPluck_203.wav</ShortName>
+							<Path>SFX\ViolonPluck_203_D79FB2B7.wem</Path>
+						</File>
+						<File Id="533205878" Language="SFX">
+							<ShortName>ViolonPluck_302.wav</ShortName>
+							<Path>SFX\ViolonPluck_302_D79FB2B7.wem</Path>
+						</File>
+						<File Id="558530962" Language="SFX">
+							<ShortName>Violon_101.wav</ShortName>
+							<Path>SFX\Violon_101_D79FB2B7.wem</Path>
+						</File>
+						<File Id="671372812" Language="SFX">
+							<ShortName>ViolonPluck_202.wav</ShortName>
+							<Path>SFX\ViolonPluck_202_D79FB2B7.wem</Path>
+						</File>
+						<File Id="685557621" Language="SFX">
+							<ShortName>Piano_101.wav</ShortName>
+							<Path>SFX\Piano_101_D79FB2B7.wem</Path>
+						</File>
+						<File Id="730851277" Language="SFX">
+							<ShortName>ClarinetteENS_202.wav</ShortName>
+							<Path>SFX\ClarinetteENS_202_D79FB2B7.wem</Path>
+						</File>
+						<File Id="788166266" Language="SFX">
+							<ShortName>Piano_201.wav</ShortName>
+							<Path>SFX\Piano_201_D79FB2B7.wem</Path>
+						</File>
+						<File Id="812118643" Language="SFX">
+							<ShortName>Clarinette_102.wav</ShortName>
+							<Path>SFX\Clarinette_102_D79FB2B7.wem</Path>
+						</File>
+						<File Id="815785611" Language="SFX">
+							<ShortName>Piano_202.wav</ShortName>
+							<Path>SFX\Piano_202_D79FB2B7.wem</Path>
+						</File>
+						<File Id="998469898" Language="SFX">
+							<ShortName>MusicBox_End.wav</ShortName>
+							<Path>SFX\MusicBox_End_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1023326255" Language="SFX">
+							<ShortName>Violon_102.wav</ShortName>
+							<Path>SFX\Violon_102_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1060913604" Language="SFX">
+							<ShortName>Piano_204.wav</ShortName>
+							<Path>SFX\Piano_204_D79FB2B7.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<IncludedMemoryFiles>
-						<File Id="746771830" Language="SFX">
-							<ShortName>Track 1 V2.wav</ShortName>
-							<Path>SFX\Track 1 V2_D79FB2B7.wem</Path>
-							<PrefetchSize>19264</PrefetchSize>
+						<File Id="18700665" Language="SFX">
+							<ShortName>Piano_203.wav</ShortName>
+							<Path>SFX\Piano_203_D79FB2B7.wem</Path>
+						</File>
+						<File Id="215972072" Language="SFX">
+							<ShortName>Clarinette_302.wav</ShortName>
+							<Path>SFX\Clarinette_302_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1060913604" Language="SFX">
+							<ShortName>Piano_204.wav</ShortName>
+							<Path>SFX\Piano_204_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="151272182" Name="Part_03" ObjectPath="\States\Default Work Unit\Music\Music_Level\Part_03"/>
+						<ActionSetStateEntry Id="984691642" Name="InGame" ObjectPath="\States\Default Work Unit\Music\Menu_InGame\InGame"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="1185956821" Name="Play_Pillow_Inflate" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Pillow\Play_Pillow_Inflate">
 					<IncludedMemoryFiles>
@@ -3113,37 +3327,6 @@
 						<ActionSetStateEntry Id="565529991" Name="Final" ObjectPath="\States\Default Work Unit\Music\Music_Level\Final"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="1285258340" Name="Set_MusicState_Menu" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Set_MusicState_Menu">
-					<ActionSetState>
-						<ActionSetStateEntry Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Music\Menu_InGame\Menu"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="2377423344" Name="Set_MusicState_Part_01" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Set_MusicState_Part_01">
-					<ActionSetState>
-						<ActionSetStateEntry Id="151272180" Name="Part_01" ObjectPath="\States\Default Work Unit\Music\Music_Level\Part_01"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="2377423347" Name="Set_MusicState_Part_02" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Set_MusicState_Part_02">
-					<ActionSetState>
-						<ActionSetStateEntry Id="151272183" Name="Part_02" ObjectPath="\States\Default Work Unit\Music\Music_Level\Part_02"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="2377423346" Name="Set_MusicState_Part_03" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Set_MusicState_Part_03">
-					<ActionSetState>
-						<ActionSetStateEntry Id="151272182" Name="Part_03" ObjectPath="\States\Default Work Unit\Music\Music_Level\Part_03"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1570211900" Name="Set_MusicState_Transition" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Set_MusicState_Transition">
-					<ActionSetState>
-						<ActionSetStateEntry Id="1865857008" Name="Transition" ObjectPath="\States\Default Work Unit\Music\Music_Level\Transition"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1443362430" Name="Set_MusicState_Transition_Menu_InGame" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Set_MusicState_Transition_Menu_InGame">
-					<ActionSetState>
-						<ActionSetStateEntry Id="984691642" Name="InGame" ObjectPath="\States\Default Work Unit\Music\Menu_InGame\InGame"/>
-						<ActionSetStateEntry Id="1865857008" Name="Transition" ObjectPath="\States\Default Work Unit\Music\Music_Level\Transition"/>
-					</ActionSetState>
-				</Event>
 				<Event Id="891247879" Name="Stop_AMB_Playground_lp" ObjectPath="\Events\AMB EVENT_WU\PlayGround\Stop_AMB_Playground_lp"/>
 				<Event Id="704767527" Name="Stop_Amb_Stealth_lp" ObjectPath="\Events\AMB EVENT_WU\Stealth\Stop_Amb_Stealth_lp"/>
 				<Event Id="3087173238" Name="Stop_Bridge_Blocked" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Bridge\Stop_Bridge_Blocked"/>
@@ -3166,13 +3349,7 @@
 				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_SFX"/>
 			</GameParameters>
 			<StateGroups>
-				<StateGroup Id="151272180" Name="Part_01" ObjectPath="\States\Default Work Unit\Music\Music_Level\Part_01">
-					<States/>
-				</StateGroup>
 				<StateGroup Id="151272182" Name="Part_03" ObjectPath="\States\Default Work Unit\Music\Music_Level\Part_03">
-					<States/>
-				</StateGroup>
-				<StateGroup Id="151272183" Name="Part_02" ObjectPath="\States\Default Work Unit\Music\Music_Level\Part_02">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="565529991" Name="Final" ObjectPath="\States\Default Work Unit\Music\Music_Level\Final">
