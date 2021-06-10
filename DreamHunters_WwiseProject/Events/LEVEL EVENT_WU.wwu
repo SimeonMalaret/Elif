@@ -908,45 +908,71 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_Jingle_Warning" ID="{0AF2416A-03E7-4132-9D4A-0022A75FB505}">
-					<PropertyList>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
+				<Folder Name="Jingles" ID="{F6CBFD83-0F4A-4ED2-95DB-0A9B1E898B9A}" ShortID="621103485">
 					<ChildrenList>
-						<Action Name="" ID="{D7218378-2AD6-422C-B395-680C3E6FE8CD}" ShortID="297258002">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_LEVEL_JingleWarning" ID="{6C71AD59-A428-42E4-9D3B-BAB1F6B577F8}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{B846A68B-59AB-4118-BC15-4DD94389B62A}" ShortID="715062018">
+						<Event Name="Play_Jingle_Warning" ID="{0AF2416A-03E7-4132-9D4A-0022A75FB505}">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="7"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music_Mswt" ID="{3A8D1027-9B7B-4F2B-A543-6563D89C78F9}" WorkUnitID="{F0E70CF2-F4D6-4D89-A4A9-DAD98C803122}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{8443F226-3172-4F42-9B51-87F11DEBF0BD}" ShortID="1025512549">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="9"/>
-								<Property Name="Delay" Type="Real64" Value="10"/>
-								<Property Name="FadeInCurve" Type="int16" Value="6"/>
-								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music_Mswt" ID="{3A8D1027-9B7B-4F2B-A543-6563D89C78F9}" WorkUnitID="{F0E70CF2-F4D6-4D89-A4A9-DAD98C803122}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+							<ChildrenList>
+								<Action Name="" ID="{D7218378-2AD6-422C-B395-680C3E6FE8CD}" ShortID="297258002">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_LEVEL_JingleWarning" ID="{6C71AD59-A428-42E4-9D3B-BAB1F6B577F8}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B846A68B-59AB-4118-BC15-4DD94389B62A}" ShortID="715062018">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Mswt" ID="{3A8D1027-9B7B-4F2B-A543-6563D89C78F9}" WorkUnitID="{F0E70CF2-F4D6-4D89-A4A9-DAD98C803122}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8443F226-3172-4F42-9B51-87F11DEBF0BD}" ShortID="1025512549">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Delay" Type="Real64" Value="10"/>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Mswt" ID="{3A8D1027-9B7B-4F2B-A543-6563D89C78F9}" WorkUnitID="{F0E70CF2-F4D6-4D89-A4A9-DAD98C803122}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Jingle_Win" ID="{086A582C-C16E-4996-AD5F-DAA64E6040AC}">
+							<ChildrenList>
+								<Action Name="" ID="{EAB7F8B8-CFA2-4601-ADAD-A83C0D9922ED}" ShortID="424059881">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Level_Jingle_Win" ID="{DAC19A57-1696-44D7-A9D2-62B7CB7D8A2D}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Jingle_Lose" ID="{24281CCE-5EB1-4EA6-87A0-3B79C7C6A22F}">
+							<ChildrenList>
+								<Action Name="" ID="{C757EDDA-B60C-4BC3-A6BB-1F985B9A4BA8}" ShortID="368211329">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Level_Jingle_Lose" ID="{E863C324-3A05-4853-BBE7-E2A48E37813C}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
