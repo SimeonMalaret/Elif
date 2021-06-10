@@ -41,6 +41,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1020223172	Play_Wind			\AMB EVENT_WU\Wind\Play_Wind	
 	1079843610	Stop_Bridge_Down			\LEVEL EVENT_WU\PROPS\Bridge\Stop_Bridge_Down	
 	1081286129	Play_DrawBridge_NoRing			\LEVEL EVENT_WU\PROPS\DrawBridge\Play_DrawBridge_NoRing	
+	1102200447	Play_Library_Roomtone			\AMB EVENT_WU\Roomtone\Play_Library_Roomtone	
 	1124465264	Elif_Line_104			\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_104	
 	1124465265	Elif_Line_105			\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_105	
 	1124465266	Elif_Line_106			\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_106	
@@ -71,15 +72,18 @@ Event	ID	Name			Wwise Object Path	Notes
 	1158020447	Elif_Line_125			\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_125	
 	1185956821	Play_Pillow_Inflate			\LEVEL EVENT_WU\PROPS\Pillow\Play_Pillow_Inflate	
 	1249798847	Play_Xylophone_Re3			\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Re3	
+	1285258340	Set_MusicState_Menu			\MUSIC EVENT_WU\MUSIC\Set_MusicState_Menu	
 	1301194605	Play_Trousse_SqueakHeavy			\LEVEL EVENT_WU\PROPS\Squeaks\Trousse\Play_Trousse_SqueakHeavy	
 	1323353296	Play_Clouds			\LEVEL EVENT_WU\Clouds\Play_Clouds	
 	1358180789	Set_GroundType_Leather			\MC EVENT_WU\MC\Set_GroundType_Leather	
 	1402985800	Play_Pinball_Move			\LEVEL EVENT_WU\PROPS\Pinball\Play_Pinball_Move	
+	1443362430	Set_MusicState_Transition_Menu_InGame			\MUSIC EVENT_WU\MUSIC\Set_MusicState_Transition_Menu_InGame	
 	1447334380	Play_Xylophone_Mi3			\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Mi3	
 	1470424087	Play_Pinball_BulliesDestruction			\LEVEL EVENT_WU\PROPS\Pinball\Play_Pinball_BulliesDestruction	
 	1472859671	Play_Balloon_Roll			\LEVEL EVENT_WU\PROPS\Balloon\Play_Balloon_Roll	
 	1518093590	Play_Xylophone_Si3			\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Si3	
 	1536829888	Play_DrawBridge_WithRing			\LEVEL EVENT_WU\PROPS\DrawBridge\Play_DrawBridge_WithRing	
+	1570211900	Set_MusicState_Transition			\MUSIC EVENT_WU\MUSIC\Set_MusicState_Transition	
 	1593937298	Play_MC_Land			\MC EVENT_WU\MC\Play_MC_Land	
 	1652522752	Play_CommonDoor_Closed			\LEVEL EVENT_WU\DOORS\CommonDoor\Play_CommonDoor_Closed	
 	1724924593	Play_Button_Pressed			\LEVEL EVENT_WU\PROPS\Button\Play_Button_Pressed	
@@ -105,14 +109,19 @@ Event	ID	Name			Wwise Object Path	Notes
 	2283795465	Play_Pinball_Intercation			\LEVEL EVENT_WU\PROPS\Pinball\Play_Pinball_Intercation	
 	2292692137	Play_Pinata_Explosion			\LEVEL EVENT_WU\PROPS\Pinata\Play_Pinata_Explosion	
 	2293308223	Play_Balloon_Explosion			\LEVEL EVENT_WU\PROPS\Balloon\Play_Balloon_Explosion	
+	2377423344	Set_MusicState_Part_01			\MUSIC EVENT_WU\MUSIC\Set_MusicState_Part_01	
+	2377423346	Set_MusicState_Part_03			\MUSIC EVENT_WU\MUSIC\Set_MusicState_Part_03	
+	2377423347	Set_MusicState_Part_02			\MUSIC EVENT_WU\MUSIC\Set_MusicState_Part_02	
 	2482399161	Play_FlowerBell_Ring			\LEVEL EVENT_WU\PROPS\FlowerBell\Play_FlowerBell_Ring	
 	2483600035	Play_MC_DropItem			\MC EVENT_WU\MC\Play_MC_DropItem	
 	2658957239	Set_GroundType_Carpet			\MC EVENT_WU\MC\Set_GroundType_Carpet	
 	2779895719	Play_FlowerBell_Shake			\LEVEL EVENT_WU\PROPS\FlowerBell\Play_FlowerBell_Shake	
 	2824701733	Play_DoggyToy_Sad_Medium			\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Sad_Medium	
+	2837384057	Stop_Music			\MUSIC EVENT_WU\MUSIC\Stop_Music	
 	2858841480	Play_Sparks			\LEVEL EVENT_WU\PROPS\Sparks\Play_Sparks	
 	2905017015	Play_Canon			\LEVEL EVENT_WU\PROPS\Canon\Play_Canon	
 	2914719344	Play_ThrowBall_Throw			\LEVEL EVENT_WU\PROPS\ThrowBall\Play_ThrowBall_Throw	
+	2932040671	Play_Music			\MUSIC EVENT_WU\MUSIC\Play_Music	
 	2933255468	Play_Grass_Movement			\AMB EVENT_WU\Grass\Play_Grass_Movement	
 	3022734957	Play_MC_Jump			\MC EVENT_WU\MC\Play_MC_Jump	
 	3058431834	Play_Pinball_Block			\LEVEL EVENT_WU\PROPS\Pinball\Play_Pinball_Block	
@@ -232,15 +241,16 @@ Event	ID	Name			Wwise Object Path	Notes
 	3410959179	Play_Wall_Destruction			\LEVEL EVENT_WU\Walls\Play_Wall_Destruction	
 	3482986092	Play_MC_PickUpItem			\MC EVENT_WU\MC\Play_MC_PickUpItem	
 	3677344451	Set_GroundType_Metal			\MC EVENT_WU\MC\Set_GroundType_Metal	
-	3709355747	Play_Music_01			\MUSIC EVENT_WU\MUSIC\Play_Music_01	
+	3709355747	Play_Music_01			\MUSIC EVENT_WU\MUSIC\Temporary\Play_Music_01	
 	3734126654	Play_Xylophone_Sol3			\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Sol3	
-	3808183461	Stop_Music_01			\MUSIC EVENT_WU\MUSIC\Stop_Music_01	
+	3808183461	Stop_Music_01			\MUSIC EVENT_WU\MUSIC\Temporary\Stop_Music_01	
 	3813799547	Play_Bullies_Taunt			\LEVEL EVENT_WU\PROPS\Bullies\Play_Bullies_Taunt	
 	3863378588	Play_WallLego_Destruction			\LEVEL EVENT_WU\Walls\Play_WallLego_Destruction	
 	3870228825	Play_Amb_Stealth_lp			\AMB EVENT_WU\Stealth\Play_Amb_Stealth_lp	
 	3922994741	Play_Trousse_SqueakSmall			\LEVEL EVENT_WU\PROPS\Squeaks\Trousse\Play_Trousse_SqueakSmall	
 	3995508460	Set_MC_Run			\MC EVENT_WU\MC\Set_MC_Run	
 	4036722021	Play_Rocket_Dash			\LEVEL EVENT_WU\PROPS\Rocket\Play_Rocket_Dash	
+	4054469371	Set_MusicState_Final			\MUSIC EVENT_WU\MUSIC\Set_MusicState_Final	
 	4125612414	Play_MC_Locomotion			\MC EVENT_WU\MC\Play_MC_Locomotion	
 	4175620767	Play_DoggyToy_Locomotion_lp			\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Locomotion_lp	
 
@@ -251,6 +261,21 @@ Switch	ID	Name	Switch Group			Notes
 	712161704	Run	MC_Locomotion			
 	2108779966	Walk	MC_Locomotion			
 	2884887403	Sneak	MC_Locomotion			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	652749204	Menu_InGame			\Default Work Unit\Music\Menu_InGame	
+	2177735725	Music_Level			\Default Work Unit\Music\Music_Level	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Menu_InGame			
+	984691642	InGame	Menu_InGame			
+	2607556080	Menu	Menu_InGame			
+	151272180	Part_01	Music_Level			
+	151272182	Part_03	Music_Level			
+	151272183	Part_02	Music_Level			
+	565529991	Final	Music_Level			
+	748895195	None	Music_Level			
+	1865857008	Transition	Music_Level			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1830592977	Wind_Strength			\Default Work Unit\Wind_Strength	
@@ -367,7 +392,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	199900882	VOICE_Elif_Shout_137_04	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\VOICE_Elif_Shout_10_04_10C4C929.wem		\Actor-Mixer Hierarchy\Voices_WU\Voices_AM\Elif_Shout\VOICE_Elif_Shout_137\VOICE_Elif_Shout_137_04		45376
 	203396930	VOICE_Elif_Shout_139_08	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\VOICE_Elif_Shout_12_08_10C4C929.wem		\Actor-Mixer Hierarchy\Voices_WU\Voices_AM\Elif_Shout\VOICE_Elif_Shout_139\VOICE_Elif_Shout_139_08		24384
 	204327474	VOICE_Elif_Shout_139_05	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\VOICE_Elif_Shout_12_05_10C4C929.wem		\Actor-Mixer Hierarchy\Voices_WU\Voices_AM\Elif_Shout\VOICE_Elif_Shout_139\VOICE_Elif_Shout_139_05		36928
-	204487090	VOICE_Elif_Line_31	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\VOICE_Elif_Line_31_10C4C929.wem		\Actor-Mixer Hierarchy\Voices_WU\Voices_AM\Elif_Lines\Level 01\VOICE_Elif_Line_31		998208
+	204487090	VOICE_Elif_Line_31	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\VOICE_Elif_Line_31_10C4C929.wem		\Actor-Mixer Hierarchy\Voices_WU\Voices_AM\Elif_Lines\Level 01\VOICE_Elif_Line_31		764736
 	205695239	SFX_LEVEL_PROPS_Bullies_Laugh_2	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_PROPS_Bullies_Laugh_2_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Bullies\Rnd_Bullies_Laugh\SFX_LEVEL_PROPS_Bullies_Laugh_2		138244
 	212624641	SFX_MC_Foleys_Normal_Run-003	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_Foleys_Normal_Run-003_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Locomotion_Swt\MC Foley Run_Rnd\SFX_MC_Foleys_Normal_Run-003		23508
 	215978535	SFX_LEVEL_Balloons_Rolling	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Balloons_Rolling_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Balloon\Balloon Roll_Rnd\SFX_LEVEL_Balloons_Rolling		330816
@@ -477,6 +502,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	528956667	SFX_MC_Foleys_Normal_Run-002	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_Foleys_Normal_Run-002_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Locomotion_Swt\MC Foley Run_Rnd\SFX_MC_Foleys_Normal_Run-002		21986
 	533627888	SFX_MC_Foleys_Jump_Jump-003	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_Foleys_Jump_Jump-003_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Jump_Rnd\SFX_MC_Foleys_Jump_Jump-003		44164
 	536494307	SFX_LEVEL_JingleWarning	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_JingleWarning_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Jingle Warning\SFX_LEVEL_JingleWarning		2411016
+	541474887	AMB_LP_LibraryRoom	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\AMB_LP_LibraryRoom_10C4C929.wem		\Actor-Mixer Hierarchy\AMB_WU\AMB_AM\Roomtone\AMB_LP_LibraryRoom		5292064
 	542050506	SFX_LEVEL_Level_Canon_Shot_01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_Canon_Shot_01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Canon\Canon_Rnd\SFX_LEVEL_Level_Canon_Shot_01		82752
 	548632333	VOICE_Elif_Shout_142_04	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\VOICE_Elif_Shout_15_04_10C4C929.wem		\Actor-Mixer Hierarchy\Voices_WU\Voices_AM\Elif_Shout\VOICE_Elif_Shout_142\VOICE_Elif_Shout_142_04		66368
 	552884779	VOICE_Elif_Line_118	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\VOICE_Elif_Line_118_10C4C929.wem		\Actor-Mixer Hierarchy\Voices_WU\Voices_AM\Elif_Lines\Level_03\VOICE_Elif_Line_118		374848
@@ -690,7 +716,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1043382114	SFX_LEVEL_DOORS_CommonDoor_CommonDoorOpen01	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_DOORS_CommonDoor_CommonDoorOpen01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Doors_AM\CommonDoor\CommonDoor Open_Rnd\SFX_LEVEL_DOORS_CommonDoor_CommonDoorOpen01		60702
 	1044090706	VOICE_Elif_Line_05	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\VOICE_Elif_Line_05_10C4C929.wem		\Actor-Mixer Hierarchy\Voices_WU\Voices_AM\Elif_Lines\Level 01\VOICE_Elif_Line_05		329792
 	1047626442	SFX_LEVEL_Level_Rocket_OverHeat_03	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Level_Rocket_OverHeat_03_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Rocket\Roket Overheat_Rnd\SFX_LEVEL_Level_Rocket_OverHeat_03		264664
-	1047643292	SFX_Level_Props_Xylophone_Do3	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_Props_Xylophone_Do3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Xylophone\SFX_Level_Props_Xylophone_Do3		117664
+	1047643292	SFX_Level_Props_Xylophone_Do3	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_Props_Xylophone_Do3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Xylophone\Xylophone_Rnd\SFX_Level_Props_Xylophone_Do3		117664
 	1056950909	VOICE_Elif_Line_08	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\VOICE_Elif_Line_08_10C4C929.wem		\Actor-Mixer Hierarchy\Voices_WU\Voices_AM\Elif_Lines\Level 01\VOICE_Elif_Line_08		350272
 	1058192863	VOICE_Elif_Line_63	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\VOICE_Elif_Line_63_10C4C929.wem		\Actor-Mixer Hierarchy\Voices_WU\Voices_AM\Elif_Lines\Level_02\VOICE_Elif_Line_63		348992
 	1058831336	SFX_LEVEL_Pinata_Explosion01_02	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Pinata_Explosion01_02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Pinata\Pinata Explosion_Rnd\SFX_LEVEL_Pinata_Explosion01_02		286716
@@ -698,6 +724,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1073433820	VOICE_Elif_Line_42	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\VOICE_Elif_Line_42_10C4C929.wem		\Actor-Mixer Hierarchy\Voices_WU\Voices_AM\Elif_Lines\Level_02\VOICE_Elif_Line_42		225424
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	4360802	ViolinPluck_102	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\ViolonPluck_102_D79FB2B7.wem	4360802.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Mswt\Music_Level_Mswt\Part_01_Plylst\part0203\ViolinPluck_102	
+	277673798	Clarinette_101	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\Clarinette_101_D79FB2B7.wem	277673798.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Mswt\Music_Level_Mswt\Part_01_Plylst\Part0101\Clarinette_101	
+	436259749	ViolonPluck_201	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\ViolonPluck_201_D79FB2B7.wem	436259749.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Mswt\Music_Level_Mswt\Part_01_Plylst\Part0401\ViolonPluck_201	
+	470992547	ViolonPluck_101	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\ViolonPluck_101_D79FB2B7.wem	470992547.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Mswt\Music_Level_Mswt\Part_01_Plylst\Part0202\ViolonPluck_101	
+	483969904	Harpe_102	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\Harpe_102_D79FB2B7.wem	483969904.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Mswt\MainMenu_Plylst\Harp_02\Harpe_102	
+	500891357	Clarinette_202	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\Clarinette_202_D79FB2B7.wem	500891357.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Mswt\Music_Level_Mswt\Part_01_Plylst\Part0302\Clarinette_202	
+	512176570	ViolonPluck_203	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\ViolonPluck_203_D79FB2B7.wem	512176570.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Mswt\Music_Level_Mswt\Part_01_Plylst\Part0402\ViolonPluck_203	
+	558530962	Violon_101	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\Violon_101_D79FB2B7.wem	558530962.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Mswt\Music_Level_Mswt\Part_01_Plylst\Intro\Violon_101	
+	671372812	ViolonPluck_202	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\ViolonPluck_202_D79FB2B7.wem	671372812.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Mswt\Music_Level_Mswt\Part_01_Plylst\Part0403\ViolonPluck_202	
 	725754079	SFX_AMB_LOOP_STEALTH_LP	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_AMB_LOOP_STEALTH_LP_D79FB2B7.wem	725754079.wem	\Actor-Mixer Hierarchy\AMB_WU\AMB_AM\Stealth\SFX_AMB_LOOP_STEALTH_LP	
 	746771830	Track 1 V2	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\Track 1 V2_D79FB2B7.wem	746771830.wem	\Interactive Music Hierarchy\Temporary Music_WU\Main Music Loop\Main Music Unedited\Track 1 V2	
+	812118643	Clarinette_102	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\Clarinette_102_D79FB2B7.wem	812118643.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Mswt\Music_Level_Mswt\Part_01_Plylst\Part0102\Clarinette_102	
+	998786487	Harpe_101	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\Harpe_101_D79FB2B7.wem	998786487.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Mswt\MainMenu_Plylst\Harp_01\Harpe_101	
+	1023326255	Violon_102	C:\Projet STIGMA\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\Violon_102_D79FB2B7.wem	1023326255.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Mswt\Music_Level_Mswt\Part_01_Plylst\Part0202\Violon_102	
 
