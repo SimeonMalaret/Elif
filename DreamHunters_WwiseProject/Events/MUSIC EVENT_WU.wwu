@@ -59,6 +59,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{3311784A-A315-4EB5-8337-B83B842CA1A9}" ShortID="85322482">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Transition" ID="{69726618-A273-48FB-885F-A1D3F4082693}" WorkUnitID="{66995188-8285-4AE5-98E8-663BC0D9048F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Set_MusicState_Transition_Menu_InGame" ID="{04E3F4FE-1985-4CF0-8234-43B4A11B0665}">
