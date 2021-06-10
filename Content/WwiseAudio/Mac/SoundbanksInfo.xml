@@ -161,7 +161,7 @@
 				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_Music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="3689680104">
+		<SoundBank Id="2228651116" Language="SFX" Hash="2787368426">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -1784,6 +1784,22 @@
 						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\LEVEL\Big_Reverb_Delay"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="1005152679" Name="Play_BearDoor_Open" ObjectPath="\Events\LEVEL EVENT_WU\DOORS\BearDoor\Play_BearDoor_Open">
+					<IncludedMemoryFiles>
+						<File Id="506463643" Language="SFX">
+							<ShortName>SFX_Level_BearDoor_V2.wav</ShortName>
+							<Path>SFX\SFX_Level_BearDoor_V2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2478781779" Name="Play_Book_Disappear" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Book_Disappear\Play_Book_Disappear">
+					<IncludedMemoryFiles>
+						<File Id="14307402" Language="SFX">
+							<ShortName>SFX_Level_Book_Disappear_V2.wav</ShortName>
+							<Path>SFX\SFX_Level_Book_Disappear_V2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="100468805" Name="Play_BookDoor_01" ObjectPath="\Events\LEVEL EVENT_WU\DOORS\BookDoor\Play_BookDoor_01">
 					<IncludedMemoryFiles>
 						<File Id="498094991" Language="SFX">
@@ -2099,11 +2115,27 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2933255468" Name="Play_Grass_Movement" ObjectPath="\Events\AMB EVENT_WU\Grass\Play_Grass_Movement"/>
-				<Event Id="2212806876" Name="Play_Jingle_Warning" ObjectPath="\Events\LEVEL EVENT_WU\Play_Jingle_Warning">
+				<Event Id="1338643067" Name="Play_Jingle_Lose" ObjectPath="\Events\LEVEL EVENT_WU\Jingles\Play_Jingle_Lose">
+					<IncludedMemoryFiles>
+						<File Id="414015866" Language="SFX">
+							<ShortName>SFX_Level_Jingle_Lose.wav</ShortName>
+							<Path>SFX\SFX_Level_Jingle_Lose_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2212806876" Name="Play_Jingle_Warning" ObjectPath="\Events\LEVEL EVENT_WU\Jingles\Play_Jingle_Warning">
 					<IncludedMemoryFiles>
 						<File Id="536494307" Language="SFX">
 							<ShortName>SFX_LEVEL_JingleWarning.wav</ShortName>
 							<Path>SFX\SFX_LEVEL_JingleWarning_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1051973890" Name="Play_Jingle_Win" ObjectPath="\Events\LEVEL EVENT_WU\Jingles\Play_Jingle_Win">
+					<IncludedMemoryFiles>
+						<File Id="858774806" Language="SFX">
+							<ShortName>SFX_Level_Jingle_Win.wav</ShortName>
+							<Path>SFX\SFX_Level_Jingle_Win_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -2885,6 +2917,38 @@
 						<File Id="557582523" Language="SFX">
 							<ShortName>SFX_LEVEL_Pinball__Move01_V2.wav</ShortName>
 							<Path>SFX\SFX_LEVEL_Pinball__Move01_V2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="905407004" Name="Play_Puzzle_Button01" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Puzzle_Button\Play_Puzzle_Button01">
+					<IncludedMemoryFiles>
+						<File Id="1005456675" Language="SFX">
+							<ShortName>SFX_Puzzle_Button-001.wav</ShortName>
+							<Path>SFX\SFX_Puzzle_Button-001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="905407007" Name="Play_Puzzle_Button02" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Puzzle_Button\Play_Puzzle_Button02">
+					<IncludedMemoryFiles>
+						<File Id="395676046" Language="SFX">
+							<ShortName>SFX_Puzzle_Button-002.wav</ShortName>
+							<Path>SFX\SFX_Puzzle_Button-002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="905407006" Name="Play_Puzzle_Button03" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Puzzle_Button\Play_Puzzle_Button03">
+					<IncludedMemoryFiles>
+						<File Id="79359370" Language="SFX">
+							<ShortName>SFX_Puzzle_Button-003.wav</ShortName>
+							<Path>SFX\SFX_Puzzle_Button-003_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="905407001" Name="Play_Puzzle_Button04" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Puzzle_Button\Play_Puzzle_Button04">
+					<IncludedMemoryFiles>
+						<File Id="395049328" Language="SFX">
+							<ShortName>SFX_Puzzle_Button-004.wav</ShortName>
+							<Path>SFX\SFX_Puzzle_Button-004_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
