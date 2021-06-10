@@ -12,24 +12,14 @@
 								<State Name="InGame" ID="{6FE305FA-C1A5-4627-BF0A-5A6A12A4A9D5}"/>
 							</ChildrenList>
 						</StateGroup>
-						<StateGroup Name="Music_Level01" ID="{F71FF736-EF2C-4BFC-995E-61AEB5918AE1}">
+						<StateGroup Name="Music_Level" ID="{F71FF736-EF2C-4BFC-995E-61AEB5918AE1}">
 							<ChildrenList>
 								<State Name="None" ID="{8CD9916F-7E95-4519-8629-7C1066662DF0}"/>
-							</ChildrenList>
-						</StateGroup>
-						<StateGroup Name="Music_Level02" ID="{917FAE68-EC02-4229-A70D-780FB3157160}">
-							<ChildrenList>
-								<State Name="None" ID="{AC8E7136-C242-4CB4-9A78-01CA1C6AF1AF}"/>
-							</ChildrenList>
-						</StateGroup>
-						<StateGroup Name="Music_Level03" ID="{671D5F6C-8B32-4E1D-BB66-A89010BDE5D1}">
-							<ChildrenList>
-								<State Name="None" ID="{A6403AB3-5DF1-44E0-BAC6-CB57CF02C74E}"/>
-							</ChildrenList>
-						</StateGroup>
-						<StateGroup Name="Music_Level04" ID="{EEE53BA9-DF2F-48F2-BF6C-BD3550C8A6BA}">
-							<ChildrenList>
-								<State Name="None" ID="{87C03138-705D-409D-8903-CFF4484DB381}"/>
+								<State Name="Part_03" ID="{30FB0989-36EF-4769-8B54-E8267891E07F}"/>
+								<State Name="Part_02" ID="{A4D2ED24-0BA3-4AA4-8C2C-4AB92BC1432B}"/>
+								<State Name="Part_01" ID="{5DE39B79-D34F-41FD-81E2-FC65E5DBF2BF}"/>
+								<State Name="Transition" ID="{69726618-A273-48FB-885F-A1D3F4082693}"/>
+								<State Name="Final" ID="{741F80E3-FB20-499F-8D31-076FDE1FC5B8}"/>
 							</ChildrenList>
 						</StateGroup>
 					</ChildrenList>

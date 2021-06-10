@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{82AEC79B-3828-4107-8E49-86AABC9DA012}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{82AEC79B-3828-4107-8E49-86AABC9DA012}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{82AEC79B-3828-4107-8E49-86AABC9DA012}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Pause" ID="{88F999DB-A653-4741-8CBB-631DD6537368}">
+					<ChildrenList>
+						<Action Name="" ID="{9665430C-926A-45C3-BC38-74A4ED5EA64C}" ShortID="40142775">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="8"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume" ID="{B1CC1343-E2A2-4F83-B7F0-F873B4F4AAF1}">
+					<ChildrenList>
+						<Action Name="" ID="{F975F0E8-3F1E-4311-8D1E-0A62B0FF40E4}" ShortID="911139414">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="10"/>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

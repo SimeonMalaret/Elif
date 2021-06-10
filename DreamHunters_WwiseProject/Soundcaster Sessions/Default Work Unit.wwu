@@ -38,6 +38,76 @@
 						<CurrentSwitchRef Name="Run" ID="{9B1A6ADB-E4F3-4270-A68D-5C57DFC1E3AA}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
+				<SoundcasterSession Name="Music" ID="{4291845A-EAB9-4C2F-9DA4-D017F9357AA3}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{B7B7EB63-E504-479C-84E7-1540835CDEE5}" WorkUnitID="{E2E710F3-6EFF-407B-9FAC-885B7986798A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_MusicState_Transition_Menu_InGame" ID="{04E3F4FE-1985-4CF0-8234-43B4A11B0665}" WorkUnitID="{E2E710F3-6EFF-407B-9FAC-885B7986798A}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Pause" ID="{88F999DB-A653-4741-8CBB-631DD6537368}" WorkUnitID="{82AEC79B-3828-4107-8E49-86AABC9DA012}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_MusicState_Final" ID="{CC44DB12-F520-4370-BDA4-713B12A3F181}" WorkUnitID="{E2E710F3-6EFF-407B-9FAC-885B7986798A}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Resume" ID="{B1CC1343-E2A2-4F83-B7F0-F873B4F4AAF1}" WorkUnitID="{82AEC79B-3828-4107-8E49-86AABC9DA012}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_MusicState_Menu" ID="{274A6ADF-FB1F-44BD-86CC-814160489822}" WorkUnitID="{E2E710F3-6EFF-407B-9FAC-885B7986798A}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_MusicState_Part_01" ID="{32F485CC-A3D7-4B5C-8AB0-F8D53616AE6C}" WorkUnitID="{E2E710F3-6EFF-407B-9FAC-885B7986798A}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_MusicState_Part_02" ID="{A49A697E-9584-4A22-B5F2-DF9F4FC82A32}" WorkUnitID="{E2E710F3-6EFF-407B-9FAC-885B7986798A}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_MusicState_Part_03" ID="{F3465178-BCA0-49CB-8D8E-32A8FBA97A7B}" WorkUnitID="{E2E710F3-6EFF-407B-9FAC-885B7986798A}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_MusicState_Transition" ID="{B304B4BC-FCC9-4E0C-A7CF-41F70DB2FDC2}" WorkUnitID="{E2E710F3-6EFF-407B-9FAC-885B7986798A}"/>
+							<Position X="6" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Volume_SFX" ID="{E2B8D4E9-FCEE-402C-81DD-E89F245AE1A8}"/>
+							<Value>0.5</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Music" ID="{37614BA0-385B-45A7-8FB2-0B119CCFD46A}"/>
+							<Value>0.5</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Voices" ID="{6FB3BD88-4621-4615-8E30-D22FC627C660}"/>
+							<Value>0.5</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Wind_Strength" ID="{3A546F9C-77FC-4DB6-B63D-9F57D76B44CF}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Menu" ID="{A6E6AF1D-C209-4EBC-8E29-2F9B2E1AFFDC}"/>
+						<CurrentStateRef Name="Transition" ID="{69726618-A273-48FB-885F-A1D3F4082693}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Carpet" ID="{BCD53425-3E2F-4F10-AD81-8DEE29C350FE}"/>
+						<CurrentSwitchRef Name="Run" ID="{9B1A6ADB-E4F3-4270-A68D-5C57DFC1E3AA}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>
