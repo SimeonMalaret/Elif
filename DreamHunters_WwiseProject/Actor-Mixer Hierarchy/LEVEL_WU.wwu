@@ -1213,6 +1213,11 @@
 											<PropertyList>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1360,7 +1365,7 @@
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>3</Value>
+														<Value>-17</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1464,6 +1469,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Rocket Dash_Rnd" ID="{B59E447D-5F88-426E-9E8C-D36B95935494}" ShortID="433460478">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -1580,7 +1592,7 @@
 												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-5</Value>
+														<Value>-10</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1780,6 +1792,11 @@
 										<RandomSequenceContainer Name="Balloon Pop_Rnd" ID="{5817ADE3-640D-4588-9D05-F3AB91830AF7}" ShortID="429314435">
 											<PropertyList>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-14</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2404,6 +2421,11 @@
 																<Value>True</Value>
 															</ValueList>
 														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -2658,6 +2680,13 @@
 								<Folder Name="Pinball" ID="{70B83D24-1BE8-4BE8-B93F-990DA362DAE0}" ShortID="102572211">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Pinball BulliesDestruction_Rnd" ID="{76F25CF4-8354-4CBD-BACF-CD071E1C6FC4}" ShortID="32798543">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -2721,6 +2750,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Pinball Block" ID="{AA2A86C1-1D53-44E6-A7E5-76EFDBE415F8}" ShortID="427292744">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -2876,6 +2912,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Pinball_Intercation" ID="{A3C212F5-4EFA-4D2B-84FB-7A6B1FD8E724}" ShortID="1029676823">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -2958,6 +3001,13 @@
 								<Folder Name="Jumper" ID="{CA6A0241-E591-4291-9F59-C5E4D0B5B8C3}" ShortID="548237672">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Jumper_Rnd" ID="{98A444EC-0819-4320-97E4-011BD471C0B2}" ShortID="769002705">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -3047,6 +3097,13 @@
 								<Folder Name="Button" ID="{9FD8FEB7-8263-4D09-9B54-ED50B5D5056B}" ShortID="31007895">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Button_Rnd_Unpressed" ID="{56294DEC-CDBC-4575-9F71-D93597D67A1E}" ShortID="632543575">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -3117,6 +3174,11 @@
 										<RandomSequenceContainer Name="Button_Rnd_Pressed" ID="{FC733A8E-D771-4108-9C41-13A70C37718B}" ShortID="741467999">
 											<PropertyList>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -3236,6 +3298,13 @@
 								<Folder Name="Bridge" ID="{4382F025-74C1-4FD8-86F9-C7B8BDD18158}" ShortID="639172801">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Bridge Down_Rnd" ID="{34685025-A5E7-45AF-8231-1A47A943748D}" ShortID="791803802">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -3276,6 +3345,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Bridge Blocked_Rnd" ID="{246E575E-1561-471F-BD14-B873C761A8D0}" ShortID="192420063">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -3380,6 +3456,13 @@
 								<Folder Name="Canon" ID="{E45965F0-CFC7-4356-A201-B648900F9484}" ShortID="713206009">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Canon_Rnd" ID="{67CEA838-A0C3-4652-8CAC-18E00ADA5BC1}" ShortID="1048684491">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -3508,6 +3591,13 @@
 								<Folder Name="Sparks" ID="{98A3C700-F6AD-4EFB-A4E4-FCFCB792DF31}" ShortID="91278706">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Sparks_Rnd" ID="{FA639B34-2DFD-48F5-99FA-5491C33D185B}" ShortID="967199087">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -3608,6 +3698,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<Sound Name="SFX_Level_Sparks_lp" ID="{BF2437C3-F624-46B3-B8F8-2FA794E5B16E}" ShortID="479896505">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -3634,6 +3731,13 @@
 								<Folder Name="Clock" ID="{D52B9075-EF25-4688-841F-2E81473FD145}" ShortID="351864264">
 									<ChildrenList>
 										<Sound Name="SFX_Level_Clock_Ring_02_V2" ID="{4C244673-9998-447B-A315-810DAFFF1ABB}" ShortID="887136788">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -3656,6 +3760,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Level_Clock_Ring_V2" ID="{7E95B764-7E5C-41F3-92BF-6039BFE45322}" ShortID="1062960086">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -3822,6 +3933,13 @@
 								<Folder Name="Pillow" ID="{BC439082-EC96-4C5B-AB92-C3D7C561B627}" ShortID="452814151">
 									<ChildrenList>
 										<Sound Name="SFX_Level_Pillow_Inflate01" ID="{8D9BB3AC-AD66-4000-8980-8C8A2C909C9F}" ShortID="238229529">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-18</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -4355,6 +4473,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="Rnd_Wall_Destruction" ID="{9A53BB3F-85AE-43F3-8329-64A1A88C2725}" ShortID="773276015">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -4433,6 +4558,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Rnd_WallLego_Destruction" ID="{00AE3A24-B34A-4857-883E-4F2CD2299ADA}" ShortID="584791238">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -4512,6 +4644,57 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="SFX_LEVEL_JingleWarning" ID="{B21EE2B0-46CF-4946-9527-C358CED4919F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Level_Jingle_Lose" ID="{E863C324-3A05-4853-BBE7-E2A48E37813C}" ShortID="738265179">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Level_Jingle_Lose" ID="{4E293880-716C-455A-BCBC-DB6548F5341F}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Level_Jingle_Lose.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="414015866"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Level_Jingle_Lose" ID="{4E293880-716C-455A-BCBC-DB6548F5341F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Level_Jingle_Win" ID="{DAC19A57-1696-44D7-A9D2-62B7CB7D8A2D}" ShortID="1059131720">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>33</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Level_Jingle_Win" ID="{FDB7E432-A238-4A69-B9A2-91A3D43F333D}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Level_Jingle_Win.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="858774806"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Level_Jingle_Win" ID="{FDB7E432-A238-4A69-B9A2-91A3D43F333D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
