@@ -13,13 +13,61 @@
 			<ShortName>ViolonPluck_102.wav</ShortName>
 			<Path>SFX\ViolonPluck_102_D79FB2B7.wem</Path>
 		</File>
+		<File Id="18700665" Language="SFX">
+			<ShortName>Piano_203.wav</ShortName>
+			<Path>SFX\Piano_203_D79FB2B7.wem</Path>
+		</File>
+		<File Id="105897018" Language="SFX">
+			<ShortName>Violon_End.wav</ShortName>
+			<Path>SFX\Violon_End_D79FB2B7.wem</Path>
+		</File>
+		<File Id="126677074" Language="SFX">
+			<ShortName>Piano_102.wav</ShortName>
+			<Path>SFX\Piano_102_D79FB2B7.wem</Path>
+		</File>
+		<File Id="140712066" Language="SFX">
+			<ShortName>ClarinetteENS_201.wav</ShortName>
+			<Path>SFX\ClarinetteENS_201_D79FB2B7.wem</Path>
+		</File>
+		<File Id="215972072" Language="SFX">
+			<ShortName>Clarinette_302.wav</ShortName>
+			<Path>SFX\Clarinette_302_D79FB2B7.wem</Path>
+		</File>
+		<File Id="266764523" Language="SFX">
+			<ShortName>ClarinetteENS_103.wav</ShortName>
+			<Path>SFX\ClarinetteENS_103_D79FB2B7.wem</Path>
+		</File>
 		<File Id="277673798" Language="SFX">
 			<ShortName>Clarinette_101.wav</ShortName>
 			<Path>SFX\Clarinette_101_D79FB2B7.wem</Path>
 		</File>
+		<File Id="291890720" Language="SFX">
+			<ShortName>ViolonPluck_103.wav</ShortName>
+			<Path>SFX\ViolonPluck_103_D79FB2B7.wem</Path>
+		</File>
+		<File Id="297869723" Language="SFX">
+			<ShortName>ViolonPluck_104.wav</ShortName>
+			<Path>SFX\ViolonPluck_104_D79FB2B7.wem</Path>
+		</File>
+		<File Id="301166253" Language="SFX">
+			<ShortName>ClarinetteENS_101.wav</ShortName>
+			<Path>SFX\ClarinetteENS_101_D79FB2B7.wem</Path>
+		</File>
+		<File Id="336664167" Language="SFX">
+			<ShortName>ClarinetteENS_102.wav</ShortName>
+			<Path>SFX\ClarinetteENS_102_D79FB2B7.wem</Path>
+		</File>
+		<File Id="411192415" Language="SFX">
+			<ShortName>Clarinette_301.wav</ShortName>
+			<Path>SFX\Clarinette_301_D79FB2B7.wem</Path>
+		</File>
 		<File Id="436259749" Language="SFX">
 			<ShortName>ViolonPluck_201.wav</ShortName>
 			<Path>SFX\ViolonPluck_201_D79FB2B7.wem</Path>
+		</File>
+		<File Id="454998162" Language="SFX">
+			<ShortName>MusicBox_101.wav</ShortName>
+			<Path>SFX\MusicBox_101_D79FB2B7.wem</Path>
 		</File>
 		<File Id="470992547" Language="SFX">
 			<ShortName>ViolonPluck_101.wav</ShortName>
@@ -33,9 +81,17 @@
 			<ShortName>Clarinette_202.wav</ShortName>
 			<Path>SFX\Clarinette_202_D79FB2B7.wem</Path>
 		</File>
+		<File Id="510746917" Language="SFX">
+			<ShortName>ViolonPluck_301.wav</ShortName>
+			<Path>SFX\ViolonPluck_301_D79FB2B7.wem</Path>
+		</File>
 		<File Id="512176570" Language="SFX">
 			<ShortName>ViolonPluck_203.wav</ShortName>
 			<Path>SFX\ViolonPluck_203_D79FB2B7.wem</Path>
+		</File>
+		<File Id="533205878" Language="SFX">
+			<ShortName>ViolonPluck_302.wav</ShortName>
+			<Path>SFX\ViolonPluck_302_D79FB2B7.wem</Path>
 		</File>
 		<File Id="558530962" Language="SFX">
 			<ShortName>Violon_101.wav</ShortName>
@@ -45,17 +101,37 @@
 			<ShortName>ViolonPluck_202.wav</ShortName>
 			<Path>SFX\ViolonPluck_202_D79FB2B7.wem</Path>
 		</File>
+		<File Id="685557621" Language="SFX">
+			<ShortName>Piano_101.wav</ShortName>
+			<Path>SFX\Piano_101_D79FB2B7.wem</Path>
+		</File>
 		<File Id="725754079" Language="SFX">
 			<ShortName>SFX_AMB_LOOP_STEALTH_LP.wav</ShortName>
 			<Path>SFX\SFX_AMB_LOOP_STEALTH_LP_D79FB2B7.wem</Path>
+		</File>
+		<File Id="730851277" Language="SFX">
+			<ShortName>ClarinetteENS_202.wav</ShortName>
+			<Path>SFX\ClarinetteENS_202_D79FB2B7.wem</Path>
 		</File>
 		<File Id="746771830" Language="SFX">
 			<ShortName>Track 1 V2.wav</ShortName>
 			<Path>SFX\Track 1 V2_D79FB2B7.wem</Path>
 		</File>
+		<File Id="788166266" Language="SFX">
+			<ShortName>Piano_201.wav</ShortName>
+			<Path>SFX\Piano_201_D79FB2B7.wem</Path>
+		</File>
 		<File Id="812118643" Language="SFX">
 			<ShortName>Clarinette_102.wav</ShortName>
 			<Path>SFX\Clarinette_102_D79FB2B7.wem</Path>
+		</File>
+		<File Id="815785611" Language="SFX">
+			<ShortName>Piano_202.wav</ShortName>
+			<Path>SFX\Piano_202_D79FB2B7.wem</Path>
+		</File>
+		<File Id="998469898" Language="SFX">
+			<ShortName>MusicBox_End.wav</ShortName>
+			<Path>SFX\MusicBox_End_D79FB2B7.wem</Path>
 		</File>
 		<File Id="998786487" Language="SFX">
 			<ShortName>Harpe_101.wav</ShortName>
@@ -64,6 +140,10 @@
 		<File Id="1023326255" Language="SFX">
 			<ShortName>Violon_102.wav</ShortName>
 			<Path>SFX\Violon_102_D79FB2B7.wem</Path>
+		</File>
+		<File Id="1060913604" Language="SFX">
+			<ShortName>Piano_204.wav</ShortName>
+			<Path>SFX\Piano_204_D79FB2B7.wem</Path>
 		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
@@ -81,7 +161,7 @@
 				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_Music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="1876158994">
+		<SoundBank Id="2228651116" Language="SFX" Hash="1048401478">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -2301,13 +2381,61 @@
 							<ShortName>ViolonPluck_102.wav</ShortName>
 							<Path>SFX\ViolonPluck_102_D79FB2B7.wem</Path>
 						</File>
+						<File Id="18700665" Language="SFX">
+							<ShortName>Piano_203.wav</ShortName>
+							<Path>SFX\Piano_203_D79FB2B7.wem</Path>
+						</File>
+						<File Id="105897018" Language="SFX">
+							<ShortName>Violon_End.wav</ShortName>
+							<Path>SFX\Violon_End_D79FB2B7.wem</Path>
+						</File>
+						<File Id="126677074" Language="SFX">
+							<ShortName>Piano_102.wav</ShortName>
+							<Path>SFX\Piano_102_D79FB2B7.wem</Path>
+						</File>
+						<File Id="140712066" Language="SFX">
+							<ShortName>ClarinetteENS_201.wav</ShortName>
+							<Path>SFX\ClarinetteENS_201_D79FB2B7.wem</Path>
+						</File>
+						<File Id="215972072" Language="SFX">
+							<ShortName>Clarinette_302.wav</ShortName>
+							<Path>SFX\Clarinette_302_D79FB2B7.wem</Path>
+						</File>
+						<File Id="266764523" Language="SFX">
+							<ShortName>ClarinetteENS_103.wav</ShortName>
+							<Path>SFX\ClarinetteENS_103_D79FB2B7.wem</Path>
+						</File>
 						<File Id="277673798" Language="SFX">
 							<ShortName>Clarinette_101.wav</ShortName>
 							<Path>SFX\Clarinette_101_D79FB2B7.wem</Path>
 						</File>
+						<File Id="291890720" Language="SFX">
+							<ShortName>ViolonPluck_103.wav</ShortName>
+							<Path>SFX\ViolonPluck_103_D79FB2B7.wem</Path>
+						</File>
+						<File Id="297869723" Language="SFX">
+							<ShortName>ViolonPluck_104.wav</ShortName>
+							<Path>SFX\ViolonPluck_104_D79FB2B7.wem</Path>
+						</File>
+						<File Id="301166253" Language="SFX">
+							<ShortName>ClarinetteENS_101.wav</ShortName>
+							<Path>SFX\ClarinetteENS_101_D79FB2B7.wem</Path>
+						</File>
+						<File Id="336664167" Language="SFX">
+							<ShortName>ClarinetteENS_102.wav</ShortName>
+							<Path>SFX\ClarinetteENS_102_D79FB2B7.wem</Path>
+						</File>
+						<File Id="411192415" Language="SFX">
+							<ShortName>Clarinette_301.wav</ShortName>
+							<Path>SFX\Clarinette_301_D79FB2B7.wem</Path>
+						</File>
 						<File Id="436259749" Language="SFX">
 							<ShortName>ViolonPluck_201.wav</ShortName>
 							<Path>SFX\ViolonPluck_201_D79FB2B7.wem</Path>
+						</File>
+						<File Id="454998162" Language="SFX">
+							<ShortName>MusicBox_101.wav</ShortName>
+							<Path>SFX\MusicBox_101_D79FB2B7.wem</Path>
 						</File>
 						<File Id="470992547" Language="SFX">
 							<ShortName>ViolonPluck_101.wav</ShortName>
@@ -2321,9 +2449,17 @@
 							<ShortName>Clarinette_202.wav</ShortName>
 							<Path>SFX\Clarinette_202_D79FB2B7.wem</Path>
 						</File>
+						<File Id="510746917" Language="SFX">
+							<ShortName>ViolonPluck_301.wav</ShortName>
+							<Path>SFX\ViolonPluck_301_D79FB2B7.wem</Path>
+						</File>
 						<File Id="512176570" Language="SFX">
 							<ShortName>ViolonPluck_203.wav</ShortName>
 							<Path>SFX\ViolonPluck_203_D79FB2B7.wem</Path>
+						</File>
+						<File Id="533205878" Language="SFX">
+							<ShortName>ViolonPluck_302.wav</ShortName>
+							<Path>SFX\ViolonPluck_302_D79FB2B7.wem</Path>
 						</File>
 						<File Id="558530962" Language="SFX">
 							<ShortName>Violon_101.wav</ShortName>
@@ -2333,9 +2469,29 @@
 							<ShortName>ViolonPluck_202.wav</ShortName>
 							<Path>SFX\ViolonPluck_202_D79FB2B7.wem</Path>
 						</File>
+						<File Id="685557621" Language="SFX">
+							<ShortName>Piano_101.wav</ShortName>
+							<Path>SFX\Piano_101_D79FB2B7.wem</Path>
+						</File>
+						<File Id="730851277" Language="SFX">
+							<ShortName>ClarinetteENS_202.wav</ShortName>
+							<Path>SFX\ClarinetteENS_202_D79FB2B7.wem</Path>
+						</File>
+						<File Id="788166266" Language="SFX">
+							<ShortName>Piano_201.wav</ShortName>
+							<Path>SFX\Piano_201_D79FB2B7.wem</Path>
+						</File>
 						<File Id="812118643" Language="SFX">
 							<ShortName>Clarinette_102.wav</ShortName>
 							<Path>SFX\Clarinette_102_D79FB2B7.wem</Path>
+						</File>
+						<File Id="815785611" Language="SFX">
+							<ShortName>Piano_202.wav</ShortName>
+							<Path>SFX\Piano_202_D79FB2B7.wem</Path>
+						</File>
+						<File Id="998469898" Language="SFX">
+							<ShortName>MusicBox_End.wav</ShortName>
+							<Path>SFX\MusicBox_End_D79FB2B7.wem</Path>
 						</File>
 						<File Id="998786487" Language="SFX">
 							<ShortName>Harpe_101.wav</ShortName>
@@ -2345,7 +2501,25 @@
 							<ShortName>Violon_102.wav</ShortName>
 							<Path>SFX\Violon_102_D79FB2B7.wem</Path>
 						</File>
+						<File Id="1060913604" Language="SFX">
+							<ShortName>Piano_204.wav</ShortName>
+							<Path>SFX\Piano_204_D79FB2B7.wem</Path>
+						</File>
 					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="18700665" Language="SFX">
+							<ShortName>Piano_203.wav</ShortName>
+							<Path>SFX\Piano_203_D79FB2B7.wem</Path>
+						</File>
+						<File Id="215972072" Language="SFX">
+							<ShortName>Clarinette_302.wav</ShortName>
+							<Path>SFX\Clarinette_302_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1060913604" Language="SFX">
+							<ShortName>Piano_204.wav</ShortName>
+							<Path>SFX\Piano_204_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{6FE305FA-C1A5-4627-BF0A-5A6A12A4A9D5}">
 							<Children>
@@ -2361,6 +2535,43 @@
 										<File Id="671372812"/>
 										<File Id="812118643"/>
 										<File Id="1023326255"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{A4D2ED24-0BA3-4AA4-8C2C-4AB92BC1432B}">
+									<Media>
+										<File Id="215972072"/>
+										<File Id="291890720"/>
+										<File Id="297869723"/>
+										<File Id="411192415"/>
+										<File Id="812118643"/>
+										<File Id="1023326255"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{30FB0989-36EF-4769-8B54-E8267891E07F}">
+									<Media>
+										<File Id="18700665"/>
+										<File Id="126677074"/>
+										<File Id="140712066"/>
+										<File Id="215972072"/>
+										<File Id="266764523"/>
+										<File Id="301166253"/>
+										<File Id="336664167"/>
+										<File Id="510746917"/>
+										<File Id="533205878"/>
+										<File Id="558530962"/>
+										<File Id="685557621"/>
+										<File Id="730851277"/>
+										<File Id="788166266"/>
+										<File Id="815785611"/>
+										<File Id="1023326255"/>
+										<File Id="1060913604"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{741F80E3-FB20-499F-8D31-076FDE1FC5B8}">
+									<Media>
+										<File Id="105897018"/>
+										<File Id="454998162"/>
+										<File Id="998469898"/>
 									</Media>
 								</SwitchContainer>
 							</Children>
