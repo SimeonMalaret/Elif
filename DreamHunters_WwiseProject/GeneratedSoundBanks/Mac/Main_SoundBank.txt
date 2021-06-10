@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	100468805	Play_BookDoor_01			\LEVEL EVENT_WU\DOORS\BookDoor\Play_BookDoor_01	
 	212649593	Play_DoggyToy_Bark			\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Bark	
 	237835630	Play_Xylophone_SqueakSmall			\LEVEL EVENT_WU\PROPS\Squeaks\Xylophone\Play_Xylophone_SqueakSmall	
+	415007345	Play_XylophoneRandom			\LEVEL EVENT_WU\PROPS\Xylophone\Play_XylophoneRandom	
 	416790072	Play_ClockRing_Old			\LEVEL EVENT_WU\PROPS\Clock\Play_ClockRing_Old	
 	447236198	Play_DoggyToy_Sad_Short			\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Sad_Short	
 	481600506	Set_MC_Walk			\MC EVENT_WU\MC\Set_MC_Walk	
@@ -17,13 +18,17 @@ Event	ID	Name			Wwise Object Path	Notes
 	1020223172	Play_Wind			\AMB EVENT_WU\Wind\Play_Wind	
 	1079843610	Stop_Bridge_Down			\LEVEL EVENT_WU\PROPS\Bridge\Stop_Bridge_Down	
 	1081286129	Play_DrawBridge_NoRing			\LEVEL EVENT_WU\PROPS\DrawBridge\Play_DrawBridge_NoRing	
+	1102200447	Play_Library_Roomtone			\AMB EVENT_WU\Roomtone\Play_Library_Roomtone	
 	1185956821	Play_Pillow_Inflate			\LEVEL EVENT_WU\PROPS\Pillow\Play_Pillow_Inflate	
+	1249798847	Play_Xylophone_Re3			\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Re3	
 	1301194605	Play_Trousse_SqueakHeavy			\LEVEL EVENT_WU\PROPS\Squeaks\Trousse\Play_Trousse_SqueakHeavy	
 	1323353296	Play_Clouds			\LEVEL EVENT_WU\Clouds\Play_Clouds	
 	1358180789	Set_GroundType_Leather			\MC EVENT_WU\MC\Set_GroundType_Leather	
 	1402985800	Play_Pinball_Move			\LEVEL EVENT_WU\PROPS\Pinball\Play_Pinball_Move	
+	1447334380	Play_Xylophone_Mi3			\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Mi3	
 	1470424087	Play_Pinball_BulliesDestruction			\LEVEL EVENT_WU\PROPS\Pinball\Play_Pinball_BulliesDestruction	
 	1472859671	Play_Balloon_Roll			\LEVEL EVENT_WU\PROPS\Balloon\Play_Balloon_Roll	
+	1518093590	Play_Xylophone_Si3			\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Si3	
 	1536829888	Play_DrawBridge_WithRing			\LEVEL EVENT_WU\PROPS\DrawBridge\Play_DrawBridge_WithRing	
 	1593937298	Play_MC_Land			\MC EVENT_WU\MC\Play_MC_Land	
 	1652522752	Play_CommonDoor_Closed			\LEVEL EVENT_WU\DOORS\CommonDoor\Play_CommonDoor_Closed	
@@ -32,11 +37,15 @@ Event	ID	Name			Wwise Object Path	Notes
 	1831550571	Set_GroundType_Concrete			\MC EVENT_WU\MC\Set_GroundType_Concrete	
 	1879343191	Stop_Xylophone_Squeak			\LEVEL EVENT_WU\PROPS\Squeaks\Xylophone\Stop_Xylophone_Squeak	
 	1893935693	Stop_DoggyToy_Locomotion_lp			\LEVEL EVENT_WU\PROPS\DoggyToy\Stop_DoggyToy_Locomotion_lp	
+	1952193115	Play_Xylophone_Do3			\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Do3	
+	1952193116	Play_Xylophone_Do4			\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Do4	
 	2001832115	Play_Jumper			\LEVEL EVENT_WU\PROPS\Jumper\Play_Jumper	
 	2032384536	Play_CommonDoor_Open			\LEVEL EVENT_WU\DOORS\CommonDoor\Play_CommonDoor_Open	
 	2069621894	Stop_Rocket_Overheat_lp			\LEVEL EVENT_WU\PROPS\Rocket\Stop_Rocket_Overheat_lp	
 	2113649396	Play_Rocket_Overheat_lp			\LEVEL EVENT_WU\PROPS\Rocket\Play_Rocket_Overheat_lp	
+	2120263527	Play_Xylophone_Fa3			\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Fa3	
 	2145335481	Set_GroundType_Wood			\MC EVENT_WU\MC\Set_GroundType_Wood	
+	2185696649	Play_Xylophone_La3			\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_La3	
 	2192618333	Play_Bullies_Death			\LEVEL EVENT_WU\PROPS\Bullies\Play_Bullies_Death	
 	2195161450	Play_DoggyToy_Sad_Long			\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Sad_Long	
 	2212806876	Play_Jingle_Warning			\LEVEL EVENT_WU\Play_Jingle_Warning	
@@ -75,6 +84,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3482986092	Play_MC_PickUpItem			\MC EVENT_WU\MC\Play_MC_PickUpItem	
 	3677344451	Set_GroundType_Metal			\MC EVENT_WU\MC\Set_GroundType_Metal	
 	3709355747	Play_Music_01			\MUSIC EVENT_WU\MUSIC\Play_Music_01	
+	3734126654	Play_Xylophone_Sol3			\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Sol3	
 	3808183461	Stop_Music_01			\MUSIC EVENT_WU\MUSIC\Stop_Music_01	
 	3813799547	Play_Bullies_Taunt			\LEVEL EVENT_WU\PROPS\Bullies\Play_Bullies_Taunt	
 	3863378588	Play_WallLego_Destruction			\LEVEL EVENT_WU\Walls\Play_WallLego_Destruction	
@@ -154,8 +164,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	212624641	SFX_MC_Foleys_Normal_Run-003	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_MC_Foleys_Normal_Run-003_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Locomotion_Swt\MC Foley Run_Rnd\SFX_MC_Foleys_Normal_Run-003		23508
 	215978535	SFX_LEVEL_Balloons_Rolling	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Balloons_Rolling_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Balloon\Balloon Roll_Rnd\SFX_LEVEL_Balloons_Rolling		330816
 	228506019	SFX_Level_Button_Pressed02	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_Level_Button_Pressed02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Button\Button_Rnd_Pressed\SFX_Level_Button_Pressed02		12468
+	240009389	SFX_Level_Props_Xylophone_Re3	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_Level_Props_Xylophone_Re3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Xylophone\Xylophone_Rnd\SFX_Level_Props_Xylophone_Re3		117664
 	245556852	SFX_PROPS_BELLS_Bell03	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_PROPS_BELLS_Bell03_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\FlowerBell\FlowerBell Ring_Rnd\SFX_PROPS_BELLS_Bell03		67592
 	249219255	SFX_LEVEL_Level_Rocket_Forward_Short_03	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Level_Rocket_Forward_Short_03_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Rocket\Rocket Dash_Rnd\SFX_LEVEL_Level_Rocket_Forward_Short_03		137876
+	253360079	SFX_Level_Props_Xylophone_Sol3	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_Level_Props_Xylophone_Sol3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Xylophone\Xylophone_Rnd\SFX_Level_Props_Xylophone_Sol3		117664
 	257596844	SFX_LEVEL_Bullies_Taunt_01	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Bullies_Taunt_01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Bullies\Bullies Taunt_Rnd\SFX_LEVEL_Bullies_Taunt_01		380428
 	258441762	SFX_LEVEL_PROPS_Bullies_Laugh_1	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_PROPS_Bullies_Laugh_1_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Bullies\Rnd_Bullies_Laugh\SFX_LEVEL_PROPS_Bullies_Laugh_1		138598
 	260278808	SFX_LEVEL_Level_TurnPage01	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Level_TurnPage01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Pages\Rnd_TurnPage\SFX_LEVEL_Level_TurnPage01		52432
@@ -173,6 +185,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	324648661	SFX_LEVEL_Level_SqueakHeavy_Trousse_2	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Level_SqueakHeavy_Trousse_2_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Squeaks\Trousse\Squeak Trousse Heavy_Rnd\SFX_LEVEL_Level_SqueakHeavy_Trousse_2		444004
 	325934927	SFX_LEVEL_Level_SqueakSmall_Trousse_5	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Level_SqueakSmall_Trousse_5_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Squeaks\Trousse\Squeak Trousse Small_Rnd\SFX_LEVEL_Level_SqueakSmall_Trousse_5		100024
 	326020918	SFX_LEVEL_Balloons_Explosion03	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Balloons_Explosion03_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Balloon\Balloon Pop_Rnd\SFX_LEVEL_Balloons_Explosion03		88264
+	329754675	SFX_Level_Props_Xylophone_La3	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_Level_Props_Xylophone_La3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Xylophone\Xylophone_Rnd\SFX_Level_Props_Xylophone_La3		117664
 	332762354	SFX_LEVEL_Pinata_Explosion01	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Pinata_Explosion01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Pinata\Pinata Explosion_Rnd\SFX_LEVEL_Pinata_Explosion01		143390
 	335058408	SFX_LEVEL_Level_Wall_Destruction_V3_01	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Level_Wall_Destruction_V3_01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Wall_AM\Rnd_Wall_Destruction\SFX_LEVEL_Level_Wall_Destruction_V3_01		110314
 	345999817	SFX_Level_Sparks04	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_Level_Sparks04_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Sparks\Sparks_Rnd\SFX_Level_Sparks04		330814
@@ -200,10 +213,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	503580873	SFX_LEVEL_Rocket_Forward	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Rocket_Forward_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Rocket\Rocket Forward_Rnd\SFX_LEVEL_Rocket_Forward		1323064
 	508660768	SFX_Level_drawbridge_WithRing02	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_Level_drawbridge_WithRing02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\DrawBridge\Rnd_DrawBridge_WithRing\SFX_Level_drawbridge_WithRing02		76504
 	519035056	SFX_MC_Foleys_Jump_Jump-002	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_MC_Foleys_Jump_Jump-002_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Jump_Rnd\SFX_MC_Foleys_Jump_Jump-002		46920
+	521483037	SFX_Level_Props_Xylophone_Mi3	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_Level_Props_Xylophone_Mi3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Xylophone\Xylophone_Rnd\SFX_Level_Props_Xylophone_Mi3		117664
 	528956667	SFX_MC_Foleys_Normal_Run-002	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_MC_Foleys_Normal_Run-002_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Locomotion_Swt\MC Foley Run_Rnd\SFX_MC_Foleys_Normal_Run-002		21986
 	533627888	SFX_MC_Foleys_Jump_Jump-003	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_MC_Foleys_Jump_Jump-003_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Jump_Rnd\SFX_MC_Foleys_Jump_Jump-003		44164
 	536494307	SFX_LEVEL_JingleWarning	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_JingleWarning_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Jingle Warning\SFX_LEVEL_JingleWarning		2411016
+	541474887	AMB_LP_LibraryRoom	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\AMB_LP_LibraryRoom_10C4C929.wem		\Actor-Mixer Hierarchy\AMB_WU\AMB_AM\Roomtone\AMB_LP_LibraryRoom		5292064
 	542050506	SFX_LEVEL_Level_Canon_Shot_01	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Level_Canon_Shot_01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Canon\Canon_Rnd\SFX_LEVEL_Level_Canon_Shot_01		82752
+	553733579	SFX_Level_Props_Xylophone_Do4	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_Level_Props_Xylophone_Do4_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Xylophone\Xylophone_Rnd\SFX_Level_Props_Xylophone_Do4		117664
 	556472497	SFX_FT_Wood_Walk01-008	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_Level_Pillow_Inflate01-008_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FT\MC  Walk  Wood_Rnd\SFX_FT_Wood_Walk01-008		40996
 	557582523	SFX_LEVEL_Pinball__Move01_V2	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Pinball__Move01_V2_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Pinball\Pinball_Move\SFX_LEVEL_Pinball__Move01_V2		132364
 	561464988	SFX_LEVEL_PROPS_FlowerBell_FlowerBellShaking03-001	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_PROPS_FlowerBell_FlowerBellShaking03-001_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\FlowerBell\FlowerBell Shake_Rnd\SFX_LEVEL_PROPS_FlowerBell_FlowerBellShaking03-001		672590
@@ -237,6 +253,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	733801012	SFX_LEVEL_Level_SqueakHeavy_Trousse_4	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Level_SqueakHeavy_Trousse_4_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Squeaks\Trousse\Squeak Trousse Heavy_Rnd\SFX_LEVEL_Level_SqueakHeavy_Trousse_4		444004
 	740065178	SFX_LEVEL_DOORS_CommonDoor_CommonDoorOpen03	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_DOORS_CommonDoor_CommonDoorOpen03_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Doors_AM\CommonDoor\CommonDoor Open_Rnd\SFX_LEVEL_DOORS_CommonDoor_CommonDoorOpen03		33140
 	742555174	SFX_LEVEL_Level_Rocket_Explosion04	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Level_Rocket_Explosion04_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Rocket\Rocket Explosion_Rnd\SFX_LEVEL_Level_Rocket_Explosion04		91020
+	746771830	Track 1 V2	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\Track 1 V2_D79FB2B7.wem		\Interactive Music Hierarchy\Temporary Music_WU\Main Music Loop\Main Music Unedited\Track 1 V2		19264
 	748364294	SFX_Level_Button_Unpressed02	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_Level_Button_Unpressed02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Button\Button_Rnd_Unpressed\SFX_Level_Button_Unpressed02		12468
 	755509416	SFX_LEVEL_Level_SqueakHeavy_Trousse_3	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Level_SqueakHeavy_Trousse_3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Squeaks\Trousse\Squeak Trousse Heavy_Rnd\SFX_LEVEL_Level_SqueakHeavy_Trousse_3		467524
 	759661118	SFX_LEVEL_Level_Rocket_Explosion03	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Level_Rocket_Explosion03_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Rocket\Rocket Explosion_Rnd\SFX_LEVEL_Level_Rocket_Explosion03		99288
@@ -268,7 +285,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	909838463	SFX_LEVEL_PROPS_Bullies_Laugh_3	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_PROPS_Bullies_Laugh_3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Bullies\Rnd_Bullies_Laugh\SFX_LEVEL_PROPS_Bullies_Laugh_3		241144
 	911900299	SFX_LEVEL_Level_BookDoor_Open_V3_02	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Level_BookDoor_Open_V3_02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Doors_AM\BookDoor\Rnd_BookDoor_Open\SFX_LEVEL_Level_BookDoor_Open_V3_02		77238
 	912449880	SFX_LEVEL_Level_TurnPage02	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Level_TurnPage02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Pages\Rnd_TurnPage\SFX_LEVEL_Level_TurnPage02		46920
+	928902495	SFX_Level_Props_Xylophone_Fa3	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_Level_Props_Xylophone_Fa3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Xylophone\Xylophone_Rnd\SFX_Level_Props_Xylophone_Fa3		117664
 	931563789	SFX_MC_Foleys_Stealth_Walk-003	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_MC_Foleys_Stealth_Walk-003_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Locomotion_Swt\MC Foley Sneak_Rnd\SFX_MC_Foleys_Stealth_Walk-003		67696
+	948376729	SFX_Level_Props_Xylophone_Si3	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_Level_Props_Xylophone_Si3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Xylophone\Xylophone_Rnd\SFX_Level_Props_Xylophone_Si3		117664
 	950024129	SFX_MC_Foleys_Normal_Walk-002	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_MC_Foleys_Normal_Walk-002_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Locomotion_Swt\MC Foley Walk_Rnd\SFX_MC_Foleys_Normal_Walk-002		38740
 	951524589	SFX_FT_Wood_Walk01-004	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_Level_Pillow_Inflate01-004_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FT\MC  Walk  Wood_Rnd\SFX_FT_Wood_Walk01-004		43136
 	978903969	SFX_LEVEL_PROPS_DoggyToy_SadLong	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_PROPS_DoggyToy_SadLong_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\DoggyToy\DoggyToy Sad\SFX_LEVEL_PROPS_DoggyToy_SadLong		758584
@@ -286,8 +305,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1039796192	SFX_LEVEL_Level_Rocket_Forward_Short_01	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Level_Rocket_Forward_Short_01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Rocket\Rocket Dash_Rnd\SFX_LEVEL_Level_Rocket_Forward_Short_01		187488
 	1043382114	SFX_LEVEL_DOORS_CommonDoor_CommonDoorOpen01	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_DOORS_CommonDoor_CommonDoorOpen01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Doors_AM\CommonDoor\CommonDoor Open_Rnd\SFX_LEVEL_DOORS_CommonDoor_CommonDoorOpen01		60702
 	1047626442	SFX_LEVEL_Level_Rocket_OverHeat_03	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Level_Rocket_OverHeat_03_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Rocket\Roket Overheat_Rnd\SFX_LEVEL_Level_Rocket_OverHeat_03		264664
+	1047643292	SFX_Level_Props_Xylophone_Do3	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_Level_Props_Xylophone_Do3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Xylophone\Xylophone_Rnd\SFX_Level_Props_Xylophone_Do3		117664
 	1058831336	SFX_LEVEL_Pinata_Explosion01_02	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_LEVEL_Pinata_Explosion01_02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Pinata\Pinata Explosion_Rnd\SFX_LEVEL_Pinata_Explosion01_02		286716
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	725754079	SFX_AMB_LOOP_STEALTH_LP	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\SFX_AMB_LOOP_STEALTH_LP_D79FB2B7.wem	725754079.wem	\Actor-Mixer Hierarchy\AMB_WU\AMB_AM\Stealth\SFX_AMB_LOOP_STEALTH_LP	
+	746771830	Track 1 V2	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\SFX\Track 1 V2_D79FB2B7.wem	746771830.wem	\Interactive Music Hierarchy\Temporary Music_WU\Main Music Loop\Main Music Unedited\Track 1 V2	
 

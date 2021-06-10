@@ -230,6 +230,32 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Roomtone" ID="{CAC6D98A-6CF2-4B80-AC87-CC9467A721BD}" ShortID="843897917">
+							<ChildrenList>
+								<Sound Name="AMB_LP_LibraryRoom" ID="{31E441DD-3982-4758-9347-89F39CA3AA79}" ShortID="1050246388">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_LP_LibraryRoom" ID="{F4CEB48D-41EE-4028-B2CF-31D5B2C7093A}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_LP_LibraryRoom.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="541474887"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_LP_LibraryRoom" ID="{F4CEB48D-41EE-4028-B2CF-31D5B2C7093A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
