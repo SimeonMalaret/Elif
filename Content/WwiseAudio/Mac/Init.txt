@@ -1,30 +1,17 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	652749204	Menu_InGame			\Default Work Unit\Music\Menu_InGame	
-	807180689	Music_Level04			\Default Work Unit\Music\Music_Level04	
-	807180692	Music_Level01			\Default Work Unit\Music\Music_Level01	
-	807180694	Music_Level03			\Default Work Unit\Music\Music_Level03	
-	807180695	Music_Level02			\Default Work Unit\Music\Music_Level02	
+	2177735725	Music_Level			\Default Work Unit\Music\Music_Level	
 
 State	ID	Name	State Group			Notes
 	748895195	None	Menu_InGame			
 	984691642	InGame	Menu_InGame			
 	2607556080	Menu	Menu_InGame			
-	748895195	None	Music_Level04			
-	1465220019	Level04_Middle	Music_Level04			
-	1529261419	Level04_End	Music_Level04			
-	3984930384	Level04_Start	Music_Level04			
-	382537572	Level01_Middle	Music_Level01			
-	748895195	None	Music_Level01			
-	3877831010	Level01_End	Music_Level01			
-	3896338817	Level01_Start	Music_Level01			
-	748895195	None	Music_Level03			
-	3513227943	Level03_Start	Music_Level03			
-	3566225204	Level03_End	Music_Level03			
-	3874751606	Level03_Middle	Music_Level03			
-	124439618	Level02_Start	Music_Level02			
-	748895195	None	Music_Level02			
-	1709437329	Level02_End	Music_Level02			
-	3699596705	Level02_Middle	Music_Level02			
+	151272180	Part_01	Music_Level			
+	151272182	Part_03	Music_Level			
+	151272183	Part_02	Music_Level			
+	565529991	Final	Music_Level			
+	748895195	None	Music_Level			
+	1865857008	Transition	Music_Level			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3190188375	Volume_Voices			\Default Work Unit\Volumes\Volume_Voices	

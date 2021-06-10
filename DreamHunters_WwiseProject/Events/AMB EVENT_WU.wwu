@@ -116,6 +116,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Roomtone" ID="{27D8CD82-FD50-44AA-8142-CAF831895CBC}" ShortID="1004261209">
+					<ChildrenList>
+						<Event Name="Play_Library_Roomtone" ID="{92C2D1C2-AD2B-4174-8ADB-62662616A16D}">
+							<ChildrenList>
+								<Action Name="" ID="{50BA7540-EF5C-4CCC-AC20-006D7FE41E50}" ShortID="96912209">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_LP_LibraryRoom" ID="{31E441DD-3982-4758-9347-89F39CA3AA79}" WorkUnitID="{AA0F71AF-3514-41B1-87B9-507EA745E0FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
