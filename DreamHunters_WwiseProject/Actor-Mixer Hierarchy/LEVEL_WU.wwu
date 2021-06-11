@@ -4460,6 +4460,32 @@
 										</Sound>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Window" ID="{4AD99BAC-4629-4292-895E-F4F4A2B2E6CE}" ShortID="229847222">
+									<ChildrenList>
+										<Sound Name="SFX_Level_Window_Open01" ID="{8122079E-0D6E-4455-9DC7-2E73284176F1}" ShortID="463853872">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Level_Window_Open01" ID="{F04DA9CA-EAEE-4C68-BD6E-01AE53CB4E73}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Level_Window_Open01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="688960384"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Level_Window_Open01" ID="{F04DA9CA-EAEE-4C68-BD6E-01AE53CB4E73}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Wall_AM" ID="{72613A2F-7B43-467B-8C8F-E80692CBCBB6}" ShortID="284790304">
