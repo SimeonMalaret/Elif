@@ -1679,6 +1679,39 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_Voice_Elif_Jump" ID="{00A526CD-C75C-4CED-80F1-CBF14B25E05B}">
+											<ChildrenList>
+												<Action Name="" ID="{63A164E8-50B3-41F8-9CC2-CEABAE3CB97F}" ShortID="366658039">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Elif Jump_Rnd" ID="{73500FF9-D0C2-4564-B566-0BD60A25BD6E}" WorkUnitID="{02FC1F13-74EC-4F8A-8D3F-E82F07F768AC}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Voice_Elif_CallCrocus" ID="{384F52D1-AFD6-4268-995E-80052C27AEE8}">
+											<ChildrenList>
+												<Action Name="" ID="{B15A2FF0-6502-4C9A-A233-8520C940692F}" ShortID="976191842">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Elif Call Crocus_Rnd" ID="{67BBDBEA-A81F-49D8-9B00-9446653F4C20}" WorkUnitID="{02FC1F13-74EC-4F8A-8D3F-E82F07F768AC}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Voice_Elif_Death" ID="{9C0D50DA-C066-4DA6-98A5-D4B22085D61D}">
+											<ChildrenList>
+												<Action Name="" ID="{6BB6E95C-60DB-4C61-A4E1-A10DA522533E}" ShortID="32814978">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Elif Death_Rnd" ID="{57D83E68-EFE5-47B6-A14B-8D7E40CE6952}" WorkUnitID="{02FC1F13-74EC-4F8A-8D3F-E82F07F768AC}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
