@@ -15,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	888709001	Stop_Rocket_Forward_lp			\LEVEL EVENT_WU\PROPS\Rocket\Stop_Rocket_Forward_lp	
 	891247879	Stop_AMB_Playground_lp			\AMB EVENT_WU\PlayGround\Stop_AMB_Playground_lp	
 	925263659	Play_Rocket_Forward_lp			\LEVEL EVENT_WU\PROPS\Rocket\Play_Rocket_Forward_lp	
+	1005152679	Play_BearDoor_Open			\LEVEL EVENT_WU\DOORS\BearDoor\Play_BearDoor_Open	
 	1020223172	Play_Wind			\AMB EVENT_WU\Wind\Play_Wind	
 	1079843610	Stop_Bridge_Down			\LEVEL EVENT_WU\PROPS\Bridge\Stop_Bridge_Down	
 	1081286129	Play_DrawBridge_NoRing			\LEVEL EVENT_WU\PROPS\DrawBridge\Play_DrawBridge_NoRing	
@@ -211,6 +212,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	480832607	SFX_LEVEL_Elif_Bounce01	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Elif_Bounce01_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Bounce_Rnd\SFX_LEVEL_Elif_Bounce01		16602
 	498094991	SFX_LEVEL_DoorBook01	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_DoorBook01_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Doors_AM\BookDoor\BookDoor 01_Rnd\SFX_LEVEL_DoorBook01		181976
 	503580873	SFX_LEVEL_Rocket_Forward	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_LEVEL_Rocket_Forward_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Rocket\Rocket Forward_Rnd\SFX_LEVEL_Rocket_Forward		1323064
+	506463643	SFX_Level_BearDoor_V2	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_BearDoor_V2_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\Doors_AM\BearDoor\SFX_Level_BearDoor_V2		247024
 	508660768	SFX_Level_drawbridge_WithRing02	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_drawbridge_WithRing02_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\DrawBridge\Rnd_DrawBridge_WithRing\SFX_Level_drawbridge_WithRing02		76504
 	519035056	SFX_MC_Foleys_Jump_Jump-002	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_MC_Foleys_Jump_Jump-002_10C4C929.wem		\Actor-Mixer Hierarchy\MC_WU\MC_AM\MOVES_AM\FOLEYS\MC Foley Jump_Rnd\SFX_MC_Foleys_Jump_Jump-002		46920
 	521483037	SFX_Level_Props_Xylophone_Mi3	C:\Users\marre.MSI\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\SFX\SFX_Level_Props_Xylophone_Mi3_10C4C929.wem		\Actor-Mixer Hierarchy\LEVEL_WU\LEVEL_AM\PROPS_AM\Xylophone\Xylophone_Rnd\SFX_Level_Props_Xylophone_Mi3		117664

@@ -33,7 +33,7 @@
 				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_Music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="778258614">
+		<SoundBank Id="2228651116" Language="SFX" Hash="3099387384">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -91,6 +91,14 @@
 					<AuxBusSends>
 						<AuxBus Id="3074912548" Name="Big_Reverb_Delay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\LEVEL\Big_Reverb_Delay"/>
 					</AuxBusSends>
+				</Event>
+				<Event Id="1005152679" Name="Play_BearDoor_Open" ObjectPath="\Events\LEVEL EVENT_WU\DOORS\BearDoor\Play_BearDoor_Open">
+					<IncludedMemoryFiles>
+						<File Id="506463643" Language="SFX">
+							<ShortName>SFX_Level_BearDoor_V2.wav</ShortName>
+							<Path>SFX\SFX_Level_BearDoor_V2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="100468805" Name="Play_BookDoor_01" ObjectPath="\Events\LEVEL EVENT_WU\DOORS\BookDoor\Play_BookDoor_01">
 					<IncludedMemoryFiles>

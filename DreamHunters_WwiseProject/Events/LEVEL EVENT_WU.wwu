@@ -821,6 +821,77 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Puzzle_Button" ID="{FFBA7F21-57FE-4502-AD78-54BF56E2D35A}" ShortID="862310430">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="23"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Event Name="Play_Puzzle_Button01" ID="{87047029-5E54-41DA-904F-4A73DE78B569}">
+									<ChildrenList>
+										<Action Name="" ID="{0A7EAE55-6E88-4BE4-A4C0-042B56CC96F9}" ShortID="857672412">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Puzzle_Button-001" ID="{FAE1331B-898A-44A4-A08B-1E89B2050BB0}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Puzzle_Button02" ID="{787907BA-2011-49F3-A9CA-7BEFF0BE47E4}">
+									<ChildrenList>
+										<Action Name="" ID="{1B106C3B-EEEF-4EDF-9005-6617EE6A877F}" ShortID="466540710">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Puzzle_Button-002" ID="{37DB6923-7194-4903-A29D-7067D5C5DE38}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Puzzle_Button03" ID="{3444C64B-1CA8-49E7-8183-3F2B6BAD875D}">
+									<ChildrenList>
+										<Action Name="" ID="{DE691CA0-9832-4783-8A4A-244C2292B286}" ShortID="137342958">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Puzzle_Button-003" ID="{5AF9A682-AC3D-4EBE-BA5F-2FEDF429F025}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Puzzle_Button04" ID="{F1DB6521-3802-47EF-A17A-6A3E9A3E1544}">
+									<ChildrenList>
+										<Action Name="" ID="{8BB341F9-0049-452E-BF72-5FF83E70121B}" ShortID="416778261">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Puzzle_Button-004" ID="{D548A80D-0F0C-4A95-B2A2-A189377905FF}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Book_Disappear" ID="{C7E3D525-0F8E-4D8D-BD58-BECD63AB577F}" ShortID="945625471">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="24"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Event Name="Play_Book_Disappear" ID="{435EF0B9-538B-4F41-98CE-729F1FAB0E96}">
+									<ChildrenList>
+										<Action Name="" ID="{49386012-4F91-41CE-B409-B75331F57037}" ShortID="361183593">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_Book_Disappear_V2" ID="{2833BA0C-BEA8-42C5-AC46-64C66B5FAE35}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Walls" ID="{97234E22-3E6E-4FCE-AF7F-D5F642167B92}" ShortID="797327252">
@@ -899,6 +970,25 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="CommonDoor Open_Rnd" ID="{263BC514-74BF-489D-B088-76395BBCB121}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="BearDoor" ID="{592060D0-6B07-40BF-9226-54EF2520C721}" ShortID="389715393">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="12"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Event Name="Play_BearDoor_Open" ID="{09D9709A-89EC-4644-9FC4-63C2E3903428}">
+									<ChildrenList>
+										<Action Name="" ID="{E8676391-0A18-4ACB-9947-BBCE6D8B4DDE}" ShortID="198616785">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_BearDoor_V2" ID="{AA424985-5CA0-4819-845D-7141A23D70FE}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
