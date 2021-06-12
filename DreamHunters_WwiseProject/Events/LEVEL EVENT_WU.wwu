@@ -892,6 +892,21 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Window" ID="{22A3803E-4177-468F-B6C1-AA853C1985F9}" ShortID="493644488">
+							<ChildrenList>
+								<Event Name="Play_Window_Close" ID="{32380610-BE20-4C8B-B660-FC961F259FD3}">
+									<ChildrenList>
+										<Action Name="" ID="{A2531853-EB2E-48FE-AEDC-B5AC46FBF266}" ShortID="515824943">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Level_Window_Open01" ID="{8122079E-0D6E-4455-9DC7-2E73284176F1}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Walls" ID="{97234E22-3E6E-4FCE-AF7F-D5F642167B92}" ShortID="797327252">

@@ -3734,7 +3734,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-9</Value>
+														<Value>-3</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -3763,7 +3763,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-13</Value>
+														<Value>-5</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -3968,6 +3968,11 @@
 										<RandomSequenceContainer Name="Xylophone_Rnd" ID="{FEFA356B-611C-4436-8624-8D564363E063}" ShortID="407271282">
 											<PropertyList>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -4157,6 +4162,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<Sound Name="SFX_Level_Props_Xylophone_Do3" ID="{2D224B0F-6202-41C5-966E-5383E6A36B75}" ShortID="750049784">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -4179,6 +4191,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Level_Props_Xylophone_Do4" ID="{E9DBDF00-FA8C-40FB-9F74-29F3C4200F96}" ShortID="177950326">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -4201,6 +4220,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Level_Props_Xylophone_Fa3" ID="{A0CAB5B2-9AA4-4B4C-980E-722EE2AB231D}" ShortID="989427062">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -4223,6 +4249,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Level_Props_Xylophone_La3" ID="{27A6C7A9-EA08-41A7-8F93-03D4E0007E53}" ShortID="425465924">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -4245,6 +4278,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Level_Props_Xylophone_Mi3" ID="{A7591837-D5D0-4C9C-B10B-AE493615E35B}" ShortID="217349349">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -4267,6 +4307,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Level_Props_Xylophone_Re3" ID="{45AD516D-30EC-4B8D-934A-A05D77C63310}" ShortID="696543515">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -4289,6 +4336,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Level_Props_Xylophone_Si3" ID="{D2774EF3-DC9E-4FB3-ACCF-17D242CF7A73}" ShortID="229172651">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -4311,6 +4365,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Level_Props_Xylophone_Sol3" ID="{EC58ED7F-BE0D-4D4E-A12E-05333F035C6D}" ShortID="823860548">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -4456,6 +4517,32 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="SFX_Level_Book_Disappear_V2" ID="{D68C7CA3-040F-4D3C-AAEB-F6185B40553A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Window" ID="{4AD99BAC-4629-4292-895E-F4F4A2B2E6CE}" ShortID="229847222">
+									<ChildrenList>
+										<Sound Name="SFX_Level_Window_Open01" ID="{8122079E-0D6E-4455-9DC7-2E73284176F1}" ShortID="463853872">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Level_Window_Open01" ID="{F04DA9CA-EAEE-4C68-BD6E-01AE53CB4E73}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Level_Window_Open01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="688960384"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Level_Window_Open01" ID="{F04DA9CA-EAEE-4C68-BD6E-01AE53CB4E73}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
