@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Projets Unreal\4.26\Stigma\DreamHunters_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Projets Unreal\4.26\Stigma\DreamHunters_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Projets Unreal\4.26\Stigma\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Projets Unreal\4.26\Stigma\DreamHunters_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -161,7 +161,7 @@
 				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_Music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="1358552239">
+		<SoundBank Id="2228651116" Language="SFX" Hash="344015435">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -3152,6 +3152,218 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="909599973" Name="Play_Voice_Elif_CallCrocus" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Play_Voice_Elif_CallCrocus">
+					<IncludedMemoryFiles>
+						<File Id="84966942" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_16_04.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_16_04_10C4C929.wem</Path>
+						</File>
+						<File Id="114581979" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_17_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_17_02_10C4C929.wem</Path>
+						</File>
+						<File Id="195189251" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_16_03.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_16_03_10C4C929.wem</Path>
+						</File>
+						<File Id="219681501" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_16_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_16_01_10C4C929.wem</Path>
+						</File>
+						<File Id="368561430" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_17_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_17_01_10C4C929.wem</Path>
+						</File>
+						<File Id="390196936" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_17_06.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_17_06_10C4C929.wem</Path>
+						</File>
+						<File Id="409503084" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_18_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_18_01_10C4C929.wem</Path>
+						</File>
+						<File Id="444174112" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_17_04.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_17_04_10C4C929.wem</Path>
+						</File>
+						<File Id="671710013" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_18_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_18_02_10C4C929.wem</Path>
+						</File>
+						<File Id="687862304" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_16_05.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_16_05_10C4C929.wem</Path>
+						</File>
+						<File Id="722929441" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_16_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_16_02_10C4C929.wem</Path>
+						</File>
+						<File Id="740271110" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_18_03.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_18_03_10C4C929.wem</Path>
+						</File>
+						<File Id="787760471" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_17_05.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_17_05_10C4C929.wem</Path>
+						</File>
+						<File Id="807101971" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_16_06.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_16_06_10C4C929.wem</Path>
+						</File>
+						<File Id="862302063" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_16_07.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_16_07_10C4C929.wem</Path>
+						</File>
+						<File Id="972550042" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_17_03.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_17_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3160771474" Name="Play_Voice_Elif_Death" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Play_Voice_Elif_Death">
+					<IncludedMemoryFiles>
+						<File Id="150417058" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_06_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_06_01_10C4C929.wem</Path>
+						</File>
+						<File Id="350572832" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_05_04.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_05_04_10C4C929.wem</Path>
+						</File>
+						<File Id="431279497" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_06_04.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_06_04_10C4C929.wem</Path>
+						</File>
+						<File Id="513856757" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_05_05.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_05_05_10C4C929.wem</Path>
+						</File>
+						<File Id="578779312" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_06_05.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_06_05_10C4C929.wem</Path>
+						</File>
+						<File Id="582115044" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_05_03.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_05_03_10C4C929.wem</Path>
+						</File>
+						<File Id="594413442" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_06_03.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_06_03_10C4C929.wem</Path>
+						</File>
+						<File Id="817977419" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_05_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_05_02_10C4C929.wem</Path>
+						</File>
+						<File Id="868629674" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_09_05.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_09_05_10C4C929.wem</Path>
+						</File>
+						<File Id="882888107" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_09_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_09_02_10C4C929.wem</Path>
+						</File>
+						<File Id="915617836" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_09_04.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_09_04_10C4C929.wem</Path>
+						</File>
+						<File Id="970712627" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_09_03.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_09_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1001411113" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_05_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_05_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1002240622" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_06_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_06_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1037936923" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_09_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_09_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="494419104" Name="Play_Voice_Elif_Jump" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Play_Voice_Elif_Jump">
+					<IncludedMemoryFiles>
+						<File Id="127977352" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_12_04.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_12_04_10C4C929.wem</Path>
+						</File>
+						<File Id="197720469" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_11_05.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_11_05_10C4C929.wem</Path>
+						</File>
+						<File Id="203396930" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_12_08.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_12_08_10C4C929.wem</Path>
+						</File>
+						<File Id="204327474" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_12_05.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_12_05_10C4C929.wem</Path>
+						</File>
+						<File Id="218941236" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_12_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_12_02_10C4C929.wem</Path>
+						</File>
+						<File Id="280996483" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_12_11.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_12_11_10C4C929.wem</Path>
+						</File>
+						<File Id="338442590" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_11_03.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_11_03_10C4C929.wem</Path>
+						</File>
+						<File Id="429656098" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_11_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_11_02_10C4C929.wem</Path>
+						</File>
+						<File Id="566191699" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_12_07.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_12_07_10C4C929.wem</Path>
+						</File>
+						<File Id="621057984" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_11_06.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_11_06_10C4C929.wem</Path>
+						</File>
+						<File Id="696084664" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_12_12.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_12_12_10C4C929.wem</Path>
+						</File>
+						<File Id="738143509" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_12_09.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_12_09_10C4C929.wem</Path>
+						</File>
+						<File Id="788723276" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_11_04.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_11_04_10C4C929.wem</Path>
+						</File>
+						<File Id="843411598" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_12_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_12_01_10C4C929.wem</Path>
+						</File>
+						<File Id="855567277" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_12_10.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_12_10_10C4C929.wem</Path>
+						</File>
+						<File Id="878004470" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_12_06.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_12_06_10C4C929.wem</Path>
+						</File>
+						<File Id="971708290" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_11_07.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_11_07_10C4C929.wem</Path>
+						</File>
+						<File Id="976113129" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_12_03.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_12_03_10C4C929.wem</Path>
+						</File>
+						<File Id="985136794" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_11_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_11_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3410959179" Name="Play_Wall_Destruction" ObjectPath="\Events\LEVEL EVENT_WU\Walls\Play_Wall_Destruction">
 					<IncludedMemoryFiles>
 						<File Id="335058408" Language="SFX">
@@ -3197,6 +3409,14 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3075857625" Name="Play_WindGust" ObjectPath="\Events\AMB EVENT_WU\Wind\Play_WindGust"/>
+				<Event Id="4244658871" Name="Play_Window_Close" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Window\Play_Window_Close">
+					<IncludedMemoryFiles>
+						<File Id="688960384" Language="SFX">
+							<ShortName>SFX_Level_Window_Open01.wav</ShortName>
+							<Path>SFX\SFX_Level_Window_Open01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1952193115" Name="Play_Xylophone_Do3" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Xylophone\Play_Xylophone_Do3">
 					<IncludedMemoryFiles>
 						<File Id="1047643292" Language="SFX">
