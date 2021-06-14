@@ -63,6 +63,18 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_All" ID="{0E001828-D070-4267-8603-CC2F46E0FB37}">
+					<ChildrenList>
+						<Action Name="" ID="{3CC63885-2399-416E-B818-83718EB4BE4D}" ShortID="418500830">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
