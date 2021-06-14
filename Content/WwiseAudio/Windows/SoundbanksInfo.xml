@@ -161,7 +161,7 @@
 				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_Music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="2437819847">
+		<SoundBank Id="2228651116" Language="SFX" Hash="357489595">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -1730,6 +1730,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3092587493" Name="Pause" ObjectPath="\Events\Default Work Unit\Pause"/>
 				<Event Id="1800930393" Name="Play_AMB_Playground_lp" ObjectPath="\Events\AMB EVENT_WU\PlayGround\Play_AMB_Playground_lp">
 					<IncludedMemoryFiles>
 						<File Id="774592491" Language="SFX">
@@ -3154,6 +3155,14 @@
 				</Event>
 				<Event Id="909599973" Name="Play_Voice_Elif_CallCrocus" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Play_Voice_Elif_CallCrocus">
 					<IncludedMemoryFiles>
+						<File Id="20708272" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_15_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_15_01_10C4C929.wem</Path>
+						</File>
+						<File Id="39032707" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_15_06.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_15_06_10C4C929.wem</Path>
+						</File>
 						<File Id="84966942" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_16_04.wav</ShortName>
 							<Path>SFX\VOICE_Elif_Shout_16_04_10C4C929.wem</Path>
@@ -3170,6 +3179,14 @@
 							<ShortName>VOICE_Elif_Shout_16_01.wav</ShortName>
 							<Path>SFX\VOICE_Elif_Shout_16_01_10C4C929.wem</Path>
 						</File>
+						<File Id="263183657" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_15_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_15_02_10C4C929.wem</Path>
+						</File>
+						<File Id="318206602" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_15_05.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_15_05_10C4C929.wem</Path>
+						</File>
 						<File Id="368561430" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_17_01.wav</ShortName>
 							<Path>SFX\VOICE_Elif_Shout_17_01_10C4C929.wem</Path>
@@ -3185,6 +3202,10 @@
 						<File Id="444174112" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_17_04.wav</ShortName>
 							<Path>SFX\VOICE_Elif_Shout_17_04_10C4C929.wem</Path>
+						</File>
+						<File Id="548632333" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_15_04.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_15_04_10C4C929.wem</Path>
 						</File>
 						<File Id="671710013" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_18_02.wav</ShortName>
@@ -3205,6 +3226,10 @@
 						<File Id="787760471" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_17_05.wav</ShortName>
 							<Path>SFX\VOICE_Elif_Shout_17_05_10C4C929.wem</Path>
+						</File>
+						<File Id="797078826" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_15_03.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_15_03_10C4C929.wem</Path>
 						</File>
 						<File Id="807101971" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_16_06.wav</ShortName>
@@ -3361,6 +3386,62 @@
 						<File Id="985136794" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_11_01.wav</ShortName>
 							<Path>SFX\VOICE_Elif_Shout_11_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1708979588" Name="Play_Voice_Elif_Whitsle" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Play_Voice_Elif_Whitsle">
+					<IncludedMemoryFiles>
+						<File Id="84966942" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_16_04.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_16_04_10C4C929.wem</Path>
+						</File>
+						<File Id="114581979" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_17_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_17_02_10C4C929.wem</Path>
+						</File>
+						<File Id="195189251" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_16_03.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_16_03_10C4C929.wem</Path>
+						</File>
+						<File Id="219681501" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_16_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_16_01_10C4C929.wem</Path>
+						</File>
+						<File Id="368561430" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_17_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_17_01_10C4C929.wem</Path>
+						</File>
+						<File Id="390196936" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_17_06.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_17_06_10C4C929.wem</Path>
+						</File>
+						<File Id="444174112" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_17_04.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_17_04_10C4C929.wem</Path>
+						</File>
+						<File Id="687862304" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_16_05.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_16_05_10C4C929.wem</Path>
+						</File>
+						<File Id="722929441" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_16_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_16_02_10C4C929.wem</Path>
+						</File>
+						<File Id="787760471" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_17_05.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_17_05_10C4C929.wem</Path>
+						</File>
+						<File Id="807101971" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_16_06.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_16_06_10C4C929.wem</Path>
+						</File>
+						<File Id="862302063" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_16_07.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_16_07_10C4C929.wem</Path>
+						</File>
+						<File Id="972550042" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_17_03.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_17_03_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -3561,6 +3642,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="953277036" Name="Resume" ObjectPath="\Events\Default Work Unit\Resume"/>
 				<Event Id="2658957239" Name="Set_GroundType_Carpet" ObjectPath="\Events\MC EVENT_WU\MC\Set_GroundType_Carpet">
 					<ActionSetSwitch>
 						<ActionSetSwitchEntry Id="2412606308" Name="Carpet" ObjectPath="\Switches\Default Work Unit\GroundType\Carpet"/>
@@ -3616,6 +3698,7 @@
 				<Event Id="3087173238" Name="Stop_Bridge_Blocked" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Bridge\Stop_Bridge_Blocked"/>
 				<Event Id="1079843610" Name="Stop_Bridge_Down" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Bridge\Stop_Bridge_Down"/>
 				<Event Id="1893935693" Name="Stop_DoggyToy_Locomotion_lp" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\DoggyToy\Stop_DoggyToy_Locomotion_lp"/>
+				<Event Id="1085346473" Name="Stop_Library_Roomtone" ObjectPath="\Events\AMB EVENT_WU\Roomtone\Stop_Library_Roomtone"/>
 				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Stop_Music"/>
 				<Event Id="3808183461" Name="Stop_Music_01" ObjectPath="\Events\MUSIC EVENT_WU\MUSIC\Temporary\Stop_Music_01"/>
 				<Event Id="888709001" Name="Stop_Rocket_Forward_lp" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Rocket\Stop_Rocket_Forward_lp"/>
