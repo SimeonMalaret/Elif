@@ -1712,6 +1712,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_Voice_Elif_Whitsle" ID="{259A73B5-00F3-46CE-A1AA-D6DACDB5A90C}">
+											<ChildrenList>
+												<Action Name="" ID="{78199676-D7FE-4D85-8F32-D5AD9A8FB702}" ShortID="273655346">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Elif Whistle_Rnd" ID="{EB29E634-981D-4131-9320-1D48DD51C55E}" WorkUnitID="{02FC1F13-74EC-4F8A-8D3F-E82F07F768AC}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
