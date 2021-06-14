@@ -72,6 +72,15 @@
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList/>
+							<ChildrenList>
+								<EventActionException Name="" ID="{4559B5CD-F9A2-42BF-8C84-CBB1D3A561FD}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Mswt" ID="{3A8D1027-9B7B-4F2B-A543-6563D89C78F9}" WorkUnitID="{F0E70CF2-F4D6-4D89-A4A9-DAD98C803122}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+							</ChildrenList>
 						</Action>
 					</ChildrenList>
 				</Event>
