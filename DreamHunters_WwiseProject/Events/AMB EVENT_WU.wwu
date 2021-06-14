@@ -129,6 +129,22 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_Library_Roomtone" ID="{168694B1-716B-4E5A-A228-83F4ADC90049}">
+							<ChildrenList>
+								<Action Name="" ID="{BC6DDA6B-6DC8-4EB5-B33D-86DF5555135C}" ShortID="688542411">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_LP_LibraryRoom" ID="{31E441DD-3982-4758-9347-89F39CA3AA79}" WorkUnitID="{AA0F71AF-3514-41B1-87B9-507EA745E0FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
