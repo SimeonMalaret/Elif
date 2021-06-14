@@ -89,9 +89,6 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" ShortID="319115701">
-					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="50"/>
-					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -107,7 +104,7 @@
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>50</XPos>
+											<XPos>100</XPos>
 											<YPos>-12.16441</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -135,7 +132,7 @@
 											<SegmentShape>Exp2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>50</XPos>
+											<XPos>100</XPos>
 											<YPos>51</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -160,7 +157,7 @@
 											<SegmentShape>Log2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>50</XPos>
+											<XPos>100</XPos>
 											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>

@@ -3761,9 +3761,10 @@
 										</Sound>
 										<Sound Name="SFX_Level_Clock_Ring_V2" ID="{7E95B764-7E5C-41F3-92BF-6039BFE45322}" ShortID="1062960086">
 											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-5</Value>
+														<Value>-12</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
