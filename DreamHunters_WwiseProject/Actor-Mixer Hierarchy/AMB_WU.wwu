@@ -233,6 +233,13 @@
 						<Folder Name="Roomtone" ID="{CAC6D98A-6CF2-4B80-AC87-CC9467A721BD}" ShortID="843897917">
 							<ChildrenList>
 								<Sound Name="AMB_LP_LibraryRoom" ID="{31E441DD-3982-4758-9347-89F39CA3AA79}" ShortID="1050246388">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
