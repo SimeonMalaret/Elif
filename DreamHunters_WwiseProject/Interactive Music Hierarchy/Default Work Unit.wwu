@@ -224,6 +224,7 @@
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="5321.33786848073"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="73.3752620545074"/>
 															</PropertyList>
 															<AudioSourceRef Name="Harpe_102" ID="{D2F3922A-D64C-444D-9C61-34D36BC4DD45}"/>
 															<PropertyCurveList>
@@ -296,7 +297,7 @@
 										<MusicCue Name="Exit Cue" ID="{52C1B600-FF06-4242-9CB9-7AC9111DC53D}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="5321.33786848072"/>
+												<Property Name="TimeMs" Type="Real64" Value="5250.87351502446"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -316,6 +317,7 @@
 												<Property Name="DestinationContextType" Type="int16" Value="2"/>
 												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 												<Property Name="SourceContextType" Type="int16" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
