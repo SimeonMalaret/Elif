@@ -22,7 +22,9 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	543694036	VOX			\Default Work Unit\Master Audio Bus\VOX	
 	1117531639	AMB			\Default Work Unit\Master Audio Bus\SFX\AMB	
+	1569038683	Shouts			\Default Work Unit\Master Audio Bus\VOX\Shouts	
 	1685527061	MC			\Default Work Unit\Master Audio Bus\SFX\MC	
+	2054046734	Lines			\Default Work Unit\Master Audio Bus\VOX\Lines	
 	2782712965	LEVEL			\Default Work Unit\Master Audio Bus\SFX\LEVEL	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
