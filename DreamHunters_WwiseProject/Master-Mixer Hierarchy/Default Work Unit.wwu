@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{3F099745-4932-4375-9C6F-DE8E07A72072}" WorkUnitID="{C877C918-755D-4370-A6A8-C11D3B7B2EBB}"/>
@@ -13,6 +20,9 @@
 						<Bus Name="SFX" ID="{C533B959-67FC-497B-8201-C6CED5EEE5A2}">
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{976F4ECF-A4F3-4BCB-86FE-4AF9DCEB97AA}" ShortID="483834747">
 											<ReferenceList>
@@ -123,6 +133,10 @@
 									</RTPCList>
 								</Property>
 							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}"/>
+								<Bus Name="Shouts" ID="{1DD4017E-51A4-4FDF-8866-023B411EA26F}"/>
+							</ChildrenList>
 						</Bus>
 					</ChildrenList>
 				</Bus>
