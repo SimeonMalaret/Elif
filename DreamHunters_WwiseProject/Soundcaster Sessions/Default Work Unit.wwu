@@ -53,8 +53,16 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Music_Part_03" ID="{475BDCED-E8BE-41A5-B047-EC52EAC99DD8}" WorkUnitID="{E2E710F3-6EFF-407B-9FAC-885B7986798A}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Resume" ID="{B1CC1343-E2A2-4F83-B7F0-F873B4F4AAF1}" WorkUnitID="{82AEC79B-3828-4107-8E49-86AABC9DA012}"/>
 							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Jingle_Warning" ID="{0AF2416A-03E7-4132-9D4A-0022A75FB505}" WorkUnitID="{7C92E6CC-CF5E-4915-803B-1F90BB9F4FE9}"/>
+							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -76,8 +84,8 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Menu" ID="{A6E6AF1D-C209-4EBC-8E29-2F9B2E1AFFDC}"/>
-						<CurrentStateRef Name="Transition" ID="{69726618-A273-48FB-885F-A1D3F4082693}"/>
+						<CurrentStateRef Name="InGame" ID="{6FE305FA-C1A5-4627-BF0A-5A6A12A4A9D5}"/>
+						<CurrentStateRef Name="Part_03" ID="{30FB0989-36EF-4769-8B54-E8267891E07F}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Carpet" ID="{BCD53425-3E2F-4F10-AD81-8DEE29C350FE}"/>

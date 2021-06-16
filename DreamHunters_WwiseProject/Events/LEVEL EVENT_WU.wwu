@@ -1032,6 +1032,7 @@
 										<Property Name="ActionType" Type="int16" Value="7"/>
 										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
 										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -1045,6 +1046,7 @@
 										<Property Name="Delay" Type="Real64" Value="10"/>
 										<Property Name="FadeInCurve" Type="int16" Value="6"/>
 										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
