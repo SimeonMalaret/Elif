@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>D:\Projets Unreal\4.26\Stigma\DreamHunters_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Projets Unreal\4.26\Stigma\DreamHunters_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Projets Unreal\4.26\Stigma\Content\WwiseAudio\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\Content\WwiseAudio\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Projets Unreal\4.26\Stigma\DreamHunters_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\camille\Documents\Unreal Projects\DreamHunters\DreamHunters_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -64,10 +64,6 @@
 		<File Id="436259749" Language="SFX">
 			<ShortName>ViolonPluck_201.wav</ShortName>
 			<Path>SFX\ViolonPluck_201_D79FB2B7.wem</Path>
-		</File>
-		<File Id="454998162" Language="SFX">
-			<ShortName>MusicBox_101.wav</ShortName>
-			<Path>SFX\MusicBox_101_D79FB2B7.wem</Path>
 		</File>
 		<File Id="470992547" Language="SFX">
 			<ShortName>ViolonPluck_101.wav</ShortName>
@@ -129,13 +125,13 @@
 			<ShortName>Piano_202.wav</ShortName>
 			<Path>SFX\Piano_202_D79FB2B7.wem</Path>
 		</File>
-		<File Id="998469898" Language="SFX">
-			<ShortName>MusicBox_End.wav</ShortName>
-			<Path>SFX\MusicBox_End_D79FB2B7.wem</Path>
-		</File>
 		<File Id="998786487" Language="SFX">
 			<ShortName>Harpe_101.wav</ShortName>
 			<Path>SFX\Harpe_101_D79FB2B7.wem</Path>
+		</File>
+		<File Id="1021492892" Language="SFX">
+			<ShortName>MusicBox - All.wav</ShortName>
+			<Path>SFX\MusicBox - All_D79FB2B7.wem</Path>
 		</File>
 		<File Id="1023326255" Language="SFX">
 			<ShortName>Violon_102.wav</ShortName>
@@ -161,7 +157,7 @@
 				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_Music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="2742010717">
+		<SoundBank Id="2228651116" Language="SFX" Hash="1816855207">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -2156,7 +2152,7 @@
 					<IncludedMemoryFiles>
 						<File Id="541474887" Language="SFX">
 							<ShortName>AMB_LP_LibraryRoom.wav</ShortName>
-							<Path>SFX\AMB_LP_LibraryRoom_10C4C929.wem</Path>
+							<Path>SFX\AMB_LP_LibraryRoom_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -2481,10 +2477,6 @@
 							<ShortName>ViolonPluck_201.wav</ShortName>
 							<Path>SFX\ViolonPluck_201_D79FB2B7.wem</Path>
 						</File>
-						<File Id="454998162" Language="SFX">
-							<ShortName>MusicBox_101.wav</ShortName>
-							<Path>SFX\MusicBox_101_D79FB2B7.wem</Path>
-						</File>
 						<File Id="470992547" Language="SFX">
 							<ShortName>ViolonPluck_101.wav</ShortName>
 							<Path>SFX\ViolonPluck_101_D79FB2B7.wem</Path>
@@ -2537,13 +2529,13 @@
 							<ShortName>Piano_202.wav</ShortName>
 							<Path>SFX\Piano_202_D79FB2B7.wem</Path>
 						</File>
-						<File Id="998469898" Language="SFX">
-							<ShortName>MusicBox_End.wav</ShortName>
-							<Path>SFX\MusicBox_End_D79FB2B7.wem</Path>
-						</File>
 						<File Id="998786487" Language="SFX">
 							<ShortName>Harpe_101.wav</ShortName>
 							<Path>SFX\Harpe_101_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1021492892" Language="SFX">
+							<ShortName>MusicBox - All.wav</ShortName>
+							<Path>SFX\MusicBox - All_D79FB2B7.wem</Path>
 						</File>
 						<File Id="1023326255" Language="SFX">
 							<ShortName>Violon_102.wav</ShortName>
@@ -2618,8 +2610,7 @@
 								<SwitchContainer SwitchValue="{741F80E3-FB20-499F-8D31-076FDE1FC5B8}">
 									<Media>
 										<File Id="105897018"/>
-										<File Id="454998162"/>
-										<File Id="998469898"/>
+										<File Id="1021492892"/>
 									</Media>
 								</SwitchContainer>
 							</Children>
@@ -2766,10 +2757,6 @@
 							<ShortName>ViolonPluck_201.wav</ShortName>
 							<Path>SFX\ViolonPluck_201_D79FB2B7.wem</Path>
 						</File>
-						<File Id="454998162" Language="SFX">
-							<ShortName>MusicBox_101.wav</ShortName>
-							<Path>SFX\MusicBox_101_D79FB2B7.wem</Path>
-						</File>
 						<File Id="470992547" Language="SFX">
 							<ShortName>ViolonPluck_101.wav</ShortName>
 							<Path>SFX\ViolonPluck_101_D79FB2B7.wem</Path>
@@ -2818,9 +2805,9 @@
 							<ShortName>Piano_202.wav</ShortName>
 							<Path>SFX\Piano_202_D79FB2B7.wem</Path>
 						</File>
-						<File Id="998469898" Language="SFX">
-							<ShortName>MusicBox_End.wav</ShortName>
-							<Path>SFX\MusicBox_End_D79FB2B7.wem</Path>
+						<File Id="1021492892" Language="SFX">
+							<ShortName>MusicBox - All.wav</ShortName>
+							<Path>SFX\MusicBox - All_D79FB2B7.wem</Path>
 						</File>
 						<File Id="1023326255" Language="SFX">
 							<ShortName>Violon_102.wav</ShortName>
