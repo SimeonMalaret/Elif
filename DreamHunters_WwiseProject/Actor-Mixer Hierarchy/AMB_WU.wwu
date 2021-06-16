@@ -234,9 +234,10 @@
 							<ChildrenList>
 								<Sound Name="AMB_LP_LibraryRoom" ID="{31E441DD-3982-4758-9347-89F39CA3AA79}" ShortID="1050246388">
 									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>6</Value>
+												<Value>-15</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
