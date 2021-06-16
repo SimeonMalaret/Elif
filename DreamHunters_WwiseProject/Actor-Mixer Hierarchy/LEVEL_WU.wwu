@@ -4877,9 +4877,16 @@
 								</Sound>
 								<Sound Name="SFX_Level_Jingle_Lose" ID="{E863C324-3A05-4853-BBE7-E2A48E37813C}" ShortID="738265179">
 									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-35</Value>
+												<Value>-17</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4906,14 +4913,21 @@
 								</Sound>
 								<Sound Name="SFX_Level_Jingle_Win" ID="{DAC19A57-1696-44D7-A9D2-62B7CB7D8A2D}" ShortID="1059131720">
 									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
 												<Value>33</Value>
 											</ValueList>
 										</Property>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-35</Value>
+												<Value>-20</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
