@@ -1029,10 +1029,12 @@
 								</Action>
 								<Action Name="" ID="{B846A68B-59AB-4118-BC15-4DD94389B62A}" ShortID="715062018">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
 										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
 										<Property Name="FadeTime" Type="Real64" Value="1"/>
 										<Property Name="Scope" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64" Value="-8"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -1042,10 +1044,11 @@
 								</Action>
 								<Action Name="" ID="{8443F226-3172-4F42-9B51-87F11DEBF0BD}" ShortID="1025512549">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="ActionType" Type="int16" Value="16"/>
 										<Property Name="Delay" Type="Real64" Value="10"/>
 										<Property Name="FadeInCurve" Type="int16" Value="6"/>
-										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
 										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>

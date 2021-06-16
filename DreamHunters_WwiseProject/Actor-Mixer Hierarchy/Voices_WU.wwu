@@ -56,6 +56,7 @@
 								<RandomSequenceContainer Name="Elif Death_Rnd" ID="{57D83E68-EFE5-47B6-A14B-8D7E40CE6952}" ShortID="783533721">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="7"/>
 									</PropertyList>
 									<ReferenceList>
@@ -2824,6 +2825,1630 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="VOICE_Elif_Shout_17_06" ID="{30850029-7523-4026-8ACC-83AA068B1B8B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="VOICE_Elif_Shout_129" ID="{B5201E09-9BED-4BCD-BBBE-45671F032517}" ShortID="1019422874">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="VOICE_Elif_Shout_129_01" ID="{A071F478-C613-42D7-AC80-3ECEFCF9813B}" ShortID="572403260">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_02_01" ID="{275AEE78-ED19-4AE0-A72C-52B82CF6EC5C}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_02_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="788810592"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_02_01" ID="{275AEE78-ED19-4AE0-A72C-52B82CF6EC5C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_129_02" ID="{3A2D8A20-6FA6-4422-9BF6-07E688DB4B49}" ShortID="1068422047">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_02_02" ID="{267CB0E2-B25E-4D65-B2EA-F026EB7648DA}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_02_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="757213566"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_02_02" ID="{267CB0E2-B25E-4D65-B2EA-F026EB7648DA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_129_03" ID="{472971CF-C034-49FE-A878-601B37742576}" ShortID="327570587">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_02_03" ID="{0D8EB213-2862-4A1E-AAEB-FF9734113701}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_02_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="51875240"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_02_03" ID="{0D8EB213-2862-4A1E-AAEB-FF9734113701}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_129_04" ID="{2F2432DC-195A-4A85-B5C2-59FDDF1D734A}" ShortID="283129918">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_02_04" ID="{86B499E2-2EB2-46B1-943D-029EBD69758F}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_02_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="3534874"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_02_04" ID="{86B499E2-2EB2-46B1-943D-029EBD69758F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_129_05" ID="{1A2B5080-DAC9-459B-9B57-377035339A9A}" ShortID="518492758">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_02_05" ID="{8D29B51D-4097-42B8-8C7D-8039F44A68D0}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_02_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="613631740"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_02_05" ID="{8D29B51D-4097-42B8-8C7D-8039F44A68D0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="VOICE_Elif_Shout_134" ID="{83CA933D-CD57-4EBD-A175-C88E5D4B79F1}" ShortID="827812372">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="VOICE_Elif_Shout_134_01" ID="{6E625EC1-BC2E-4016-ABD3-CFC7BCCE6363}" ShortID="489925546">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_07_01" ID="{5D40CD08-6174-4235-B8E5-F79CC45254D9}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_07_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="246144985"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_07_01" ID="{5D40CD08-6174-4235-B8E5-F79CC45254D9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_134_02" ID="{D6973682-8387-47EC-878A-CDB1658D835C}" ShortID="54736965">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_07_02" ID="{7FCD5738-E409-439F-9EE3-2E41F0C67AE4}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_07_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="97076189"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_07_02" ID="{7FCD5738-E409-439F-9EE3-2E41F0C67AE4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_134_03" ID="{21C28215-2411-4D1B-8510-7347B8FCC264}" ShortID="289556310">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_07_03" ID="{86BCD30E-17CF-4985-B61C-AB06D4D00F6B}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_07_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="765827669"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_07_03" ID="{86BCD30E-17CF-4985-B61C-AB06D4D00F6B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_134_04" ID="{9AA5EE2C-B710-46AB-B483-12F5BB685F9F}" ShortID="1027581978">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_07_04" ID="{E2D46A5D-E3DD-4B14-B654-E499779660F7}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_07_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="735931280"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_07_04" ID="{E2D46A5D-E3DD-4B14-B654-E499779660F7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="VOICE_Elif_Shout_130" ID="{F89E4927-97F9-4B5C-A2F0-3AD70E02033F}" ShortID="498854558">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="VOICE_Elif_Shout_130_01" ID="{37E0F654-EEE7-4FF6-99C1-B59BF064C51E}" ShortID="827554271">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_03_01" ID="{502D4101-0877-4557-9811-495B59532791}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_03_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="115518860"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_03_01" ID="{502D4101-0877-4557-9811-495B59532791}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_130_02" ID="{1E2007E3-B4ED-438A-BEE7-88734A9A345C}" ShortID="878694164">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_03_02" ID="{EAF990BA-1552-4781-B231-7527299D39B2}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_03_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="916264896"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_03_02" ID="{EAF990BA-1552-4781-B231-7527299D39B2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_130_03" ID="{40AF1CA7-BC7B-40CB-973B-B6657672F735}" ShortID="512747345">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_03_03" ID="{73530AB0-A190-4B79-B5F9-958492803342}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_03_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="707449751"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_03_03" ID="{73530AB0-A190-4B79-B5F9-958492803342}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_130_04" ID="{B7D22EFF-4B01-4BD3-8B00-90CAD739F50D}" ShortID="653733630">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_03_04" ID="{1720BD6D-0BFF-4E13-9AB8-E6BAB0A3F173}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_03_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="969285613"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_03_04" ID="{1720BD6D-0BFF-4E13-9AB8-E6BAB0A3F173}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="VOICE_Elif_Shout_131" ID="{85BAFC8B-495F-4B0E-94D5-AEA135A3EB3D}" ShortID="341325176">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="VOICE_Elif_Shout_131_01" ID="{CDB710F2-E698-4BD5-8910-7B43D32DF16A}" ShortID="1021683568">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_04_01" ID="{7BCC240C-9C99-4584-BEF3-AE4F2A843134}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_04_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1027489987"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_04_01" ID="{7BCC240C-9C99-4584-BEF3-AE4F2A843134}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_131_02" ID="{AA5820D9-89EF-42E7-AE0A-878222F80254}" ShortID="862520817">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_04_02" ID="{C272B6D2-3BAA-4F2B-9819-952BF92A7447}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_04_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="27194187"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_04_02" ID="{C272B6D2-3BAA-4F2B-9819-952BF92A7447}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_131_03" ID="{48BFDA97-216D-471D-BEF6-45D3229ED072}" ShortID="7518989">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_04_03" ID="{D9650BB6-C204-40C0-93ED-5805B5E952E5}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_04_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="676310551"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_04_03" ID="{D9650BB6-C204-40C0-93ED-5805B5E952E5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_131_04" ID="{B934A5C3-DD5D-4460-97C6-7E0F9C703A2B}" ShortID="327600221">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_04_04" ID="{2B9F5DEA-75B5-4C98-A590-3BC07DA1E199}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_04_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="509806204"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_04_04" ID="{2B9F5DEA-75B5-4C98-A590-3BC07DA1E199}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="VOICE_Elif_Shout_149" ID="{9B6FE80C-FBB0-4296-AB99-B8B994493A85}" ShortID="253110490">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="VOICE_Elif_Shout_149_01" ID="{1F52C744-0A7A-4CEF-913F-61789F1BF310}" ShortID="480122910">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_22_01" ID="{187D70B6-9E7B-4A94-8DF7-52744AFD8E92}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_22_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="508254240"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_22_01" ID="{187D70B6-9E7B-4A94-8DF7-52744AFD8E92}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_149_02" ID="{5A0A1803-3902-4476-9A2F-CCFC32D117D4}" ShortID="244588059">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_22_02" ID="{34454DD6-FEC4-4DDA-9162-CA530D209B0C}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_22_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1011437691"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_22_02" ID="{34454DD6-FEC4-4DDA-9162-CA530D209B0C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="VOICE_Elif_Shout_133" ID="{5A1B154B-05EE-4EAF-9CB4-73819D93A05B}" ShortID="671352089">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="VOICE_Elif_Shout_133_01" ID="{B0994A7C-DBD3-48E6-AB5D-A37262243626}" ShortID="79530371">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_06_01" ID="{4BE28DFE-E145-41AA-9CC1-25AE33570745}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_06_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="150417058"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_06_01" ID="{4BE28DFE-E145-41AA-9CC1-25AE33570745}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_133_02" ID="{8E037AEF-A94E-4695-88FE-96D7845AFE9F}" ShortID="646093911">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_06_02" ID="{705ACBE5-88C7-484D-B747-80268C26FAAF}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_06_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1002240622"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_06_02" ID="{705ACBE5-88C7-484D-B747-80268C26FAAF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_133_03" ID="{5A6E049C-8DEE-4E34-ADE6-22C3084F2A0F}" ShortID="808232049">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_06_03" ID="{4D2FB894-A643-4555-A308-EFADE6478706}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_06_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="594413442"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_06_03" ID="{4D2FB894-A643-4555-A308-EFADE6478706}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_133_04" ID="{44813312-B9F1-4748-80AD-A6432EB25CC0}" ShortID="839215416">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_06_04" ID="{3144F8A1-4DAA-416B-9268-292D4C2A5164}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_06_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="431279497"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_06_04" ID="{3144F8A1-4DAA-416B-9268-292D4C2A5164}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_133_05" ID="{BB18D6BF-3957-496B-97BF-05F055730521}" ShortID="186041764">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_06_05" ID="{45FFB6A9-FB5A-45D6-B78F-C40171DC9A87}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_06_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="578779312"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_06_05" ID="{45FFB6A9-FB5A-45D6-B78F-C40171DC9A87}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="VOICE_Elif_Shout_132" ID="{9FD3530F-7052-48E4-90DE-2CBFB3927A3B}" ShortID="751799190">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="VOICE_Elif_Shout_132_01" ID="{766707CC-CBAF-4769-893A-A7E98F4CBCB4}" ShortID="978857220">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_05_01" ID="{7649E4CF-8F75-4FDA-ACC6-5F6EB9883071}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_05_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1001411113"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_05_01" ID="{7649E4CF-8F75-4FDA-ACC6-5F6EB9883071}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_132_02" ID="{D64DBE1B-52B0-4B4E-A423-5DEA3034EAAD}" ShortID="932586893">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_05_02" ID="{80ACC41E-8291-4A97-8D35-398A8A32BE93}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_05_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="817977419"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_05_02" ID="{80ACC41E-8291-4A97-8D35-398A8A32BE93}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_132_03" ID="{C6A2E5DC-A8B7-41E0-AA17-3218FBF2A610}" ShortID="419537996">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_05_03" ID="{E029B61E-F723-434C-BBD1-24965A909F9D}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_05_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="582115044"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_05_03" ID="{E029B61E-F723-434C-BBD1-24965A909F9D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_132_04" ID="{11356471-394C-4DD0-8716-739F07F2BDC1}" ShortID="223603729">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_05_04" ID="{DE6F76C2-212B-4A31-856C-224D5398153F}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_05_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="350572832"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_05_04" ID="{DE6F76C2-212B-4A31-856C-224D5398153F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_132_05" ID="{D9BD1767-A80B-4293-A21D-7D239DA1EABD}" ShortID="75525565">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_05_05" ID="{F9B1FDFE-75E3-457D-AB3D-BAE4E54EC859}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_05_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="513856757"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_05_05" ID="{F9B1FDFE-75E3-457D-AB3D-BAE4E54EC859}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="VOICE_Elif_Shout_128" ID="{B3A0CF3F-2E83-4A7A-B837-27034932F86E}" ShortID="723712145">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="VOICE_Elif_Shout_128_01" ID="{DC337C10-6E7C-4167-BAEC-11DD0905DA0E}" ShortID="565518315">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_01_01" ID="{1AF8994B-86DD-4E40-BD9E-106EC38A2757}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_01_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="582106170"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_01_01" ID="{1AF8994B-86DD-4E40-BD9E-106EC38A2757}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_128_02" ID="{E4A0850B-2F97-4A70-8084-D485D4CC22F9}" ShortID="41423973">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_01_02" ID="{AEE0E5BA-2506-4DF0-9FFD-A70D98318DA7}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_01_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="269517853"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_01_02" ID="{AEE0E5BA-2506-4DF0-9FFD-A70D98318DA7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_128_03" ID="{C31BBD5D-48D9-45ED-9ED2-A1B3EAAF9D07}" ShortID="116493019">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_01_03" ID="{56A39935-5A6D-4255-A383-984F2EBF623F}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_01_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="284109948"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_01_03" ID="{56A39935-5A6D-4255-A383-984F2EBF623F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_128_04" ID="{4F6BC7E5-7626-42F3-ACE5-F8D8352E0219}" ShortID="601482226">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_01_04" ID="{FB163432-B689-4D74-BD61-C6C9A57C4B8E}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_01_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="887616403"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_01_04" ID="{FB163432-B689-4D74-BD61-C6C9A57C4B8E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_128_05" ID="{DD5A109B-6CC9-453B-B894-5E82C993A85E}" ShortID="217617861">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_01_05" ID="{CD99017F-43E7-4BBD-B0A9-F3835A1785EE}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_01_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="833064681"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_01_05" ID="{CD99017F-43E7-4BBD-B0A9-F3835A1785EE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="VOICE_Elif_Shout_136" ID="{EA5CDDA3-93E9-4D92-A585-F3239DE007D4}" ShortID="9451503">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="VOICE_Elif_Shout_136_01" ID="{8625B45C-4C53-4113-8E15-390317200329}" ShortID="193877014">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_09_01" ID="{C4FB62F3-2C13-4573-BABA-57DC2321E2E1}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_09_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1037936923"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_09_01" ID="{C4FB62F3-2C13-4573-BABA-57DC2321E2E1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_136_02" ID="{D2A3ECE5-DEF8-4F1B-AA05-EFD848E51567}" ShortID="481367924">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_09_02" ID="{A3FFB96F-BE50-4B58-A12D-E17EAC5436FB}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_09_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="882888107"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_09_02" ID="{A3FFB96F-BE50-4B58-A12D-E17EAC5436FB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_136_03" ID="{6B3F3DBF-7AEE-4494-BEBC-91996636E871}" ShortID="335610633">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_09_03" ID="{2B184BBC-CCEC-48D4-B533-DCA269FDBF20}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_09_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="970712627"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_09_03" ID="{2B184BBC-CCEC-48D4-B533-DCA269FDBF20}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_136_04" ID="{97AF6B7B-E9E7-48C2-A68A-2B235334BE12}" ShortID="819895993">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_09_04" ID="{E875B997-34FD-44F0-B253-94233CCDC264}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_09_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="915617836"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_09_04" ID="{E875B997-34FD-44F0-B253-94233CCDC264}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_136_05" ID="{76963556-B7F4-4435-A5E4-39CB74D7B7C9}" ShortID="775237685">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_09_05" ID="{7C10DE9A-6F7E-477B-A39A-E3358DBEAC13}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_09_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="868629674"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_09_05" ID="{7C10DE9A-6F7E-477B-A39A-E3358DBEAC13}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="VOICE_Elif_Shout_140" ID="{29443037-50A0-4B65-ADF2-E349CC127DF9}" ShortID="847958280">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="VOICE_Elif_Shout_140_01" ID="{0805B4DF-F24E-47BE-8173-F1B3B265EBAF}" ShortID="493422074">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_13_01" ID="{352223C3-A7F3-4112-8BFD-398023B88C01}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_13_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="833961696"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_13_01" ID="{352223C3-A7F3-4112-8BFD-398023B88C01}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_140_02" ID="{90FF4261-E139-4EEB-AA7F-0E357322B0B6}" ShortID="1005194200">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_13_02" ID="{C2B8E498-E2DA-4308-A625-5F69DB7A63FD}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_13_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="900238973"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_13_02" ID="{C2B8E498-E2DA-4308-A625-5F69DB7A63FD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_140_03" ID="{316FC843-B55C-4FDB-84DA-7D20964C2090}" ShortID="965381741">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_13_03" ID="{317F3521-12AE-4860-B967-2EBDD4082B2D}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_13_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="325823287"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_13_03" ID="{317F3521-12AE-4860-B967-2EBDD4082B2D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_140_04" ID="{FEEBDBEA-DCFD-4159-889B-4A9FC384A9C0}" ShortID="131891300">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_13_04" ID="{AE62208B-F2F9-43C4-994F-0C84E1CAAC5A}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_13_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="691525457"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_13_04" ID="{AE62208B-F2F9-43C4-994F-0C84E1CAAC5A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_140_05" ID="{81184DEC-A59A-4826-ABE0-82E6F1B361E4}" ShortID="200073104">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_13_05" ID="{67D4B546-F01B-4176-AD0F-8133EC2CF143}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_13_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="871094607"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_13_05" ID="{67D4B546-F01B-4176-AD0F-8133EC2CF143}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_140_06" ID="{BF6923E0-7F9C-43C3-AB80-3CA8AF22A226}" ShortID="449248217">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_13_06" ID="{546BF936-2B49-429F-81CE-EA02769245D7}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_13_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="408381479"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_13_06" ID="{546BF936-2B49-429F-81CE-EA02769245D7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="VOICE_Elif_Shout_141" ID="{F97820D3-AB2C-41E1-9F56-1ABCD8BBC352}" ShortID="156497374">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="VOICE_Elif_Shout_141_01" ID="{1A43E9A8-43CB-468F-A311-BC5C6CFB51AE}" ShortID="822957856">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_14_01" ID="{D20D274C-27AB-4CC6-B99C-4AA83AE2A0E3}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_14_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="882273755"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_14_01" ID="{D20D274C-27AB-4CC6-B99C-4AA83AE2A0E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_141_02" ID="{C9513FDB-BBE0-416E-82D1-879F3B5CFB5A}" ShortID="481627387">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_14_02" ID="{F3533156-AE22-46D5-A66A-D08C5FF351E5}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_14_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="387591812"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_14_02" ID="{F3533156-AE22-46D5-A66A-D08C5FF351E5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_141_03" ID="{19A0D768-8204-4C8B-BD93-2D2723BEA35A}" ShortID="116821231">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_14_03" ID="{BC5C8A8C-4B2E-4F8F-B23B-0FDF6A8631A6}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_14_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="925560900"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_14_03" ID="{BC5C8A8C-4B2E-4F8F-B23B-0FDF6A8631A6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_141_04" ID="{9BC215A4-CDCB-4EF2-96E1-578DB7B6F514}" ShortID="738502840">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_14_04" ID="{68B253EB-77E1-47C8-A364-1F674F26E8D0}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_14_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="583350702"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_14_04" ID="{68B253EB-77E1-47C8-A364-1F674F26E8D0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="VOICE_Elif_Shout_137" ID="{58B47A19-3272-4C1A-B544-0C659D7304E7}" ShortID="685916474">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="VOICE_Elif_Shout_137_01" ID="{381A3EA0-B1F8-48D2-A222-F5A379DECF5F}" ShortID="201834255">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_10_01" ID="{195D42C5-FFAF-46A9-A093-A74E89B9A616}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_10_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="844647499"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_10_01" ID="{195D42C5-FFAF-46A9-A093-A74E89B9A616}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_137_02" ID="{7F069C34-8CB8-4D17-A437-E5A0D1695522}" ShortID="2676565">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_10_02" ID="{8F7C46A0-9603-4F47-A852-9CA59CA11028}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_10_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="695165229"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_10_02" ID="{8F7C46A0-9603-4F47-A852-9CA59CA11028}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_137_03" ID="{4CDBDE4C-593C-430A-AC21-AE98586541E4}" ShortID="550562075">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_10_03" ID="{62B6D4D6-EA8B-4E7E-A94E-6D54026EF0BD}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_10_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="666557071"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_10_03" ID="{62B6D4D6-EA8B-4E7E-A94E-6D54026EF0BD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_137_04" ID="{470E3C3E-46AE-49F8-A0D4-0A638695FB5D}" ShortID="54281572">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_10_04" ID="{11ACB0E0-6F05-41BB-8C2F-BE05C78DE7B6}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_10_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="199900882"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_10_04" ID="{11ACB0E0-6F05-41BB-8C2F-BE05C78DE7B6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_137_05" ID="{EC020515-719E-49E5-AF8A-55184D94231F}" ShortID="624021034">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_10_05" ID="{5E12461E-9D25-4297-A473-582138A41685}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_10_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="927175368"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_10_05" ID="{5E12461E-9D25-4297-A473-582138A41685}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_137_06" ID="{C0A6F309-ADC1-4ACC-8B33-948684C1564E}" ShortID="741836593">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_10_06" ID="{63F840C8-C3BA-4A88-B78E-5A31080C310A}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_10_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="438452006"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_10_06" ID="{63F840C8-C3BA-4A88-B78E-5A31080C310A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="VOICE_Elif_Shout_135" ID="{65AF2C5D-CEEE-4D2A-8DA7-B3397B4C86D5}" ShortID="769735461">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="VOICE_Elif_Shout_135_01" ID="{ABB68DD2-3042-4A18-89A1-537146B9EA46}" ShortID="310829271">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_08_01" ID="{BA700A0F-F0E8-4AFD-BD48-C0CC9D7A3833}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_08_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="226308392"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_08_01" ID="{BA700A0F-F0E8-4AFD-BD48-C0CC9D7A3833}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_135_02" ID="{CB449267-703B-4C0D-A2B6-3331C5EA74BF}" ShortID="1010456474">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_08_02" ID="{43AB301B-BDE1-4A09-BD1D-86ADB7852A35}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_08_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="884463369"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_08_02" ID="{43AB301B-BDE1-4A09-BD1D-86ADB7852A35}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_135_03" ID="{9E85DFDA-5D00-44EE-AEE3-6B7A1B4E41F3}" ShortID="465399905">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_08_03" ID="{531DDB3E-5606-411A-B1F9-8A97856E2BCF}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_08_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="442893511"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_08_03" ID="{531DDB3E-5606-411A-B1F9-8A97856E2BCF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_135_04" ID="{075A291A-A5B2-4457-8E77-14A4AE522205}" ShortID="480145595">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_08_04" ID="{281A4171-0D26-4316-A4B0-F6B31A8D0068}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_08_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="110618475"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_08_04" ID="{281A4171-0D26-4316-A4B0-F6B31A8D0068}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="VOICE_Elif_Shout_148" ID="{CD422B28-DB11-4BDE-820C-3735F4344BC9}" ShortID="913686493">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="VOICE_Elif_Shout_148_01" ID="{0EFA7DBD-D78C-46B5-A5EF-A7690192661E}" ShortID="532890956">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_21_01" ID="{C188C4F6-4B20-4544-A0DF-7F0F4DE84749}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_21_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="861101708"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_21_01" ID="{C188C4F6-4B20-4544-A0DF-7F0F4DE84749}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_148_02" ID="{BE66BA83-2E94-447B-A9D8-761EF92F83E5}" ShortID="852391981">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_21_02" ID="{0CE1C30D-CB3C-4128-B682-074D17C76A93}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_21_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="942493853"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_21_02" ID="{0CE1C30D-CB3C-4128-B682-074D17C76A93}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="VOICE_Elif_Shout_147" ID="{46F6EB17-94B4-4A08-9C4A-7D7BD5E2A85C}" ShortID="487679778">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="VOICE_Elif_Shout_147_01" ID="{6E4EA294-9D76-40BA-9F8D-AAEBC24307F6}" ShortID="579377257">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_20_01" ID="{F4E8C91A-7AB1-420D-ABFE-818FEAE4B399}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_20_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="250429466"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_20_01" ID="{F4E8C91A-7AB1-420D-ABFE-818FEAE4B399}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_147_02" ID="{E6F24695-C4F3-42B6-8645-0D55EDADD10D}" ShortID="395864703">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_20_02" ID="{A8FFFC62-9325-4CDB-91D3-0FF1EBC1801B}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_20_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="773304575"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_20_02" ID="{A8FFFC62-9325-4CDB-91D3-0FF1EBC1801B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VOICE_Elif_Shout_147_03" ID="{CB100EC7-D839-45C4-9BEC-2899442BA300}" ShortID="191714621">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VOICE_Elif_Shout_20_03" ID="{3D317260-B891-4097-856E-09B4AAA45C75}">
+													<Language>SFX</Language>
+													<AudioFile>VOICE_Elif_Shout_20_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="647458483"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VOICE_Elif_Shout_20_03" ID="{3D317260-B891-4097-856E-09B4AAA45C75}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -5661,1639 +7286,6 @@
 										</Sound>
 									</ChildrenList>
 								</Folder>
-								<RandomSequenceContainer Name="VOICE_Elif_Shout_129" ID="{B5201E09-9BED-4BCD-BBBE-45671F032517}" ShortID="1019422874">
-									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Shouts" ID="{1DD4017E-51A4-4FDF-8866-023B411EA26F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="VOICE_Elif_Shout_129_01" ID="{A071F478-C613-42D7-AC80-3ECEFCF9813B}" ShortID="572403260">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_02_01" ID="{275AEE78-ED19-4AE0-A72C-52B82CF6EC5C}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_02_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="788810592"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_02_01" ID="{275AEE78-ED19-4AE0-A72C-52B82CF6EC5C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_129_02" ID="{3A2D8A20-6FA6-4422-9BF6-07E688DB4B49}" ShortID="1068422047">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_02_02" ID="{267CB0E2-B25E-4D65-B2EA-F026EB7648DA}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_02_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="757213566"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_02_02" ID="{267CB0E2-B25E-4D65-B2EA-F026EB7648DA}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_129_03" ID="{472971CF-C034-49FE-A878-601B37742576}" ShortID="327570587">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_02_03" ID="{0D8EB213-2862-4A1E-AAEB-FF9734113701}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_02_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="51875240"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_02_03" ID="{0D8EB213-2862-4A1E-AAEB-FF9734113701}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_129_04" ID="{2F2432DC-195A-4A85-B5C2-59FDDF1D734A}" ShortID="283129918">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_02_04" ID="{86B499E2-2EB2-46B1-943D-029EBD69758F}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_02_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="3534874"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_02_04" ID="{86B499E2-2EB2-46B1-943D-029EBD69758F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_129_05" ID="{1A2B5080-DAC9-459B-9B57-377035339A9A}" ShortID="518492758">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_02_05" ID="{8D29B51D-4097-42B8-8C7D-8039F44A68D0}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_02_05.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="613631740"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_02_05" ID="{8D29B51D-4097-42B8-8C7D-8039F44A68D0}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="VOICE_Elif_Shout_134" ID="{83CA933D-CD57-4EBD-A175-C88E5D4B79F1}" ShortID="827812372">
-									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Shouts" ID="{1DD4017E-51A4-4FDF-8866-023B411EA26F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="VOICE_Elif_Shout_134_01" ID="{6E625EC1-BC2E-4016-ABD3-CFC7BCCE6363}" ShortID="489925546">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_07_01" ID="{5D40CD08-6174-4235-B8E5-F79CC45254D9}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_07_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="246144985"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_07_01" ID="{5D40CD08-6174-4235-B8E5-F79CC45254D9}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_134_02" ID="{D6973682-8387-47EC-878A-CDB1658D835C}" ShortID="54736965">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_07_02" ID="{7FCD5738-E409-439F-9EE3-2E41F0C67AE4}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_07_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="97076189"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_07_02" ID="{7FCD5738-E409-439F-9EE3-2E41F0C67AE4}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_134_03" ID="{21C28215-2411-4D1B-8510-7347B8FCC264}" ShortID="289556310">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_07_03" ID="{86BCD30E-17CF-4985-B61C-AB06D4D00F6B}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_07_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="765827669"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_07_03" ID="{86BCD30E-17CF-4985-B61C-AB06D4D00F6B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_134_04" ID="{9AA5EE2C-B710-46AB-B483-12F5BB685F9F}" ShortID="1027581978">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_07_04" ID="{E2D46A5D-E3DD-4B14-B654-E499779660F7}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_07_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="735931280"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_07_04" ID="{E2D46A5D-E3DD-4B14-B654-E499779660F7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="VOICE_Elif_Shout_130" ID="{F89E4927-97F9-4B5C-A2F0-3AD70E02033F}" ShortID="498854558">
-									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Shouts" ID="{1DD4017E-51A4-4FDF-8866-023B411EA26F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="VOICE_Elif_Shout_130_01" ID="{37E0F654-EEE7-4FF6-99C1-B59BF064C51E}" ShortID="827554271">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_03_01" ID="{502D4101-0877-4557-9811-495B59532791}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_03_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="115518860"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_03_01" ID="{502D4101-0877-4557-9811-495B59532791}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_130_02" ID="{1E2007E3-B4ED-438A-BEE7-88734A9A345C}" ShortID="878694164">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_03_02" ID="{EAF990BA-1552-4781-B231-7527299D39B2}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_03_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="916264896"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_03_02" ID="{EAF990BA-1552-4781-B231-7527299D39B2}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_130_03" ID="{40AF1CA7-BC7B-40CB-973B-B6657672F735}" ShortID="512747345">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_03_03" ID="{73530AB0-A190-4B79-B5F9-958492803342}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_03_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="707449751"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_03_03" ID="{73530AB0-A190-4B79-B5F9-958492803342}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_130_04" ID="{B7D22EFF-4B01-4BD3-8B00-90CAD739F50D}" ShortID="653733630">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_03_04" ID="{1720BD6D-0BFF-4E13-9AB8-E6BAB0A3F173}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_03_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="969285613"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_03_04" ID="{1720BD6D-0BFF-4E13-9AB8-E6BAB0A3F173}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="VOICE_Elif_Shout_131" ID="{85BAFC8B-495F-4B0E-94D5-AEA135A3EB3D}" ShortID="341325176">
-									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Shouts" ID="{1DD4017E-51A4-4FDF-8866-023B411EA26F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="VOICE_Elif_Shout_131_01" ID="{CDB710F2-E698-4BD5-8910-7B43D32DF16A}" ShortID="1021683568">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_04_01" ID="{7BCC240C-9C99-4584-BEF3-AE4F2A843134}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_04_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1027489987"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_04_01" ID="{7BCC240C-9C99-4584-BEF3-AE4F2A843134}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_131_02" ID="{AA5820D9-89EF-42E7-AE0A-878222F80254}" ShortID="862520817">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_04_02" ID="{C272B6D2-3BAA-4F2B-9819-952BF92A7447}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_04_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="27194187"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_04_02" ID="{C272B6D2-3BAA-4F2B-9819-952BF92A7447}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_131_03" ID="{48BFDA97-216D-471D-BEF6-45D3229ED072}" ShortID="7518989">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_04_03" ID="{D9650BB6-C204-40C0-93ED-5805B5E952E5}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_04_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="676310551"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_04_03" ID="{D9650BB6-C204-40C0-93ED-5805B5E952E5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_131_04" ID="{B934A5C3-DD5D-4460-97C6-7E0F9C703A2B}" ShortID="327600221">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_04_04" ID="{2B9F5DEA-75B5-4C98-A590-3BC07DA1E199}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_04_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="509806204"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_04_04" ID="{2B9F5DEA-75B5-4C98-A590-3BC07DA1E199}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="VOICE_Elif_Shout_133" ID="{5A1B154B-05EE-4EAF-9CB4-73819D93A05B}" ShortID="671352089">
-									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Shouts" ID="{1DD4017E-51A4-4FDF-8866-023B411EA26F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="VOICE_Elif_Shout_133_01" ID="{B0994A7C-DBD3-48E6-AB5D-A37262243626}" ShortID="79530371">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_06_01" ID="{4BE28DFE-E145-41AA-9CC1-25AE33570745}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_06_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="150417058"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_06_01" ID="{4BE28DFE-E145-41AA-9CC1-25AE33570745}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_133_02" ID="{8E037AEF-A94E-4695-88FE-96D7845AFE9F}" ShortID="646093911">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_06_02" ID="{705ACBE5-88C7-484D-B747-80268C26FAAF}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_06_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1002240622"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_06_02" ID="{705ACBE5-88C7-484D-B747-80268C26FAAF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_133_03" ID="{5A6E049C-8DEE-4E34-ADE6-22C3084F2A0F}" ShortID="808232049">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_06_03" ID="{4D2FB894-A643-4555-A308-EFADE6478706}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_06_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="594413442"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_06_03" ID="{4D2FB894-A643-4555-A308-EFADE6478706}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_133_04" ID="{44813312-B9F1-4748-80AD-A6432EB25CC0}" ShortID="839215416">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_06_04" ID="{3144F8A1-4DAA-416B-9268-292D4C2A5164}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_06_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="431279497"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_06_04" ID="{3144F8A1-4DAA-416B-9268-292D4C2A5164}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_133_05" ID="{BB18D6BF-3957-496B-97BF-05F055730521}" ShortID="186041764">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_06_05" ID="{45FFB6A9-FB5A-45D6-B78F-C40171DC9A87}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_06_05.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="578779312"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_06_05" ID="{45FFB6A9-FB5A-45D6-B78F-C40171DC9A87}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="VOICE_Elif_Shout_132" ID="{9FD3530F-7052-48E4-90DE-2CBFB3927A3B}" ShortID="751799190">
-									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Shouts" ID="{1DD4017E-51A4-4FDF-8866-023B411EA26F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="VOICE_Elif_Shout_132_01" ID="{766707CC-CBAF-4769-893A-A7E98F4CBCB4}" ShortID="978857220">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_05_01" ID="{7649E4CF-8F75-4FDA-ACC6-5F6EB9883071}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_05_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1001411113"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_05_01" ID="{7649E4CF-8F75-4FDA-ACC6-5F6EB9883071}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_132_02" ID="{D64DBE1B-52B0-4B4E-A423-5DEA3034EAAD}" ShortID="932586893">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_05_02" ID="{80ACC41E-8291-4A97-8D35-398A8A32BE93}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_05_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="817977419"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_05_02" ID="{80ACC41E-8291-4A97-8D35-398A8A32BE93}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_132_03" ID="{C6A2E5DC-A8B7-41E0-AA17-3218FBF2A610}" ShortID="419537996">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_05_03" ID="{E029B61E-F723-434C-BBD1-24965A909F9D}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_05_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="582115044"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_05_03" ID="{E029B61E-F723-434C-BBD1-24965A909F9D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_132_04" ID="{11356471-394C-4DD0-8716-739F07F2BDC1}" ShortID="223603729">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_05_04" ID="{DE6F76C2-212B-4A31-856C-224D5398153F}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_05_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="350572832"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_05_04" ID="{DE6F76C2-212B-4A31-856C-224D5398153F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_132_05" ID="{D9BD1767-A80B-4293-A21D-7D239DA1EABD}" ShortID="75525565">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_05_05" ID="{F9B1FDFE-75E3-457D-AB3D-BAE4E54EC859}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_05_05.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="513856757"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_05_05" ID="{F9B1FDFE-75E3-457D-AB3D-BAE4E54EC859}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="VOICE_Elif_Shout_128" ID="{B3A0CF3F-2E83-4A7A-B837-27034932F86E}" ShortID="723712145">
-									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Shouts" ID="{1DD4017E-51A4-4FDF-8866-023B411EA26F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="VOICE_Elif_Shout_128_01" ID="{DC337C10-6E7C-4167-BAEC-11DD0905DA0E}" ShortID="565518315">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_01_01" ID="{1AF8994B-86DD-4E40-BD9E-106EC38A2757}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_01_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="582106170"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_01_01" ID="{1AF8994B-86DD-4E40-BD9E-106EC38A2757}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_128_02" ID="{E4A0850B-2F97-4A70-8084-D485D4CC22F9}" ShortID="41423973">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_01_02" ID="{AEE0E5BA-2506-4DF0-9FFD-A70D98318DA7}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_01_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="269517853"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_01_02" ID="{AEE0E5BA-2506-4DF0-9FFD-A70D98318DA7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_128_03" ID="{C31BBD5D-48D9-45ED-9ED2-A1B3EAAF9D07}" ShortID="116493019">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_01_03" ID="{56A39935-5A6D-4255-A383-984F2EBF623F}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_01_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="284109948"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_01_03" ID="{56A39935-5A6D-4255-A383-984F2EBF623F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_128_04" ID="{4F6BC7E5-7626-42F3-ACE5-F8D8352E0219}" ShortID="601482226">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_01_04" ID="{FB163432-B689-4D74-BD61-C6C9A57C4B8E}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_01_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="887616403"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_01_04" ID="{FB163432-B689-4D74-BD61-C6C9A57C4B8E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_128_05" ID="{DD5A109B-6CC9-453B-B894-5E82C993A85E}" ShortID="217617861">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_01_05" ID="{CD99017F-43E7-4BBD-B0A9-F3835A1785EE}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_01_05.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="833064681"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_01_05" ID="{CD99017F-43E7-4BBD-B0A9-F3835A1785EE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="VOICE_Elif_Shout_136" ID="{EA5CDDA3-93E9-4D92-A585-F3239DE007D4}" ShortID="9451503">
-									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Shouts" ID="{1DD4017E-51A4-4FDF-8866-023B411EA26F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="VOICE_Elif_Shout_136_01" ID="{8625B45C-4C53-4113-8E15-390317200329}" ShortID="193877014">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_09_01" ID="{C4FB62F3-2C13-4573-BABA-57DC2321E2E1}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_09_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1037936923"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_09_01" ID="{C4FB62F3-2C13-4573-BABA-57DC2321E2E1}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_136_02" ID="{D2A3ECE5-DEF8-4F1B-AA05-EFD848E51567}" ShortID="481367924">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_09_02" ID="{A3FFB96F-BE50-4B58-A12D-E17EAC5436FB}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_09_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="882888107"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_09_02" ID="{A3FFB96F-BE50-4B58-A12D-E17EAC5436FB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_136_03" ID="{6B3F3DBF-7AEE-4494-BEBC-91996636E871}" ShortID="335610633">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_09_03" ID="{2B184BBC-CCEC-48D4-B533-DCA269FDBF20}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_09_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="970712627"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_09_03" ID="{2B184BBC-CCEC-48D4-B533-DCA269FDBF20}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_136_04" ID="{97AF6B7B-E9E7-48C2-A68A-2B235334BE12}" ShortID="819895993">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_09_04" ID="{E875B997-34FD-44F0-B253-94233CCDC264}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_09_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="915617836"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_09_04" ID="{E875B997-34FD-44F0-B253-94233CCDC264}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_136_05" ID="{76963556-B7F4-4435-A5E4-39CB74D7B7C9}" ShortID="775237685">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_09_05" ID="{7C10DE9A-6F7E-477B-A39A-E3358DBEAC13}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_09_05.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="868629674"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_09_05" ID="{7C10DE9A-6F7E-477B-A39A-E3358DBEAC13}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="VOICE_Elif_Shout_137" ID="{58B47A19-3272-4C1A-B544-0C659D7304E7}" ShortID="685916474">
-									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Shouts" ID="{1DD4017E-51A4-4FDF-8866-023B411EA26F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="VOICE_Elif_Shout_137_01" ID="{381A3EA0-B1F8-48D2-A222-F5A379DECF5F}" ShortID="201834255">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_10_01" ID="{195D42C5-FFAF-46A9-A093-A74E89B9A616}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_10_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="844647499"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_10_01" ID="{195D42C5-FFAF-46A9-A093-A74E89B9A616}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_137_02" ID="{7F069C34-8CB8-4D17-A437-E5A0D1695522}" ShortID="2676565">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_10_02" ID="{8F7C46A0-9603-4F47-A852-9CA59CA11028}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_10_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="695165229"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_10_02" ID="{8F7C46A0-9603-4F47-A852-9CA59CA11028}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_137_03" ID="{4CDBDE4C-593C-430A-AC21-AE98586541E4}" ShortID="550562075">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_10_03" ID="{62B6D4D6-EA8B-4E7E-A94E-6D54026EF0BD}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_10_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="666557071"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_10_03" ID="{62B6D4D6-EA8B-4E7E-A94E-6D54026EF0BD}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_137_04" ID="{470E3C3E-46AE-49F8-A0D4-0A638695FB5D}" ShortID="54281572">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_10_04" ID="{11ACB0E0-6F05-41BB-8C2F-BE05C78DE7B6}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_10_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="199900882"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_10_04" ID="{11ACB0E0-6F05-41BB-8C2F-BE05C78DE7B6}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_137_05" ID="{EC020515-719E-49E5-AF8A-55184D94231F}" ShortID="624021034">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_10_05" ID="{5E12461E-9D25-4297-A473-582138A41685}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_10_05.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="927175368"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_10_05" ID="{5E12461E-9D25-4297-A473-582138A41685}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_137_06" ID="{C0A6F309-ADC1-4ACC-8B33-948684C1564E}" ShortID="741836593">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_10_06" ID="{63F840C8-C3BA-4A88-B78E-5A31080C310A}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_10_06.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="438452006"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_10_06" ID="{63F840C8-C3BA-4A88-B78E-5A31080C310A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="VOICE_Elif_Shout_135" ID="{65AF2C5D-CEEE-4D2A-8DA7-B3397B4C86D5}" ShortID="769735461">
-									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Shouts" ID="{1DD4017E-51A4-4FDF-8866-023B411EA26F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="VOICE_Elif_Shout_135_01" ID="{ABB68DD2-3042-4A18-89A1-537146B9EA46}" ShortID="310829271">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_08_01" ID="{BA700A0F-F0E8-4AFD-BD48-C0CC9D7A3833}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_08_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="226308392"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_08_01" ID="{BA700A0F-F0E8-4AFD-BD48-C0CC9D7A3833}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_135_02" ID="{CB449267-703B-4C0D-A2B6-3331C5EA74BF}" ShortID="1010456474">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_08_02" ID="{43AB301B-BDE1-4A09-BD1D-86ADB7852A35}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_08_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="884463369"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_08_02" ID="{43AB301B-BDE1-4A09-BD1D-86ADB7852A35}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_135_03" ID="{9E85DFDA-5D00-44EE-AEE3-6B7A1B4E41F3}" ShortID="465399905">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_08_03" ID="{531DDB3E-5606-411A-B1F9-8A97856E2BCF}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_08_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="442893511"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_08_03" ID="{531DDB3E-5606-411A-B1F9-8A97856E2BCF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_135_04" ID="{075A291A-A5B2-4457-8E77-14A4AE522205}" ShortID="480145595">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_08_04" ID="{281A4171-0D26-4316-A4B0-F6B31A8D0068}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_08_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="110618475"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_08_04" ID="{281A4171-0D26-4316-A4B0-F6B31A8D0068}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="VOICE_Elif_Shout_140" ID="{29443037-50A0-4B65-ADF2-E349CC127DF9}" ShortID="847958280">
-									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Shouts" ID="{1DD4017E-51A4-4FDF-8866-023B411EA26F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="VOICE_Elif_Shout_140_01" ID="{0805B4DF-F24E-47BE-8173-F1B3B265EBAF}" ShortID="493422074">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_13_01" ID="{352223C3-A7F3-4112-8BFD-398023B88C01}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_13_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="833961696"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_13_01" ID="{352223C3-A7F3-4112-8BFD-398023B88C01}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_140_02" ID="{90FF4261-E139-4EEB-AA7F-0E357322B0B6}" ShortID="1005194200">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_13_02" ID="{C2B8E498-E2DA-4308-A625-5F69DB7A63FD}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_13_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="900238973"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_13_02" ID="{C2B8E498-E2DA-4308-A625-5F69DB7A63FD}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_140_03" ID="{316FC843-B55C-4FDB-84DA-7D20964C2090}" ShortID="965381741">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_13_03" ID="{317F3521-12AE-4860-B967-2EBDD4082B2D}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_13_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="325823287"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_13_03" ID="{317F3521-12AE-4860-B967-2EBDD4082B2D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_140_04" ID="{FEEBDBEA-DCFD-4159-889B-4A9FC384A9C0}" ShortID="131891300">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_13_04" ID="{AE62208B-F2F9-43C4-994F-0C84E1CAAC5A}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_13_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="691525457"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_13_04" ID="{AE62208B-F2F9-43C4-994F-0C84E1CAAC5A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_140_05" ID="{81184DEC-A59A-4826-ABE0-82E6F1B361E4}" ShortID="200073104">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_13_05" ID="{67D4B546-F01B-4176-AD0F-8133EC2CF143}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_13_05.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="871094607"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_13_05" ID="{67D4B546-F01B-4176-AD0F-8133EC2CF143}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_140_06" ID="{BF6923E0-7F9C-43C3-AB80-3CA8AF22A226}" ShortID="449248217">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_13_06" ID="{546BF936-2B49-429F-81CE-EA02769245D7}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_13_06.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="408381479"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_13_06" ID="{546BF936-2B49-429F-81CE-EA02769245D7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="VOICE_Elif_Shout_141" ID="{F97820D3-AB2C-41E1-9F56-1ABCD8BBC352}" ShortID="156497374">
-									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Shouts" ID="{1DD4017E-51A4-4FDF-8866-023B411EA26F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="VOICE_Elif_Shout_141_01" ID="{1A43E9A8-43CB-468F-A311-BC5C6CFB51AE}" ShortID="822957856">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_14_01" ID="{D20D274C-27AB-4CC6-B99C-4AA83AE2A0E3}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_14_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="882273755"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_14_01" ID="{D20D274C-27AB-4CC6-B99C-4AA83AE2A0E3}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_141_02" ID="{C9513FDB-BBE0-416E-82D1-879F3B5CFB5A}" ShortID="481627387">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_14_02" ID="{F3533156-AE22-46D5-A66A-D08C5FF351E5}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_14_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="387591812"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_14_02" ID="{F3533156-AE22-46D5-A66A-D08C5FF351E5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_141_03" ID="{19A0D768-8204-4C8B-BD93-2D2723BEA35A}" ShortID="116821231">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_14_03" ID="{BC5C8A8C-4B2E-4F8F-B23B-0FDF6A8631A6}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_14_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="925560900"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_14_03" ID="{BC5C8A8C-4B2E-4F8F-B23B-0FDF6A8631A6}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_141_04" ID="{9BC215A4-CDCB-4EF2-96E1-578DB7B6F514}" ShortID="738502840">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_14_04" ID="{68B253EB-77E1-47C8-A364-1F674F26E8D0}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_14_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="583350702"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_14_04" ID="{68B253EB-77E1-47C8-A364-1F674F26E8D0}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="VOICE_Elif_Shout_149" ID="{9B6FE80C-FBB0-4296-AB99-B8B994493A85}" ShortID="253110490">
-									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Shouts" ID="{1DD4017E-51A4-4FDF-8866-023B411EA26F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="VOICE_Elif_Shout_149_01" ID="{1F52C744-0A7A-4CEF-913F-61789F1BF310}" ShortID="480122910">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_22_01" ID="{187D70B6-9E7B-4A94-8DF7-52744AFD8E92}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_22_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="508254240"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_22_01" ID="{187D70B6-9E7B-4A94-8DF7-52744AFD8E92}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_149_02" ID="{5A0A1803-3902-4476-9A2F-CCFC32D117D4}" ShortID="244588059">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_22_02" ID="{34454DD6-FEC4-4DDA-9162-CA530D209B0C}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_22_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1011437691"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_22_02" ID="{34454DD6-FEC4-4DDA-9162-CA530D209B0C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="VOICE_Elif_Shout_148" ID="{CD422B28-DB11-4BDE-820C-3735F4344BC9}" ShortID="913686493">
-									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Shouts" ID="{1DD4017E-51A4-4FDF-8866-023B411EA26F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="VOICE_Elif_Shout_148_01" ID="{0EFA7DBD-D78C-46B5-A5EF-A7690192661E}" ShortID="532890956">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_21_01" ID="{C188C4F6-4B20-4544-A0DF-7F0F4DE84749}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_21_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="861101708"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_21_01" ID="{C188C4F6-4B20-4544-A0DF-7F0F4DE84749}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_148_02" ID="{BE66BA83-2E94-447B-A9D8-761EF92F83E5}" ShortID="852391981">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_21_02" ID="{0CE1C30D-CB3C-4128-B682-074D17C76A93}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_21_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="942493853"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_21_02" ID="{0CE1C30D-CB3C-4128-B682-074D17C76A93}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="VOICE_Elif_Shout_147" ID="{46F6EB17-94B4-4A08-9C4A-7D7BD5E2A85C}" ShortID="487679778">
-									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Shouts" ID="{1DD4017E-51A4-4FDF-8866-023B411EA26F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="VOICE_Elif_Shout_147_01" ID="{6E4EA294-9D76-40BA-9F8D-AAEBC24307F6}" ShortID="579377257">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_20_01" ID="{F4E8C91A-7AB1-420D-ABFE-818FEAE4B399}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_20_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="250429466"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_20_01" ID="{F4E8C91A-7AB1-420D-ABFE-818FEAE4B399}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_147_02" ID="{E6F24695-C4F3-42B6-8645-0D55EDADD10D}" ShortID="395864703">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_20_02" ID="{A8FFFC62-9325-4CDB-91D3-0FF1EBC1801B}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_20_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="773304575"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_20_02" ID="{A8FFFC62-9325-4CDB-91D3-0FF1EBC1801B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="VOICE_Elif_Shout_147_03" ID="{CB100EC7-D839-45C4-9BEC-2899442BA300}" ShortID="191714621">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="VOX" ID="{715566C8-968F-4CC5-A4B3-FB4BB2FB545B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="VOICE_Elif_Shout_20_03" ID="{3D317260-B891-4097-856E-09B4AAA45C75}">
-													<Language>SFX</Language>
-													<AudioFile>VOICE_Elif_Shout_20_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="647458483"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="VOICE_Elif_Shout_20_03" ID="{3D317260-B891-4097-856E-09B4AAA45C75}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
