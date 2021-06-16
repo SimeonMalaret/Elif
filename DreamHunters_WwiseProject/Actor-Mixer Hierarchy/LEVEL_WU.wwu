@@ -114,7 +114,18 @@
 						<ActorMixer Name="Doors_AM" ID="{B12AE786-4041-44B2-B1E7-D5CDCB158528}" ShortID="48964244">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -3377,6 +3388,18 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Bridge Down_Rnd" ID="{34685025-A5E7-45AF-8231-1A47A943748D}" ShortID="791803802">
 											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0540DFB9-5820-487A-96D4-89966DA15C43}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="101"/>
+																	<Property Name="Min" Type="Real64" Value="-101"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-20</Value>
@@ -3424,6 +3447,19 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Bridge Blocked_Rnd" ID="{246E575E-1561-471F-BD14-B873C761A8D0}" ShortID="192420063">
 											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D2F2CC5D-2044-42B0-9E74-B897F00E0464}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="126"/>
+																	<Property Name="Min" Type="Real64" Value="-152"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-16</Value>
@@ -4580,7 +4616,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-15</Value>
+														<Value>-11</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
