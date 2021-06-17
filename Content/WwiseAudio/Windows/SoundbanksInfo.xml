@@ -157,7 +157,7 @@
 				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_Music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="1816855207">
+		<SoundBank Id="2228651116" Language="SFX" Hash="4204596419">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -2048,6 +2048,34 @@
 						<File Id="176819095" Language="SFX">
 							<ShortName>SFX_LEVEL_PROPS_DoggyToy_SadShort.wav</ShortName>
 							<Path>SFX\SFX_LEVEL_PROPS_DoggyToy_SadShort_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1147731777" Name="Play_DoggyToy_Stuck" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\DoggyToy\Play_DoggyToy_Stuck">
+					<IncludedMemoryFiles>
+						<File Id="108000526" Language="SFX">
+							<ShortName>SFX_Level_Props_Doggytoy_Stuck_01.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Doggytoy_Stuck_01_10C4C929.wem</Path>
+						</File>
+						<File Id="417037182" Language="SFX">
+							<ShortName>SFX_Level_Props_Doggytoy_Stuck_04.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Doggytoy_Stuck_04_10C4C929.wem</Path>
+						</File>
+						<File Id="713917139" Language="SFX">
+							<ShortName>SFX_Level_Props_Doggytoy_Stuck_02.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Doggytoy_Stuck_02_10C4C929.wem</Path>
+						</File>
+						<File Id="732862118" Language="SFX">
+							<ShortName>SFX_Level_Props_Doggytoy_Stuck_05.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Doggytoy_Stuck_05_10C4C929.wem</Path>
+						</File>
+						<File Id="736289298" Language="SFX">
+							<ShortName>SFX_Level_Props_Doggytoy_Stuck_03.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Doggytoy_Stuck_03_10C4C929.wem</Path>
+						</File>
+						<File Id="761568253" Language="SFX">
+							<ShortName>SFX_Level_Props_Doggytoy_Stuck_06.wav</ShortName>
+							<Path>SFX\SFX_Level_Props_Doggytoy_Stuck_06_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
