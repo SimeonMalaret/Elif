@@ -1,18 +1,17 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	652749204	Menu_InGame			\Default Work Unit\Music\Menu_InGame	
-	807180689	Music_Level04			\Default Work Unit\Music\Music_Level04	
-	807180692	Music_Level01			\Default Work Unit\Music\Music_Level01	
-	807180694	Music_Level03			\Default Work Unit\Music\Music_Level03	
-	807180695	Music_Level02			\Default Work Unit\Music\Music_Level02	
+	2177735725	Music_Level			\Default Work Unit\Music\Music_Level	
 
 State	ID	Name	State Group			Notes
 	748895195	None	Menu_InGame			
 	984691642	InGame	Menu_InGame			
 	2607556080	Menu	Menu_InGame			
-	748895195	None	Music_Level04			
-	748895195	None	Music_Level01			
-	748895195	None	Music_Level03			
-	748895195	None	Music_Level02			
+	151272180	Part_01	Music_Level			
+	151272182	Part_03	Music_Level			
+	151272183	Part_02	Music_Level			
+	565529991	Final	Music_Level			
+	748895195	None	Music_Level			
+	1865857008	Transition	Music_Level			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3190188375	Volume_Voices			\Default Work Unit\Volumes\Volume_Voices	
@@ -23,7 +22,9 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	543694036	VOX			\Default Work Unit\Master Audio Bus\VOX	
 	1117531639	AMB			\Default Work Unit\Master Audio Bus\SFX\AMB	
+	1569038683	Shouts			\Default Work Unit\Master Audio Bus\VOX\Shouts	
 	1685527061	MC			\Default Work Unit\Master Audio Bus\SFX\MC	
+	2054046734	Lines			\Default Work Unit\Master Audio Bus\VOX\Lines	
 	2782712965	LEVEL			\Default Work Unit\Master Audio Bus\SFX\LEVEL	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
