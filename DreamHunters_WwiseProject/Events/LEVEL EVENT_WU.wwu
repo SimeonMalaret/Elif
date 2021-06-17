@@ -324,6 +324,17 @@
 										<Event Name="Play_Dog_Respond03" ID="{9B7260D7-90A4-4F5A-9848-FFCC77F78C91}"/>
 									</ChildrenList>
 								</Folder>
+								<Event Name="Play_DoggyToy_Stuck" ID="{644289B8-E957-438A-BAB5-06EA65988B2B}">
+									<ChildrenList>
+										<Action Name="" ID="{2E476776-B245-448D-9385-1B83C1511DAC}" ShortID="1049574150">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DoggyToy Stuck_Rnd" ID="{0B7110A3-6B0C-42A2-B143-8F3AE676D97F}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Squeaks" ID="{715C093D-5D59-4153-98FA-30A92383197A}" ShortID="249418067">

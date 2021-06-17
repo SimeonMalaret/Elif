@@ -1196,6 +1196,11 @@
 																</ModifierInfo>
 															</ModifierList>
 														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-14</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -1232,6 +1237,11 @@
 																	</Modifier>
 																</ModifierInfo>
 															</ModifierList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-15</Value>
+															</ValueList>
 														</Property>
 													</PropertyList>
 													<ReferenceList>
@@ -1270,6 +1280,11 @@
 																</ModifierInfo>
 															</ModifierList>
 														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-15</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -1294,6 +1309,158 @@
 												</Sound>
 											</ChildrenList>
 										</Folder>
+										<RandomSequenceContainer Name="DoggyToy Stuck_Rnd" ID="{0B7110A3-6B0C-42A2-B143-8F3AE676D97F}" ShortID="174526321">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-23</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Level_Props_Doggytoy_Stuck_01" ID="{F7BD6521-D5A0-43BB-9747-C0CB913961C1}" ShortID="377713978">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_Props_Doggytoy_Stuck_01" ID="{D89CDF1C-3A8A-4F0B-8FE1-367875CFF474}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Props_Doggytoy_Stuck_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="108000526"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_Props_Doggytoy_Stuck_01" ID="{D89CDF1C-3A8A-4F0B-8FE1-367875CFF474}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_Props_Doggytoy_Stuck_02" ID="{7EB92219-D4E2-42EC-9065-E3F576FF188D}" ShortID="479156869">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_Props_Doggytoy_Stuck_02" ID="{5760FC1B-D73D-42E1-9B50-EBC29722DF4B}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Props_Doggytoy_Stuck_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="713917139"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_Props_Doggytoy_Stuck_02" ID="{5760FC1B-D73D-42E1-9B50-EBC29722DF4B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_Props_Doggytoy_Stuck_03" ID="{DC9A5F50-6148-41D7-A76C-C900D68D06B3}" ShortID="692937054">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_Props_Doggytoy_Stuck_03" ID="{A0B2CB68-EA71-4E84-9FF5-BBE034D47147}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Props_Doggytoy_Stuck_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="736289298"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_Props_Doggytoy_Stuck_03" ID="{A0B2CB68-EA71-4E84-9FF5-BBE034D47147}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_Props_Doggytoy_Stuck_04" ID="{0A5FD2BD-E607-4F4D-ABC0-1AFD11924C88}" ShortID="426753952">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_Props_Doggytoy_Stuck_04" ID="{E7556F3B-B518-481D-8EC4-BC56F3DDBC40}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Props_Doggytoy_Stuck_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="417037182"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_Props_Doggytoy_Stuck_04" ID="{E7556F3B-B518-481D-8EC4-BC56F3DDBC40}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_Props_Doggytoy_Stuck_05" ID="{B0551AF2-728A-46A4-9A18-A4F03C442D66}" ShortID="112225652">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_Props_Doggytoy_Stuck_05" ID="{A40054ED-B03C-446E-9351-BFBF1385E752}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Props_Doggytoy_Stuck_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="732862118"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_Props_Doggytoy_Stuck_05" ID="{A40054ED-B03C-446E-9351-BFBF1385E752}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Level_Props_Doggytoy_Stuck_06" ID="{56CB626F-F74B-4781-ACE6-DA09FB4A02D9}" ShortID="531297663">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Level_Props_Doggytoy_Stuck_06" ID="{9FC56B79-FB4C-4B5D-BCF0-0A4B929DC89A}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Level_Props_Doggytoy_Stuck_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="761568253"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Level_Props_Doggytoy_Stuck_06" ID="{9FC56B79-FB4C-4B5D-BCF0-0A4B929DC89A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Rocket" ID="{66F9C7CF-BD60-482C-A691-81BCC8A1DFAA}" ShortID="874424680">
