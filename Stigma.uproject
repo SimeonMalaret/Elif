@@ -19,9 +19,17 @@
 			"Enabled": true
 		},
 		{
+<<<<<<< HEAD
 			"Name": "BlockoutToolsPlugin",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/d337b97aca8947a893526964e179acfd"
+=======
+			"Name": "WinDualShock",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+>>>>>>> 5e55ad1a712a58689ea7cbce1bf8a8361a43285f
 		}
 	]
 }
