@@ -38,10 +38,10 @@ public:
 	bool isNearWall;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Push)
-	TArray<AActor*> ActorsCollide;
+	float valueFrontAxis;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Push)
-	UBoxComponent* PullPushBox;
+	float valueRightAxis;
 
 protected:
 

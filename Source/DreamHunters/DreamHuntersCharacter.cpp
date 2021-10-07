@@ -45,9 +45,6 @@ ADreamHuntersCharacter::ADreamHuntersCharacter()
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
-
-	PullPushBox = CreateDefaultSubobject<UBoxComponent>(TEXT("PushPullBox"));
-	PullPushBox->SetupAttachment(RootComponent);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -115,58 +112,40 @@ void ADreamHuntersCharacter::LookUpAtRate(float Rate)
 
 void ADreamHuntersCharacter::MoveForward(float Value)
 {
-	if ((Controller != nullptr) && (Value != 0.0f))
-	{
-		if (isPushing) {
-			//calcul direction du direction du hit
-			//compare direction du hit avec la value
-			bool canMove = true;
-			if (isNearWall) {
-				for (size_t index = 0; index < ActorsCollide.Num(); ++index)
-				{
-					FTransform NewTransform = PullPushBox->GetRelativeTransform() * GetActorTransform();
-					FVector directionPlayer = GetActorLocation() - NewTransform.GetLocation();
-					FVector directionHit = NewTransform.GetLocation() - ActorsCollide[index]->GetActorLocation();
-					float direction = FVector::DotProduct(directionPlayer, directionHit);
-					if ( (direction < 0 && Value < 0) || (direction > 0 && Value > 0) )
-					{
-						canMove = false;
-						break;
-					}					
-				}
-			}			
-			if (canMove) 
-			{
-				AddMovementInput(GetActorForwardVector(), Value);
-			}			
-		}
-		else 
+	valueFrontAxis = Value;
+	if (!isPushing) {
+		if ((Controller != nullptr) && (Value != 0.0f))
 		{
 			// find out which way is forward
+
 			const FRotator Rotation = FollowCamera->GetComponentRotation();
 			const FRotator YawRotation(0, Rotation.Yaw, 0);
 
 			// get forward vector
 			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-
 			AddMovementInput(Direction, Value);
 		}
 	}
+	
 }
 
 void ADreamHuntersCharacter::MoveRight(float Value)
 {
-	if ( (Controller != nullptr) && (Value != 0.0f) )
-	{
-		// find out which way is right
-		const FRotator Rotation = FollowCamera->GetComponentRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
-	
-		// get right vector 
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		// add movement in that direction
-		if (!isPushing) {
+	valueRightAxis = Value;
+	if (!isPushing) {
+		if ((Controller != nullptr) && (Value != 0.0f))
+		{
+
+			// find out which way is right
+			const FRotator Rotation = FollowCamera->GetComponentRotation();
+			const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+			// get right vector 
+			const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+			// add movement in that direction
 			AddMovementInput(Direction, Value);
+
 		}
 	}
+	
 }
