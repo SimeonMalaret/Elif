@@ -144,7 +144,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3144661571">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1886983012">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -157,12 +157,12 @@
 				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_Music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="1219054431">
+		<SoundBank Id="2228651116" Language="SFX" Hash="513974614">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3246954654" Name="Elif_Line_01" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_01">
+				<Event Id="3246954654" Name="Elif_Line_01" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_01">
 					<IncludedMemoryFiles>
 						<File Id="785933112" Language="SFX">
 							<ShortName>VOICE_Elif_Line_01.wav</ShortName>
@@ -170,7 +170,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3246954653" Name="Elif_Line_02" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_02">
+				<Event Id="3246954653" Name="Elif_Line_02" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_02">
 					<IncludedMemoryFiles>
 						<File Id="1032273844" Language="SFX">
 							<ShortName>VOICE_Elif_Line_02.wav</ShortName>
@@ -178,7 +178,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3246954652" Name="Elif_Line_03" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_03">
+				<Event Id="3246954652" Name="Elif_Line_03" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_03">
 					<IncludedMemoryFiles>
 						<File Id="43022666" Language="SFX">
 							<ShortName>VOICE_Elif_Line_03.wav</ShortName>
@@ -186,7 +186,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3246954651" Name="Elif_Line_04" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_04">
+				<Event Id="3246954651" Name="Elif_Line_04" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_04">
 					<IncludedMemoryFiles>
 						<File Id="999780045" Language="SFX">
 							<ShortName>VOICE_Elif_Line_04.wav</ShortName>
@@ -194,7 +194,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3246954650" Name="Elif_Line_05" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_05">
+				<Event Id="3246954650" Name="Elif_Line_05" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_05">
 					<IncludedMemoryFiles>
 						<File Id="1044090706" Language="SFX">
 							<ShortName>VOICE_Elif_Line_05.wav</ShortName>
@@ -202,7 +202,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3246954649" Name="Elif_Line_06" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_06">
+				<Event Id="3246954649" Name="Elif_Line_06" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_06">
 					<IncludedMemoryFiles>
 						<File Id="874496684" Language="SFX">
 							<ShortName>VOICE_Elif_Line_06.wav</ShortName>
@@ -210,7 +210,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3246954648" Name="Elif_Line_07" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_07">
+				<Event Id="3246954648" Name="Elif_Line_07" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_07">
 					<IncludedMemoryFiles>
 						<File Id="738247892" Language="SFX">
 							<ShortName>VOICE_Elif_Line_07.wav</ShortName>
@@ -218,7 +218,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3246954647" Name="Elif_Line_08" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_08">
+				<Event Id="3246954647" Name="Elif_Line_08" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_08">
 					<IncludedMemoryFiles>
 						<File Id="1056950909" Language="SFX">
 							<ShortName>VOICE_Elif_Line_08.wav</ShortName>
@@ -226,7 +226,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3246954646" Name="Elif_Line_09" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_09">
+				<Event Id="3246954646" Name="Elif_Line_09" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_09">
 					<IncludedMemoryFiles>
 						<File Id="30668389" Language="SFX">
 							<ShortName>VOICE_Elif_Line_09.wav</ShortName>
@@ -234,7 +234,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3230177068" Name="Elif_Line_10" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_10">
+				<Event Id="3230177068" Name="Elif_Line_10" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_10">
 					<IncludedMemoryFiles>
 						<File Id="19199133" Language="SFX">
 							<ShortName>VOICE_Elif_Line_10.wav</ShortName>
@@ -242,7 +242,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1124465268" Name="Elif_Line_100" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_100">
+				<Event Id="1124465268" Name="Elif_Line_100" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_100">
 					<IncludedMemoryFiles>
 						<File Id="175937821" Language="SFX">
 							<ShortName>VOICE_Elif_Line_100.wav</ShortName>
@@ -250,7 +250,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1124465269" Name="Elif_Line_101" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_101">
+				<Event Id="1124465269" Name="Elif_Line_101" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_101">
 					<IncludedMemoryFiles>
 						<File Id="216784722" Language="SFX">
 							<ShortName>VOICE_Elif_Line_101.wav</ShortName>
@@ -258,7 +258,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1124465270" Name="Elif_Line_102" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_102">
+				<Event Id="1124465270" Name="Elif_Line_102" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_102">
 					<IncludedMemoryFiles>
 						<File Id="622793587" Language="SFX">
 							<ShortName>VOICE_Elif_Line_102.wav</ShortName>
@@ -266,7 +266,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1124465271" Name="Elif_Line_103" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_103">
+				<Event Id="1124465271" Name="Elif_Line_103" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_103">
 					<IncludedMemoryFiles>
 						<File Id="199706153" Language="SFX">
 							<ShortName>VOICE_Elif_Line_103.wav</ShortName>
@@ -274,7 +274,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1124465264" Name="Elif_Line_104" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_104">
+				<Event Id="1124465264" Name="Elif_Line_104" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_104">
 					<IncludedMemoryFiles>
 						<File Id="361759574" Language="SFX">
 							<ShortName>VOICE_Elif_Line_104.wav</ShortName>
@@ -282,7 +282,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1124465265" Name="Elif_Line_105" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_105">
+				<Event Id="1124465265" Name="Elif_Line_105" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_105">
 					<IncludedMemoryFiles>
 						<File Id="1001465060" Language="SFX">
 							<ShortName>VOICE_Elif_Line_105.wav</ShortName>
@@ -290,7 +290,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1124465266" Name="Elif_Line_106" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_106">
+				<Event Id="1124465266" Name="Elif_Line_106" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_106">
 					<IncludedMemoryFiles>
 						<File Id="789063500" Language="SFX">
 							<ShortName>VOICE_Elif_Line_106.wav</ShortName>
@@ -298,7 +298,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1124465267" Name="Elif_Line_107" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_107">
+				<Event Id="1124465267" Name="Elif_Line_107" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_107">
 					<IncludedMemoryFiles>
 						<File Id="761479264" Language="SFX">
 							<ShortName>VOICE_Elif_Line_107.wav</ShortName>
@@ -306,7 +306,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1124465276" Name="Elif_Line_108" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_108">
+				<Event Id="1124465276" Name="Elif_Line_108" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_108">
 					<IncludedMemoryFiles>
 						<File Id="178884043" Language="SFX">
 							<ShortName>VOICE_Elif_Line_108.wav</ShortName>
@@ -314,7 +314,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1124465277" Name="Elif_Line_109" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_109">
+				<Event Id="1124465277" Name="Elif_Line_109" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_109">
 					<IncludedMemoryFiles>
 						<File Id="1032202520" Language="SFX">
 							<ShortName>VOICE_Elif_Line_109.wav</ShortName>
@@ -322,7 +322,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3230177069" Name="Elif_Line_11" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_11">
+				<Event Id="3230177069" Name="Elif_Line_11" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_11">
 					<IncludedMemoryFiles>
 						<File Id="182619462" Language="SFX">
 							<ShortName>VOICE_Elif_Line_11.wav</ShortName>
@@ -330,7 +330,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1141242855" Name="Elif_Line_110" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_110">
+				<Event Id="1141242855" Name="Elif_Line_110" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_110">
 					<IncludedMemoryFiles>
 						<File Id="495079316" Language="SFX">
 							<ShortName>VOICE_Elif_Line_110.wav</ShortName>
@@ -338,7 +338,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1141242854" Name="Elif_Line_111" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_111">
+				<Event Id="1141242854" Name="Elif_Line_111" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_111">
 					<IncludedMemoryFiles>
 						<File Id="367656918" Language="SFX">
 							<ShortName>VOICE_Elif_Line_111.wav</ShortName>
@@ -346,7 +346,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1141242853" Name="Elif_Line_112" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_112">
+				<Event Id="1141242853" Name="Elif_Line_112" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_112">
 					<IncludedMemoryFiles>
 						<File Id="217406783" Language="SFX">
 							<ShortName>VOICE_Elif_Line_112.wav</ShortName>
@@ -354,7 +354,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1141242852" Name="Elif_Line_113" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_113">
+				<Event Id="1141242852" Name="Elif_Line_113" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_113">
 					<IncludedMemoryFiles>
 						<File Id="216625225" Language="SFX">
 							<ShortName>VOICE_Elif_Line_113.wav</ShortName>
@@ -362,7 +362,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1141242851" Name="Elif_Line_114" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_114">
+				<Event Id="1141242851" Name="Elif_Line_114" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_114">
 					<IncludedMemoryFiles>
 						<File Id="806897693" Language="SFX">
 							<ShortName>VOICE_Elif_Line_114.wav</ShortName>
@@ -370,7 +370,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1141242850" Name="Elif_Line_115" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_115">
+				<Event Id="1141242850" Name="Elif_Line_115" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_115">
 					<IncludedMemoryFiles>
 						<File Id="153398330" Language="SFX">
 							<ShortName>VOICE_Elif_Line_115.wav</ShortName>
@@ -378,7 +378,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1141242849" Name="Elif_Line_116" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_116">
+				<Event Id="1141242849" Name="Elif_Line_116" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_116">
 					<IncludedMemoryFiles>
 						<File Id="897974044" Language="SFX">
 							<ShortName>VOICE_Elif_Line_116.wav</ShortName>
@@ -386,7 +386,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1141242848" Name="Elif_Line_117" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_117">
+				<Event Id="1141242848" Name="Elif_Line_117" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_117">
 					<IncludedMemoryFiles>
 						<File Id="794612931" Language="SFX">
 							<ShortName>VOICE_Elif_Line_117.wav</ShortName>
@@ -394,7 +394,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1141242863" Name="Elif_Line_118" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_118">
+				<Event Id="1141242863" Name="Elif_Line_118" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_118">
 					<IncludedMemoryFiles>
 						<File Id="552884779" Language="SFX">
 							<ShortName>VOICE_Elif_Line_118.wav</ShortName>
@@ -402,7 +402,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1141242862" Name="Elif_Line_119" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_119">
+				<Event Id="1141242862" Name="Elif_Line_119" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_119">
 					<IncludedMemoryFiles>
 						<File Id="496847349" Language="SFX">
 							<ShortName>VOICE_Elif_Line_119.wav</ShortName>
@@ -410,7 +410,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3230177070" Name="Elif_Line_12" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_12">
+				<Event Id="3230177070" Name="Elif_Line_12" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_12">
 					<IncludedMemoryFiles>
 						<File Id="678032857" Language="SFX">
 							<ShortName>VOICE_Elif_Line_12.wav</ShortName>
@@ -418,7 +418,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1158020442" Name="Elif_Line_120" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_120">
+				<Event Id="1158020442" Name="Elif_Line_120" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_120">
 					<IncludedMemoryFiles>
 						<File Id="33583908" Language="SFX">
 							<ShortName>VOICE_Elif_Line_120.wav</ShortName>
@@ -426,7 +426,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1158020443" Name="Elif_Line_121" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_121">
+				<Event Id="1158020443" Name="Elif_Line_121" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_121">
 					<IncludedMemoryFiles>
 						<File Id="354426932" Language="SFX">
 							<ShortName>VOICE_Elif_Line_121.wav</ShortName>
@@ -434,7 +434,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1158020440" Name="Elif_Line_122" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_122">
+				<Event Id="1158020440" Name="Elif_Line_122" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_122">
 					<IncludedMemoryFiles>
 						<File Id="793976187" Language="SFX">
 							<ShortName>VOICE_Elif_Line_122.wav</ShortName>
@@ -442,7 +442,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1158020441" Name="Elif_Line_123" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_123">
+				<Event Id="1158020441" Name="Elif_Line_123" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_123">
 					<IncludedMemoryFiles>
 						<File Id="800737818" Language="SFX">
 							<ShortName>VOICE_Elif_Line_123.wav</ShortName>
@@ -450,7 +450,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1158020446" Name="Elif_Line_124" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_124">
+				<Event Id="1158020446" Name="Elif_Line_124" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_124">
 					<IncludedMemoryFiles>
 						<File Id="661262727" Language="SFX">
 							<ShortName>VOICE_Elif_Line_124.wav</ShortName>
@@ -458,7 +458,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1158020447" Name="Elif_Line_125" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_125">
+				<Event Id="1158020447" Name="Elif_Line_125" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_125">
 					<IncludedMemoryFiles>
 						<File Id="22929768" Language="SFX">
 							<ShortName>VOICE_Elif_Line_125.wav</ShortName>
@@ -466,7 +466,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1158020444" Name="Elif_Line_126" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_126">
+				<Event Id="1158020444" Name="Elif_Line_126" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_126">
 					<IncludedMemoryFiles>
 						<File Id="68796460" Language="SFX">
 							<ShortName>VOICE_Elif_Line_126.wav</ShortName>
@@ -474,7 +474,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1158020445" Name="Elif_Line_127" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_127">
+				<Event Id="1158020445" Name="Elif_Line_127" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_127">
 					<IncludedMemoryFiles>
 						<File Id="340367994" Language="SFX">
 							<ShortName>VOICE_Elif_Line_127.wav</ShortName>
@@ -482,7 +482,23 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3230177071" Name="Elif_Line_13" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_13">
+				<Event Id="1158020434" Name="Elif_Line_128" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_128">
+					<IncludedMemoryFiles>
+						<File Id="232409403" Language="SFX">
+							<ShortName>VOICE_Elif_Line_128.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_128_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1158020435" Name="Elif_Line_129" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_129">
+					<IncludedMemoryFiles>
+						<File Id="1054918033" Language="SFX">
+							<ShortName>VOICE_Elif_Line_129.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_129_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3230177071" Name="Elif_Line_13" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_13">
 					<IncludedMemoryFiles>
 						<File Id="477668199" Language="SFX">
 							<ShortName>VOICE_Elif_Line_13.wav</ShortName>
@@ -490,7 +506,87 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3230177064" Name="Elif_Line_14" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_14">
+				<Event Id="1174798029" Name="Elif_Line_130" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_130">
+					<IncludedMemoryFiles>
+						<File Id="76525400" Language="SFX">
+							<ShortName>VOICE_Elif_Line_130.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_130_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1174798028" Name="Elif_Line_131" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_131">
+					<IncludedMemoryFiles>
+						<File Id="189353679" Language="SFX">
+							<ShortName>VOICE_Elif_Line_131.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_131_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1174798031" Name="Elif_Line_132" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_132">
+					<IncludedMemoryFiles>
+						<File Id="1040405704" Language="SFX">
+							<ShortName>VOICE_Elif_Line_132.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_132_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1174798030" Name="Elif_Line_133" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_133">
+					<IncludedMemoryFiles>
+						<File Id="1004756323" Language="SFX">
+							<ShortName>VOICE_Elif_Line_133.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_133_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1174798025" Name="Elif_Line_134" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_134">
+					<IncludedMemoryFiles>
+						<File Id="803450205" Language="SFX">
+							<ShortName>VOICE_Elif_Line_134.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_134_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1174798024" Name="Elif_Line_135" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_135">
+					<IncludedMemoryFiles>
+						<File Id="321414861" Language="SFX">
+							<ShortName>VOICE_Elif_Line_135.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_135_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1174798027" Name="Elif_Line_136" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_136">
+					<IncludedMemoryFiles>
+						<File Id="36201224" Language="SFX">
+							<ShortName>VOICE_Elif_Line_136.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_136_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1174798026" Name="Elif_Line_137" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_137">
+					<IncludedMemoryFiles>
+						<File Id="231014942" Language="SFX">
+							<ShortName>VOICE_Elif_Line_137.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_137_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1174798021" Name="Elif_Line_138" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_138">
+					<IncludedMemoryFiles>
+						<File Id="514949564" Language="SFX">
+							<ShortName>VOICE_Elif_Line_138.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_138_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1174798020" Name="Elif_Line_139" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_139">
+					<IncludedMemoryFiles>
+						<File Id="225445172" Language="SFX">
+							<ShortName>VOICE_Elif_Line_139.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_139_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3230177064" Name="Elif_Line_14" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_14">
 					<IncludedMemoryFiles>
 						<File Id="821870587" Language="SFX">
 							<ShortName>VOICE_Elif_Line_14.wav</ShortName>
@@ -498,7 +594,87 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3230177065" Name="Elif_Line_15" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_15">
+				<Event Id="1057354696" Name="Elif_Line_140" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_140">
+					<IncludedMemoryFiles>
+						<File Id="1072747709" Language="SFX">
+							<ShortName>VOICE_Elif_Line_140.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_140_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1057354697" Name="Elif_Line_141" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_141">
+					<IncludedMemoryFiles>
+						<File Id="170400140" Language="SFX">
+							<ShortName>VOICE_Elif_Line_141.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_141_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1057354698" Name="Elif_Line_142" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_142">
+					<IncludedMemoryFiles>
+						<File Id="826632639" Language="SFX">
+							<ShortName>VOICE_Elif_Line_142.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_142_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1057354699" Name="Elif_Line_143" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_143">
+					<IncludedMemoryFiles>
+						<File Id="389660640" Language="SFX">
+							<ShortName>VOICE_Elif_Line_143.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_143_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1057354700" Name="Elif_Line_144" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_01\Elif_Line_144">
+					<IncludedMemoryFiles>
+						<File Id="550767486" Language="SFX">
+							<ShortName>VOICE_Elif_Line_144.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_144_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1057354701" Name="Elif_Line_145" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_145">
+					<IncludedMemoryFiles>
+						<File Id="150506062" Language="SFX">
+							<ShortName>VOICE_Elif_Line_145.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_145_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1057354702" Name="Elif_Line_146" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_146">
+					<IncludedMemoryFiles>
+						<File Id="255206793" Language="SFX">
+							<ShortName>VOICE_Elif_Line_146.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_146_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1057354703" Name="Elif_Line_147" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_147">
+					<IncludedMemoryFiles>
+						<File Id="77357340" Language="SFX">
+							<ShortName>VOICE_Elif_Line_147.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_147_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1057354688" Name="Elif_Line_148" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_148">
+					<IncludedMemoryFiles>
+						<File Id="979379137" Language="SFX">
+							<ShortName>VOICE_Elif_Line_148.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_148_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1057354689" Name="Elif_Line_149" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_149">
+					<IncludedMemoryFiles>
+						<File Id="160044082" Language="SFX">
+							<ShortName>VOICE_Elif_Line_149.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_149_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3230177065" Name="Elif_Line_15" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_15">
 					<IncludedMemoryFiles>
 						<File Id="825333459" Language="SFX">
 							<ShortName>VOICE_Elif_Line_15.wav</ShortName>
@@ -506,7 +682,87 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3230177066" Name="Elif_Line_16" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_16">
+				<Event Id="1074132411" Name="Elif_Line_150" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_150">
+					<IncludedMemoryFiles>
+						<File Id="689912053" Language="SFX">
+							<ShortName>VOICE_Elif_Line_150.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_150_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1074132410" Name="Elif_Line_151" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_151">
+					<IncludedMemoryFiles>
+						<File Id="679021002" Language="SFX">
+							<ShortName>VOICE_Elif_Line_151.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_151_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1074132409" Name="Elif_Line_152" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_152">
+					<IncludedMemoryFiles>
+						<File Id="199965823" Language="SFX">
+							<ShortName>VOICE_Elif_Line_152.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_152_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1074132408" Name="Elif_Line_153" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_153">
+					<IncludedMemoryFiles>
+						<File Id="573761560" Language="SFX">
+							<ShortName>VOICE_Elif_Line_153.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_153_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1074132415" Name="Elif_Line_154" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_154">
+					<IncludedMemoryFiles>
+						<File Id="1012352544" Language="SFX">
+							<ShortName>VOICE_Elif_Line_154.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_154_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1074132414" Name="Elif_Line_155" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_155">
+					<IncludedMemoryFiles>
+						<File Id="803077243" Language="SFX">
+							<ShortName>VOICE_Elif_Line_155.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_155_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1074132413" Name="Elif_Line_156" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_156">
+					<IncludedMemoryFiles>
+						<File Id="234559505" Language="SFX">
+							<ShortName>VOICE_Elif_Line_156.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_156_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1074132412" Name="Elif_Line_157" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_157">
+					<IncludedMemoryFiles>
+						<File Id="870681254" Language="SFX">
+							<ShortName>VOICE_Elif_Line_157.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_157_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1074132403" Name="Elif_Line_158" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_158">
+					<IncludedMemoryFiles>
+						<File Id="131265222" Language="SFX">
+							<ShortName>VOICE_Elif_Line_158.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_158_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1074132402" Name="Elif_Line_159" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_159">
+					<IncludedMemoryFiles>
+						<File Id="451872818" Language="SFX">
+							<ShortName>VOICE_Elif_Line_159.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_159_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3230177066" Name="Elif_Line_16" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_16">
 					<IncludedMemoryFiles>
 						<File Id="719690653" Language="SFX">
 							<ShortName>VOICE_Elif_Line_16.wav</ShortName>
@@ -514,7 +770,87 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3230177067" Name="Elif_Line_17" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_17">
+				<Event Id="1090909998" Name="Elif_Line_160" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_160">
+					<IncludedMemoryFiles>
+						<File Id="254298566" Language="SFX">
+							<ShortName>VOICE_Elif_Line_160.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_160_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1090909999" Name="Elif_Line_161" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_161">
+					<IncludedMemoryFiles>
+						<File Id="128995268" Language="SFX">
+							<ShortName>VOICE_Elif_Line_161.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_161_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1090909996" Name="Elif_Line_162" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_162">
+					<IncludedMemoryFiles>
+						<File Id="7068300" Language="SFX">
+							<ShortName>VOICE_Elif_Line_162.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_162_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1090909997" Name="Elif_Line_163" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_163">
+					<IncludedMemoryFiles>
+						<File Id="386718761" Language="SFX">
+							<ShortName>VOICE_Elif_Line_163.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_163_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1090909994" Name="Elif_Line_164" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_164">
+					<IncludedMemoryFiles>
+						<File Id="642748477" Language="SFX">
+							<ShortName>VOICE_Elif_Line_164.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_164_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1090909995" Name="Elif_Line_165" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_165">
+					<IncludedMemoryFiles>
+						<File Id="258844776" Language="SFX">
+							<ShortName>VOICE_Elif_Line_165.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_165_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1090909992" Name="Elif_Line_166" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_166">
+					<IncludedMemoryFiles>
+						<File Id="672933811" Language="SFX">
+							<ShortName>VOICE_Elif_Line_166.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_166_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1090909993" Name="Elif_Line_167" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_167">
+					<IncludedMemoryFiles>
+						<File Id="628518178" Language="SFX">
+							<ShortName>VOICE_Elif_Line_167.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_167_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1090909990" Name="Elif_Line_168" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_168">
+					<IncludedMemoryFiles>
+						<File Id="892851154" Language="SFX">
+							<ShortName>VOICE_Elif_Line_168.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_168_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1090909991" Name="Elif_Line_169" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_169">
+					<IncludedMemoryFiles>
+						<File Id="280120506" Language="SFX">
+							<ShortName>VOICE_Elif_Line_169.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_169_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3230177067" Name="Elif_Line_17" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_17">
 					<IncludedMemoryFiles>
 						<File Id="972356750" Language="SFX">
 							<ShortName>VOICE_Elif_Line_17.wav</ShortName>
@@ -522,7 +858,87 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3230177060" Name="Elif_Line_18" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_18">
+				<Event Id="1107687553" Name="Elif_Line_170" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_170">
+					<IncludedMemoryFiles>
+						<File Id="68245612" Language="SFX">
+							<ShortName>VOICE_Elif_Line_170.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_170_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1107687552" Name="Elif_Line_171" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_171">
+					<IncludedMemoryFiles>
+						<File Id="586445916" Language="SFX">
+							<ShortName>VOICE_Elif_Line_171.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_171_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1107687555" Name="Elif_Line_172" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_172">
+					<IncludedMemoryFiles>
+						<File Id="248631835" Language="SFX">
+							<ShortName>VOICE_Elif_Line_172.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_172_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1107687554" Name="Elif_Line_173" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_02\Elif_Line_173">
+					<IncludedMemoryFiles>
+						<File Id="721309216" Language="SFX">
+							<ShortName>VOICE_Elif_Line_173.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_173_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1107687557" Name="Elif_Line_174" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_174">
+					<IncludedMemoryFiles>
+						<File Id="982520745" Language="SFX">
+							<ShortName>VOICE_Elif_Line_174.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_174_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1107687556" Name="Elif_Line_175" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_175">
+					<IncludedMemoryFiles>
+						<File Id="64170553" Language="SFX">
+							<ShortName>VOICE_Elif_Line_175.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_175_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1107687559" Name="Elif_Line_176" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_176">
+					<IncludedMemoryFiles>
+						<File Id="396182271" Language="SFX">
+							<ShortName>VOICE_Elif_Line_176.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_176_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1107687558" Name="Elif_Line_177" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_177">
+					<IncludedMemoryFiles>
+						<File Id="917140183" Language="SFX">
+							<ShortName>VOICE_Elif_Line_177.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_177_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1107687561" Name="Elif_Line_178" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_178">
+					<IncludedMemoryFiles>
+						<File Id="256360576" Language="SFX">
+							<ShortName>VOICE_Elif_Line_178.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_178_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1107687560" Name="Elif_Line_179" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_179">
+					<IncludedMemoryFiles>
+						<File Id="518163090" Language="SFX">
+							<ShortName>VOICE_Elif_Line_179.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_179_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3230177060" Name="Elif_Line_18" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_18">
 					<IncludedMemoryFiles>
 						<File Id="463248504" Language="SFX">
 							<ShortName>VOICE_Elif_Line_18.wav</ShortName>
@@ -530,7 +946,87 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3230177061" Name="Elif_Line_19" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_19">
+				<Event Id="990244252" Name="Elif_Line_180" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_180">
+					<IncludedMemoryFiles>
+						<File Id="719419983" Language="SFX">
+							<ShortName>VOICE_Elif_Line_180.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_180_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="990244253" Name="Elif_Line_181" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_181">
+					<IncludedMemoryFiles>
+						<File Id="412031249" Language="SFX">
+							<ShortName>VOICE_Elif_Line_181.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_181_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="990244254" Name="Elif_Line_182" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_182">
+					<IncludedMemoryFiles>
+						<File Id="441121480" Language="SFX">
+							<ShortName>VOICE_Elif_Line_182.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_182_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="990244255" Name="Elif_Line_183" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_183">
+					<IncludedMemoryFiles>
+						<File Id="627118012" Language="SFX">
+							<ShortName>VOICE_Elif_Line_183.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_183_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="990244248" Name="Elif_Line_184" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_184">
+					<IncludedMemoryFiles>
+						<File Id="623180880" Language="SFX">
+							<ShortName>VOICE_Elif_Line_184.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_184_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="990244249" Name="Elif_Line_185" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_185">
+					<IncludedMemoryFiles>
+						<File Id="896709213" Language="SFX">
+							<ShortName>VOICE_Elif_Line_185.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_185_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="990244250" Name="Elif_Line_186" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_186">
+					<IncludedMemoryFiles>
+						<File Id="166740380" Language="SFX">
+							<ShortName>VOICE_Elif_Line_186.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_186_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="990244251" Name="Elif_Line_187" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_187">
+					<IncludedMemoryFiles>
+						<File Id="97547364" Language="SFX">
+							<ShortName>VOICE_Elif_Line_187.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_187_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="990244244" Name="Elif_Line_188" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_188">
+					<IncludedMemoryFiles>
+						<File Id="1032822042" Language="SFX">
+							<ShortName>VOICE_Elif_Line_188.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_188_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="990244245" Name="Elif_Line_189" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_189">
+					<IncludedMemoryFiles>
+						<File Id="295324510" Language="SFX">
+							<ShortName>VOICE_Elif_Line_189.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_189_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3230177061" Name="Elif_Line_19" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_19">
 					<IncludedMemoryFiles>
 						<File Id="917339062" Language="SFX">
 							<ShortName>VOICE_Elif_Line_19.wav</ShortName>
@@ -538,7 +1034,87 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3280509925" Name="Elif_Line_20" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_20">
+				<Event Id="1007021839" Name="Elif_Line_190" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_190">
+					<IncludedMemoryFiles>
+						<File Id="355715779" Language="SFX">
+							<ShortName>VOICE_Elif_Line_190.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_190_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1007021838" Name="Elif_Line_191" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_191">
+					<IncludedMemoryFiles>
+						<File Id="207241490" Language="SFX">
+							<ShortName>VOICE_Elif_Line_191.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_191_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1007021837" Name="Elif_Line_192" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_192">
+					<IncludedMemoryFiles>
+						<File Id="929215998" Language="SFX">
+							<ShortName>VOICE_Elif_Line_192.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_192_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1007021836" Name="Elif_Line_193" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_193">
+					<IncludedMemoryFiles>
+						<File Id="404183900" Language="SFX">
+							<ShortName>VOICE_Elif_Line_193.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_193_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1007021835" Name="Elif_Line_194" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_194">
+					<IncludedMemoryFiles>
+						<File Id="249470668" Language="SFX">
+							<ShortName>VOICE_Elif_Line_194.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_194_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1007021834" Name="Elif_Line_195" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_195">
+					<IncludedMemoryFiles>
+						<File Id="122107074" Language="SFX">
+							<ShortName>VOICE_Elif_Line_195.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_195_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1007021833" Name="Elif_Line_196" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_196">
+					<IncludedMemoryFiles>
+						<File Id="403790027" Language="SFX">
+							<ShortName>VOICE_Elif_Line_196.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_196_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1007021832" Name="Elif_Line_197" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_197">
+					<IncludedMemoryFiles>
+						<File Id="725296214" Language="SFX">
+							<ShortName>VOICE_Elif_Line_197.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_197_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1007021831" Name="Elif_Line_198" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_198">
+					<IncludedMemoryFiles>
+						<File Id="953392574" Language="SFX">
+							<ShortName>VOICE_Elif_Line_198.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_198_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1007021830" Name="Elif_Line_199" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_199">
+					<IncludedMemoryFiles>
+						<File Id="164372357" Language="SFX">
+							<ShortName>VOICE_Elif_Line_199.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_199_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3280509925" Name="Elif_Line_20" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_20">
 					<IncludedMemoryFiles>
 						<File Id="5834860" Language="SFX">
 							<ShortName>VOICE_Elif_Line_20.wav</ShortName>
@@ -546,7 +1122,87 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3280509924" Name="Elif_Line_21" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_21">
+				<Event Id="3037555023" Name="Elif_Line_200" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_200">
+					<IncludedMemoryFiles>
+						<File Id="119954492" Language="SFX">
+							<ShortName>VOICE_Elif_Line_200.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_200_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3037555022" Name="Elif_Line_201" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_201">
+					<IncludedMemoryFiles>
+						<File Id="754224208" Language="SFX">
+							<ShortName>VOICE_Elif_Line_201.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_201_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3037555021" Name="Elif_Line_202" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_202">
+					<IncludedMemoryFiles>
+						<File Id="575075614" Language="SFX">
+							<ShortName>VOICE_Elif_Line_202.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_202_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3037555020" Name="Elif_Line_203" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_203">
+					<IncludedMemoryFiles>
+						<File Id="658038324" Language="SFX">
+							<ShortName>VOICE_Elif_Line_203.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_203_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3037555019" Name="Elif_Line_204" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_204">
+					<IncludedMemoryFiles>
+						<File Id="833937836" Language="SFX">
+							<ShortName>VOICE_Elif_Line_204.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_204_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3037555018" Name="Elif_Line_205" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_205">
+					<IncludedMemoryFiles>
+						<File Id="351352340" Language="SFX">
+							<ShortName>VOICE_Elif_Line_205.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_205_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3037555017" Name="Elif_Line_206" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_206">
+					<IncludedMemoryFiles>
+						<File Id="905863289" Language="SFX">
+							<ShortName>VOICE_Elif_Line_206.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_206_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3037555016" Name="Elif_Line_207" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_207">
+					<IncludedMemoryFiles>
+						<File Id="826595769" Language="SFX">
+							<ShortName>VOICE_Elif_Line_207.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_207_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3037555015" Name="Elif_Line_208" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_208">
+					<IncludedMemoryFiles>
+						<File Id="826657159" Language="SFX">
+							<ShortName>VOICE_Elif_Line_208.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_208_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3037555014" Name="Elif_Line_209" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_209">
+					<IncludedMemoryFiles>
+						<File Id="568021808" Language="SFX">
+							<ShortName>VOICE_Elif_Line_209.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_209_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3280509924" Name="Elif_Line_21" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_21">
 					<IncludedMemoryFiles>
 						<File Id="870350672" Language="SFX">
 							<ShortName>VOICE_Elif_Line_21.wav</ShortName>
@@ -554,7 +1210,87 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3280509927" Name="Elif_Line_22" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_22">
+				<Event Id="3020777436" Name="Elif_Line_210" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_210">
+					<IncludedMemoryFiles>
+						<File Id="895230513" Language="SFX">
+							<ShortName>VOICE_Elif_Line_210.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_210_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3020777437" Name="Elif_Line_211" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_211">
+					<IncludedMemoryFiles>
+						<File Id="186117011" Language="SFX">
+							<ShortName>VOICE_Elif_Line_211.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_211_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3020777438" Name="Elif_Line_212" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_212">
+					<IncludedMemoryFiles>
+						<File Id="588080287" Language="SFX">
+							<ShortName>VOICE_Elif_Line_212.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_212_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3020777439" Name="Elif_Line_213" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_213">
+					<IncludedMemoryFiles>
+						<File Id="211986713" Language="SFX">
+							<ShortName>VOICE_Elif_Line_213.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_213_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3020777432" Name="Elif_Line_214" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_214">
+					<IncludedMemoryFiles>
+						<File Id="950708146" Language="SFX">
+							<ShortName>VOICE_Elif_Line_214.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_214_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3020777433" Name="Elif_Line_215" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_215">
+					<IncludedMemoryFiles>
+						<File Id="43630237" Language="SFX">
+							<ShortName>VOICE_Elif_Line_215.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_215_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3020777434" Name="Elif_Line_216" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_216">
+					<IncludedMemoryFiles>
+						<File Id="1073212841" Language="SFX">
+							<ShortName>VOICE_Elif_Line_216.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_216_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3020777435" Name="Elif_Line_217" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_217">
+					<IncludedMemoryFiles>
+						<File Id="831777510" Language="SFX">
+							<ShortName>VOICE_Elif_Line_217.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_217_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3020777428" Name="Elif_Line_218" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_218">
+					<IncludedMemoryFiles>
+						<File Id="696660003" Language="SFX">
+							<ShortName>VOICE_Elif_Line_218.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_218_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3020777429" Name="Elif_Line_219" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_219">
+					<IncludedMemoryFiles>
+						<File Id="745196723" Language="SFX">
+							<ShortName>VOICE_Elif_Line_219.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_219_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3280509927" Name="Elif_Line_22" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_22">
 					<IncludedMemoryFiles>
 						<File Id="34396335" Language="SFX">
 							<ShortName>VOICE_Elif_Line_22.wav</ShortName>
@@ -562,7 +1298,87 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3280509926" Name="Elif_Line_23" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_23">
+				<Event Id="3071110293" Name="Elif_Line_220" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_220">
+					<IncludedMemoryFiles>
+						<File Id="516871881" Language="SFX">
+							<ShortName>VOICE_Elif_Line_220.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_220_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3071110292" Name="Elif_Line_221" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_221">
+					<IncludedMemoryFiles>
+						<File Id="614903987" Language="SFX">
+							<ShortName>VOICE_Elif_Line_221.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_221_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3071110295" Name="Elif_Line_222" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_222">
+					<IncludedMemoryFiles>
+						<File Id="204394930" Language="SFX">
+							<ShortName>VOICE_Elif_Line_222.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_222_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3071110294" Name="Elif_Line_223" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_223">
+					<IncludedMemoryFiles>
+						<File Id="761593269" Language="SFX">
+							<ShortName>VOICE_Elif_Line_223.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_223_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3071110289" Name="Elif_Line_224" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_224">
+					<IncludedMemoryFiles>
+						<File Id="199568502" Language="SFX">
+							<ShortName>VOICE_Elif_Line_224.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_224_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3071110288" Name="Elif_Line_225" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_225">
+					<IncludedMemoryFiles>
+						<File Id="95984159" Language="SFX">
+							<ShortName>VOICE_Elif_Line_225.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_225_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3071110291" Name="Elif_Line_226" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_226">
+					<IncludedMemoryFiles>
+						<File Id="325764581" Language="SFX">
+							<ShortName>VOICE_Elif_Line_226.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_226_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3071110290" Name="Elif_Line_227" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_227">
+					<IncludedMemoryFiles>
+						<File Id="623723797" Language="SFX">
+							<ShortName>VOICE_Elif_Line_227.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_227_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3071110301" Name="Elif_Line_228" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_228">
+					<IncludedMemoryFiles>
+						<File Id="882325232" Language="SFX">
+							<ShortName>VOICE_Elif_Line_228.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_228_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3071110300" Name="Elif_Line_229" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_229">
+					<IncludedMemoryFiles>
+						<File Id="51647739" Language="SFX">
+							<ShortName>VOICE_Elif_Line_229.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_229_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3280509926" Name="Elif_Line_23" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_23">
 					<IncludedMemoryFiles>
 						<File Id="1068305560" Language="SFX">
 							<ShortName>VOICE_Elif_Line_23.wav</ShortName>
@@ -570,7 +1386,31 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3280509921" Name="Elif_Line_24" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_24">
+				<Event Id="3054332706" Name="Elif_Line_230" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_230">
+					<IncludedMemoryFiles>
+						<File Id="840461610" Language="SFX">
+							<ShortName>VOICE_Elif_Line_230.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_230_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3054332707" Name="Elif_Line_231" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_231">
+					<IncludedMemoryFiles>
+						<File Id="277776803" Language="SFX">
+							<ShortName>VOICE_Elif_Line_231.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_231_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3054332704" Name="Elif_Line_232" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\Level_03\Elif_Line_232">
+					<IncludedMemoryFiles>
+						<File Id="493090908" Language="SFX">
+							<ShortName>VOICE_Elif_Line_232.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_232_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3280509921" Name="Elif_Line_24" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_24">
 					<IncludedMemoryFiles>
 						<File Id="879276558" Language="SFX">
 							<ShortName>VOICE_Elif_Line_24.wav</ShortName>
@@ -578,7 +1418,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3280509920" Name="Elif_Line_25" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_25">
+				<Event Id="3280509920" Name="Elif_Line_25" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_25">
 					<IncludedMemoryFiles>
 						<File Id="513525191" Language="SFX">
 							<ShortName>VOICE_Elif_Line_25.wav</ShortName>
@@ -586,7 +1426,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3280509923" Name="Elif_Line_26" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_26">
+				<Event Id="3280509923" Name="Elif_Line_26" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_26">
 					<IncludedMemoryFiles>
 						<File Id="908832243" Language="SFX">
 							<ShortName>VOICE_Elif_Line_26.wav</ShortName>
@@ -594,7 +1434,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3280509922" Name="Elif_Line_27" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_27">
+				<Event Id="3280509922" Name="Elif_Line_27" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_27">
 					<IncludedMemoryFiles>
 						<File Id="163629153" Language="SFX">
 							<ShortName>VOICE_Elif_Line_27.wav</ShortName>
@@ -602,7 +1442,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3280509933" Name="Elif_Line_28" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_28">
+				<Event Id="3280509933" Name="Elif_Line_28" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_28">
 					<IncludedMemoryFiles>
 						<File Id="72855847" Language="SFX">
 							<ShortName>VOICE_Elif_Line_28.wav</ShortName>
@@ -610,7 +1450,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3280509932" Name="Elif_Line_29" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_29">
+				<Event Id="3280509932" Name="Elif_Line_29" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_29">
 					<IncludedMemoryFiles>
 						<File Id="904397044" Language="SFX">
 							<ShortName>VOICE_Elif_Line_29.wav</ShortName>
@@ -618,7 +1458,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3263732338" Name="Elif_Line_30" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_30">
+				<Event Id="3263732338" Name="Elif_Line_30" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_30">
 					<IncludedMemoryFiles>
 						<File Id="9601200" Language="SFX">
 							<ShortName>VOICE_Elif_Line_30.wav</ShortName>
@@ -626,7 +1466,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3263732339" Name="Elif_Line_31" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_31">
+				<Event Id="3263732339" Name="Elif_Line_31" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_31">
 					<IncludedMemoryFiles>
 						<File Id="204487090" Language="SFX">
 							<ShortName>VOICE_Elif_Line_31.wav</ShortName>
@@ -634,7 +1474,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3263732336" Name="Elif_Line_32" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_32">
+				<Event Id="3263732336" Name="Elif_Line_32" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_32">
 					<IncludedMemoryFiles>
 						<File Id="113173496" Language="SFX">
 							<ShortName>VOICE_Elif_Line_32.wav</ShortName>
@@ -642,7 +1482,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3263732337" Name="Elif_Line_33" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_33">
+				<Event Id="3263732337" Name="Elif_Line_33" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_33">
 					<IncludedMemoryFiles>
 						<File Id="931130979" Language="SFX">
 							<ShortName>VOICE_Elif_Line_33.wav</ShortName>
@@ -650,7 +1490,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3263732342" Name="Elif_Line_34" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_01\Elif_Line_34">
+				<Event Id="3263732342" Name="Elif_Line_34" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_01\Elif_Line_34">
 					<IncludedMemoryFiles>
 						<File Id="59220634" Language="SFX">
 							<ShortName>VOICE_Elif_Line_34.wav</ShortName>
@@ -658,7 +1498,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3263732343" Name="Elif_Line_35" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_35">
+				<Event Id="3263732343" Name="Elif_Line_35" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_35">
 					<IncludedMemoryFiles>
 						<File Id="564953585" Language="SFX">
 							<ShortName>VOICE_Elif_Line_35.wav</ShortName>
@@ -666,7 +1506,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3263732340" Name="Elif_Line_36" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_36">
+				<Event Id="3263732340" Name="Elif_Line_36" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_36">
 					<IncludedMemoryFiles>
 						<File Id="196896837" Language="SFX">
 							<ShortName>VOICE_Elif_Line_36.wav</ShortName>
@@ -674,7 +1514,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3263732341" Name="Elif_Line_37" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_37">
+				<Event Id="3263732341" Name="Elif_Line_37" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_37">
 					<IncludedMemoryFiles>
 						<File Id="881767029" Language="SFX">
 							<ShortName>VOICE_Elif_Line_37.wav</ShortName>
@@ -682,7 +1522,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3263732346" Name="Elif_Line_38" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_38">
+				<Event Id="3263732346" Name="Elif_Line_38" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_38">
 					<IncludedMemoryFiles>
 						<File Id="556922076" Language="SFX">
 							<ShortName>VOICE_Elif_Line_38.wav</ShortName>
@@ -690,7 +1530,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3263732347" Name="Elif_Line_39" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_39">
+				<Event Id="3263732347" Name="Elif_Line_39" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_39">
 					<IncludedMemoryFiles>
 						<File Id="772222302" Language="SFX">
 							<ShortName>VOICE_Elif_Line_39.wav</ShortName>
@@ -698,7 +1538,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3179844179" Name="Elif_Line_40" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_40">
+				<Event Id="3179844179" Name="Elif_Line_40" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_40">
 					<IncludedMemoryFiles>
 						<File Id="800201100" Language="SFX">
 							<ShortName>VOICE_Elif_Line_40.wav</ShortName>
@@ -706,7 +1546,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3179844178" Name="Elif_Line_41" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_41">
+				<Event Id="3179844178" Name="Elif_Line_41" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_41">
 					<IncludedMemoryFiles>
 						<File Id="913659595" Language="SFX">
 							<ShortName>VOICE_Elif_Line_41.wav</ShortName>
@@ -714,7 +1554,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3179844177" Name="Elif_Line_42" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_42">
+				<Event Id="3179844177" Name="Elif_Line_42" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_42">
 					<IncludedMemoryFiles>
 						<File Id="1073433820" Language="SFX">
 							<ShortName>VOICE_Elif_Line_42.wav</ShortName>
@@ -722,7 +1562,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3179844176" Name="Elif_Line_43" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_43">
+				<Event Id="3179844176" Name="Elif_Line_43" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_43">
 					<IncludedMemoryFiles>
 						<File Id="184516309" Language="SFX">
 							<ShortName>VOICE_Elif_Line_43.wav</ShortName>
@@ -730,7 +1570,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3179844183" Name="Elif_Line_44" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_44">
+				<Event Id="3179844183" Name="Elif_Line_44" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_44">
 					<IncludedMemoryFiles>
 						<File Id="939169104" Language="SFX">
 							<ShortName>VOICE_Elif_Line_44.wav</ShortName>
@@ -738,7 +1578,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3179844182" Name="Elif_Line_45" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_45">
+				<Event Id="3179844182" Name="Elif_Line_45" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_45">
 					<IncludedMemoryFiles>
 						<File Id="959009425" Language="SFX">
 							<ShortName>VOICE_Elif_Line_45.wav</ShortName>
@@ -746,7 +1586,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3179844181" Name="Elif_Line_46" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_46">
+				<Event Id="3179844181" Name="Elif_Line_46" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_46">
 					<IncludedMemoryFiles>
 						<File Id="944548641" Language="SFX">
 							<ShortName>VOICE_Elif_Line_46.wav</ShortName>
@@ -754,7 +1594,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3179844180" Name="Elif_Line_47" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_47">
+				<Event Id="3179844180" Name="Elif_Line_47" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_47">
 					<IncludedMemoryFiles>
 						<File Id="192411686" Language="SFX">
 							<ShortName>VOICE_Elif_Line_47.wav</ShortName>
@@ -762,7 +1602,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3179844187" Name="Elif_Line_48" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_48">
+				<Event Id="3179844187" Name="Elif_Line_48" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_48">
 					<IncludedMemoryFiles>
 						<File Id="110200313" Language="SFX">
 							<ShortName>VOICE_Elif_Line_48.wav</ShortName>
@@ -770,7 +1610,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3179844186" Name="Elif_Line_49" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_49">
+				<Event Id="3179844186" Name="Elif_Line_49" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_49">
 					<IncludedMemoryFiles>
 						<File Id="270405778" Language="SFX">
 							<ShortName>VOICE_Elif_Line_49.wav</ShortName>
@@ -778,7 +1618,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3163066592" Name="Elif_Line_50" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_50">
+				<Event Id="3163066592" Name="Elif_Line_50" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_50">
 					<IncludedMemoryFiles>
 						<File Id="1026156632" Language="SFX">
 							<ShortName>VOICE_Elif_Line_50.wav</ShortName>
@@ -786,7 +1626,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3163066593" Name="Elif_Line_51" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_51">
+				<Event Id="3163066593" Name="Elif_Line_51" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_51">
 					<IncludedMemoryFiles>
 						<File Id="259178457" Language="SFX">
 							<ShortName>VOICE_Elif_Line_51.wav</ShortName>
@@ -794,7 +1634,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3163066594" Name="Elif_Line_52" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_52">
+				<Event Id="3163066594" Name="Elif_Line_52" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_52">
 					<IncludedMemoryFiles>
 						<File Id="895835975" Language="SFX">
 							<ShortName>VOICE_Elif_Line_52.wav</ShortName>
@@ -802,7 +1642,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3163066595" Name="Elif_Line_53" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_53">
+				<Event Id="3163066595" Name="Elif_Line_53" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_53">
 					<IncludedMemoryFiles>
 						<File Id="455420583" Language="SFX">
 							<ShortName>VOICE_Elif_Line_53.wav</ShortName>
@@ -810,7 +1650,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3163066596" Name="Elif_Line_54" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_54">
+				<Event Id="3163066596" Name="Elif_Line_54" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_54">
 					<IncludedMemoryFiles>
 						<File Id="747367287" Language="SFX">
 							<ShortName>VOICE_Elif_Line_54.wav</ShortName>
@@ -818,7 +1658,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3163066597" Name="Elif_Line_55" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_55">
+				<Event Id="3163066597" Name="Elif_Line_55" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_55">
 					<IncludedMemoryFiles>
 						<File Id="365566778" Language="SFX">
 							<ShortName>VOICE_Elif_Line_55.wav</ShortName>
@@ -826,7 +1666,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3163066598" Name="Elif_Line_56" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_56">
+				<Event Id="3163066598" Name="Elif_Line_56" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_56">
 					<IncludedMemoryFiles>
 						<File Id="877965671" Language="SFX">
 							<ShortName>VOICE_Elif_Line_56.wav</ShortName>
@@ -834,7 +1674,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3163066599" Name="Elif_Line_57" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_57">
+				<Event Id="3163066599" Name="Elif_Line_57" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_57">
 					<IncludedMemoryFiles>
 						<File Id="93086585" Language="SFX">
 							<ShortName>VOICE_Elif_Line_57.wav</ShortName>
@@ -842,7 +1682,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3163066600" Name="Elif_Line_58" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_58">
+				<Event Id="3163066600" Name="Elif_Line_58" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_58">
 					<IncludedMemoryFiles>
 						<File Id="166520306" Language="SFX">
 							<ShortName>VOICE_Elif_Line_58.wav</ShortName>
@@ -850,7 +1690,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3163066601" Name="Elif_Line_59" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_59">
+				<Event Id="3163066601" Name="Elif_Line_59" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_59">
 					<IncludedMemoryFiles>
 						<File Id="822875285" Language="SFX">
 							<ShortName>VOICE_Elif_Line_59.wav</ShortName>
@@ -858,7 +1698,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3213399481" Name="Elif_Line_60" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_60">
+				<Event Id="3213399481" Name="Elif_Line_60" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_60">
 					<IncludedMemoryFiles>
 						<File Id="112820933" Language="SFX">
 							<ShortName>VOICE_Elif_Line_60.wav</ShortName>
@@ -866,7 +1706,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3213399480" Name="Elif_Line_61" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_61">
+				<Event Id="3213399480" Name="Elif_Line_61" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_61">
 					<IncludedMemoryFiles>
 						<File Id="59817727" Language="SFX">
 							<ShortName>VOICE_Elif_Line_61.wav</ShortName>
@@ -874,7 +1714,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3213399483" Name="Elif_Line_62" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_62">
+				<Event Id="3213399483" Name="Elif_Line_62" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_62">
 					<IncludedMemoryFiles>
 						<File Id="381094486" Language="SFX">
 							<ShortName>VOICE_Elif_Line_62.wav</ShortName>
@@ -882,7 +1722,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3213399482" Name="Elif_Line_63" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_63">
+				<Event Id="3213399482" Name="Elif_Line_63" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_63">
 					<IncludedMemoryFiles>
 						<File Id="1058192863" Language="SFX">
 							<ShortName>VOICE_Elif_Line_63.wav</ShortName>
@@ -890,7 +1730,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3213399485" Name="Elif_Line_64" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_64">
+				<Event Id="3213399485" Name="Elif_Line_64" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_64">
 					<IncludedMemoryFiles>
 						<File Id="903242303" Language="SFX">
 							<ShortName>VOICE_Elif_Line_64.wav</ShortName>
@@ -898,7 +1738,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3213399484" Name="Elif_Line_65" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_65">
+				<Event Id="3213399484" Name="Elif_Line_65" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_65">
 					<IncludedMemoryFiles>
 						<File Id="632304032" Language="SFX">
 							<ShortName>VOICE_Elif_Line_65.wav</ShortName>
@@ -906,7 +1746,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3213399487" Name="Elif_Line_66" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_02\Elif_Line_66">
+				<Event Id="3213399487" Name="Elif_Line_66" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_02\Elif_Line_66">
 					<IncludedMemoryFiles>
 						<File Id="1023125403" Language="SFX">
 							<ShortName>VOICE_Elif_Line_66.wav</ShortName>
@@ -914,7 +1754,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3213399486" Name="Elif_Line_67" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_67">
+				<Event Id="3213399486" Name="Elif_Line_67" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_67">
 					<IncludedMemoryFiles>
 						<File Id="112441326" Language="SFX">
 							<ShortName>VOICE_Elif_Line_67.wav</ShortName>
@@ -922,7 +1762,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3213399473" Name="Elif_Line_68" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_68">
+				<Event Id="3213399473" Name="Elif_Line_68" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_68">
 					<IncludedMemoryFiles>
 						<File Id="367809747" Language="SFX">
 							<ShortName>VOICE_Elif_Line_68.wav</ShortName>
@@ -930,7 +1770,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3213399472" Name="Elif_Line_69" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_69">
+				<Event Id="3213399472" Name="Elif_Line_69" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_69">
 					<IncludedMemoryFiles>
 						<File Id="692810860" Language="SFX">
 							<ShortName>VOICE_Elif_Line_69.wav</ShortName>
@@ -938,7 +1778,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3196621766" Name="Elif_Line_70" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_70">
+				<Event Id="3196621766" Name="Elif_Line_70" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_70">
 					<IncludedMemoryFiles>
 						<File Id="58240778" Language="SFX">
 							<ShortName>VOICE_Elif_Line_70.wav</ShortName>
@@ -946,7 +1786,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3196621767" Name="Elif_Line_71" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_71">
+				<Event Id="3196621767" Name="Elif_Line_71" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_71">
 					<IncludedMemoryFiles>
 						<File Id="917049844" Language="SFX">
 							<ShortName>VOICE_Elif_Line_71.wav</ShortName>
@@ -954,7 +1794,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3196621764" Name="Elif_Line_72" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_72">
+				<Event Id="3196621764" Name="Elif_Line_72" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_72">
 					<IncludedMemoryFiles>
 						<File Id="263073334" Language="SFX">
 							<ShortName>VOICE_Elif_Line_72.wav</ShortName>
@@ -962,7 +1802,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3196621765" Name="Elif_Line_73" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_73">
+				<Event Id="3196621765" Name="Elif_Line_73" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_73">
 					<IncludedMemoryFiles>
 						<File Id="757821868" Language="SFX">
 							<ShortName>VOICE_Elif_Line_73.wav</ShortName>
@@ -970,7 +1810,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3196621762" Name="Elif_Line_74" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_74">
+				<Event Id="3196621762" Name="Elif_Line_74" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_74">
 					<IncludedMemoryFiles>
 						<File Id="171820750" Language="SFX">
 							<ShortName>VOICE_Elif_Line_74.wav</ShortName>
@@ -978,7 +1818,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3196621763" Name="Elif_Line_75" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_75">
+				<Event Id="3196621763" Name="Elif_Line_75" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_75">
 					<IncludedMemoryFiles>
 						<File Id="45494297" Language="SFX">
 							<ShortName>VOICE_Elif_Line_75.wav</ShortName>
@@ -986,7 +1826,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3196621760" Name="Elif_Line_76" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_76">
+				<Event Id="3196621760" Name="Elif_Line_76" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_76">
 					<IncludedMemoryFiles>
 						<File Id="553260377" Language="SFX">
 							<ShortName>VOICE_Elif_Line_76.wav</ShortName>
@@ -994,7 +1834,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3196621761" Name="Elif_Line_77" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_77">
+				<Event Id="3196621761" Name="Elif_Line_77" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_77">
 					<IncludedMemoryFiles>
 						<File Id="462995251" Language="SFX">
 							<ShortName>VOICE_Elif_Line_77.wav</ShortName>
@@ -1002,7 +1842,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3196621774" Name="Elif_Line_78" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_78">
+				<Event Id="3196621774" Name="Elif_Line_78" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_78">
 					<IncludedMemoryFiles>
 						<File Id="23159641" Language="SFX">
 							<ShortName>VOICE_Elif_Line_78.wav</ShortName>
@@ -1010,7 +1850,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3196621775" Name="Elif_Line_79" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_79">
+				<Event Id="3196621775" Name="Elif_Line_79" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_79">
 					<IncludedMemoryFiles>
 						<File Id="625010650" Language="SFX">
 							<ShortName>VOICE_Elif_Line_79.wav</ShortName>
@@ -1018,7 +1858,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3381175671" Name="Elif_Line_80" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_80">
+				<Event Id="3381175671" Name="Elif_Line_80" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_80">
 					<IncludedMemoryFiles>
 						<File Id="243516536" Language="SFX">
 							<ShortName>VOICE_Elif_Line_80.wav</ShortName>
@@ -1026,7 +1866,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3381175670" Name="Elif_Line_81" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_81">
+				<Event Id="3381175670" Name="Elif_Line_81" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_81">
 					<IncludedMemoryFiles>
 						<File Id="393826886" Language="SFX">
 							<ShortName>VOICE_Elif_Line_81.wav</ShortName>
@@ -1034,7 +1874,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3381175669" Name="Elif_Line_82" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_82">
+				<Event Id="3381175669" Name="Elif_Line_82" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_82">
 					<IncludedMemoryFiles>
 						<File Id="88478899" Language="SFX">
 							<ShortName>VOICE_Elif_Line_82.wav</ShortName>
@@ -1042,7 +1882,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3381175668" Name="Elif_Line_83" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_83">
+				<Event Id="3381175668" Name="Elif_Line_83" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_83">
 					<IncludedMemoryFiles>
 						<File Id="828415261" Language="SFX">
 							<ShortName>VOICE_Elif_Line_83.wav</ShortName>
@@ -1050,7 +1890,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3381175667" Name="Elif_Line_84" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_84">
+				<Event Id="3381175667" Name="Elif_Line_84" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_84">
 					<IncludedMemoryFiles>
 						<File Id="1035738033" Language="SFX">
 							<ShortName>VOICE_Elif_Line_84.wav</ShortName>
@@ -1058,7 +1898,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3381175666" Name="Elif_Line_85" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_85">
+				<Event Id="3381175666" Name="Elif_Line_85" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_85">
 					<IncludedMemoryFiles>
 						<File Id="69336625" Language="SFX">
 							<ShortName>VOICE_Elif_Line_85.wav</ShortName>
@@ -1066,7 +1906,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3381175665" Name="Elif_Line_86" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_86">
+				<Event Id="3381175665" Name="Elif_Line_86" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_86">
 					<IncludedMemoryFiles>
 						<File Id="196046455" Language="SFX">
 							<ShortName>VOICE_Elif_Line_86.wav</ShortName>
@@ -1074,7 +1914,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3381175664" Name="Elif_Line_87" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_87">
+				<Event Id="3381175664" Name="Elif_Line_87" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_87">
 					<IncludedMemoryFiles>
 						<File Id="666081136" Language="SFX">
 							<ShortName>VOICE_Elif_Line_87.wav</ShortName>
@@ -1082,7 +1922,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3381175679" Name="Elif_Line_88" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_88">
+				<Event Id="3381175679" Name="Elif_Line_88" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_88">
 					<IncludedMemoryFiles>
 						<File Id="692403253" Language="SFX">
 							<ShortName>VOICE_Elif_Line_88.wav</ShortName>
@@ -1090,7 +1930,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3381175678" Name="Elif_Line_89" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_89">
+				<Event Id="3381175678" Name="Elif_Line_89" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_89">
 					<IncludedMemoryFiles>
 						<File Id="839779863" Language="SFX">
 							<ShortName>VOICE_Elif_Line_89.wav</ShortName>
@@ -1098,7 +1938,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3364397956" Name="Elif_Line_90" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_90">
+				<Event Id="3364397956" Name="Elif_Line_90" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_90">
 					<IncludedMemoryFiles>
 						<File Id="152141755" Language="SFX">
 							<ShortName>VOICE_Elif_Line_90.wav</ShortName>
@@ -1106,7 +1946,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3364397957" Name="Elif_Line_91" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_91">
+				<Event Id="3364397957" Name="Elif_Line_91" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_91">
 					<IncludedMemoryFiles>
 						<File Id="276495576" Language="SFX">
 							<ShortName>VOICE_Elif_Line_91.wav</ShortName>
@@ -1114,7 +1954,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3364397958" Name="Elif_Line_92" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_92">
+				<Event Id="3364397958" Name="Elif_Line_92" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_92">
 					<IncludedMemoryFiles>
 						<File Id="83050589" Language="SFX">
 							<ShortName>VOICE_Elif_Line_92.wav</ShortName>
@@ -1122,7 +1962,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3364397959" Name="Elif_Line_93" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_93">
+				<Event Id="3364397959" Name="Elif_Line_93" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_93">
 					<IncludedMemoryFiles>
 						<File Id="817552559" Language="SFX">
 							<ShortName>VOICE_Elif_Line_93.wav</ShortName>
@@ -1130,7 +1970,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3364397952" Name="Elif_Line_94" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_94">
+				<Event Id="3364397952" Name="Elif_Line_94" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_94">
 					<IncludedMemoryFiles>
 						<File Id="894874905" Language="SFX">
 							<ShortName>VOICE_Elif_Line_94.wav</ShortName>
@@ -1138,7 +1978,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3364397953" Name="Elif_Line_95" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_95">
+				<Event Id="3364397953" Name="Elif_Line_95" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_95">
 					<IncludedMemoryFiles>
 						<File Id="11931665" Language="SFX">
 							<ShortName>VOICE_Elif_Line_95.wav</ShortName>
@@ -1146,7 +1986,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3364397954" Name="Elif_Line_96" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_96">
+				<Event Id="3364397954" Name="Elif_Line_96" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_96">
 					<IncludedMemoryFiles>
 						<File Id="47042650" Language="SFX">
 							<ShortName>VOICE_Elif_Line_96.wav</ShortName>
@@ -1154,7 +1994,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3364397955" Name="Elif_Line_97" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_97">
+				<Event Id="3364397955" Name="Elif_Line_97" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_97">
 					<IncludedMemoryFiles>
 						<File Id="786368888" Language="SFX">
 							<ShortName>VOICE_Elif_Line_97.wav</ShortName>
@@ -1162,7 +2002,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3364397964" Name="Elif_Line_98" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_98">
+				<Event Id="3364397964" Name="Elif_Line_98" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_98">
 					<IncludedMemoryFiles>
 						<File Id="114875625" Language="SFX">
 							<ShortName>VOICE_Elif_Line_98.wav</ShortName>
@@ -1170,7 +2010,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3364397965" Name="Elif_Line_99" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Level_03\Elif_Line_99">
+				<Event Id="3364397965" Name="Elif_Line_99" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\Old Version\Level_03\Elif_Line_99">
 					<IncludedMemoryFiles>
 						<File Id="947759051" Language="SFX">
 							<ShortName>VOICE_Elif_Line_99.wav</ShortName>
@@ -1178,7 +2018,135 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="164102079" Name="Elif_Shout_128" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_128">
+				<Event Id="628903923" Name="Elif_Line_AddOn_01" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\AddOns\Elif_Line_AddOn_01">
+					<IncludedMemoryFiles>
+						<File Id="712902985" Language="SFX">
+							<ShortName>VOICE_Elif_Line_AddOn_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_AddOn_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="628903920" Name="Elif_Line_AddOn_02" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\AddOns\Elif_Line_AddOn_02">
+					<IncludedMemoryFiles>
+						<File Id="670542951" Language="SFX">
+							<ShortName>VOICE_Elif_Line_AddOn_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_AddOn_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="628903921" Name="Elif_Line_AddOn_03" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\AddOns\Elif_Line_AddOn_03">
+					<IncludedMemoryFiles>
+						<File Id="241763372" Language="SFX">
+							<ShortName>VOICE_Elif_Line_AddOn_03.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_AddOn_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="628903926" Name="Elif_Line_AddOn_04" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\AddOns\Elif_Line_AddOn_04">
+					<IncludedMemoryFiles>
+						<File Id="99551969" Language="SFX">
+							<ShortName>VOICE_Elif_Line_AddOn_04.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_AddOn_04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="628903927" Name="Elif_Line_AddOn_05" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\AddOns\Elif_Line_AddOn_05">
+					<IncludedMemoryFiles>
+						<File Id="394294108" Language="SFX">
+							<ShortName>VOICE_Elif_Line_AddOn_05.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_AddOn_05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="628903924" Name="Elif_Line_AddOn_06" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\AddOns\Elif_Line_AddOn_06">
+					<IncludedMemoryFiles>
+						<File Id="145317066" Language="SFX">
+							<ShortName>VOICE_Elif_Line_AddOn_06.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_AddOn_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="628903925" Name="Elif_Line_AddOn_07" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\AddOns\Elif_Line_AddOn_07">
+					<IncludedMemoryFiles>
+						<File Id="247278609" Language="SFX">
+							<ShortName>VOICE_Elif_Line_AddOn_07.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_AddOn_07_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="628903930" Name="Elif_Line_AddOn_08" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\AddOns\Elif_Line_AddOn_08">
+					<IncludedMemoryFiles>
+						<File Id="506314187" Language="SFX">
+							<ShortName>VOICE_Elif_Line_AddOn_08.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_AddOn_08_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="628903931" Name="Elif_Line_AddOn_09" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\AddOns\Elif_Line_AddOn_09">
+					<IncludedMemoryFiles>
+						<File Id="304462608" Language="SFX">
+							<ShortName>VOICE_Elif_Line_AddOn_09.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_AddOn_09_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="645681509" Name="Elif_Line_AddOn_10" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\AddOns\Elif_Line_AddOn_10">
+					<IncludedMemoryFiles>
+						<File Id="769148341" Language="SFX">
+							<ShortName>VOICE_Elif_Line_AddOn_10.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_AddOn_10_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="645681508" Name="Elif_Line_AddOn_11" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\AddOns\Elif_Line_AddOn_11">
+					<IncludedMemoryFiles>
+						<File Id="865693148" Language="SFX">
+							<ShortName>VOICE_Elif_Line_AddOn_11.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_AddOn_11_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="645681511" Name="Elif_Line_AddOn_12" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\AddOns\Elif_Line_AddOn_12">
+					<IncludedMemoryFiles>
+						<File Id="957841851" Language="SFX">
+							<ShortName>VOICE_Elif_Line_AddOn_12.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_AddOn_12_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="645681510" Name="Elif_Line_AddOn_13" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\AddOns\Elif_Line_AddOn_13">
+					<IncludedMemoryFiles>
+						<File Id="421186766" Language="SFX">
+							<ShortName>VOICE_Elif_Line_AddOn_13.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_AddOn_13_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="645681505" Name="Elif_Line_AddOn_14" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\AddOns\Elif_Line_AddOn_14">
+					<IncludedMemoryFiles>
+						<File Id="283816921" Language="SFX">
+							<ShortName>VOICE_Elif_Line_AddOn_14.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_AddOn_14_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="645681504" Name="Elif_Line_AddOn_15" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\AddOns\Elif_Line_AddOn_15">
+					<IncludedMemoryFiles>
+						<File Id="282163126" Language="SFX">
+							<ShortName>VOICE_Elif_Line_AddOn_15.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_AddOn_15_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="645681507" Name="Elif_Line_AddOn_16" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Lines\New Version\AddOns\Elif_Line_AddOn_16">
+					<IncludedMemoryFiles>
+						<File Id="273759278" Language="SFX">
+							<ShortName>VOICE_Elif_Line_AddOn_16.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Line_AddOn_16_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="164102079" Name="Elif_Shout_128" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_128">
 					<IncludedMemoryFiles>
 						<File Id="269517853" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_01_02.wav</ShortName>
@@ -1202,7 +2170,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="164102078" Name="Elif_Shout_129" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_129">
+				<Event Id="164102078" Name="Elif_Shout_129" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_129">
 					<IncludedMemoryFiles>
 						<File Id="3534874" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_02_04.wav</ShortName>
@@ -1226,7 +2194,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="147324356" Name="Elif_Shout_130" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_130">
+				<Event Id="147324356" Name="Elif_Shout_130" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_130">
 					<IncludedMemoryFiles>
 						<File Id="115518860" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_03_01.wav</ShortName>
@@ -1246,7 +2214,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="147324357" Name="Elif_Shout_131" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_131">
+				<Event Id="147324357" Name="Elif_Shout_131" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_131">
 					<IncludedMemoryFiles>
 						<File Id="27194187" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_04_02.wav</ShortName>
@@ -1266,7 +2234,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="147324358" Name="Elif_Shout_132" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_132">
+				<Event Id="147324358" Name="Elif_Shout_132" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_132">
 					<IncludedMemoryFiles>
 						<File Id="350572832" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_05_04.wav</ShortName>
@@ -1290,7 +2258,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="147324359" Name="Elif_Shout_133" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_133">
+				<Event Id="147324359" Name="Elif_Shout_133" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_133">
 					<IncludedMemoryFiles>
 						<File Id="150417058" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_06_01.wav</ShortName>
@@ -1314,7 +2282,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="147324352" Name="Elif_Shout_134" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_134">
+				<Event Id="147324352" Name="Elif_Shout_134" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_134">
 					<IncludedMemoryFiles>
 						<File Id="97076189" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_07_02.wav</ShortName>
@@ -1334,7 +2302,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="147324353" Name="Elif_Shout_135" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_135">
+				<Event Id="147324353" Name="Elif_Shout_135" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_135">
 					<IncludedMemoryFiles>
 						<File Id="110618475" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_08_04.wav</ShortName>
@@ -1354,7 +2322,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="147324354" Name="Elif_Shout_136" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_136">
+				<Event Id="147324354" Name="Elif_Shout_136" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_136">
 					<IncludedMemoryFiles>
 						<File Id="868629674" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_09_05.wav</ShortName>
@@ -1378,7 +2346,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="147324355" Name="Elif_Shout_137" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_137">
+				<Event Id="147324355" Name="Elif_Shout_137" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_137">
 					<IncludedMemoryFiles>
 						<File Id="199900882" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_10_04.wav</ShortName>
@@ -1406,7 +2374,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="147324364" Name="Elif_Shout_138" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_138">
+				<Event Id="147324364" Name="Elif_Shout_138" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_138">
 					<IncludedMemoryFiles>
 						<File Id="197720469" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_11_05.wav</ShortName>
@@ -1438,7 +2406,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="147324365" Name="Elif_Shout_139" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_139">
+				<Event Id="147324365" Name="Elif_Shout_139" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_139">
 					<IncludedMemoryFiles>
 						<File Id="127977352" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_12_04.wav</ShortName>
@@ -1490,7 +2458,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="130546769" Name="Elif_Shout_140" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_140">
+				<Event Id="130546769" Name="Elif_Shout_140" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_140">
 					<IncludedMemoryFiles>
 						<File Id="325823287" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_13_03.wav</ShortName>
@@ -1518,7 +2486,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="130546768" Name="Elif_Shout_141" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_141">
+				<Event Id="130546768" Name="Elif_Shout_141" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_141">
 					<IncludedMemoryFiles>
 						<File Id="387591812" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_14_02.wav</ShortName>
@@ -1538,7 +2506,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="130546771" Name="Elif_Shout_142" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_142">
+				<Event Id="130546771" Name="Elif_Shout_142" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_142">
 					<IncludedMemoryFiles>
 						<File Id="20708272" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_15_01.wav</ShortName>
@@ -1566,7 +2534,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="130546770" Name="Elif_Shout_143" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_143">
+				<Event Id="130546770" Name="Elif_Shout_143" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_143">
 					<IncludedMemoryFiles>
 						<File Id="84966942" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_16_04.wav</ShortName>
@@ -1598,7 +2566,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="130546773" Name="Elif_Shout_144" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_144">
+				<Event Id="130546773" Name="Elif_Shout_144" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_144">
 					<IncludedMemoryFiles>
 						<File Id="114581979" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_17_02.wav</ShortName>
@@ -1626,7 +2594,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="130546772" Name="Elif_Shout_145" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_145">
+				<Event Id="130546772" Name="Elif_Shout_145" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_145">
 					<IncludedMemoryFiles>
 						<File Id="409503084" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_18_01.wav</ShortName>
@@ -1642,7 +2610,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="130546775" Name="Elif_Shout_146" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_146">
+				<Event Id="130546775" Name="Elif_Shout_146" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_146">
 					<IncludedMemoryFiles>
 						<File Id="276500883" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_19_05.wav</ShortName>
@@ -1666,7 +2634,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="130546774" Name="Elif_Shout_147" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_147">
+				<Event Id="130546774" Name="Elif_Shout_147" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_147">
 					<IncludedMemoryFiles>
 						<File Id="250429466" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_20_01.wav</ShortName>
@@ -1682,7 +2650,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="130546777" Name="Elif_Shout_148" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_148">
+				<Event Id="130546777" Name="Elif_Shout_148" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_148">
 					<IncludedMemoryFiles>
 						<File Id="861101708" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_21_01.wav</ShortName>
@@ -1694,7 +2662,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="130546776" Name="Elif_Shout_149" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_149">
+				<Event Id="130546776" Name="Elif_Shout_149" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_149">
 					<IncludedMemoryFiles>
 						<File Id="508254240" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_22_01.wav</ShortName>
@@ -1706,7 +2674,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="113769214" Name="Elif_Shout_150" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Elif_Shout_150">
+				<Event Id="113769214" Name="Elif_Shout_150" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Elif_Shout_150">
 					<IncludedMemoryFiles>
 						<File Id="116948334" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_23_02.wav</ShortName>
@@ -1723,6 +2691,174 @@
 						<File Id="870417040" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_23_04.wav</ShortName>
 							<Path>SFX\VOICE_Elif_Shout_23_04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3057357846" Name="Elif_Shout_24" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\New Version\Elif_Shout_24">
+					<IncludedMemoryFiles>
+						<File Id="932704931" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_24.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_24_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3057357847" Name="Elif_Shout_25" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\New Version\Elif_Shout_25">
+					<IncludedMemoryFiles>
+						<File Id="873063446" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_25.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_25_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3057357844" Name="Elif_Shout_26" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\New Version\Elif_Shout_26">
+					<IncludedMemoryFiles>
+						<File Id="7932225" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_26_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_26_01_10C4C929.wem</Path>
+						</File>
+						<File Id="488349963" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_26_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_26_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3057357845" Name="Elif_Shout_27" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\New Version\Elif_Shout_27">
+					<IncludedMemoryFiles>
+						<File Id="859113259" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_27_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_27_01_10C4C929.wem</Path>
+						</File>
+						<File Id="917954263" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_27_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_27_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3057357850" Name="Elif_Shout_28" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\New Version\Elif_Shout_28">
+					<IncludedMemoryFiles>
+						<File Id="510732186" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_28_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_28_01_10C4C929.wem</Path>
+						</File>
+						<File Id="809854865" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_28_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_28_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3057357851" Name="Elif_Shout_29" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\New Version\Elif_Shout_29">
+					<IncludedMemoryFiles>
+						<File Id="322290889" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_29_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_29_01_10C4C929.wem</Path>
+						</File>
+						<File Id="591081179" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_29_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_29_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3074135429" Name="Elif_Shout_30" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\New Version\Elif_Shout_30">
+					<IncludedMemoryFiles>
+						<File Id="307719616" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_30_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_30_01_10C4C929.wem</Path>
+						</File>
+						<File Id="413629898" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_30_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_30_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3074135428" Name="Elif_Shout_31" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\New Version\Elif_Shout_31">
+					<IncludedMemoryFiles>
+						<File Id="453174968" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_31_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_31_01_10C4C929.wem</Path>
+						</File>
+						<File Id="741549163" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_31_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_31_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3074135431" Name="Elif_Shout_32" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\New Version\Elif_Shout_32">
+					<IncludedMemoryFiles>
+						<File Id="173730385" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_32_03.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_32_03_10C4C929.wem</Path>
+						</File>
+						<File Id="435485601" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_32_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_32_02_10C4C929.wem</Path>
+						</File>
+						<File Id="573893970" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_32_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_32_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3074135430" Name="Elif_Shout_33" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\New Version\Elif_Shout_33">
+					<IncludedMemoryFiles>
+						<File Id="841441950" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_33.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_33_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3074135425" Name="Elif_Shout_34" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\New Version\Elif_Shout_34">
+					<IncludedMemoryFiles>
+						<File Id="737571711" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_34_04.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_34_04_10C4C929.wem</Path>
+						</File>
+						<File Id="832530626" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_34_03.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_34_03_10C4C929.wem</Path>
+						</File>
+						<File Id="920621446" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_34_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_34_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1013107192" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_34_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_34_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3074135424" Name="Elif_Shout_35" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\New Version\Elif_Shout_35">
+					<IncludedMemoryFiles>
+						<File Id="155583734" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_35_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_35_01_10C4C929.wem</Path>
+						</File>
+						<File Id="721052066" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_35_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_35_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3074135427" Name="Elif_Shout_36" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\New Version\Elif_Shout_36">
+					<IncludedMemoryFiles>
+						<File Id="295010177" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_36_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_36_01_10C4C929.wem</Path>
+						</File>
+						<File Id="320033768" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_36_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_36_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3074135426" Name="Elif_Shout_37" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\New Version\Elif_Shout_37">
+					<IncludedMemoryFiles>
+						<File Id="611827472" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_37_02.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_37_02_10C4C929.wem</Path>
+						</File>
+						<File Id="940142519" Language="SFX">
+							<ShortName>VOICE_Elif_Shout_37_01.wav</ShortName>
+							<Path>SFX\VOICE_Elif_Shout_37_01_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -3168,7 +4304,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="909599973" Name="Play_Voice_Elif_CallCrocus" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Play_Voice_Elif_CallCrocus">
+				<Event Id="909599973" Name="Play_Voice_Elif_CallCrocus" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Play_Voice_Elif_CallCrocus">
 					<IncludedMemoryFiles>
 						<File Id="20708272" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_15_01.wav</ShortName>
@@ -3260,7 +4396,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3160771474" Name="Play_Voice_Elif_Death" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Play_Voice_Elif_Death">
+				<Event Id="3160771474" Name="Play_Voice_Elif_Death" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Play_Voice_Elif_Death">
 					<IncludedMemoryFiles>
 						<File Id="150417058" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_06_01.wav</ShortName>
@@ -3324,7 +4460,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="494419104" Name="Play_Voice_Elif_Jump" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Play_Voice_Elif_Jump">
+				<Event Id="494419104" Name="Play_Voice_Elif_Jump" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Play_Voice_Elif_Jump">
 					<IncludedMemoryFiles>
 						<File Id="127977352" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_12_04.wav</ShortName>
@@ -3404,7 +4540,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1708979588" Name="Play_Voice_Elif_Whitsle" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Play_Voice_Elif_Whitsle">
+				<Event Id="1708979588" Name="Play_Voice_Elif_Whitsle" ObjectPath="\Events\VOICES_WU\VOICE_WU\Elif\Shout\Old Version\Play_Voice_Elif_Whitsle">
 					<IncludedMemoryFiles>
 						<File Id="84966942" Language="SFX">
 							<ShortName>VOICE_Elif_Shout_16_04.wav</ShortName>
