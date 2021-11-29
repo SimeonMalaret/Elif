@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Components/BoxComponent.h"
 #include "DreamHuntersCharacter.generated.h"
 
 UCLASS(config=Game)
@@ -18,6 +19,7 @@ class ADreamHuntersCharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
 public:
 	ADreamHuntersCharacter();
 
@@ -28,6 +30,18 @@ public:
 	/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Push)
+	bool isPushing;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Push)
+	bool isNearWall;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Push)
+	float valueFrontAxis;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Push)
+	float valueRightAxis;
 
 protected:
 

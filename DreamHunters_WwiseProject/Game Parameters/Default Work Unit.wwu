@@ -4,6 +4,28 @@
 		<WorkUnit Name="Default Work Unit" ID="{A13D3AEA-9B5F-4A42-AD3E-A2D3FF96D5A6}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="Wind_Strength" ID="{3A546F9C-77FC-4DB6-B63D-9F57D76B44CF}"/>
+				<Folder Name="Volumes" ID="{447BEF18-CE14-4517-8A0F-3B98303D9A42}" ShortID="948941326">
+					<ChildrenList>
+						<GameParameter Name="Volume_SFX" ID="{E2B8D4E9-FCEE-402C-81DD-E89F245AE1A8}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Volume_Music" ID="{37614BA0-385B-45A7-8FB2-0B119CCFD46A}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Volume_Voices" ID="{6FB3BD88-4621-4615-8E30-D22FC627C660}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -3,438 +3,89 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{82AEC79B-3828-4107-8E49-86AABC9DA012}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="flowerBell" ID="{E80FA304-F1FC-4A81-AF0D-A93303FBEE18}">
+				<Event Name="Pause" ID="{88F999DB-A653-4741-8CBB-631DD6537368}">
 					<ChildrenList>
-						<Action Name="" ID="{1DAD40EE-8E1F-4394-89D8-B3E4D8DE5585}" ShortID="70901369">
+						<Action Name="" ID="{9665430C-926A-45C3-BC38-74A4ED5EA64C}" ShortID="40142775">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="8"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+							<ChildrenList>
+								<EventActionException Name="" ID="{BAC1BAA2-1EC9-4B9B-A7EF-09899FD03A09}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Mswt" ID="{3A8D1027-9B7B-4F2B-A543-6563D89C78F9}" WorkUnitID="{F0E70CF2-F4D6-4D89-A4A9-DAD98C803122}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+							</ChildrenList>
+						</Action>
+						<Action Name="" ID="{C26F5002-19C6-411C-A369-9ACAECF1CE6B}" ShortID="1673475">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-10"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SnowInn-002" ID="{C45E3D1E-3838-47D4-8550-51B52BE3BF6B}" WorkUnitID="{2E9003C5-BBDE-4799-BFE6-B216510B1FDB}"/>
+									<ObjectRef Name="Music_Mswt" ID="{3A8D1027-9B7B-4F2B-A543-6563D89C78F9}" WorkUnitID="{F0E70CF2-F4D6-4D89-A4A9-DAD98C803122}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Folder Name="MC" ID="{5DAE81D5-1A08-4B13-BC90-16FE44D8050C}" ShortID="579113103">
+				<Event Name="Resume" ID="{B1CC1343-E2A2-4F83-B7F0-F873B4F4AAF1}">
 					<ChildrenList>
-						<Event Name="Play_MC_Locomotion" ID="{F003A863-C8ED-47BC-850C-C197211875D9}">
-							<ChildrenList>
-								<Action Name="" ID="{B9D87AC0-77CF-4284-BF8A-E56CB96C7FC4}" ShortID="1040513930">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="MC Footsteps_Swt" ID="{7D53D200-557B-48ED-A752-1C0E82F7E5AB}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{CC05A55E-65EC-465E-93A1-0503996F3E47}" ShortID="748482619">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="MC Foley Locomotion_Swt" ID="{2C05CEBB-16E7-43B5-87E8-0CB1E3CAF646}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Set_GroundType_Grass" ID="{BB773E30-4BC5-4511-AFEE-F8739818A5C3}">
-							<ChildrenList>
-								<Action Name="" ID="{5A477D4A-F2FB-4513-BB4E-6DA36B867D9E}" ShortID="437898768">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="23"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Grass" ID="{56CA2DE1-B733-48FE-B3EA-5A1AE126F2FE}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Set_MC_Run" ID="{9732769B-2371-4C57-A147-B7557744BC4D}">
-							<ChildrenList>
-								<Action Name="" ID="{13096FBD-EE15-4213-9A2F-A5AE60967004}" ShortID="105985857">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="23"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Run" ID="{9B1A6ADB-E4F3-4270-A68D-5C57DFC1E3AA}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Set_MC_Walk" ID="{00D04D3A-8F65-45AF-A850-3A5CDD11D5ED}">
-							<ChildrenList>
-								<Action Name="" ID="{63EF1791-0E86-4F0D-952F-9C5AC47255CC}" ShortID="209238696">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="23"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Walk" ID="{CC3A3775-0B1E-427B-8F88-A6C3C2390DF8}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_MC_Jump" ID="{7B9ABD3C-E3CF-47F2-8D09-96A2BF9AC119}">
-							<ChildrenList>
-								<Action Name="" ID="{E74163A0-6052-4FBD-A63E-C3D11904EE15}" ShortID="782122929">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="MC  JumpType_Swt" ID="{DA4826D6-892D-4CA2-8465-02E932D3D78A}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{005BA68F-77F4-41A0-BB21-EF7BFD420134}" ShortID="1024710641">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="MC Foley Jump_Rnd" ID="{5E1D64D4-E171-4644-9C31-C9B750595D20}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Set_MC_Sneak" ID="{6393B650-A9B8-4BDA-8053-147F020A1FB7}">
-							<ChildrenList>
-								<Action Name="" ID="{15656AFB-6A6E-4747-A8CD-EA7E3EBE0C71}" ShortID="561709766">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="23"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Sneak" ID="{8BD77874-A1A9-4CB6-96D8-746D09D5C98E}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_MC_Land" ID="{4E0801EE-A173-4CBA-9C5C-FD7CEA93953C}">
-							<ChildrenList>
-								<Action Name="" ID="{6B9D2CCF-8C59-484E-BB02-9277E1E2FFB2}" ShortID="1037925768">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="MC  LandType_Swt" ID="{5A8EB636-603B-4900-A592-15B8F9B1B37B}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{DCAB238A-4C16-47A2-AE59-D7782A1BE9F0}" ShortID="501570699">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="MC Foley Land_Rnd" ID="{4138ACAE-7235-418F-A3C7-107FCC131BAF}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
+						<Action Name="" ID="{F975F0E8-3F1E-4311-8D1E-0A62B0FF40E4}" ShortID="911139414">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="10"/>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{68778BA1-626A-45DE-A7FD-158CE0352B25}" ShortID="356559714">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="16"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Mswt" ID="{3A8D1027-9B7B-4F2B-A543-6563D89C78F9}" WorkUnitID="{F0E70CF2-F4D6-4D89-A4A9-DAD98C803122}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
-				</Folder>
-				<Folder Name="AMB" ID="{8632A952-6A2B-48C6-9382-850F03B7DAB9}" ShortID="622297346">
+				</Event>
+				<Event Name="Stop_All" ID="{0E001828-D070-4267-8603-CC2F46E0FB37}">
 					<ChildrenList>
-						<Event Name="Play_Grass_Movement" ID="{DD6D4C93-19B4-452E-B86D-04086E01F040}">
+						<Action Name="" ID="{3CC63885-2399-416E-B818-83718EB4BE4D}" ShortID="418500830">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
 							<ChildrenList>
-								<Action Name="" ID="{C9208ECC-DB43-4C87-A043-8B636BB96275}" ShortID="77138268">
+								<EventActionException Name="" ID="{4559B5CD-F9A2-42BF-8C84-CBB1D3A561FD}">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Grass Movement_Rnd" ID="{588245F8-8DAA-4B80-83D0-4CC529066C1C}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
+											<ObjectRef Name="Music_Mswt" ID="{3A8D1027-9B7B-4F2B-A543-6563D89C78F9}" WorkUnitID="{F0E70CF2-F4D6-4D89-A4A9-DAD98C803122}"/>
 										</Reference>
 									</ReferenceList>
-								</Action>
+								</EventActionException>
 							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_Stealth_lp" ID="{3D7531AC-075A-47E0-A4E5-1FC3FC4CD622}">
-							<ChildrenList>
-								<Action Name="" ID="{88B6F14D-7D07-4BA1-BCAA-C15437821C0C}" ShortID="742933008">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SFX_AMB_LOOP_STEALTH_LP" ID="{2D6DDAC2-B484-4F84-BDF2-08F74B0B4F76}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Wind_lp" ID="{059D1E3C-36AA-4920-94D0-6772567D6876}">
-							<ChildrenList>
-								<Action Name="" ID="{141E3805-FEB9-4CF4-8FCA-8B22CDB801C8}" ShortID="577691353">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Winds_Blnd" ID="{82AF1700-3D72-4875-A439-E7FA1470C8E3}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_WindGust" ID="{44041624-B8B2-4ADD-83E8-60577AAB96DF}">
-							<ChildrenList>
-								<Action Name="" ID="{62C96F57-7C88-4EDD-9FCD-284DE229F857}" ShortID="131093884">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Wind Gust_Rnd" ID="{088EFD73-52EB-483A-A8ED-3244CC4DF263}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_Amb_Stealth_lp" ID="{98D4CCEA-6C5A-4825-9CAC-F0A75D3FB34C}">
-							<ChildrenList>
-								<Action Name="" ID="{C40B9566-4A8A-404C-993B-D45D53DD1BC3}" ShortID="418503869">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SFX_AMB_LOOP_STEALTH_LP" ID="{2D6DDAC2-B484-4F84-BDF2-08F74B0B4F76}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_Wind_lp" ID="{8912BA44-7AE1-447B-91BD-03A80BCCD8C9}">
-							<ChildrenList>
-								<Action Name="" ID="{EB8FB200-CB32-4D8E-8BB7-1DD6A5DF34E5}" ShortID="379823182">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Winds_Blnd" ID="{82AF1700-3D72-4875-A439-E7FA1470C8E3}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
+						</Action>
 					</ChildrenList>
-				</Folder>
-				<Folder Name="MUSIC" ID="{ADF3079B-4E83-47E1-86BD-3F0EF9B2C083}" ShortID="714731444">
-					<ChildrenList>
-						<Event Name="Play_Music_Stealth" ID="{1E0AFC34-25BF-4069-9D42-5BFC14CEF2FC}">
-							<ChildrenList>
-								<Action Name="" ID="{F5E181BA-B30C-4201-910A-EE9993382436}" ShortID="312704472">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Stealth" ID="{D70FCDA5-EFE9-478C-A20B-492CAA0E246E}" WorkUnitID="{F0E70CF2-F4D6-4D89-A4A9-DAD98C803122}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_Music_Stealth" ID="{A88384C0-B1FA-4FA4-B01F-99DC32B1A1CE}">
-							<ChildrenList>
-								<Action Name="" ID="{DBBE16AA-10B4-4A61-9092-3D46B98C8F49}" ShortID="867455134">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Stealth" ID="{D70FCDA5-EFE9-478C-A20B-492CAA0E246E}" WorkUnitID="{F0E70CF2-F4D6-4D89-A4A9-DAD98C803122}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_Music_Runner" ID="{E0325D8E-E7A6-4CDE-9726-57848495061C}">
-							<ChildrenList>
-								<Action Name="" ID="{0FD1C1E1-BD91-4C2F-8FD7-89612EDC7527}" ShortID="1013082198">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Runner" ID="{562A805B-A646-4784-8CEB-74E23B8F1242}" WorkUnitID="{F0E70CF2-F4D6-4D89-A4A9-DAD98C803122}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Music_Runner" ID="{348CB275-E45F-4F7C-86C3-5A975D151E7C}">
-							<ChildrenList>
-								<Action Name="" ID="{904D7107-C792-47C3-9E26-A496163B15D6}" ShortID="361130739">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Runner" ID="{562A805B-A646-4784-8CEB-74E23B8F1242}" WorkUnitID="{F0E70CF2-F4D6-4D89-A4A9-DAD98C803122}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="LEVEL" ID="{E39AFA45-023B-4793-B9E3-93155C3CC553}" ShortID="285845601">
-					<ChildrenList>
-						<Folder Name="PROPS" ID="{2D9125DF-6C53-4D9D-B93D-9D4AD0E9A074}" ShortID="801059867">
-							<ChildrenList>
-								<Folder Name="Balloon" ID="{7659D888-87AE-499A-A20A-872553CAF9C8}" ShortID="122969368">
-									<ChildrenList>
-										<Event Name="Play_Balloon_Roll" ID="{27B78684-437F-418C-8A2B-19C1F7B09AE9}">
-											<ChildrenList>
-												<Action Name="" ID="{94806F10-6DBD-4AD2-9713-57CA2110C30A}" ShortID="732883211">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Balloon Roll_Rnd" ID="{F7FEACA6-E795-438D-BDD7-D85E8CB19C24}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Play_Balloon_Explosion" ID="{193188C0-18EE-4B30-8FDB-E7F1422722DB}">
-											<ChildrenList>
-												<Action Name="" ID="{CD7005BF-FC9A-4422-B484-681ED805DFD9}" ShortID="365047650">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Balloon Pop_Rnd" ID="{5817ADE3-640D-4588-9D05-F3AB91830AF7}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-									</ChildrenList>
-								</Folder>
-								<Folder Name="FlowerBell" ID="{570C379E-B20F-4738-9273-52DA593EE323}" ShortID="370880057">
-									<ChildrenList>
-										<Event Name="Play_FlowerBell_Ring" ID="{E7DB0B63-1320-4C01-87B3-29DEF94D193A}">
-											<ChildrenList>
-												<Action Name="" ID="{DD2646C8-4DC7-4E7D-96C4-E93A84381F4D}" ShortID="510025123">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="FlowerBell Ring_Rnd" ID="{FD7C0F0E-22C8-4F8A-827A-3016B6CF24C1}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Play_FlowerBell_Shake" ID="{90818A7C-9876-4645-A00C-EDA10C8EB08A}">
-											<ChildrenList>
-												<Action Name="" ID="{552E72B7-5973-40AC-A016-4B31B5E6DE9F}" ShortID="1066908932">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="FlowerBell Shake_Rnd" ID="{4DB5D383-C2C5-4A5E-BC21-376B6ECCAF20}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-									</ChildrenList>
-								</Folder>
-								<Folder Name="Rocket" ID="{A8684FFA-D39A-4FB1-8333-272FADA126C8}" ShortID="732541838">
-									<ChildrenList>
-										<Event Name="Play_Rocket_Forward_lp" ID="{F8A9F9DA-6ADB-4D80-B581-064E464980CD}">
-											<ChildrenList>
-												<Action Name="" ID="{B33DFCE2-19FC-4688-89DD-97A66647EA6F}" ShortID="812593661">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Rocket Forward_Rnd" ID="{19C4499C-F745-4AC2-A2FD-3391A87240BD}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Play_Rocket_Overheat_lp" ID="{787E29A0-C45B-491D-8B12-BA004758132E}">
-											<ChildrenList>
-												<Action Name="" ID="{76DFA0F0-38E9-4B01-8490-9CAE905BC040}" ShortID="548110219">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Roket Overheat_Rnd" ID="{AE25EA0D-161A-4A3C-981E-501C2AB094B7}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Play_Rocket_Explosion" ID="{8D76A16B-765B-4C5A-8F09-E302DE5E44C3}">
-											<ChildrenList>
-												<Action Name="" ID="{B8E34CC0-BD21-4258-BB79-CBB2F4AE04EA}" ShortID="439960531">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Rocket Explosion_Rnd" ID="{EC6735C2-D362-4D25-B8AE-05C5C3F532CE}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Stop_Rocket_Forward_lp" ID="{CF31723C-CAF0-4650-96FE-B7866EEE151E}">
-											<ChildrenList>
-												<Action Name="" ID="{F1333798-0A44-4E2F-9420-19E679178D53}" ShortID="27142329">
-													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Rocket Forward_Rnd" ID="{19C4499C-F745-4AC2-A2FD-3391A87240BD}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Stop_Rocket_Overheat_lp" ID="{CEBD3D4A-1EA2-4BA5-96C7-59897D6A344C}">
-											<ChildrenList>
-												<Action Name="" ID="{6209725E-8A5B-4F57-A8EC-FB9893D3B4CE}" ShortID="492492150">
-													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Roket Overheat_Rnd" ID="{AE25EA0D-161A-4A3C-981E-501C2AB094B7}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-									</ChildrenList>
-								</Folder>
-								<Folder Name="Pinata" ID="{1136983D-02AE-423F-BBB4-1D6FBBA381EE}" ShortID="318229129">
-									<ChildrenList>
-										<Event Name="Play_Pinata_Explosion" ID="{CA12B8FF-A321-4952-BD4A-0F383E471F3B}">
-											<ChildrenList>
-												<Action Name="" ID="{5364A0C2-6C7E-4523-8FB8-3EBA43BB3DE4}" ShortID="592019570">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Pinata Explosion_Rnd" ID="{7529EBCD-09EB-40CE-A86F-DE84F4BECB34}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-									</ChildrenList>
-								</Folder>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="DOORS" ID="{00C5EAE6-B3E5-4B8B-A7DF-37FE47B523DF}" ShortID="481654524">
-							<ChildrenList>
-								<Event Name="Play_CommonDoor_Closed" ID="{DD4E7E3D-9BC9-4FE0-94B4-3187F02043D1}">
-									<ChildrenList>
-										<Action Name="" ID="{A10C4B27-BB44-4481-B786-4DE6297C67D9}" ShortID="199443580">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="CommonDoor Closed_Rnd" ID="{1AF24D4D-1A92-4A48-9816-DF88F191EA50}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Play_CommonDoor_Open" ID="{8DD0CF7A-B81A-41FC-8658-4713D2C21B3D}">
-									<ChildrenList>
-										<Action Name="" ID="{E049C9C8-3F2B-4AE4-8AB9-60D03CB92091}" ShortID="902565788">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="CommonDoor Open_Rnd" ID="{263BC514-74BF-489D-B088-76395BBCB121}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Play_BookDoor_01" ID="{A4E9FA68-20B2-45C3-942B-9AEB6B7A101C}">
-									<ChildrenList>
-										<Action Name="" ID="{D954FF44-C59D-4153-A132-9A038C5D9826}" ShortID="442483988">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="BookDoor 01_Rnd" ID="{768455BA-FC30-4670-9576-AF501D00CC64}" WorkUnitID="{868A1FE8-5829-4F21-9B5B-F8EBABADDC2B}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-							</ChildrenList>
-						</Folder>
-					</ChildrenList>
-				</Folder>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6671F2CD-9BC3-4355-A423-121894AF49E0}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="MC EVENT_WU" ID="{6671F2CD-9BC3-4355-A423-121894AF49E0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="MC" ID="{5DAE81D5-1A08-4B13-BC90-16FE44D8050C}" ShortID="579113103">
+					<ChildrenList>
+						<Event Name="Play_MC_Locomotion" ID="{F003A863-C8ED-47BC-850C-C197211875D9}">
+							<ChildrenList>
+								<Action Name="" ID="{CC05A55E-65EC-465E-93A1-0503996F3E47}" ShortID="748482619">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC Foley Locomotion_Swt" ID="{2C05CEBB-16E7-43B5-87E8-0CB1E3CAF646}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9ED51F0E-8E6C-4B40-84FD-8EF31D0E608E}" ShortID="76553732">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC  Walk  Wood_Rnd" ID="{EBFB0087-B713-4610-9075-C698F1A72672}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_GroundType_Grass" ID="{BB773E30-4BC5-4511-AFEE-F8739818A5C3}">
+							<ChildrenList>
+								<Action Name="" ID="{5A477D4A-F2FB-4513-BB4E-6DA36B867D9E}" ShortID="437898768">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grass" ID="{56CA2DE1-B733-48FE-B3EA-5A1AE126F2FE}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_MC_Run" ID="{9732769B-2371-4C57-A147-B7557744BC4D}">
+							<ChildrenList>
+								<Action Name="" ID="{13096FBD-EE15-4213-9A2F-A5AE60967004}" ShortID="105985857">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Run" ID="{9B1A6ADB-E4F3-4270-A68D-5C57DFC1E3AA}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_MC_Walk" ID="{00D04D3A-8F65-45AF-A850-3A5CDD11D5ED}">
+							<ChildrenList>
+								<Action Name="" ID="{63EF1791-0E86-4F0D-952F-9C5AC47255CC}" ShortID="209238696">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Walk" ID="{CC3A3775-0B1E-427B-8F88-A6C3C2390DF8}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MC_Jump" ID="{7B9ABD3C-E3CF-47F2-8D09-96A2BF9AC119}">
+							<ChildrenList>
+								<Action Name="" ID="{005BA68F-77F4-41A0-BB21-EF7BFD420134}" ShortID="1024710641">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC Foley Jump_Rnd" ID="{5E1D64D4-E171-4644-9C31-C9B750595D20}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AF57A0C1-0A26-4273-8581-46663E8FA807}" ShortID="949590900">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Jump_Wood" ID="{472026C4-CF47-44DC-942B-19A3730A53A5}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MC_Land" ID="{4E0801EE-A173-4CBA-9C5C-FD7CEA93953C}">
+							<ChildrenList>
+								<Action Name="" ID="{DCAB238A-4C16-47A2-AE59-D7782A1BE9F0}" ShortID="501570699">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC Foley Land_Rnd" ID="{4138ACAE-7235-418F-A3C7-107FCC131BAF}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7B9D2F98-2F0C-45ED-9D28-F9A8866541F0}" ShortID="86450336">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_LAND_WOOD" ID="{61E93789-0B92-4F3C-BDCF-47DA1A40E88B}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MC_Bounce" ID="{278F6091-5357-4FDD-BD09-72B964CEF0F0}">
+							<ChildrenList>
+								<Action Name="" ID="{3BE7C6BF-E32E-49C3-85B3-57E1FC1768F0}" ShortID="315368489">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC Bounce_Rnd" ID="{2A5A2F4A-9DE6-4470-9C4C-60CA0A10DB86}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MC_PickUpItem" ID="{A6B557D9-0A9C-44ED-A9C9-9B5F8B1E91B8}">
+							<ChildrenList>
+								<Action Name="" ID="{54EDA833-9322-4D0E-938C-8F149B703D6F}" ShortID="1016832709">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pick_Up_Items_Rnd" ID="{45DF4454-FE46-45F6-BF05-3662037DBC91}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MC_DropItem" ID="{EC1746C6-A1BA-4082-B2EA-037AB80F5534}">
+							<ChildrenList>
+								<Action Name="" ID="{13B9A617-C285-4C69-9FC9-82E2D2548408}" ShortID="170992555">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Drop_Item_Rnd" ID="{D174C3B3-25EF-499B-8318-6C241C9E7743}" WorkUnitID="{FE5138B2-C29C-4952-875E-03AC60EF23C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_GroundType_Wood" ID="{77E43885-D4EB-4972-A8F9-76FF86021FD6}">
+							<ChildrenList>
+								<Action Name="" ID="{8DE726C0-3FEB-4405-AE2B-587106103EF3}" ShortID="182987112">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wood" ID="{594854C9-E4C6-49C7-B80D-B060D12C7BE8}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_GroundType_Concrete" ID="{40AB3CFB-D42F-4578-B1D8-2228CA2A185C}">
+							<ChildrenList>
+								<Action Name="" ID="{AB9FC4B3-5E9C-452F-AFC0-43C4A86552C7}" ShortID="988230558">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Concrete" ID="{AF36820A-3EAA-4A55-8710-431A0FDDC733}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_GroundType_Sand" ID="{6A4AF8F5-AEB6-4EA1-9F24-9DCC5F92E40B}">
+							<ChildrenList>
+								<Action Name="" ID="{37883C58-03E7-46DB-B368-4A098654A509}" ShortID="1034330598">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sand" ID="{F266EB19-16F1-479D-A42C-780ABDA1835D}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_GroundType_Leather" ID="{F44F5C10-D12C-47A1-8B50-8F5869297F31}">
+							<ChildrenList>
+								<Action Name="" ID="{885A31D8-DC06-451F-BE7C-52BCBDF5D819}" ShortID="926376066">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Leather" ID="{7DD3B37E-574F-4009-8438-5C6ABC3CAF0D}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_GroundType_Carpet" ID="{0593353C-4608-48DD-A26C-31140D3C1949}">
+							<ChildrenList>
+								<Action Name="" ID="{6C4B858E-2E73-477D-9F7C-A33F70824D0B}" ShortID="274611145">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Carpet" ID="{BCD53425-3E2F-4F10-AD81-8DEE29C350FE}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_GroundType_Metal" ID="{29514CA6-8CD1-4293-A874-8E9005F33421}">
+							<ChildrenList>
+								<Action Name="" ID="{6F0DBD6F-E435-4B73-B442-24DD4E39E892}" ShortID="563813610">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Metal" ID="{D1E7B854-996E-4014-9CF1-803CCD29AB83}" WorkUnitID="{D0F2B87D-D636-4FA4-B7D3-0B213B83D9D3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

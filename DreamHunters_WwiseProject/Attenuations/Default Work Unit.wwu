@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}" PersistMode="Standalone">
 			<ChildrenList>
 				<Attenuation Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" ShortID="775038903">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="3500"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -16,11 +19,11 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>Exp1</SegmentShape>
+											<SegmentShape>Log2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
-											<YPos>-26.92706</YPos>
+											<XPos>3500</XPos>
+											<YPos>-20</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -47,7 +50,7 @@
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>3500</XPos>
 											<YPos>59</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -72,7 +75,7 @@
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>3500</XPos>
 											<YPos>3.6036</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -87,7 +90,7 @@
 				</Attenuation>
 				<Attenuation Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" ShortID="319115701">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="50"/>
+						<Property Name="RadiusMax" Type="Real64" Value="3500"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -104,8 +107,8 @@
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>50</XPos>
-											<YPos>-200</YPos>
+											<XPos>3500</XPos>
+											<YPos>-15</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -132,7 +135,7 @@
 											<SegmentShape>Exp2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>50</XPos>
+											<XPos>3500</XPos>
 											<YPos>51</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -157,7 +160,7 @@
 											<SegmentShape>Log2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>50</XPos>
+											<XPos>3500</XPos>
 											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>
