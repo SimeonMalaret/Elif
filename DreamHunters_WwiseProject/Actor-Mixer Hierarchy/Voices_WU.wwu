@@ -5167,6 +5167,7 @@
 						</ActorMixer>
 						<ActorMixer Name="Lines_AM" ID="{522CE7A1-5B5F-486C-A7E9-ADADF05474EC}" ShortID="221993370">
 							<PropertyList>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -5176,7 +5177,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+									<ObjectRef Name="Temporary Compression Voices" ID="{676F5590-D4AA-40E8-8EF1-12FA0CAFA7ED}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
@@ -8632,7 +8633,7 @@
 												<Sound Name="VOICE_Elif_Line_128" ID="{0E776180-45AB-4199-B271-FAC6387B0E6D}" ShortID="130208956">
 													<ReferenceList>
 														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+															<ObjectRef Name="Temporary Compression Voices" ID="{676F5590-D4AA-40E8-8EF1-12FA0CAFA7ED}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
