@@ -317,13 +317,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Folder Name="Dog Respond" ID="{F7F89155-12F9-4DDB-8030-ADBF5A2DE4A4}" ShortID="333610902">
-									<ChildrenList>
-										<Event Name="Play_Dog_Respond01" ID="{60EDB195-BBD5-4059-A87A-FC718086E1EA}"/>
-										<Event Name="Play_Dog_Respond02" ID="{67F518E7-8947-460D-9B4A-B1ED9BBF6825}"/>
-										<Event Name="Play_Dog_Respond03" ID="{9B7260D7-90A4-4F5A-9848-FFCC77F78C91}"/>
-									</ChildrenList>
-								</Folder>
+								<Folder Name="Dog Respond" ID="{F7F89155-12F9-4DDB-8030-ADBF5A2DE4A4}" ShortID="333610902"/>
 								<Event Name="Play_DoggyToy_Stuck" ID="{644289B8-E957-438A-BAB5-06EA65988B2B}">
 									<ChildrenList>
 										<Action Name="" ID="{2E476776-B245-448D-9385-1B83C1511DAC}" ShortID="1049574150">
