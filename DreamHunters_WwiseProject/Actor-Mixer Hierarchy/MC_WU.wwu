@@ -1459,6 +1459,546 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<Folder Name="Footsteps" ID="{11FDC4CF-30FF-4B28-B04B-51BC679D6263}" ShortID="310524889">
+											<ChildrenList>
+												<Folder Name="FT_Coussin" ID="{0B1FFBF4-C38D-4308-90BF-8D81783C4E05}" ShortID="120150732">
+													<ChildrenList>
+														<RandomSequenceContainer Name="FTCoussin" ID="{8C8F06FC-D8DD-43C2-B741-709BBD8DFFBE}" ShortID="765293685">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Footsteps_Coussin-001" ID="{0652CEAE-009B-4731-9198-EA7F53073EF7}" ShortID="612835693">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Coussin-001" ID="{6D490563-DC22-4241-B9EC-5996A3BEFE72}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Coussin\Footsteps_Coussin-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="862541204"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Coussin-001" ID="{6D490563-DC22-4241-B9EC-5996A3BEFE72}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Footsteps_Coussin-002" ID="{B29F0174-EAA3-4B6D-BFBA-5F096D440095}" ShortID="580513727">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Coussin-002" ID="{A5AF30FA-6B9E-466D-864C-AE88B45A4BB8}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Coussin\Footsteps_Coussin-002.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="492990960"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Coussin-002" ID="{A5AF30FA-6B9E-466D-864C-AE88B45A4BB8}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Footsteps_Coussin-003" ID="{D81B3BCF-EF2A-4C0B-B944-4771C0102C13}" ShortID="922765565">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Coussin-003" ID="{7C8CF187-5378-41B3-9666-89F130A3DDFF}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Coussin\Footsteps_Coussin-003.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="550108487"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Coussin-003" ID="{7C8CF187-5378-41B3-9666-89F130A3DDFF}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Footsteps_Coussin-004" ID="{3E8EC7BD-2170-4C32-8171-0A0B936E290E}" ShortID="753370151">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Coussin-004" ID="{D9CEE900-128B-45F7-9AEB-F7D378B26B50}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Coussin\Footsteps_Coussin-004.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="621504432"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Coussin-004" ID="{D9CEE900-128B-45F7-9AEB-F7D378B26B50}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Footsteps_Coussin-005" ID="{684CBB7F-FA65-4CD0-9BD7-3B4C1BBBF45E}" ShortID="14067330">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Coussin-005" ID="{300D67F2-4E57-4C71-A3CD-A9C626D237B2}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Coussin\Footsteps_Coussin-005.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="505067467"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Coussin-005" ID="{300D67F2-4E57-4C71-A3CD-A9C626D237B2}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Footsteps_Coussin-006" ID="{D60DC60E-95F6-4E2B-8719-C380D20473F1}" ShortID="897479217">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Coussin-006" ID="{4B256155-3A6D-4AE4-91BA-81723775E6B4}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Coussin\Footsteps_Coussin-006.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="407977146"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Coussin-006" ID="{4B256155-3A6D-4AE4-91BA-81723775E6B4}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Footsteps_Coussin-007" ID="{AC5BE572-D15E-453B-A87F-38A83E177AD4}" ShortID="862732477">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Coussin-007" ID="{024FFCB1-1604-462E-9A68-654BC4BA9BEC}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Coussin\Footsteps_Coussin-007.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="427045522"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Coussin-007" ID="{024FFCB1-1604-462E-9A68-654BC4BA9BEC}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Footsteps_Coussin-008" ID="{53471F1A-770A-4611-B669-29478C0A3E4A}" ShortID="823292122">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Coussin-008" ID="{CD205879-22A1-4A04-A262-5975AAD1928F}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Coussin\Footsteps_Coussin-008.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="254795026"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Coussin-008" ID="{CD205879-22A1-4A04-A262-5975AAD1928F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Footsteps_Coussin-009" ID="{6A099287-88C8-4CA8-ADBA-4719293F24AA}" ShortID="176965755">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Coussin-009" ID="{C2E90CF6-5C28-49FA-855A-DEA408E0C085}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Coussin\Footsteps_Coussin-009.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="323138135"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Coussin-009" ID="{C2E90CF6-5C28-49FA-855A-DEA408E0C085}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+												</Folder>
+												<Folder Name="FT_Paper" ID="{F841EB7C-6625-4EE1-8B43-E7EDE428307E}" ShortID="533339747">
+													<ChildrenList>
+														<RandomSequenceContainer Name="FTPaper" ID="{D8C0AB28-E2D2-4FE4-8FEF-2F1C999C7611}" ShortID="597689353">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Footsteps_Paper-001" ID="{1476E8C2-C783-4B69-8D86-68B0DDC66D50}" ShortID="197816176">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Paper-001" ID="{96E4C0EE-2295-4A93-AAA7-3A2B9DEE89C0}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Paper\Footsteps_Paper-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="359065157"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Paper-001" ID="{96E4C0EE-2295-4A93-AAA7-3A2B9DEE89C0}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Footsteps_Paper-002" ID="{1837E301-2FD2-4188-A7D2-F2B4D8C9E4F4}" ShortID="837913581">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Paper-002" ID="{A50DCEDC-5B6F-4BB1-8629-35792C756852}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Paper\Footsteps_Paper-002.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="636351176"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Paper-002" ID="{A50DCEDC-5B6F-4BB1-8629-35792C756852}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Footsteps_Paper-003" ID="{B9B91EA9-3681-457C-AB03-B3802835AEB0}" ShortID="547554287">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Paper-003" ID="{6CF72C7E-0124-4366-9C72-63B13E575434}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Paper\Footsteps_Paper-003.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="930896904"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Paper-003" ID="{6CF72C7E-0124-4366-9C72-63B13E575434}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Footsteps_Paper-004" ID="{21162E55-E3E5-46B2-ABE8-94B59A80835F}" ShortID="119111912">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Paper-004" ID="{554F4DF1-EFCA-4018-B66D-EDE021D7DCB1}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Paper\Footsteps_Paper-004.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="218004454"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Paper-004" ID="{554F4DF1-EFCA-4018-B66D-EDE021D7DCB1}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Footsteps_Paper-005" ID="{7CA8357A-CB48-4340-A506-735E4A068D54}" ShortID="700746139">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Paper-005" ID="{A197E981-9680-4315-A6D6-CF5CA69C7F4F}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Paper\Footsteps_Paper-005.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="20073102"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Paper-005" ID="{A197E981-9680-4315-A6D6-CF5CA69C7F4F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Footsteps_Paper-006" ID="{7DB94CBD-4DA3-45AA-8A67-09CEC75448E5}" ShortID="574986355">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Paper-006" ID="{9D39C749-75B7-41C6-B493-852201D4D8C7}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Paper\Footsteps_Paper-006.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="509423153"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Paper-006" ID="{9D39C749-75B7-41C6-B493-852201D4D8C7}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Footsteps_Paper-007" ID="{30641CA3-96D8-4665-83B1-345C4725758C}" ShortID="47634943">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Paper-007" ID="{5B639C3A-5617-4A64-9827-C48C81755BBD}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Paper\Footsteps_Paper-007.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="494078749"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Paper-007" ID="{5B639C3A-5617-4A64-9827-C48C81755BBD}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Footsteps_Paper-008" ID="{4CF710A5-60D7-4271-97BF-E3122FF9036A}" ShortID="147529615">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Paper-008" ID="{7585A9E2-9BEA-4D6D-AE9E-7FB6C155CE5D}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Paper\Footsteps_Paper-008.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="104828639"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Paper-008" ID="{7585A9E2-9BEA-4D6D-AE9E-7FB6C155CE5D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Footsteps_Paper-009" ID="{25A9AD7D-215A-4DDD-BF54-B88B616CE63C}" ShortID="553140569">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="MC Attenuation" ID="{77C12069-1B74-4213-BF3C-6EA0DAC802F0}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MC" ID="{6492D616-FD2B-4445-A85A-534CB60B54A0}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Footsteps_Paper-009" ID="{B8C2D8DF-3292-4708-9B42-292795FC23AA}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\FT_Paper\Footsteps_Paper-009.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="981718384"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Footsteps_Paper-009" ID="{B8C2D8DF-3292-4708-9B42-292795FC23AA}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+												</Folder>
+											</ChildrenList>
+										</Folder>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="FOLEYS" ID="{39898360-3283-4928-8BE9-013D32B1DD23}" ShortID="1003035678">
