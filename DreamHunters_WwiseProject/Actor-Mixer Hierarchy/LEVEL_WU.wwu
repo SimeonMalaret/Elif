@@ -8091,7 +8091,16 @@
 								<Folder Name="Livre Narra" ID="{2AEE256F-C47E-448A-81F1-CC5C2375DAEC}" ShortID="455023094">
 									<ChildrenList>
 										<RandomSequenceContainer Name="LivreNarra" ID="{6B191AEB-6FE9-4D45-9D40-EDFE9200FF3E}" ShortID="894198886">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 												</Reference>
