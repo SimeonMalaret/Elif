@@ -86,6 +86,24 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play" ID="{C8D4A0A1-17B2-4EA6-90E2-7F1EFA3F5505}">
+					<ChildrenList>
+						<Action Name="" ID="{06A8176B-2AAE-4EE9-B45D-4BDEB1091EFC}" ShortID="832741316">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DragonFlame_V2" ID="{F436BF57-0975-406E-8754-8948EA5F09A1}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D1E93F9F-38C9-4CD6-8A7C-2E168785B760}" ShortID="160765343">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DragonFlame_V2_Dist" ID="{A1EADFA7-771E-441B-A6B8-E7296393EE6F}" WorkUnitID="{C94A74BB-4DAB-4063-B287-A4B9D75D427C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

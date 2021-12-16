@@ -5730,6 +5730,10 @@
 								<Folder Name="Collectible_Levitate" ID="{6505932E-CE40-47D3-8B5D-B61F433E5A87}" ShortID="363364070">
 									<ChildrenList>
 										<RandomSequenceContainer Name="CollectibleLevitate" ID="{F3DC5BA7-C2F6-4940-BD49-DDA72A0C9407}" ShortID="789704682">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -5739,116 +5743,26 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Collectible_Levitate02" ID="{A422A944-9777-4CBD-A9A2-1A75579DCD40}" ShortID="195995836">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Collectible_Levitate_V2" ID="{450DF95D-F1F7-49BA-9D4E-59175505E323}" ShortID="615539554">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Collectible_Levitate02" ID="{B11DA8A4-99F3-4F1A-9BC4-4A1D48433766}">
+														<AudioFileSource Name="Collectible_Levitate_V2" ID="{BA96E721-C63D-46AE-82BD-F59B7B08BBA3}">
 															<Language>SFX</Language>
-															<AudioFile>Collectible_Levitate\Collectible_Levitate02.wav</AudioFile>
+															<AudioFile>Collectible_Levitate_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="936270843"/>
+																<MediaID ID="40724615"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Collectible_Levitate02" ID="{B11DA8A4-99F3-4F1A-9BC4-4A1D48433766}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Collectible_Levitate01" ID="{11A828B5-954E-4062-9F69-C69FFDB7A622}" ShortID="349983434">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Collectible_Levitate01" ID="{6E872EC7-C6F9-4718-AF0A-347D4D952B0D}">
-															<Language>SFX</Language>
-															<AudioFile>Collectible_Levitate\Collectible_Levitate01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="943461032"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Collectible_Levitate01" ID="{6E872EC7-C6F9-4718-AF0A-347D4D952B0D}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Collectible_Levitate04" ID="{D47B4DAF-4855-4C66-B6A3-A35026B8FC7D}" ShortID="27369654">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Collectible_Levitate04" ID="{B9BC47C3-0CD3-4818-BC7D-5F4616C830AA}">
-															<Language>SFX</Language>
-															<AudioFile>Collectible_Levitate\Collectible_Levitate04.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="600589428"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Collectible_Levitate04" ID="{B9BC47C3-0CD3-4818-BC7D-5F4616C830AA}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Collectible_Levitate03" ID="{EA717AF7-9A27-4C16-AF44-9A27F18193C8}" ShortID="527431477">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Collectible_Levitate03" ID="{D6E4E04B-9551-4025-830E-C91FD3584789}">
-															<Language>SFX</Language>
-															<AudioFile>Collectible_Levitate\Collectible_Levitate03.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="141519539"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Collectible_Levitate03" ID="{D6E4E04B-9551-4025-830E-C91FD3584789}" Platform="Linked"/>
+														<ActiveSource Name="Collectible_Levitate_V2" ID="{BA96E721-C63D-46AE-82BD-F59B7B08BBA3}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -5867,116 +5781,92 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Collectible_PickUp_-003" ID="{133D863A-AF03-4AD8-A2E0-B349E09E8C53}" ShortID="115824579">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Collectible_PickUp_02_V2" ID="{58A47A27-E646-4121-8CE2-48367B9BB06E}" ShortID="101057386">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Collectible_PickUp_-003" ID="{133E84D0-7211-49C7-97D4-64F617A71262}">
+														<AudioFileSource Name="Collectible_PickUp_02_V2" ID="{462B9A87-D521-4FA2-B7C0-8CC18196FA10}">
 															<Language>SFX</Language>
-															<AudioFile>Collectible_PickUp\Collectible_PickUp_-003.wav</AudioFile>
+															<AudioFile>Collectible_PickUp_02_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="1071201574"/>
+																<MediaID ID="548724499"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Collectible_PickUp_-003" ID="{133E84D0-7211-49C7-97D4-64F617A71262}" Platform="Linked"/>
+														<ActiveSource Name="Collectible_PickUp_02_V2" ID="{462B9A87-D521-4FA2-B7C0-8CC18196FA10}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Collectible_PickUp_-001" ID="{26101AB4-F6DA-4E2B-AD46-91332D65377E}" ShortID="680907507">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Collectible_PickUp_03_V2" ID="{0C6075DE-4128-4CCF-BC56-84171110172F}" ShortID="709034591">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Collectible_PickUp_-001" ID="{55F9C3CB-B10C-4B08-8818-7AB5B94E092E}">
+														<AudioFileSource Name="Collectible_PickUp_03_V2" ID="{7CDCA5CB-91F8-4FE3-A467-59D048A92013}">
 															<Language>SFX</Language>
-															<AudioFile>Collectible_PickUp\Collectible_PickUp_-001.wav</AudioFile>
+															<AudioFile>Collectible_PickUp_03_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="386435144"/>
+																<MediaID ID="133778912"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Collectible_PickUp_-001" ID="{55F9C3CB-B10C-4B08-8818-7AB5B94E092E}" Platform="Linked"/>
+														<ActiveSource Name="Collectible_PickUp_03_V2" ID="{7CDCA5CB-91F8-4FE3-A467-59D048A92013}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Collectible_PickUp_-002" ID="{E12D7E0C-58DC-4B69-B4A7-33AA782DF72B}" ShortID="11632580">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Collectible_PickUp_04_V2" ID="{24C7ABC7-99B2-4F3C-A804-A0A80ECC71DB}" ShortID="990770400">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Collectible_PickUp_-002" ID="{CF37B9A0-923E-4031-8DAF-72FA22B41D5C}">
+														<AudioFileSource Name="Collectible_PickUp_04_V2" ID="{0231F37C-FE34-4D6D-A2E2-9A9FECB97C1D}">
 															<Language>SFX</Language>
-															<AudioFile>Collectible_PickUp\Collectible_PickUp_-002.wav</AudioFile>
+															<AudioFile>Collectible_PickUp_04_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="340763433"/>
+																<MediaID ID="133046714"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Collectible_PickUp_-002" ID="{CF37B9A0-923E-4031-8DAF-72FA22B41D5C}" Platform="Linked"/>
+														<ActiveSource Name="Collectible_PickUp_04_V2" ID="{0231F37C-FE34-4D6D-A2E2-9A9FECB97C1D}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Collectible_PickUp_-004" ID="{DC84F7F8-A111-48BF-A028-67DC3180BDE4}" ShortID="487859888">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Collectible_PickUp_V2" ID="{A44D012C-F99D-4AE8-8D28-96B53F6FE751}" ShortID="778126814">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Collectible_PickUp_-004" ID="{1F0D1016-D784-47A8-ACF9-C4A6DE159FDA}">
+														<AudioFileSource Name="Collectible_PickUp_V2" ID="{9B792D47-DE6E-44B2-A497-F47BA14B019C}">
 															<Language>SFX</Language>
-															<AudioFile>Collectible_PickUp\Collectible_PickUp_-004.wav</AudioFile>
+															<AudioFile>Collectible_PickUp_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="727246301"/>
+																<MediaID ID="653824916"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Collectible_PickUp_-004" ID="{1F0D1016-D784-47A8-ACF9-C4A6DE159FDA}" Platform="Linked"/>
+														<ActiveSource Name="Collectible_PickUp_V2" ID="{9B792D47-DE6E-44B2-A497-F47BA14B019C}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -6325,88 +6215,26 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Steam_Train_-002" ID="{DFAB7C08-8207-4A22-B287-3000A993E778}" ShortID="933854792">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Steam_Train_V2" ID="{96D606F0-78FB-4C63-8D4A-048CE73C84EB}" ShortID="294993720">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Steam_Train_-002" ID="{8CAC26FF-033B-4566-B947-84D5B3332146}">
+														<AudioFileSource Name="Steam_Train_V2" ID="{C80A29D9-44CD-4319-B929-30003EECE319}">
 															<Language>SFX</Language>
-															<AudioFile>Stream_Train\Steam_Train_-002.wav</AudioFile>
+															<AudioFile>Steam_Train_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="557269440"/>
+																<MediaID ID="708186318"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Steam_Train_-002" ID="{8CAC26FF-033B-4566-B947-84D5B3332146}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Steam_Train_-001" ID="{0EAA4FFA-F72D-4A22-9483-018424DCEA16}" ShortID="957541405">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Steam_Train_-001" ID="{4F3A40D2-BFC2-4E43-92B8-831D620C31F5}">
-															<Language>SFX</Language>
-															<AudioFile>Stream_Train\Steam_Train_-001.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="290641690"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Steam_Train_-001" ID="{4F3A40D2-BFC2-4E43-92B8-831D620C31F5}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Steam_Train_-003" ID="{AC0D8F9B-93AB-459A-AD74-060F73895BDB}" ShortID="973633896">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Steam_Train_-003" ID="{39496311-C9BD-4C6A-B6C3-00A279271179}">
-															<Language>SFX</Language>
-															<AudioFile>Stream_Train\Steam_Train_-003.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="771339559"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Steam_Train_-003" ID="{39496311-C9BD-4C6A-B6C3-00A279271179}" Platform="Linked"/>
+														<ActiveSource Name="Steam_Train_V2" ID="{C80A29D9-44CD-4319-B929-30003EECE319}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -6431,172 +6259,70 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Whistle_Train01" ID="{A311D641-E26F-46D9-9202-8EB845A7F679}" ShortID="907948019">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Train_Whistle_V2-001" ID="{00C737CF-E2D1-41EE-8762-A63995E5C6B7}" ShortID="154405289">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Whistle_Train01" ID="{38C26DA7-DCA6-4A7E-AE5D-FAE4A73B22DA}">
+														<AudioFileSource Name="Train_Whistle_V2-001" ID="{DBDC521D-0FA3-47BD-8E68-1EA335BBE69E}">
 															<Language>SFX</Language>
-															<AudioFile>Whistle_Train\Whistle_Train01.wav</AudioFile>
+															<AudioFile>Train_Whistle_V2-001.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="44696552"/>
+																<MediaID ID="931323617"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Whistle_Train01" ID="{38C26DA7-DCA6-4A7E-AE5D-FAE4A73B22DA}" Platform="Linked"/>
+														<ActiveSource Name="Train_Whistle_V2-001" ID="{DBDC521D-0FA3-47BD-8E68-1EA335BBE69E}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Whistle_Train02" ID="{F50BB2F2-081D-48AC-97FB-9D0AAD38583B}" ShortID="288663058">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Train_Whistle_V2-002" ID="{49103477-F6D0-40B8-974F-FFB6A398CCDD}" ShortID="951449763">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Whistle_Train02" ID="{DAB5AAB3-00B4-469C-897B-A14A3446D6B7}">
+														<AudioFileSource Name="Train_Whistle_V2-002" ID="{78548C02-515B-4252-912F-FD2AF7646348}">
 															<Language>SFX</Language>
-															<AudioFile>Whistle_Train\Whistle_Train02.wav</AudioFile>
+															<AudioFile>Train_Whistle_V2-002.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="625596022"/>
+																<MediaID ID="647808480"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Whistle_Train02" ID="{DAB5AAB3-00B4-469C-897B-A14A3446D6B7}" Platform="Linked"/>
+														<ActiveSource Name="Train_Whistle_V2-002" ID="{78548C02-515B-4252-912F-FD2AF7646348}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Whistle_Train03" ID="{6CB6FF26-2ECE-4D4D-8AE9-A31FD931EFE2}" ShortID="978821674">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Train_Whistle_V2-003" ID="{9F51A7CE-F08D-4194-9FCE-6053796A0A62}" ShortID="89179169">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Whistle_Train03" ID="{C60DBB8D-4A23-4EDD-A281-C1CFB0E9CF73}">
+														<AudioFileSource Name="Train_Whistle_V2-003" ID="{3C6F55FD-98D2-4AA4-B660-82AFC3CD2B0F}">
 															<Language>SFX</Language>
-															<AudioFile>Whistle_Train\Whistle_Train03.wav</AudioFile>
+															<AudioFile>Train_Whistle_V2-003.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="787197467"/>
+																<MediaID ID="602590100"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Whistle_Train03" ID="{C60DBB8D-4A23-4EDD-A281-C1CFB0E9CF73}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Whistle_Train_001" ID="{564B255F-DC79-43A3-A88D-30E484D1E180}" ShortID="359648846">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Whistle_Train_001" ID="{819D94E8-5362-490A-A1BF-426B77E31247}">
-															<Language>SFX</Language>
-															<AudioFile>Whistle_Train\Whistle_Train_001.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="527851267"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Whistle_Train_001" ID="{819D94E8-5362-490A-A1BF-426B77E31247}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Whistle_Train_002" ID="{4F904DCB-259B-4965-ACEB-632A1E48CF4D}" ShortID="981765931">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Whistle_Train_002" ID="{B105330C-9249-4BE9-B7A2-2F5B57D9C3D9}">
-															<Language>SFX</Language>
-															<AudioFile>Whistle_Train\Whistle_Train_002.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="222253564"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Whistle_Train_002" ID="{B105330C-9249-4BE9-B7A2-2F5B57D9C3D9}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Whistle_Train_003" ID="{DB8C7D19-6381-4702-BB4C-0A4E3DE2F67A}" ShortID="393184214">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Whistle_Train_003" ID="{9026EA9C-CDB4-4A2A-8ED9-43C406FD1E48}">
-															<Language>SFX</Language>
-															<AudioFile>Whistle_Train\Whistle_Train_003.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="601217521"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Whistle_Train_003" ID="{9026EA9C-CDB4-4A2A-8ED9-43C406FD1E48}" Platform="Linked"/>
+														<ActiveSource Name="Train_Whistle_V2-003" ID="{3C6F55FD-98D2-4AA4-B660-82AFC3CD2B0F}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -6959,88 +6685,70 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Checkpoint_V1-001" ID="{7F4DDAB7-C0A1-423C-96A7-5C97D87C4501}" ShortID="719089763">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="CheckPoint_01_V2" ID="{790E9A69-6C26-4DA0-8A13-DC91D12E09E9}" ShortID="403164671">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Checkpoint_V1-001" ID="{9051225D-B8EA-45E5-84A3-B0A92DF255EF}">
+														<AudioFileSource Name="CheckPoint_01_V2" ID="{335AD39A-DCA6-4C88-B736-4315CBD99D57}">
 															<Language>SFX</Language>
-															<AudioFile>CheckPoint\Checkpoint_V1-001.wav</AudioFile>
+															<AudioFile>CheckPoint_01_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="350897748"/>
+																<MediaID ID="992825446"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Checkpoint_V1-001" ID="{9051225D-B8EA-45E5-84A3-B0A92DF255EF}" Platform="Linked"/>
+														<ActiveSource Name="CheckPoint_01_V2" ID="{335AD39A-DCA6-4C88-B736-4315CBD99D57}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Checkpoint_V1-002" ID="{17A72A29-279A-4D91-8948-1D6C6440C500}" ShortID="459705322">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="CheckPoint_02_V2" ID="{DAD640A2-561C-4FB1-8312-9F4CA9F3BF98}" ShortID="470247204">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Checkpoint_V1-002" ID="{AEED3BE9-8BF4-46A4-A017-AD7C5C955AD6}">
+														<AudioFileSource Name="CheckPoint_02_V2" ID="{A78689E8-C855-4B5B-BA71-E25EA58DF498}">
 															<Language>SFX</Language>
-															<AudioFile>CheckPoint\Checkpoint_V1-002.wav</AudioFile>
+															<AudioFile>CheckPoint_02_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="128196784"/>
+																<MediaID ID="793020600"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Checkpoint_V1-002" ID="{AEED3BE9-8BF4-46A4-A017-AD7C5C955AD6}" Platform="Linked"/>
+														<ActiveSource Name="CheckPoint_02_V2" ID="{A78689E8-C855-4B5B-BA71-E25EA58DF498}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Checkpoint_V1-003" ID="{3184F4D5-459D-440A-BF24-6595ACEF8F7C}" ShortID="803832861">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="CheckPoint_03_V2" ID="{204799F6-FB42-4DDB-B97C-C45DA6A44024}" ShortID="807243064">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Checkpoint_V1-003" ID="{70F8B9DE-07EA-4964-9AAB-73485903C098}">
+														<AudioFileSource Name="CheckPoint_03_V2" ID="{79872348-2950-46AD-9DBC-792CC97D0A23}">
 															<Language>SFX</Language>
-															<AudioFile>CheckPoint\Checkpoint_V1-003.wav</AudioFile>
+															<AudioFile>CheckPoint_03_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="848503792"/>
+																<MediaID ID="507513628"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Checkpoint_V1-003" ID="{70F8B9DE-07EA-4964-9AAB-73485903C098}" Platform="Linked"/>
+														<ActiveSource Name="CheckPoint_03_V2" ID="{79872348-2950-46AD-9DBC-792CC97D0A23}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -7138,60 +6846,26 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<Sound Name="Dog_Run-001" ID="{03265DAA-C2A1-439E-9552-690F74D5B46D}" ShortID="5488036">
-																	<PropertyList>
-																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																	</PropertyList>
+																<Sound Name="Dog_Run_V2" ID="{BBF9A9CD-2C5C-4245-A03C-DCC5CAB51780}" ShortID="663680527">
 																	<ReferenceList>
-																		<Reference Name="Attenuation">
-																			<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-																		</Reference>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 																		</Reference>
 																		<Reference Name="OutputBus">
-																			<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Dog_Run-001" ID="{485DC388-BA3B-49FA-8BBD-5A11E4FFF12B}">
+																		<AudioFileSource Name="Dog_Run_V2" ID="{4978C27A-17AC-4183-A8D7-BA8ACCD94EA1}">
 																			<Language>SFX</Language>
-																			<AudioFile>Chien\Dog Run\DogRun\Dog_Run-001.wav</AudioFile>
+																			<AudioFile>Dog_Run_V2.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="411942112"/>
+																				<MediaID ID="742081681"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="Dog_Run-001" ID="{485DC388-BA3B-49FA-8BBD-5A11E4FFF12B}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-																<Sound Name="Dog_Run-002" ID="{3E09A0E6-9C86-47BA-B370-D9F6687E2BA2}" ShortID="746071134">
-																	<PropertyList>
-																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																	</PropertyList>
-																	<ReferenceList>
-																		<Reference Name="Attenuation">
-																			<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-																		</Reference>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Dog_Run-002" ID="{5FB5DC5C-78D3-4BE6-8F43-3D85DD537A27}">
-																			<Language>SFX</Language>
-																			<AudioFile>Chien\Dog Run\DogRun\Dog_Run-002.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="142528609"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Dog_Run-002" ID="{5FB5DC5C-78D3-4BE6-8F43-3D85DD537A27}" Platform="Linked"/>
+																		<ActiveSource Name="Dog_Run_V2" ID="{4978C27A-17AC-4183-A8D7-BA8ACCD94EA1}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
@@ -7274,7 +6948,7 @@
 										</Folder>
 										<Folder Name="Dog_Ronfle" ID="{EF1B6100-C95D-4451-8710-4C21FC4675A5}" ShortID="574791405">
 											<ChildrenList>
-												<Sound Name="Dog_Ronfle" ID="{322387F3-AC69-4B1F-A5CF-DA22CCA592D5}" ShortID="158288165">
+												<Sound Name="Dog_Snore_V2" ID="{5013AB08-9593-48BD-B48F-B64F426F796F}" ShortID="852067187">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -7284,23 +6958,23 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Dog_Ronfle" ID="{52A6A2E7-246A-437F-AED1-3AA59D3FE743}">
+														<AudioFileSource Name="Dog_Snore_V2" ID="{898E8ABC-0B58-4D6A-BF3C-2D25A9E410E1}">
 															<Language>SFX</Language>
-															<AudioFile>Chien\Dog_Ronfle\Dog_Ronfle.wav</AudioFile>
+															<AudioFile>Dog_Snore_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="929600959"/>
+																<MediaID ID="361786993"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Dog_Ronfle" ID="{52A6A2E7-246A-437F-AED1-3AA59D3FE743}" Platform="Linked"/>
+														<ActiveSource Name="Dog_Snore_V2" ID="{898E8ABC-0B58-4D6A-BF3C-2D25A9E410E1}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 										</Folder>
 										<Folder Name="Dog_Scare" ID="{A11954BE-5B1A-4368-A1F6-9B7E34E4B07D}" ShortID="557512348">
 											<ChildrenList>
-												<Sound Name="Dog_Scare" ID="{7978BDBC-6966-423E-B1AE-90C6E7012D50}" ShortID="822981531">
+												<Sound Name="Dog_scared_V2" ID="{9163182E-6808-4D53-8E8C-AF5950E85456}" ShortID="200088097">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -7310,16 +6984,16 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Dog_Scare" ID="{F3CAD986-4F73-4E31-AD1B-B550AF559E38}">
+														<AudioFileSource Name="Dog_scared_V2" ID="{831B7BB0-0ACF-4C01-ADB6-2A1E4F0E2861}">
 															<Language>SFX</Language>
-															<AudioFile>Chien\Dog_Scare\Dog_Scare.wav</AudioFile>
+															<AudioFile>Dog_scared_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="948178942"/>
+																<MediaID ID="802375838"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Dog_Scare" ID="{F3CAD986-4F73-4E31-AD1B-B550AF559E38}" Platform="Linked"/>
+														<ActiveSource Name="Dog_scared_V2" ID="{831B7BB0-0ACF-4C01-ADB6-2A1E4F0E2861}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -7618,88 +7292,136 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Collectibles_V2-001" ID="{B3801BDD-974A-4F5A-94CD-BFD8405ED7FF}" ShortID="883974479">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Bell_V2-001" ID="{2C4823B2-CC8C-4AF2-9A03-0B06DCB2E1B3}" ShortID="776829299">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Collectibles_V2-001" ID="{63612B60-8DB9-4AB3-8B9D-8A6026C2951F}">
+														<AudioFileSource Name="Bell_V2-001" ID="{C31DE3D3-E7DF-4CDD-885B-291D75997FB7}">
 															<Language>SFX</Language>
-															<AudioFile>Cloche\Collectibles_V2-001.wav</AudioFile>
+															<AudioFile>Bell_V2-001.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="1023160369"/>
+																<MediaID ID="259416175"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Collectibles_V2-001" ID="{63612B60-8DB9-4AB3-8B9D-8A6026C2951F}" Platform="Linked"/>
+														<ActiveSource Name="Bell_V2-001" ID="{C31DE3D3-E7DF-4CDD-885B-291D75997FB7}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Collectibles_V2-002" ID="{6033F168-9ABD-4D36-8D9C-263AA87A0C47}" ShortID="540310387">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Bell_V2-002" ID="{3A3014D8-CDCF-4C85-85E0-DCC32A5E519F}" ShortID="618315251">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Collectibles_V2-002" ID="{84354228-0B58-4462-9253-8364FBD66E6C}">
+														<AudioFileSource Name="Bell_V2-002" ID="{4B512730-9F0F-4C29-B123-AE828A6348FE}">
 															<Language>SFX</Language>
-															<AudioFile>Cloche\Collectibles_V2-002.wav</AudioFile>
+															<AudioFile>Bell_V2-002.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="868233734"/>
+																<MediaID ID="296522781"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Collectibles_V2-002" ID="{84354228-0B58-4462-9253-8364FBD66E6C}" Platform="Linked"/>
+														<ActiveSource Name="Bell_V2-002" ID="{4B512730-9F0F-4C29-B123-AE828A6348FE}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Collectibles_V2-003" ID="{34BCD8C1-A8F6-4A38-B8DF-6D9089E2BA8D}" ShortID="730905685">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Bell_V2-003" ID="{5DF5D6E9-137A-41BC-B22D-7A35FC9EF208}" ShortID="1061085583">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Collectibles_V2-003" ID="{38E89713-A209-481C-B033-F1C29F3BEFAE}">
+														<AudioFileSource Name="Bell_V2-003" ID="{F816C866-6E1A-45AC-985D-6FC8AAEB553A}">
 															<Language>SFX</Language>
-															<AudioFile>Cloche\Collectibles_V2-003.wav</AudioFile>
+															<AudioFile>Bell_V2-003.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="289353114"/>
+																<MediaID ID="113467942"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Collectibles_V2-003" ID="{38E89713-A209-481C-B033-F1C29F3BEFAE}" Platform="Linked"/>
+														<ActiveSource Name="Bell_V2-003" ID="{F816C866-6E1A-45AC-985D-6FC8AAEB553A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bell_V2-004" ID="{47F2BC7F-A312-4336-8D37-442CC29575CF}" ShortID="427160185">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bell_V2-004" ID="{63DED900-7D7B-4656-BD83-5531E0D61E9C}">
+															<Language>SFX</Language>
+															<AudioFile>Bell_V2-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="150800855"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bell_V2-004" ID="{63DED900-7D7B-4656-BD83-5531E0D61E9C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bell_V2-005" ID="{17D9B077-6215-4E75-B654-B88EDB95DE1C}" ShortID="535584381">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bell_V2-005" ID="{85B060F8-F9F1-4CDD-87BF-38455D36A99A}">
+															<Language>SFX</Language>
+															<AudioFile>Bell_V2-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="218849047"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bell_V2-005" ID="{85B060F8-F9F1-4CDD-87BF-38455D36A99A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bell_V2-006" ID="{2DB620E3-6C69-485A-8945-6521C63E11C7}" ShortID="258179121">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bell_V2-006" ID="{E2F301BD-BA9E-4530-A5D6-E18EBF96A456}">
+															<Language>SFX</Language>
+															<AudioFile>Bell_V2-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="107724471"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bell_V2-006" ID="{E2F301BD-BA9E-4530-A5D6-E18EBF96A456}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -7718,60 +7440,48 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Collectible_disappear" ID="{77C6F9CD-2DD7-427F-A43D-1AB57F68A300}" ShortID="427270780">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Collectible_Disappear_V2-001" ID="{DB264852-97C8-48FD-B8D0-7887F5256C99}" ShortID="523937098">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Collectible_disappear" ID="{FC9E4018-6ED7-4693-B885-940C646ED81E}">
+														<AudioFileSource Name="Collectible_Disappear_V2-001" ID="{6BFAD125-CDC5-4771-843F-3C8B512FBA3F}">
 															<Language>SFX</Language>
-															<AudioFile>Collectible Disappear\Collectible_disappear.wav</AudioFile>
+															<AudioFile>Collectible_Disappear_V2-001.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="12417071"/>
+																<MediaID ID="527574388"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Collectible_disappear" ID="{FC9E4018-6ED7-4693-B885-940C646ED81E}" Platform="Linked"/>
+														<ActiveSource Name="Collectible_Disappear_V2-001" ID="{6BFAD125-CDC5-4771-843F-3C8B512FBA3F}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Collectible_disappear_02" ID="{08422C28-E900-4568-9D0B-BB064FC5CCE1}" ShortID="707204997">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Collectible_Disappear_V2-002" ID="{C3B67F23-F375-439D-A312-A12DE0932E6D}" ShortID="226379885">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Collectible_disappear_02" ID="{48C716AB-7DD5-46AE-81AF-4786856ACA49}">
+														<AudioFileSource Name="Collectible_Disappear_V2-002" ID="{E4C2303B-DA59-46E3-941C-5F5261EB2D3A}">
 															<Language>SFX</Language>
-															<AudioFile>Collectible Disappear\Collectible_disappear_02.wav</AudioFile>
+															<AudioFile>Collectible_Disappear_V2-002.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="314541208"/>
+																<MediaID ID="948815704"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Collectible_disappear_02" ID="{48C716AB-7DD5-46AE-81AF-4786856ACA49}" Platform="Linked"/>
+														<ActiveSource Name="Collectible_Disappear_V2-002" ID="{E4C2303B-DA59-46E3-941C-5F5261EB2D3A}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -7904,6 +7614,84 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Pillow Jump" ID="{A38769EE-A32D-4F64-97BD-B2C6099D7E27}" ShortID="220860984">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pillow_Jump-001" ID="{0CDB5744-AD30-4D1E-AEA5-7E4F3FA50AAB}" ShortID="167442127">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pillow_Jump-001" ID="{F16FF3D7-8B21-430B-AF5A-07CB3115D618}">
+															<Language>SFX</Language>
+															<AudioFile>Pillow_Jump-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="519487341"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pillow_Jump-001" ID="{F16FF3D7-8B21-430B-AF5A-07CB3115D618}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pillow_Jump-002" ID="{517426FA-A86F-4968-9B12-CD1A84D4F652}" ShortID="870668222">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pillow_Jump-002" ID="{F3761D0E-99D5-46CB-9F0C-40E3DD112052}">
+															<Language>SFX</Language>
+															<AudioFile>Pillow_Jump-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="159300214"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pillow_Jump-002" ID="{F3761D0E-99D5-46CB-9F0C-40E3DD112052}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pillow_Jump-003" ID="{4D7C8FC1-67A0-463B-9863-BFE1DD076AF2}" ShortID="1055534968">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pillow_Jump-003" ID="{D0F9F770-863B-428B-ABCB-3785D598EF87}">
+															<Language>SFX</Language>
+															<AudioFile>Pillow_Jump-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="800766588"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pillow_Jump-003" ID="{D0F9F770-863B-428B-ABCB-3785D598EF87}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Crowd Panic" ID="{3C5200DC-D107-45A7-977C-D743F4C9A67E}" ShortID="268881531">
@@ -7936,7 +7724,7 @@
 									<ChildrenList>
 										<Folder Name="FlameThrower" ID="{016D15E0-E55B-4A96-A34E-73BF1386E56A}" ShortID="945999101">
 											<ChildrenList>
-												<Sound Name="Dragon_FlameThrower" ID="{65D30D76-70E0-4664-A0F7-CA0098B12859}" ShortID="952788569">
+												<Sound Name="DragonFlame_V2" ID="{F436BF57-0975-406E-8754-8948EA5F09A1}" ShortID="783864274">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -7946,23 +7734,45 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Dragon_FlameThrwoer" ID="{97F78374-AFEF-4A8D-9D58-945C4E65F8BA}">
+														<AudioFileSource Name="DragonFlame_V2" ID="{37BFD8A5-D3F2-4BFB-A2BB-C79FFC759770}">
 															<Language>SFX</Language>
-															<AudioFile>Dragon\FlameThrower\Dragon_FlameThrwoer.wav</AudioFile>
+															<AudioFile>DragonFlame_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="583101285"/>
+																<MediaID ID="1036771860"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Dragon_FlameThrwoer" ID="{97F78374-AFEF-4A8D-9D58-945C4E65F8BA}" Platform="Linked"/>
+														<ActiveSource Name="DragonFlame_V2" ID="{37BFD8A5-D3F2-4BFB-A2BB-C79FFC759770}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="DragonFlame_V2_Dist" ID="{A1EADFA7-771E-441B-A6B8-E7296393EE6F}" ShortID="930321269">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="DragonFlame_V2_Dist" ID="{140F55F7-668A-498B-BAA7-38F0BB2C002E}">
+															<Language>SFX</Language>
+															<AudioFile>DragonFlame_V2_Dist.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="185365948"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="DragonFlame_V2_Dist" ID="{140F55F7-668A-498B-BAA7-38F0BB2C002E}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 										</Folder>
 										<Folder Name="Scream" ID="{5BEFAC80-B7E8-43F3-869D-3B7B85BF6AF2}" ShortID="955924991">
 											<ChildrenList>
-												<Sound Name="Dragon_Scream" ID="{AF6150B0-984A-42D0-B6F3-F813D11F0DE6}" ShortID="551863037">
+												<Sound Name="DragonScreami_V2" ID="{3CB0D945-D4FE-4393-A455-58895B839056}" ShortID="738084219">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -7972,16 +7782,16 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Dragon_Scream" ID="{3B00DDFC-9A6E-4B6F-826E-E7BA74FFCCEB}">
+														<AudioFileSource Name="DragonScreami_V2" ID="{80FC1B08-CEA5-450E-9187-84EC790312A0}">
 															<Language>SFX</Language>
-															<AudioFile>Dragon\Scream\Dragon_Scream.wav</AudioFile>
+															<AudioFile>DragonScreami_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="659811006"/>
+																<MediaID ID="399096206"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Dragon_Scream" ID="{3B00DDFC-9A6E-4B6F-826E-E7BA74FFCCEB}" Platform="Linked"/>
+														<ActiveSource Name="DragonScreami_V2" ID="{80FC1B08-CEA5-450E-9187-84EC790312A0}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -8000,88 +7810,92 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Eclair_V1-001" ID="{26AFB1AF-0F5C-4615-97C5-82A4B0407E21}" ShortID="566298750">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Thunder_V2-001" ID="{1FE15ADF-B30E-4339-8939-69F07D68629C}" ShortID="506992912">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Eclair_V1-001" ID="{678629C0-6947-4186-B9E0-44D9E3E304D5}">
+														<AudioFileSource Name="Thunder_V2-001" ID="{2884C1F0-F6CB-4F02-9566-1922126D6DD7}">
 															<Language>SFX</Language>
-															<AudioFile>Eclair\Eclair_V1-001.wav</AudioFile>
+															<AudioFile>Thunder_V2-001.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="342431882"/>
+																<MediaID ID="915110944"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Eclair_V1-001" ID="{678629C0-6947-4186-B9E0-44D9E3E304D5}" Platform="Linked"/>
+														<ActiveSource Name="Thunder_V2-001" ID="{2884C1F0-F6CB-4F02-9566-1922126D6DD7}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Eclair_V1-002" ID="{76A3C111-5CD6-4C25-9DB3-217CE02BBBDE}" ShortID="890557038">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Thunder_V2-002" ID="{9E5ED85C-ECA0-48D0-A75A-8F452BDDFCC7}" ShortID="596443805">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Eclair_V1-002" ID="{EA307991-A23A-4DF2-8258-0056F6CB784D}">
+														<AudioFileSource Name="Thunder_V2-002" ID="{2F3A85A7-7AB2-4778-BB39-CED871E00DD9}">
 															<Language>SFX</Language>
-															<AudioFile>Eclair\Eclair_V1-002.wav</AudioFile>
+															<AudioFile>Thunder_V2-002.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="246179217"/>
+																<MediaID ID="630571966"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Eclair_V1-002" ID="{EA307991-A23A-4DF2-8258-0056F6CB784D}" Platform="Linked"/>
+														<ActiveSource Name="Thunder_V2-002" ID="{2F3A85A7-7AB2-4778-BB39-CED871E00DD9}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Eclair_V1-003" ID="{3D5A47CB-24CF-474A-A182-8661ACE6201B}" ShortID="879228359">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Thunder_V2-003" ID="{030BFEB5-35BB-4DF8-B490-1B64C4E85DE9}" ShortID="692566718">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Eclair_V1-003" ID="{04FE2BEA-C417-4613-B1FF-EDF99BD035AB}">
+														<AudioFileSource Name="Thunder_V2-003" ID="{0706E22F-6EB0-4B71-AF80-26E609924175}">
 															<Language>SFX</Language>
-															<AudioFile>Eclair\Eclair_V1-003.wav</AudioFile>
+															<AudioFile>Thunder_V2-003.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="662885191"/>
+																<MediaID ID="613572238"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Eclair_V1-003" ID="{04FE2BEA-C417-4613-B1FF-EDF99BD035AB}" Platform="Linked"/>
+														<ActiveSource Name="Thunder_V2-003" ID="{0706E22F-6EB0-4B71-AF80-26E609924175}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Thunder_V2" ID="{1B00C032-75C6-425F-B347-DA10F26510DA}" ShortID="746353434">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Thunder_V2" ID="{1DB77BE9-52AD-440B-83E5-41B6521974F3}">
+															<Language>SFX</Language>
+															<AudioFile>Thunder_V2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="447526187"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Thunder_V2" ID="{1DB77BE9-52AD-440B-83E5-41B6521974F3}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -8109,88 +7923,26 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Livre_Narra_V1-001" ID="{CB16051D-D6AF-47A5-A97F-76A8DB1DA6E8}" ShortID="848088421">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Livre_Narra_V2" ID="{07CA9D6D-6256-43AE-AD88-A7A385A5FEAD}" ShortID="883961020">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Livre_Narra_V1-001" ID="{E285E505-C077-4F3D-8A8D-668977BEF961}">
+														<AudioFileSource Name="Livre_Narra_V2" ID="{CEEEFE32-B7BD-47F4-A54B-918FB27BDB83}">
 															<Language>SFX</Language>
-															<AudioFile>Livre Narra\Livre_Narra_V1-001.wav</AudioFile>
+															<AudioFile>Livre_Narra_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="267687828"/>
+																<MediaID ID="104829662"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Livre_Narra_V1-001" ID="{E285E505-C077-4F3D-8A8D-668977BEF961}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Livre_Narra_V1-002" ID="{1C5D4DAD-016D-43BF-8D8F-0504524CD1E2}" ShortID="909849973">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Livre_Narra_V1-002" ID="{66143B37-98AA-409F-BA3B-6B70AEDB1CFC}">
-															<Language>SFX</Language>
-															<AudioFile>Livre Narra\Livre_Narra_V1-002.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="595464912"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Livre_Narra_V1-002" ID="{66143B37-98AA-409F-BA3B-6B70AEDB1CFC}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Livre_Narra_V1-003" ID="{0A950231-CF3B-448C-9D9D-72A686AE2E45}" ShortID="99021637">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Livre_Narra_V1-003" ID="{682255CA-659D-4E0A-BB8E-59DCEEF20477}">
-															<Language>SFX</Language>
-															<AudioFile>Livre Narra\Livre_Narra_V1-003.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="14035413"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Livre_Narra_V1-003" ID="{682255CA-659D-4E0A-BB8E-59DCEEF20477}" Platform="Linked"/>
+														<ActiveSource Name="Livre_Narra_V2" ID="{CEEEFE32-B7BD-47F4-A54B-918FB27BDB83}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -8209,60 +7961,26 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Meuble_Chute-001" ID="{081F5602-6CFD-4B11-938F-36C58D7EE197}" ShortID="911881708">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Meuble_Chute_V2" ID="{A9619D7E-0FA3-45C4-AB72-E4370F4EAFDA}" ShortID="166160289">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Meuble_Chute-001" ID="{D3A78154-64F3-4463-875B-9B0765441B21}">
+														<AudioFileSource Name="Meuble_Chute_V2" ID="{2479932A-0885-4104-BEE9-D779A3BBCE62}">
 															<Language>SFX</Language>
-															<AudioFile>Meuble_Chute\Meuble_Chute-001.wav</AudioFile>
+															<AudioFile>Meuble_Chute_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="393731221"/>
+																<MediaID ID="863153721"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Meuble_Chute-001" ID="{D3A78154-64F3-4463-875B-9B0765441B21}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Meuble_Chute-002" ID="{6D5FEC77-9A8C-4599-8023-7F453A836C23}" ShortID="94922497">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Meuble_Chute-002" ID="{4771EC66-65A6-4026-AB95-F25D1DB56F1E}">
-															<Language>SFX</Language>
-															<AudioFile>Meuble_Chute\Meuble_Chute-002.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="231002874"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Meuble_Chute-002" ID="{4771EC66-65A6-4026-AB95-F25D1DB56F1E}" Platform="Linked"/>
+														<ActiveSource Name="Meuble_Chute_V2" ID="{2479932A-0885-4104-BEE9-D779A3BBCE62}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -8281,60 +7999,26 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Plateforme_01" ID="{191C1636-0BFC-4F57-8247-1DF0A6C7506E}" ShortID="167395325">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Plateforme_V2" ID="{15275206-A9A2-4740-9CB5-412184AFA197}" ShortID="482328196">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Plateforme_01" ID="{89923CF9-F4D6-4546-B9E8-935D5828CCE1}">
+														<AudioFileSource Name="Plateforme_V2" ID="{D5F52327-9A27-4E97-A3B2-CD7EF888025D}">
 															<Language>SFX</Language>
-															<AudioFile>Plateforme\Plateforme_01.wav</AudioFile>
+															<AudioFile>Plateforme_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="680886711"/>
+																<MediaID ID="1010139521"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Plateforme_01" ID="{89923CF9-F4D6-4546-B9E8-935D5828CCE1}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Plateforme_02" ID="{DAEEEFF4-F897-4554-A452-FDA2FAAD0650}" ShortID="220066801">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Plateforme_02" ID="{9ADF7D33-701E-434E-8261-E9ED56B809E8}">
-															<Language>SFX</Language>
-															<AudioFile>Plateforme\Plateforme_02.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="604717362"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Plateforme_02" ID="{9ADF7D33-701E-434E-8261-E9ED56B809E8}" Platform="Linked"/>
+														<ActiveSource Name="Plateforme_V2" ID="{D5F52327-9A27-4E97-A3B2-CD7EF888025D}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -8353,60 +8037,26 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Trompet_King-001" ID="{1E022A7E-89AC-4F2D-A469-ABE45A5F867F}" ShortID="506320368">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Trumpets_King_V2" ID="{CB8CB493-D558-439F-B298-95E9C6A71D17}" ShortID="919456998">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Trompet_King-001" ID="{CCF03A03-320C-449C-885C-DE1A7DA6FE07}">
+														<AudioFileSource Name="Trumpets_King_V2" ID="{FCBA183B-C258-411D-9B1F-3CE6746C1529}">
 															<Language>SFX</Language>
-															<AudioFile>Trompettes_Roi\Trompet_King-001.wav</AudioFile>
+															<AudioFile>Trumpets_King_V2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="259759624"/>
+																<MediaID ID="46351985"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Trompet_King-001" ID="{CCF03A03-320C-449C-885C-DE1A7DA6FE07}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Trompet_King-002" ID="{013F5CCE-85FD-4FAD-808D-227250B64439}" ShortID="760847152">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Trompet_King-002" ID="{83956842-6FA4-45A7-BE61-C8C077693DE0}">
-															<Language>SFX</Language>
-															<AudioFile>Trompettes_Roi\Trompet_King-002.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="650294278"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Trompet_King-002" ID="{83956842-6FA4-45A7-BE61-C8C077693DE0}" Platform="Linked"/>
+														<ActiveSource Name="Trumpets_King_V2" ID="{FCBA183B-C258-411D-9B1F-3CE6746C1529}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -8425,88 +8075,48 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Vase_Break_V1-001" ID="{3A6FD098-978A-4EF7-854D-F98E998299C1}" ShortID="275942801">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Vase_Break_V2-001" ID="{9D286718-46A5-4537-AB9B-8789C1F49C23}" ShortID="142680433">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Vase_Break_V1-001" ID="{BCBBC526-C52C-4527-9AE7-41C9266910AF}">
+														<AudioFileSource Name="Vase_Break_V2-001" ID="{0C7E32FF-FE1E-4935-B4A9-205681F1CB06}">
 															<Language>SFX</Language>
-															<AudioFile>Vase\Vase_Break_V1-001.wav</AudioFile>
+															<AudioFile>Vase_Break_V2-001.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="990290208"/>
+																<MediaID ID="590648147"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Vase_Break_V1-001" ID="{BCBBC526-C52C-4527-9AE7-41C9266910AF}" Platform="Linked"/>
+														<ActiveSource Name="Vase_Break_V2-001" ID="{0C7E32FF-FE1E-4935-B4A9-205681F1CB06}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Vase_Break_V1-002" ID="{604D3AD0-957E-4484-9492-866AF3FCB88B}" ShortID="685877547">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
+												<Sound Name="Vase_Break_V2-002" ID="{CFBF63D7-92C9-4977-B715-83EF047DAEFE}" ShortID="477171161">
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Vase_Break_V1-002" ID="{7A123E28-4195-4BBE-B762-DD746544C86D}">
+														<AudioFileSource Name="Vase_Break_V2-002" ID="{66D08999-CD78-4B42-AC32-4020CBD8A834}">
 															<Language>SFX</Language>
-															<AudioFile>Vase\Vase_Break_V1-002.wav</AudioFile>
+															<AudioFile>Vase_Break_V2-002.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="194247121"/>
+																<MediaID ID="608958304"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Vase_Break_V1-002" ID="{7A123E28-4195-4BBE-B762-DD746544C86D}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Vase_Break_V1-003" ID="{9B0C15CB-2138-46AF-9099-BD9228FD07FF}" ShortID="96436685">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Vase_Break_V1-003" ID="{7601D1C3-FE36-4AE9-A658-897B9DB190D3}">
-															<Language>SFX</Language>
-															<AudioFile>Vase\Vase_Break_V1-003.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="703326721"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Vase_Break_V1-003" ID="{7601D1C3-FE36-4AE9-A658-897B9DB190D3}" Platform="Linked"/>
+														<ActiveSource Name="Vase_Break_V2-002" ID="{66D08999-CD78-4B42-AC32-4020CBD8A834}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -9208,6 +8818,54 @@
 												</Sound>
 											</ChildrenList>
 										</Folder>
+										<Folder Name="Wooden_Door" ID="{1033DBC7-096D-4BC2-ABFA-3526F64F213F}" ShortID="805773943">
+											<ChildrenList>
+												<Sound Name="Wooden_Door_Close_V2" ID="{1D87C4F9-C53C-42F2-B2AE-F9BBF68271C6}" ShortID="936790287">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wooden_Door_Close_V2" ID="{CCCD89BA-C050-4C47-AD71-EE1745795BEC}">
+															<Language>SFX</Language>
+															<AudioFile>Wooden_Door\Wooden_Door_Close_V2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="234110691"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wooden_Door_Close_V2" ID="{CCCD89BA-C050-4C47-AD71-EE1745795BEC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wooden_Door_V2" ID="{FE2B8168-A74A-4094-8171-CEA3786ADC9B}" ShortID="85445993">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wooden_Door_V2" ID="{F1E7246C-52AA-4224-B2C7-A7802AB64C95}">
+															<Language>SFX</Language>
+															<AudioFile>Wooden_Door\Wooden_Door_V2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1036706655"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wooden_Door_V2" ID="{F1E7246C-52AA-4224-B2C7-A7802AB64C95}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Rabbit" ID="{0F114293-729E-43F1-B7EA-AE3C0FE27C81}" ShortID="828506143">
@@ -9448,6 +9106,90 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Clock_Tick" ID="{C1853AD6-DD50-4AAD-8917-629FBF3AB766}" ShortID="156510892">
+									<ChildrenList>
+										<Sound Name="Clock_Tick_V2" ID="{8B516739-7236-4ABE-941A-C0BB9F979409}" ShortID="468862585">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Clock_Tick_V2" ID="{C16C7A2A-4BBE-43E4-99A7-A571B35EA3F5}">
+													<Language>SFX</Language>
+													<AudioFile>Clock_Tick\Clock_Tick_V2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="150086865"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Clock_Tick_V2" ID="{C16C7A2A-4BBE-43E4-99A7-A571B35EA3F5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Drone_Helice" ID="{9D507BF6-2F37-4B73-A2DE-C4F4889EAEE3}" ShortID="990018423">
+									<ChildrenList>
+										<Sound Name="Drone_Helico_V2" ID="{16439BC0-EDF1-4829-8337-F65EE2F4F83C}" ShortID="338180377">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Drone_Helico_V2" ID="{2547813B-DB4E-45EA-B0F4-39E50651F03B}">
+													<Language>SFX</Language>
+													<AudioFile>Drone_Helice\Drone_Helico_V2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="432038111"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Drone_Helico_V2" ID="{2547813B-DB4E-45EA-B0F4-39E50651F03B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Roue_Roll" ID="{BCAA1368-0D07-4B4E-BEF9-AECAC7155560}" ShortID="411207821">
+									<ChildrenList>
+										<Sound Name="Roue_Roll_V2" ID="{60777E9E-D79F-42C5-9692-DAF03DA04CB8}" ShortID="1069295105">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Roue_Roll_V2" ID="{D5AE3251-C7A9-43C8-A348-763F92798916}">
+													<Language>SFX</Language>
+													<AudioFile>Roue_Roll\Roue_Roll_V2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="706021560"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Roue_Roll_V2" ID="{D5AE3251-C7A9-43C8-A348-763F92798916}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>

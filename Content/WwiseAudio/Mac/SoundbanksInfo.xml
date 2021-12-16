@@ -157,7 +157,7 @@
 				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\Volumes\Volume_Music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="3898379978">
+		<SoundBank Id="2228651116" Language="SFX" Hash="673200712">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -2898,17 +2898,17 @@
 				</Event>
 				<Event Id="2962822744" Name="Play_Checkpoint" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_Checkpoint">
 					<IncludedMemoryFiles>
-						<File Id="128196784" Language="SFX">
-							<ShortName>CheckPoint\Checkpoint_V1-002.wav</ShortName>
-							<Path>SFX\CheckPoint\Checkpoint_V1-002_3F75BDB9.wem</Path>
+						<File Id="507513628" Language="SFX">
+							<ShortName>CheckPoint_03_V2.wav</ShortName>
+							<Path>SFX\CheckPoint_03_V2_3F75BDB9.wem</Path>
 						</File>
-						<File Id="350897748" Language="SFX">
-							<ShortName>CheckPoint\Checkpoint_V1-001.wav</ShortName>
-							<Path>SFX\CheckPoint\Checkpoint_V1-001_3F75BDB9.wem</Path>
+						<File Id="793020600" Language="SFX">
+							<ShortName>CheckPoint_02_V2.wav</ShortName>
+							<Path>SFX\CheckPoint_02_V2_3F75BDB9.wem</Path>
 						</File>
-						<File Id="848503792" Language="SFX">
-							<ShortName>CheckPoint\Checkpoint_V1-003.wav</ShortName>
-							<Path>SFX\CheckPoint\Checkpoint_V1-003_3F75BDB9.wem</Path>
+						<File Id="992825446" Language="SFX">
+							<ShortName>CheckPoint_01_V2.wav</ShortName>
+							<Path>SFX\CheckPoint_01_V2_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -2942,17 +2942,29 @@
 				</Event>
 				<Event Id="1454028580" Name="Play_Cloche" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_Cloche">
 					<IncludedMemoryFiles>
-						<File Id="289353114" Language="SFX">
-							<ShortName>Cloche\Collectibles_V2-003.wav</ShortName>
-							<Path>SFX\Cloche\Collectibles_V2-003_3F75BDB9.wem</Path>
+						<File Id="107724471" Language="SFX">
+							<ShortName>Bell_V2-006.wav</ShortName>
+							<Path>SFX\Bell_V2-006_3F75BDB9.wem</Path>
 						</File>
-						<File Id="868233734" Language="SFX">
-							<ShortName>Cloche\Collectibles_V2-002.wav</ShortName>
-							<Path>SFX\Cloche\Collectibles_V2-002_3F75BDB9.wem</Path>
+						<File Id="113467942" Language="SFX">
+							<ShortName>Bell_V2-003.wav</ShortName>
+							<Path>SFX\Bell_V2-003_3F75BDB9.wem</Path>
 						</File>
-						<File Id="1023160369" Language="SFX">
-							<ShortName>Cloche\Collectibles_V2-001.wav</ShortName>
-							<Path>SFX\Cloche\Collectibles_V2-001_3F75BDB9.wem</Path>
+						<File Id="150800855" Language="SFX">
+							<ShortName>Bell_V2-004.wav</ShortName>
+							<Path>SFX\Bell_V2-004_3F75BDB9.wem</Path>
+						</File>
+						<File Id="218849047" Language="SFX">
+							<ShortName>Bell_V2-005.wav</ShortName>
+							<Path>SFX\Bell_V2-005_3F75BDB9.wem</Path>
+						</File>
+						<File Id="259416175" Language="SFX">
+							<ShortName>Bell_V2-001.wav</ShortName>
+							<Path>SFX\Bell_V2-001_3F75BDB9.wem</Path>
+						</File>
+						<File Id="296522781" Language="SFX">
+							<ShortName>Bell_V2-002.wav</ShortName>
+							<Path>SFX\Bell_V2-002_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -2990,53 +3002,41 @@
 				</Event>
 				<Event Id="1445026815" Name="Play_CollectibleDisappear" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_CollectibleDisappear">
 					<IncludedMemoryFiles>
-						<File Id="12417071" Language="SFX">
-							<ShortName>Collectible Disappear\Collectible_disappear.wav</ShortName>
-							<Path>SFX\Collectible Disappear\Collectible_disappear_3F75BDB9.wem</Path>
+						<File Id="527574388" Language="SFX">
+							<ShortName>Collectible_Disappear_V2-001.wav</ShortName>
+							<Path>SFX\Collectible_Disappear_V2-001_3F75BDB9.wem</Path>
 						</File>
-						<File Id="314541208" Language="SFX">
-							<ShortName>Collectible Disappear\Collectible_disappear_02.wav</ShortName>
-							<Path>SFX\Collectible Disappear\Collectible_disappear_02_3F75BDB9.wem</Path>
+						<File Id="948815704" Language="SFX">
+							<ShortName>Collectible_Disappear_V2-002.wav</ShortName>
+							<Path>SFX\Collectible_Disappear_V2-002_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2289933994" Name="Play_CollectibleLevitate" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_CollectibleLevitate">
 					<IncludedMemoryFiles>
-						<File Id="141519539" Language="SFX">
-							<ShortName>Collectible_Levitate\Collectible_Levitate03.wav</ShortName>
-							<Path>SFX\Collectible_Levitate\Collectible_Levitate03_3F75BDB9.wem</Path>
-						</File>
-						<File Id="600589428" Language="SFX">
-							<ShortName>Collectible_Levitate\Collectible_Levitate04.wav</ShortName>
-							<Path>SFX\Collectible_Levitate\Collectible_Levitate04_3F75BDB9.wem</Path>
-						</File>
-						<File Id="936270843" Language="SFX">
-							<ShortName>Collectible_Levitate\Collectible_Levitate02.wav</ShortName>
-							<Path>SFX\Collectible_Levitate\Collectible_Levitate02_3F75BDB9.wem</Path>
-						</File>
-						<File Id="943461032" Language="SFX">
-							<ShortName>Collectible_Levitate\Collectible_Levitate01.wav</ShortName>
-							<Path>SFX\Collectible_Levitate\Collectible_Levitate01_3F75BDB9.wem</Path>
+						<File Id="40724615" Language="SFX">
+							<ShortName>Collectible_Levitate_V2.wav</ShortName>
+							<Path>SFX\Collectible_Levitate_V2_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1738910796" Name="Play_CollectiblePickUp" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_CollectiblePickUp">
 					<IncludedMemoryFiles>
-						<File Id="340763433" Language="SFX">
-							<ShortName>Collectible_PickUp\Collectible_PickUp_-002.wav</ShortName>
-							<Path>SFX\Collectible_PickUp\Collectible_PickUp_-002_3F75BDB9.wem</Path>
+						<File Id="133046714" Language="SFX">
+							<ShortName>Collectible_PickUp_04_V2.wav</ShortName>
+							<Path>SFX\Collectible_PickUp_04_V2_3F75BDB9.wem</Path>
 						</File>
-						<File Id="386435144" Language="SFX">
-							<ShortName>Collectible_PickUp\Collectible_PickUp_-001.wav</ShortName>
-							<Path>SFX\Collectible_PickUp\Collectible_PickUp_-001_3F75BDB9.wem</Path>
+						<File Id="133778912" Language="SFX">
+							<ShortName>Collectible_PickUp_03_V2.wav</ShortName>
+							<Path>SFX\Collectible_PickUp_03_V2_3F75BDB9.wem</Path>
 						</File>
-						<File Id="727246301" Language="SFX">
-							<ShortName>Collectible_PickUp\Collectible_PickUp_-004.wav</ShortName>
-							<Path>SFX\Collectible_PickUp\Collectible_PickUp_-004_3F75BDB9.wem</Path>
+						<File Id="548724499" Language="SFX">
+							<ShortName>Collectible_PickUp_02_V2.wav</ShortName>
+							<Path>SFX\Collectible_PickUp_02_V2_3F75BDB9.wem</Path>
 						</File>
-						<File Id="1071201574" Language="SFX">
-							<ShortName>Collectible_PickUp\Collectible_PickUp_-003.wav</ShortName>
-							<Path>SFX\Collectible_PickUp\Collectible_PickUp_-003_3F75BDB9.wem</Path>
+						<File Id="653824916" Language="SFX">
+							<ShortName>Collectible_PickUp_V2.wav</ShortName>
+							<Path>SFX\Collectible_PickUp_V2_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -3120,19 +3120,21 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2579603899" Name="Play_Dog_Ronfle" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_Dog_Ronfle">
+				<Event Id="2579603899" Name="Play_Dog_Ronfle" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_Dog_Ronfle"/>
+				<Event Id="1533775677" Name="Play_Dog_Scare" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_Dog_Scare"/>
+				<Event Id="659717475" Name="Play_Dog_scared" ObjectPath="\Events\LEVEL EVENT_WU\NEW\16_12_2021\Play_Dog_scared">
 					<IncludedMemoryFiles>
-						<File Id="929600959" Language="SFX">
-							<ShortName>Chien\Dog_Ronfle\Dog_Ronfle.wav</ShortName>
-							<Path>SFX\Chien\Dog_Ronfle\Dog_Ronfle_3F75BDB9.wem</Path>
+						<File Id="802375838" Language="SFX">
+							<ShortName>Dog_scared_V2.wav</ShortName>
+							<Path>SFX\Dog_scared_V2_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1533775677" Name="Play_Dog_Scare" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_Dog_Scare">
+				<Event Id="2640059104" Name="Play_Dog_Snore" ObjectPath="\Events\LEVEL EVENT_WU\NEW\16_12_2021\Play_Dog_Snore">
 					<IncludedMemoryFiles>
-						<File Id="948178942" Language="SFX">
-							<ShortName>Chien\Dog_Scare\Dog_Scare.wav</ShortName>
-							<Path>SFX\Chien\Dog_Scare\Dog_Scare_3F75BDB9.wem</Path>
+						<File Id="361786993" Language="SFX">
+							<ShortName>Dog_Snore_V2.wav</ShortName>
+							<Path>SFX\Dog_Snore_V2_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -3226,13 +3228,9 @@
 				</Event>
 				<Event Id="2450963083" Name="Play_DogRun" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_DogRun">
 					<IncludedMemoryFiles>
-						<File Id="142528609" Language="SFX">
-							<ShortName>Chien\Dog Run\DogRun\Dog_Run-002.wav</ShortName>
-							<Path>SFX\Chien\Dog Run\DogRun\Dog_Run-002_3F75BDB9.wem</Path>
-						</File>
-						<File Id="411942112" Language="SFX">
-							<ShortName>Chien\Dog Run\DogRun\Dog_Run-001.wav</ShortName>
-							<Path>SFX\Chien\Dog Run\DogRun\Dog_Run-001_3F75BDB9.wem</Path>
+						<File Id="742081681" Language="SFX">
+							<ShortName>Dog_Run_V2.wav</ShortName>
+							<Path>SFX\Dog_Run_V2_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -3308,19 +3306,13 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="368145764" Name="Play_Dragon_FlameThrower" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_Dragon_FlameThrower">
+				<Event Id="368145764" Name="Play_Dragon_FlameThrower" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_Dragon_FlameThrower"/>
+				<Event Id="2971487621" Name="Play_Dragon_Scream" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_Dragon_Scream"/>
+				<Event Id="2821517728" Name="Play_DragonScream" ObjectPath="\Events\LEVEL EVENT_WU\NEW\16_12_2021\Play_DragonScream">
 					<IncludedMemoryFiles>
-						<File Id="583101285" Language="SFX">
-							<ShortName>Dragon\FlameThrower\Dragon_FlameThrwoer.wav</ShortName>
-							<Path>SFX\Dragon\FlameThrower\Dragon_FlameThrwoer_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2971487621" Name="Play_Dragon_Scream" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_Dragon_Scream">
-					<IncludedMemoryFiles>
-						<File Id="659811006" Language="SFX">
-							<ShortName>Dragon\Scream\Dragon_Scream.wav</ShortName>
-							<Path>SFX\Dragon\Scream\Dragon_Scream_3F75BDB9.wem</Path>
+						<File Id="399096206" Language="SFX">
+							<ShortName>DragonScreami_V2.wav</ShortName>
+							<Path>SFX\DragonScreami_V2_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -3348,19 +3340,31 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2847824709" Name="Play_Drone_Helico" ObjectPath="\Events\LEVEL EVENT_WU\NEW\16_12_2021\Play_Drone_Helico">
+					<IncludedMemoryFiles>
+						<File Id="432038111" Language="SFX">
+							<ShortName>Drone_Helice\Drone_Helico_V2.wav</ShortName>
+							<Path>SFX\Drone_Helice\Drone_Helico_V2_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1224811014" Name="Play_Eclair" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_Eclair">
 					<IncludedMemoryFiles>
-						<File Id="246179217" Language="SFX">
-							<ShortName>Eclair\Eclair_V1-002.wav</ShortName>
-							<Path>SFX\Eclair\Eclair_V1-002_3F75BDB9.wem</Path>
+						<File Id="447526187" Language="SFX">
+							<ShortName>Thunder_V2.wav</ShortName>
+							<Path>SFX\Thunder_V2_3F75BDB9.wem</Path>
 						</File>
-						<File Id="342431882" Language="SFX">
-							<ShortName>Eclair\Eclair_V1-001.wav</ShortName>
-							<Path>SFX\Eclair\Eclair_V1-001_3F75BDB9.wem</Path>
+						<File Id="613572238" Language="SFX">
+							<ShortName>Thunder_V2-003.wav</ShortName>
+							<Path>SFX\Thunder_V2-003_3F75BDB9.wem</Path>
 						</File>
-						<File Id="662885191" Language="SFX">
-							<ShortName>Eclair\Eclair_V1-003.wav</ShortName>
-							<Path>SFX\Eclair\Eclair_V1-003_3F75BDB9.wem</Path>
+						<File Id="630571966" Language="SFX">
+							<ShortName>Thunder_V2-002.wav</ShortName>
+							<Path>SFX\Thunder_V2-002_3F75BDB9.wem</Path>
+						</File>
+						<File Id="915110944" Language="SFX">
+							<ShortName>Thunder_V2-001.wav</ShortName>
+							<Path>SFX\Thunder_V2-001_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -3535,17 +3539,9 @@
 				</Event>
 				<Event Id="3481888420" Name="Play_LivreNarra" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_LivreNarra">
 					<IncludedMemoryFiles>
-						<File Id="14035413" Language="SFX">
-							<ShortName>Livre Narra\Livre_Narra_V1-003.wav</ShortName>
-							<Path>SFX\Livre Narra\Livre_Narra_V1-003_3F75BDB9.wem</Path>
-						</File>
-						<File Id="267687828" Language="SFX">
-							<ShortName>Livre Narra\Livre_Narra_V1-001.wav</ShortName>
-							<Path>SFX\Livre Narra\Livre_Narra_V1-001_3F75BDB9.wem</Path>
-						</File>
-						<File Id="595464912" Language="SFX">
-							<ShortName>Livre Narra\Livre_Narra_V1-002.wav</ShortName>
-							<Path>SFX\Livre Narra\Livre_Narra_V1-002_3F75BDB9.wem</Path>
+						<File Id="104829662" Language="SFX">
+							<ShortName>Livre_Narra_V2.wav</ShortName>
+							<Path>SFX\Livre_Narra_V2_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -3799,13 +3795,9 @@
 				</Event>
 				<Event Id="547776311" Name="Play_MeubleChute" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_MeubleChute">
 					<IncludedMemoryFiles>
-						<File Id="231002874" Language="SFX">
-							<ShortName>Meuble_Chute\Meuble_Chute-002.wav</ShortName>
-							<Path>SFX\Meuble_Chute\Meuble_Chute-002_3F75BDB9.wem</Path>
-						</File>
-						<File Id="393731221" Language="SFX">
-							<ShortName>Meuble_Chute\Meuble_Chute-001.wav</ShortName>
-							<Path>SFX\Meuble_Chute\Meuble_Chute-001_3F75BDB9.wem</Path>
+						<File Id="863153721" Language="SFX">
+							<ShortName>Meuble_Chute_V2.wav</ShortName>
+							<Path>SFX\Meuble_Chute_V2_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -4274,6 +4266,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1289774428" Name="Play_Pillow_Jump" ObjectPath="\Events\LEVEL EVENT_WU\NEW\16_12_2021\Play_Pillow_Jump">
+					<IncludedMemoryFiles>
+						<File Id="159300214" Language="SFX">
+							<ShortName>Pillow_Jump-002.wav</ShortName>
+							<Path>SFX\Pillow_Jump-002_3F75BDB9.wem</Path>
+						</File>
+						<File Id="519487341" Language="SFX">
+							<ShortName>Pillow_Jump-001.wav</ShortName>
+							<Path>SFX\Pillow_Jump-001_3F75BDB9.wem</Path>
+						</File>
+						<File Id="800766588" Language="SFX">
+							<ShortName>Pillow_Jump-003.wav</ShortName>
+							<Path>SFX\Pillow_Jump-003_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2292692137" Name="Play_Pinata_Explosion" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Pinata\Play_Pinata_Explosion">
 					<IncludedMemoryFiles>
 						<File Id="43154731" Language="SFX">
@@ -4339,13 +4347,9 @@
 				</Event>
 				<Event Id="1755528237" Name="Play_Plateforme" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_Plateforme">
 					<IncludedMemoryFiles>
-						<File Id="604717362" Language="SFX">
-							<ShortName>Plateforme\Plateforme_02.wav</ShortName>
-							<Path>SFX\Plateforme\Plateforme_02_3F75BDB9.wem</Path>
-						</File>
-						<File Id="680886711" Language="SFX">
-							<ShortName>Plateforme\Plateforme_01.wav</ShortName>
-							<Path>SFX\Plateforme\Plateforme_01_3F75BDB9.wem</Path>
+						<File Id="1010139521" Language="SFX">
+							<ShortName>Plateforme_V2.wav</ShortName>
+							<Path>SFX\Plateforme_V2_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -4465,6 +4469,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1729863864" Name="Play_Roue_Roll_V2" ObjectPath="\Events\LEVEL EVENT_WU\NEW\16_12_2021\Play_Roue_Roll_V2">
+					<IncludedMemoryFiles>
+						<File Id="706021560" Language="SFX">
+							<ShortName>Roue_Roll\Roue_Roll_V2.wav</ShortName>
+							<Path>SFX\Roue_Roll\Roue_Roll_V2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2858841480" Name="Play_Sparks" ObjectPath="\Events\LEVEL EVENT_WU\PROPS\Sparks\Play_Sparks">
 					<IncludedMemoryFiles>
 						<File Id="345999817" Language="SFX">
@@ -4495,17 +4507,9 @@
 				</Event>
 				<Event Id="3697088492" Name="Play_SteamTrain" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_SteamTrain">
 					<IncludedMemoryFiles>
-						<File Id="290641690" Language="SFX">
-							<ShortName>Stream_Train\Steam_Train_-001.wav</ShortName>
-							<Path>SFX\Stream_Train\Steam_Train_-001_3F75BDB9.wem</Path>
-						</File>
-						<File Id="557269440" Language="SFX">
-							<ShortName>Stream_Train\Steam_Train_-002.wav</ShortName>
-							<Path>SFX\Stream_Train\Steam_Train_-002_3F75BDB9.wem</Path>
-						</File>
-						<File Id="771339559" Language="SFX">
-							<ShortName>Stream_Train\Steam_Train_-003.wav</ShortName>
-							<Path>SFX\Stream_Train\Steam_Train_-003_3F75BDB9.wem</Path>
+						<File Id="708186318" Language="SFX">
+							<ShortName>Steam_Train_V2.wav</ShortName>
+							<Path>SFX\Steam_Train_V2_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -4543,13 +4547,9 @@
 				</Event>
 				<Event Id="2820090306" Name="Play_TrompetKing" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_TrompetKing">
 					<IncludedMemoryFiles>
-						<File Id="259759624" Language="SFX">
-							<ShortName>Trompettes_Roi\Trompet_King-001.wav</ShortName>
-							<Path>SFX\Trompettes_Roi\Trompet_King-001_3F75BDB9.wem</Path>
-						</File>
-						<File Id="650294278" Language="SFX">
-							<ShortName>Trompettes_Roi\Trompet_King-002.wav</ShortName>
-							<Path>SFX\Trompettes_Roi\Trompet_King-002_3F75BDB9.wem</Path>
+						<File Id="46351985" Language="SFX">
+							<ShortName>Trumpets_King_V2.wav</ShortName>
+							<Path>SFX\Trumpets_King_V2_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -4631,17 +4631,13 @@
 				</Event>
 				<Event Id="3834431430" Name="Play_VaseBreak" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_VaseBreak">
 					<IncludedMemoryFiles>
-						<File Id="194247121" Language="SFX">
-							<ShortName>Vase\Vase_Break_V1-002.wav</ShortName>
-							<Path>SFX\Vase\Vase_Break_V1-002_3F75BDB9.wem</Path>
+						<File Id="590648147" Language="SFX">
+							<ShortName>Vase_Break_V2-001.wav</ShortName>
+							<Path>SFX\Vase_Break_V2-001_3F75BDB9.wem</Path>
 						</File>
-						<File Id="703326721" Language="SFX">
-							<ShortName>Vase\Vase_Break_V1-003.wav</ShortName>
-							<Path>SFX\Vase\Vase_Break_V1-003_3F75BDB9.wem</Path>
-						</File>
-						<File Id="990290208" Language="SFX">
-							<ShortName>Vase\Vase_Break_V1-001.wav</ShortName>
-							<Path>SFX\Vase\Vase_Break_V1-001_3F75BDB9.wem</Path>
+						<File Id="608958304" Language="SFX">
+							<ShortName>Vase_Break_V2-002.wav</ShortName>
+							<Path>SFX\Vase_Break_V2-002_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -4967,29 +4963,17 @@
 				</Event>
 				<Event Id="1700959306" Name="Play_WhistleTrain" ObjectPath="\Events\LEVEL EVENT_WU\NEW\Play_WhistleTrain">
 					<IncludedMemoryFiles>
-						<File Id="44696552" Language="SFX">
-							<ShortName>Whistle_Train\Whistle_Train01.wav</ShortName>
-							<Path>SFX\Whistle_Train\Whistle_Train01_3F75BDB9.wem</Path>
+						<File Id="602590100" Language="SFX">
+							<ShortName>Train_Whistle_V2-003.wav</ShortName>
+							<Path>SFX\Train_Whistle_V2-003_3F75BDB9.wem</Path>
 						</File>
-						<File Id="222253564" Language="SFX">
-							<ShortName>Whistle_Train\Whistle_Train_002.wav</ShortName>
-							<Path>SFX\Whistle_Train\Whistle_Train_002_3F75BDB9.wem</Path>
+						<File Id="647808480" Language="SFX">
+							<ShortName>Train_Whistle_V2-002.wav</ShortName>
+							<Path>SFX\Train_Whistle_V2-002_3F75BDB9.wem</Path>
 						</File>
-						<File Id="527851267" Language="SFX">
-							<ShortName>Whistle_Train\Whistle_Train_001.wav</ShortName>
-							<Path>SFX\Whistle_Train\Whistle_Train_001_3F75BDB9.wem</Path>
-						</File>
-						<File Id="601217521" Language="SFX">
-							<ShortName>Whistle_Train\Whistle_Train_003.wav</ShortName>
-							<Path>SFX\Whistle_Train\Whistle_Train_003_3F75BDB9.wem</Path>
-						</File>
-						<File Id="625596022" Language="SFX">
-							<ShortName>Whistle_Train\Whistle_Train02.wav</ShortName>
-							<Path>SFX\Whistle_Train\Whistle_Train02_3F75BDB9.wem</Path>
-						</File>
-						<File Id="787197467" Language="SFX">
-							<ShortName>Whistle_Train\Whistle_Train03.wav</ShortName>
-							<Path>SFX\Whistle_Train\Whistle_Train03_3F75BDB9.wem</Path>
+						<File Id="931323617" Language="SFX">
+							<ShortName>Train_Whistle_V2-001.wav</ShortName>
+							<Path>SFX\Train_Whistle_V2-001_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -5039,6 +5023,22 @@
 						<File Id="901326857" Language="SFX">
 							<ShortName>Wolf\Wolf-001.wav</ShortName>
 							<Path>SFX\Wolf\Wolf-001_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="517891915" Name="Play_Wooden_Door" ObjectPath="\Events\LEVEL EVENT_WU\NEW\16_12_2021\Play_Wooden_Door">
+					<IncludedMemoryFiles>
+						<File Id="1036706655" Language="SFX">
+							<ShortName>Wooden_Door\Wooden_Door_V2.wav</ShortName>
+							<Path>SFX\Wooden_Door\Wooden_Door_V2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3830332178" Name="Play_Wooden_Door_Close" ObjectPath="\Events\LEVEL EVENT_WU\NEW\16_12_2021\Play_Wooden_Door_Close">
+					<IncludedMemoryFiles>
+						<File Id="234110691" Language="SFX">
+							<ShortName>Wooden_Door\Wooden_Door_Close_V2.wav</ShortName>
+							<Path>SFX\Wooden_Door\Wooden_Door_Close_V2_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
