@@ -9294,28 +9294,6 @@
 														<ActiveSource Name="VOICE_Elif_Line_157" ID="{85C3D261-78F5-4490-ACE2-B7CE9B9CA4F8}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="VOICE_Elif_Line_158" ID="{207DA780-6A7D-4850-B658-9ADED64CF0C0}" ShortID="621177839">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Lines" ID="{C8B93DFF-CE9F-4E2B-84B9-71D1849E651F}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="VOICE_Elif_Line_158" ID="{C2D265C9-E939-4F4B-85E3-A07CE1623CA8}">
-															<Language>SFX</Language>
-															<AudioFile>VOICE_Elif_Line_158.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="131265222"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="VOICE_Elif_Line_158" ID="{C2D265C9-E939-4F4B-85E3-A07CE1623CA8}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
 												<Sound Name="VOICE_Elif_Line_159" ID="{E646BC2F-860B-41A0-B804-5F62094B9E46}" ShortID="548193711">
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -9644,6 +9622,28 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="VOICE_Elif_Line_173" ID="{08086415-C458-4765-9C83-068DAA90C171}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="VOICE_Elif_Line_158" ID="{A86ADC29-FBAD-41C4-924A-946584DDFEFC}" ShortID="134754809">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="VOICE_Elif_Line_158" ID="{1A3A289D-9854-455A-87C3-21CB3BCA8C86}">
+															<Language>SFX</Language>
+															<AudioFile>VOICE_Elif_Line_158.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="131265222"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="VOICE_Elif_Line_158" ID="{1A3A289D-9854-455A-87C3-21CB3BCA8C86}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
