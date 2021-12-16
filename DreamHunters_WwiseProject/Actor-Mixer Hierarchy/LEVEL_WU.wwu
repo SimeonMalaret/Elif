@@ -5781,7 +5781,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Collectible_PickUp_02_V2" ID="{58A47A27-E646-4121-8CE2-48367B9BB06E}" ShortID="101057386">
+												<Sound Name="Collectible_PickUp_-002" ID="{C32E66F9-1AF6-4EA6-B483-15944C6689C6}" ShortID="735861726">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-35</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -5791,82 +5798,16 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Collectible_PickUp_02_V2" ID="{462B9A87-D521-4FA2-B7C0-8CC18196FA10}">
+														<AudioFileSource Name="Collectible_PickUp_-002" ID="{FBBE3041-DDE6-4923-90FA-EA17871A81A9}">
 															<Language>SFX</Language>
-															<AudioFile>Collectible_PickUp_02_V2.wav</AudioFile>
+															<AudioFile>Collectible_PickUp_-002.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="548724499"/>
+																<MediaID ID="30148443"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Collectible_PickUp_02_V2" ID="{462B9A87-D521-4FA2-B7C0-8CC18196FA10}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Collectible_PickUp_03_V2" ID="{0C6075DE-4128-4CCF-BC56-84171110172F}" ShortID="709034591">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Collectible_PickUp_03_V2" ID="{7CDCA5CB-91F8-4FE3-A467-59D048A92013}">
-															<Language>SFX</Language>
-															<AudioFile>Collectible_PickUp_03_V2.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="133778912"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Collectible_PickUp_03_V2" ID="{7CDCA5CB-91F8-4FE3-A467-59D048A92013}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Collectible_PickUp_04_V2" ID="{24C7ABC7-99B2-4F3C-A804-A0A80ECC71DB}" ShortID="990770400">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Collectible_PickUp_04_V2" ID="{0231F37C-FE34-4D6D-A2E2-9A9FECB97C1D}">
-															<Language>SFX</Language>
-															<AudioFile>Collectible_PickUp_04_V2.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="133046714"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Collectible_PickUp_04_V2" ID="{0231F37C-FE34-4D6D-A2E2-9A9FECB97C1D}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Collectible_PickUp_V2" ID="{A44D012C-F99D-4AE8-8D28-96B53F6FE751}" ShortID="778126814">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Collectible_PickUp_V2" ID="{9B792D47-DE6E-44B2-A497-F47BA14B019C}">
-															<Language>SFX</Language>
-															<AudioFile>Collectible_PickUp_V2.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="653824916"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Collectible_PickUp_V2" ID="{9B792D47-DE6E-44B2-A497-F47BA14B019C}" Platform="Linked"/>
+														<ActiveSource Name="Collectible_PickUp_-002" ID="{FBBE3041-DDE6-4923-90FA-EA17871A81A9}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -7526,90 +7467,6 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="Coussin_Enfoncement-001" ID="{6907D596-3CDE-4AE7-AC3E-E5C893A5C728}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Coussin_Enfoncement-002" ID="{6344D011-D71A-4185-AD06-FB08985E7A4F}" ShortID="264641160">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Coussin_Enfoncement-002" ID="{68D4848D-72A3-4234-931B-F304C36A584F}">
-															<Language>SFX</Language>
-															<AudioFile>Coussin\Coussin_Enfoncement-002.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="251727995"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Coussin_Enfoncement-002" ID="{68D4848D-72A3-4234-931B-F304C36A584F}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Coussin_Enfoncement-003" ID="{B2246E94-CB66-4DDD-9DC6-5C9F79CBE298}" ShortID="877885701">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Coussin_Enfoncement-003" ID="{25CA3883-CCAC-422B-828D-BC42BBF8330E}">
-															<Language>SFX</Language>
-															<AudioFile>Coussin\Coussin_Enfoncement-003.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="975263138"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Coussin_Enfoncement-003" ID="{25CA3883-CCAC-422B-828D-BC42BBF8330E}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Coussin_Enfoncement-004" ID="{C0FBE452-CE73-4C2D-97EA-883EC696F4AF}" ShortID="344471557">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Props Attenuation" ID="{31DDA078-8161-4890-8B13-06B7317D0FE4}" WorkUnitID="{2712CC63-919D-43C2-A97B-4D8125ADFC91}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="LEVEL" ID="{5E4C01AB-136D-40DA-AB17-179AA545925B}" WorkUnitID="{EF624FFB-A0A9-49EC-85F9-5E13DBC7BE0F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Coussin_Enfoncement-004" ID="{ADFCF19D-3620-4C88-855E-77AC967C7B0E}">
-															<Language>SFX</Language>
-															<AudioFile>Coussin\Coussin_Enfoncement-004.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="95606664"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Coussin_Enfoncement-004" ID="{ADFCF19D-3620-4C88-855E-77AC967C7B0E}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>

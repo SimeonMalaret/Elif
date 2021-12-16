@@ -8807,6 +8807,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="VOICE_Elif_Line_136" ID="{3C55B081-AD4C-40F4-A6B9-A1C52D30841A}" ShortID="153557721">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -8829,6 +8836,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="VOICE_Elif_Line_137" ID="{B2EC84CA-EBEB-4212-ACD8-97DF6016B42A}" ShortID="297725078">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
@@ -8851,6 +8865,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="VOICE_Elif_Line_138" ID="{A2BBCA93-1366-4E5F-83EB-66EFE76A4CB7}" ShortID="767339220">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9ECDB397-65AA-4395-95CB-5C1E77EA5257}"/>
